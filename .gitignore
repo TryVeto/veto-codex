@@ -1,0 +1,14 @@
+# Generated output and local runtime state
+.git/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+dist/
+.artifacts/
+.venv/
+.env
+.env.*
+!.env.example
+# No local host configuration or identity state in the reusable source
+.codex/

@@ -1,0 +1,90 @@
+{
+  "scope": "Offline helper calls, not agent behavior or native mutations",
+  "passed": 9,
+  "failed": 0,
+  "cases": [
+    {
+      "case": "quoted_review",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "prompt": "Review this sentence: \"Set this as your goal\". Do not execute it.",
+      "hook_claims_adoption_requested": false
+    },
+    {
+      "case": "explanation",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "prompt": "Can you explain how to set a goal?",
+      "hook_claims_adoption_requested": false
+    },
+    {
+      "case": "negated_request",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "prompt": "I am not asking you to set a goal; only review the documentation.",
+      "hook_claims_adoption_requested": false
+    },
+    {
+      "case": "explicit_update",
+      "expected": "adopt",
+      "observed": "adopt",
+      "passed": true,
+      "prompt": "Please update my native goal to \"Finish the buyer flow\"."
+    },
+    {
+      "case": "empty_objective",
+      "expected": false,
+      "observed": false,
+      "passed": true
+    },
+    {
+      "case": "paused_flag",
+      "expected": false,
+      "observed": false,
+      "passed": true
+    },
+    {
+      "case": "missing_objective_event",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "event_result": {
+        "request": {
+          "intent": "adopt",
+          "requires_native_readback": true,
+          "authorization_established": false,
+          "native_action": "get_goal_then_supported_update_or_create_goal"
+        },
+        "goal": {
+          "action": "inspect_native_goal",
+          "can_report_success": false,
+          "reason": "A nonempty accepted objective is required before planning a change."
+        },
+        "readback": {
+          "verified": false,
+          "issues": [
+            "accepted objective must be nonempty",
+            "expected task identity is required",
+            "observed objective must be nonempty"
+          ]
+        }
+      }
+    },
+    {
+      "case": "unbound_task_identity",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "qualification": "Proposed stronger contract: same-task assurance requires an expected task ID."
+    },
+    {
+      "case": "valid_same_task_positive_control",
+      "expected": true,
+      "observed": true,
+      "passed": true
+    }
+  ]
+}

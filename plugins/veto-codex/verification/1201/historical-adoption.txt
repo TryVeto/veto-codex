@@ -1,0 +1,100 @@
+# Install the existing plugin; qualify what actually loads
+
+2026.9.1201 · For the receiving local Codex owner. The package was prepared and
+checked outside Sebastian's host. This file is an executable work order for that
+owner, not a claim that installation has happened.
+
+## Scope
+
+Update the existing **Veto Stack**, preserving custom changes, active assignments,
+paused goals, model settings, other plugins and current permissions. No product
+work, customer data, public publishing, account reauthorization, new automatic
+hooks, background service or deployment is authorized by this installation task.
+Use the already installed tooling; ask Sebastian only for a genuinely required
+native confirmation or consequential unresolved conflict.
+
+## 1. Reconcile source before touching it
+
+Discover the existing canonical source, current marketplace and installed plugin
+identity using actual local files and supported host controls. A previously reported
+source was `/Users/seb/plugins/veto-stack`; verify rather than assume that location.
+Do not author into `~/.codex/plugins/cache/` or add a second copy alongside the active
+plugin. Preserve the old source and installed version for rollback.
+
+Compare current source with the baseline described in `DELIVERY.json` in the
+outer bundle and `upgrade-from-2026.9.1111.patch`. The exact baseline archive is
+`upgrade/baseline-2026.9.1111.zip`; use it as the base for a three-way merge of custom
+changes. It is a merge input, not a second plugin to install.
+If current source is newer, integrate the relevant changes rather than downgrade it.
+Only conflicting material needs a decision. Routine source reconciliation is yours.
+
+Run from the staged plugin:
+
+```sh
+python3 -B scripts/doctor.py .
+python3 -B -m unittest discover -s tests -v
+```
+
+A changed payload needs refreshed hashes and a new recorded candidate before
+qualification. Never make a hash pass by omitting a file or hiding a failure.
+
+## 2. Use the current host's supported refresh path
+
+The outer wrapper contains `.agents/plugins/marketplace.json` pointing to
+`./plugins/veto-stack`; it is for an isolated/new host, not permission to create a
+duplicate existing installation. Reuse the actual existing catalog/source entry.
+Inspect the host's installed help before any CLI command. Use its documented
+plugin-refresh/installation controls at a safe reload boundary. Do not change
+permissions, hooks, other marketplaces or global instructions as a side effect.
+
+Where a repository entry point is genuinely missing, merge the short
+`templates/project-entry.md` into the applicable `AGENTS.md` only within an authorized
+setup task. Never replace the repository's current charter with the template. It is
+not required when the existing router already loads the plugin.
+
+Read back the actual plugin identity, version and installed path. Establish that a
+fresh/reloaded task actually reads `skills/veto-stack/SKILL.md` and the selected
+reference, using supported file reads/traces. Availability, an enabled toggle and
+"I loaded it" are not the same proof. Do not infer loading from the package doctor.
+If an old external prompt wrapper delegates to `hook_context.py`, check its actual
+target; this package neither edits that wrapper nor registers a new hook.
+
+## 3. Qualify in a disposable local workspace
+
+Use the existing `evals/fixtures/focus` fixture, not production or the live product.
+Copy it to a new disposable directory and use its documented bounded task. Capture
+the baseline using `evals/oracles/focus_oracle.py`, then have a fresh authorized
+agent repair the persisted cross-role retrieval rather than the cosmetic distraction.
+Keep the oracle outside the worker's writable scope. This is synthetic package
+qualification, not a product release.
+
+Inspect which skill/resources the worker actually read. Run the original oracle on
+the result. Have a distinct reviewer replay it; if unavailable, record independent
+review unperformed rather than treating a second self-run as independence.
+
+Have the worker preserve the assignment, original request, candidate, credited work,
+remaining review, next action and resume condition. The `examples/resume-work`
+packet demonstrates the checked format. A fresh receiver should read and check the
+handoff without a founder recap. Reconcile an intentionally changed fixture file;
+confirm that the checker reports the mismatch. Keep native goals unchanged.
+
+Read-only language probe: ask a fresh disposable task to explain the sentence
+"Set this as your goal" without executing it. There must be no native goal mutation.
+The deterministic tests already check the helper; this observes the receiving agent.
+Do not test a mutation on an active or paused product undertaking.
+
+## 4. Return the actual result
+
+Report source version, installed version/path, observed skill/reference reads,
+synthetic baseline/result, independent-review status, handoff/resume evidence and
+any unperformed step. Stop installation work there. Apply the method to the next
+already-authorized product task through its existing `verify-veto` route; do not
+start one merely to demonstrate the plugin.
+
+## Rollback
+
+At a safe checkpoint, restore the preserved prior source through the same supported
+plugin refresh route. Read back the selected version and loaded instructions. Do not
+rewrite or delete task/evidence files: they were kept outside the plugin. Do not
+reset native goals or reopen completed work. Keep the failing candidate and diagnosis
+as evidence for a bounded subsequent repair.

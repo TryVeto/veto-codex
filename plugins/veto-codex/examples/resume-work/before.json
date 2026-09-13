@@ -1,0 +1,19 @@
+{
+  "scope": "Author-run synthetic fixture; not native agent qualification or Veto application acceptance",
+  "command": [
+    "python3",
+    "-B",
+    "evals/oracles/focus_oracle.py",
+    "examples/resume-work"
+  ],
+  "candidate_sha256": "bb0f03f3368bc7df859de6a8114b33ca504521b156a4fb23a21b64052b3c58d6",
+  "oracle_sha256": "a01df40eae5ec6eb14a624cc569585831f53555fd4d8c902b12f065817389f23",
+  "exit_code": 1,
+  "observed": {
+    "exact_retrieval": false,
+    "separate_file": false,
+    "separate_office": false,
+    "fresh_module_reads_saved_work": false
+  },
+  "stderr": ""
+}

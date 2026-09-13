@@ -1,0 +1,81 @@
+{
+  "release": "2026.9.1103",
+  "python": "3.13.5",
+  "yaml_parser": "6.0.3",
+  "skill_frontmatter": [
+    {
+      "name": "build-a-capability",
+      "characters": 6015,
+      "description_characters": 181
+    },
+    {
+      "name": "field-proof",
+      "characters": 4671,
+      "description_characters": 174
+    },
+    {
+      "name": "independent-judgment",
+      "characters": 2895,
+      "description_characters": 189
+    },
+    {
+      "name": "integration-design",
+      "characters": 5356,
+      "description_characters": 172
+    },
+    {
+      "name": "make-a-goal",
+      "characters": 4929,
+      "description_characters": 185
+    },
+    {
+      "name": "product-design",
+      "characters": 4970,
+      "description_characters": 171
+    },
+    {
+      "name": "product-sense",
+      "characters": 6459,
+      "description_characters": 162
+    },
+    {
+      "name": "product-tests",
+      "characters": 6864,
+      "description_characters": 187
+    },
+    {
+      "name": "remove-slop",
+      "characters": 5024,
+      "description_characters": 182
+    },
+    {
+      "name": "review-a-prototype",
+      "characters": 4097,
+      "description_characters": 181
+    },
+    {
+      "name": "sandbox-experience",
+      "characters": 2984,
+      "description_characters": 182
+    },
+    {
+      "name": "veto-stack",
+      "characters": 7211,
+      "description_characters": 173
+    },
+    {
+      "name": "work-control",
+      "characters": 6383,
+      "description_characters": 180
+    }
+  ],
+  "goal_characters": {
+    "bounded-goal.md": 3627,
+    "goal.md": 3921
+  },
+  "host_executables": {
+    "codex": null,
+    "claude": null
+  },
+  "scope": "YAML/JSON parsing and local package constraints; not a full published schema validator or native host test."
+}

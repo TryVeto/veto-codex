@@ -1,0 +1,12 @@
+{
+  "verdict": "INVALID",
+  "error": "Feedback coverage is required for this invocation; use a pinned schema-2 contract, not evidence-only schema 1.",
+  "limits": [
+    "Validates declared evidence and local artifact identity; does not prove execution or truth.",
+    "A contract digest is not a signature or permission; its trusted copy must be outside builder control.",
+    "No production, external delivery, user benefit, accessibility or security certification is issued.",
+    "Source inventory completeness, semantic fidelity, reviewer identity and independence need actual independent review.",
+    "Schema 1 does not evaluate original-feedback coverage. Use schema 2 and --require-feedback for feedback-batch acceptance.",
+    "The require-feedback flag constrains this invocation only; it does not authenticate reviews or install a completion gate."
+  ]
+}

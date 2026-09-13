@@ -1,0 +1,39 @@
+# Verification — 2026.9.1102
+
+Scope: the distributable plugin and its optional local helper behavior. No Veto application, live service, customer workflow, native plugin host or agent-performance experiment was exercised.
+
+## Local results
+
+The final local helper suite has **121 tests**: the original 66 plus 55 review-pack tests. The passing raw run is [helper-tests.log](verification/helper-tests.log). Tests exercise explicit file packaging, candidate/request identity, required-state gaps, path/symlink handling, hash mismatch, basic screenshot signatures, neutral feedback omission, safe partial output, overwrite refusal, fresh packet extraction, and CLI result codes. The existing receipt/scanner and controlled fixture tests remain.
+
+The first development run had **120 passes and one failure**: three stale links in the inherited verification document pointed at old log locations. They were repaired by replacing that document and retaining the old logs as historical. An intermediate rerun caught the newly referenced log being written only after the structural test ran; the output file is now opened before the run. No acceptance assertion was weakened. [Initial run](verification/initial-helper-tests.log) · [Intermediate run](verification/intermediate-helper-tests.log)
+
+[CLI smoke checks](verification/cli-smoke.json) show a synthetic complete materials check, a fresh neutral ZIP without feedback, valid archive CRC and a missing-browser example reported as partial. Their tiny generated images are helper fixtures, not screenshots of Veto or observed product tests.
+
+[Schema/frontmatter record](verification/schema-check.json) validates the portable manifest against the published 1.0.0 structural constraints and parses all twelve active skill entry points with PyYAML. Direct schema download from the container failed DNS; the constraints were transcribed from the complete schema retrieved with web access. No native host validator was available. Helpers themselves use only Python's standard library.
+
+The package doctor checks active skills, metadata consistency, local links, Python syntax, payload hashes and the goal limit. The goal template is **3,958 characters**, including spaces and line breaks. A separate `FILES.sha256.json` indexes payload bytes; it is not a signature or trusted provenance certificate. Enclosing marketplace pointers, archive safety and a fresh extraction are checked before delivery.
+
+## What remains unproved
+
+**Host loading:** Codex and Claude CLIs are absent here; installation, discovery in the desktop, cache refresh and skill invocation must be checked in the receiving host.
+
+**Agent behavior:** the 34 entries in `evals/cases.json` are authored specifications. The original three starter fixtures and local oracle checks do not constitute a model trial. Better prioritization, less sycophancy, more autonomous review and lower founder intervention remain hypotheses until the [calibration plan](evals/JUDGMENT-CALIBRATION.md) is run.
+
+**Application quality:** no rendered Veto journey, source-repo change, authentication, saving/restart, accessibility audit, external integration, normal-file delivery or customer observation was performed. The screenshots supplied by Sebastian are source context, not new application evidence.
+
+**Safety and provenance:** paths, hashes and JSON declarations do not prove that a screenshot shows the stated build, a test ran, a file contains no secrets, or a reviewer's context was blind. Images and nested archives need actual preparer review. A complete review pack is not accepted software. See [SECURITY](SECURITY.md).
+
+**Execution:** no agents were installed, spawned, scheduled or resumed; no repo, customer system or production release was changed. The optional pack builder does not execute, capture, upload or call a model. Native compatibility is a prepared format, not an observed runtime result.
+
+## Reproduce local checks
+
+From this plugin directory:
+
+```sh
+python3 -B scripts/doctor.py .
+python3 -B -m unittest discover -s tests -v
+python3 -B scripts/review_pack.py --help
+```
+
+Use the host's actual supported import route separately. Keep initial failures, later checks and prior-release logs distinct. A passing structural check must not replace any missing product or human gate.

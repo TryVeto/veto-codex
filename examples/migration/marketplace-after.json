@@ -1,0 +1,35 @@
+{
+  "name": "existing-private-marketplace",
+  "interface": {
+    "displayName": "Keep Me"
+  },
+  "plugins": [
+    {
+      "name": "other-tool",
+      "source": {
+        "source": "local",
+        "path": "./plugins/other"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "veto-codex",
+      "source": {
+        "source": "local",
+        "path": "./plugins/veto-codex"
+      },
+      "policy": {
+        "installation": "NOT_AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "annotations": {
+        "owner": "Veto"
+      }
+    }
+  ]
+}

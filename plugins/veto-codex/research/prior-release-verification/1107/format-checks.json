@@ -1,0 +1,312 @@
+{
+  "release": "2026.9.1107",
+  "scope": "Authoring, byte preservation and offline helper invocations; not agent behavior or application verification.",
+  "base_release": "2026.9.1106",
+  "base_archive_sha256": "b64658d719e0d39b658df1045c71bf31326e7e35dc7320731d27a05df08e58eb",
+  "unchanged": {
+    "scripts/": 5,
+    "tests/": 4,
+    "evals/fixtures/": 8,
+    "evals/oracles/": 2,
+    "templates/feedback-example/": 7,
+    "templates/goal.md": {
+      "sha256": "87933aac0faf152a84320979bd9d001228f31266b88c8671bfae088b8c61736f",
+      "unicode_characters": 3956
+    },
+    "templates/bounded-goal.md": {
+      "sha256": "4df75fe14aac5ae46dd8e20b94a72bdc5218147977fea62f611e05c43a1f44fb",
+      "unicode_characters": 3627
+    },
+    "templates/acceptance.contract.json": {
+      "sha256": "6da0af9bde79170008c9bc418dc4cd03bcae7f3e0ac42f791afc0ba3cdef8806",
+      "unicode_characters": 705
+    },
+    "templates/acceptance.receipt.json": {
+      "sha256": "0ce22d9f0a39751ca9c8c1d669793fecca27b1b28c031fc791652f699bd83368",
+      "unicode_characters": 803
+    },
+    "templates/review-request.json": {
+      "sha256": "337da1d4b615f44610e629c2de1a63ff2b5667d6d146ec9767fb905ad62ea51a",
+      "unicode_characters": 650
+    },
+    "templates/review-manifest.json": {
+      "sha256": "1eed094eafea3497d90d5819c09043cb3e744530da67dec4501bbd2c6fdc0f63",
+      "unicode_characters": 2541
+    },
+    "references/feedback-coverage.md": {
+      "sha256": "800990c8121dcee476e760fe00c404c2071b4c8ba6489c4e8933007b2992e37d",
+      "unicode_characters": 5928
+    },
+    "references/evidence.md": {
+      "sha256": "6f9c25453643ad68ace9bbb9f2ee4a8a396b8b6345ae254e39b2e87faa2e3d86",
+      "unicode_characters": 7984
+    },
+    "references/diagnosis-and-approval.md": {
+      "sha256": "d566563d1d2efddf456dd7d34fb0050b0dbd008b84e03d2f737f8220923b7ff9",
+      "unicode_characters": 6326
+    },
+    "references/veto-contract.md": {
+      "sha256": "1cac9957656f348b6fb1e94f57dcbdcaed1077b4889b30e1812b553f2f65a837",
+      "unicode_characters": 4708
+    }
+  },
+  "unchanged_original_behavioral_specifications": 69,
+  "active_skill_count": 13,
+  "role_guide_count": 9,
+  "source_inputs": [
+    {
+      "input": "SKILL(20260911-224215)(1).md",
+      "sha256": "0b3e2deb42a0c7354c3ffbd6a5628e78170a2c67505a63479a825dc153424000",
+      "matches_input": true
+    },
+    {
+      "input": "veto-integration-sample.md",
+      "sha256": "11229113aa6d90a91c697e3d549f8a012c22805150adc6fefaf061c385e53938",
+      "matches_input": true
+    },
+    {
+      "input": "SKILL(20260911-223618)(1).md",
+      "sha256": "f35f6304eb369decb49c7089f35c11e9b0b94655a975a7d16b82618266a6c015",
+      "matches_input": true
+    },
+    {
+      "input": "Good-Enough-Coding-Standards-for-a-Startup-Codebase(1).pdf",
+      "sha256": "ba384e8f3677a10b9abce184a1c82544f802c48c9749a56578bf36ed8158a78f",
+      "matches_input": true
+    },
+    {
+      "input": "Good-Enough-Code-Quality-for-a-Startup-Codebase(1).pdf",
+      "sha256": "6102b6065826cede3249a7a2b1b579a662b54203bcf43ef4d67dd756bb2431a3",
+      "matches_input": true
+    },
+    {
+      "input": "SKILL(20260911-222749)(1).md",
+      "sha256": "4d6a525d87b8a624cb6b8898ea54ef462a9a6d0a17c71febb37a3a9077c827fa",
+      "matches_input": true
+    },
+    {
+      "input": "SKILL(20260911-222909)(1).md",
+      "sha256": "d1d27a21446cdb48af89c95b615ea55232b2cf851cd4de684f2dc8aa64a5db16",
+      "matches_input": true
+    },
+    {
+      "input": "Agents_in_Production_WorkOS_Veto(1).pdf",
+      "sha256": "61652573a87b979624b6b12bc56e916e414e940a332ab6a5c4949c9a04067ce8",
+      "matches_input": true
+    },
+    {
+      "input": "SKILL(20260911-222012)(2).md",
+      "sha256": "7eced5d25e5ec103fe37b8be46db2c8c72a4f19faaf7c375abe44630bc36ca69",
+      "matches_input": true
+    },
+    {
+      "input": "Good-Enough-CICD(2).pdf",
+      "sha256": "d0677ef9cdaf132eaab03803e18f695cefbff68f6ffcc1c09bc8893576be85da",
+      "matches_input": true
+    },
+    {
+      "input": "A-Good-Enough-Design-System-for-a-Startup-Codebase(2).pdf",
+      "sha256": "d51d219999cd24e832a84d21914ad348b7f3986456cdddb2b066e6149c43c447",
+      "matches_input": true
+    },
+    {
+      "input": "veto-stack-1104-review(3).md",
+      "sha256": "010a364b15301b601c9e68e830705b89afce9c2572a53368299a4a4522b58c21",
+      "matches_input": true
+    },
+    {
+      "input": "agents-that-push-back(2).pdf",
+      "sha256": "5b195f7045645f34c53bb23b36c4969aff986d221e9aaf56684491c86b31e62d",
+      "matches_input": true
+    }
+  ],
+  "duplicate_1104_review_confirmed": true,
+  "feedback_fixture": {
+    "command": [
+      "python3",
+      "-B",
+      "scripts/check_receipt.py",
+      "--require-feedback",
+      "--contract",
+      "templates/feedback-example/contract.json",
+      "--contract-sha256",
+      "2ea366c423f7b6c751ac13fe6c7391527b87d1e7f9c0ddccef65ff0e4c4bdbc6",
+      "--feedback",
+      "templates/feedback-example/feedback.json",
+      "--coverage-review",
+      "templates/feedback-example/coverage-review.json",
+      "--receipt",
+      "templates/feedback-example/receipt.json",
+      "--artifact-root",
+      "templates/feedback-example"
+    ],
+    "exit_code": 1,
+    "result": {
+      "verdict": "NOT_ACCEPTED",
+      "feedback_required": true,
+      "feedback_coverage": {
+        "verdict": "NOT_ACCEPTED",
+        "batch_id": "SYNTHETIC-UNRUN-BATCH",
+        "source_count": 1,
+        "item_count": 1,
+        "reviewer": "example-independent-reviewer",
+        "gaps": [
+          {
+            "id": "S1",
+            "status": "gap",
+            "reason": "Independent source-completeness and meaning review has not been performed."
+          },
+          {
+            "id": "F1",
+            "status": "unresolved",
+            "reason": "Mapping proposed; independent coverage and actual behavior remain unverified."
+          }
+        ]
+      },
+      "contract_id": "SYNTHETIC-NOT-APPROVED",
+      "candidate": {
+        "id": "EXAMPLE-ONLY-NO-APPLICATION",
+        "environment": "synthetic-format-exercise"
+      },
+      "requirements_checked": 1,
+      "artifact_references_checked": 0,
+      "gaps": [
+        {
+          "id": "S1",
+          "status": "gap",
+          "reason": "Independent source-completeness and meaning review has not been performed."
+        },
+        {
+          "id": "F1",
+          "status": "unresolved",
+          "reason": "Mapping proposed; independent coverage and actual behavior remain unverified."
+        },
+        {
+          "id": "ADDRESS-01",
+          "status": "not_run",
+          "reason": "Requires an authorized real candidate, independent coverage and browser evidence."
+        }
+      ],
+      "limits": [
+        "Validates declared evidence and local artifact identity; does not prove execution or truth.",
+        "A contract digest is not a signature or permission; its trusted copy must be outside builder control.",
+        "No production, external delivery, user benefit, accessibility or security certification is issued.",
+        "Source inventory completeness, semantic fidelity, reviewer identity and independence need actual independent review.",
+        "Schema 1 does not evaluate original-feedback coverage. Use schema 2 and --require-feedback for feedback-batch acceptance.",
+        "The require-feedback flag constrains this invocation only; it does not authenticate reviews or install a completion gate."
+      ]
+    },
+    "stderr": ""
+  },
+  "legacy_fixture": {
+    "command": [
+      "python3",
+      "-B",
+      "scripts/check_receipt.py",
+      "--contract",
+      "templates/acceptance.contract.json",
+      "--contract-sha256",
+      "6da0af9bde79170008c9bc418dc4cd03bcae7f3e0ac42f791afc0ba3cdef8806",
+      "--receipt",
+      "templates/acceptance.receipt.json",
+      "--artifact-root",
+      "."
+    ],
+    "exit_code": 1,
+    "result": {
+      "verdict": "NOT_ACCEPTED",
+      "feedback_required": false,
+      "feedback_coverage": {
+        "verdict": "NOT_CHECKED",
+        "gaps": []
+      },
+      "contract_id": "example-only-not-approved",
+      "candidate": {
+        "id": "SYNTHETIC-EXAMPLE-NOT-A-RELEASE",
+        "environment": "disposable-rehearsal"
+      },
+      "requirements_checked": 2,
+      "artifact_references_checked": 0,
+      "gaps": [
+        {
+          "id": "J02",
+          "status": "not_run",
+          "reason": "Requires the actual candidate and authorized test environment."
+        },
+        {
+          "id": "J13",
+          "status": "not_run",
+          "reason": "Requires the actual candidate and authorized test environment."
+        }
+      ],
+      "limits": [
+        "Validates declared evidence and local artifact identity; does not prove execution or truth.",
+        "A contract digest is not a signature or permission; its trusted copy must be outside builder control.",
+        "No production, external delivery, user benefit, accessibility or security certification is issued.",
+        "Source inventory completeness, semantic fidelity, reviewer identity and independence need actual independent review.",
+        "Schema 1 does not evaluate original-feedback coverage. Use schema 2 and --require-feedback for feedback-batch acceptance.",
+        "The require-feedback flag constrains this invocation only; it does not authenticate reviews or install a completion gate."
+      ]
+    },
+    "stderr": ""
+  },
+  "legacy_with_require_feedback": {
+    "command": [
+      "python3",
+      "-B",
+      "scripts/check_receipt.py",
+      "--contract",
+      "templates/acceptance.contract.json",
+      "--contract-sha256",
+      "6da0af9bde79170008c9bc418dc4cd03bcae7f3e0ac42f791afc0ba3cdef8806",
+      "--receipt",
+      "templates/acceptance.receipt.json",
+      "--artifact-root",
+      ".",
+      "--require-feedback"
+    ],
+    "exit_code": 2,
+    "result": {
+      "verdict": "INVALID",
+      "error": "Feedback coverage is required for this invocation; use a pinned schema-2 contract, not evidence-only schema 1.",
+      "limits": [
+        "Validates declared evidence and local artifact identity; does not prove execution or truth.",
+        "A contract digest is not a signature or permission; its trusted copy must be outside builder control.",
+        "No production, external delivery, user benefit, accessibility or security certification is issued.",
+        "Source inventory completeness, semantic fidelity, reviewer identity and independence need actual independent review.",
+        "Schema 1 does not evaluate original-feedback coverage. Use schema 2 and --require-feedback for feedback-batch acceptance.",
+        "The require-feedback flag constrains this invocation only; it does not authenticate reviews or install a completion gate."
+      ]
+    },
+    "stderr": ""
+  },
+  "candidate_helper_tests": {
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "tests": 177,
+    "passed": true,
+    "evidence": "verification/helper-tests.log"
+  },
+  "authoring_checks": {
+    "goal_character_limits": true,
+    "new_entries_added": false,
+    "new_executable_helpers_added": false,
+    "fixture_expected_rejections_observed": true,
+    "original_eval_specifications_preserved": true,
+    "inactive_integration_sample_bytes_preserved": true
+  },
+  "behavioral_specifications": 77,
+  "new_behavioral_specifications": 8,
+  "agent_trials_executed": 0,
+  "native_host_installed": false,
+  "application_tests_executed": false,
+  "production_access_attempted": false
+}

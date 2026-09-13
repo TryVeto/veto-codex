@@ -1,0 +1,26 @@
+{
+  "release": "2026.9.1105",
+  "scope": "Local package structural checks; no host or model run.",
+  "active_skills": 13,
+  "goal_characters": 3956,
+  "bounded_goal_characters": 3627,
+  "goals_byte_identical_to_1104": {
+    "templates/goal.md": true,
+    "templates/bounded-goal.md": true
+  },
+  "baseline_helper_tests": 168,
+  "candidate_helper_tests": 177,
+  "behavioral_scenarios": 66,
+  "behavioral_trials_executed": 0,
+  "native_host_load_tested": false,
+  "feedback_example": {
+    "exit_code": 1,
+    "verdict": "NOT_ACCEPTED",
+    "feedback_required": true
+  },
+  "legacy_example": {
+    "exit_code": 1,
+    "verdict": "NOT_ACCEPTED",
+    "coverage": "NOT_CHECKED"
+  }
+}

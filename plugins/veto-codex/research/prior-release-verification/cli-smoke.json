@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-11",
+  "tests": [
+    {
+      "case": "receipt help",
+      "command": [
+        "python3",
+        "-B",
+        "scripts/check_receipt.py",
+        "--help"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0
+    },
+    {
+      "case": "doctor help",
+      "command": [
+        "python3",
+        "-B",
+        "scripts/doctor.py",
+        "--help"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0
+    },
+    {
+      "case": "scanner help",
+      "command": [
+        "python3",
+        "-B",
+        "scripts/lint_slop.py",
+        "--help"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0
+    },
+    {
+      "case": "scanner returns review findings",
+      "command": [
+        "python3",
+        "-B",
+        "scripts/lint_slop.py",
+        "evals/fixtures/craft/review.html",
+        "--json"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1
+    },
+    {
+      "case": "scanner rejects absent source",
+      "command": [
+        "python3",
+        "-B",
+        "scripts/lint_slop.py",
+        "evals/fixtures/absent.html",
+        "--json"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2
+    },
+    {
+      "case": "example remains unaccepted, not a fake pass",
+      "command": [
+        "python3",
+        "-B",
+        "scripts/check_receipt.py",
+        "--contract",
+        "templates/acceptance.contract.json",
+        "--contract-sha256",
+        "6da0af9bde79170008c9bc418dc4cd03bcae7f3e0ac42f791afc0ba3cdef8806",
+        "--receipt",
+        "templates/acceptance.receipt.json",
+        "--artifact-root",
+        "templates"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "observed": {
+        "verdict": "NOT_ACCEPTED",
+        "contract_id": "example-only-not-approved",
+        "candidate": {
+          "id": "SYNTHETIC-EXAMPLE-NOT-A-RELEASE",
+          "environment": "disposable-rehearsal"
+        },
+        "requirements_checked": 2,
+        "artifact_references_checked": 0,
+        "gaps": [
+          {
+            "id": "J02",
+            "status": "not_run",
+            "reason": "Requires the actual candidate and authorized test environment."
+          },
+          {
+            "id": "J13",
+            "status": "not_run",
+            "reason": "Requires the actual candidate and authorized test environment."
+          }
+        ],
+        "limits": [
+          "Validates declared evidence and local artifact identity; does not prove execution or truth.",
+          "A contract digest is not a signature or permission; its trusted copy must be outside builder control.",
+          "No production, external delivery, user benefit, accessibility or security certification is issued."
+        ]
+      }
+    }
+  ],
+  "meaning": "CLI contracts checked; deliberate code 1/2 outcomes passed their own expectations, not application acceptance."
+}

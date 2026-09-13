@@ -1,0 +1,15 @@
+{
+  "name": "veto-stack",
+  "display_name": "Veto Stack",
+  "version": "2026.9.1102",
+  "release_date": "2026-09-11",
+  "edition": "stripe-inspired-product-operating-system",
+  "external_services": [],
+  "automatic_hooks": [],
+  "agent_performance_evaluated": false,
+  "native_host_installation_tested": false,
+  "compatibility": "Portable Agent Plugins 1.0.0 with OpenAI and Claude Code metadata; host smoke tests pending.",
+  "upgrades": "2026.9.1101",
+  "helper_network_access": false,
+  "helper_subprocess_execution": false
+}

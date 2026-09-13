@@ -1,0 +1,39 @@
+{
+  "skills": [
+    "build-a-capability",
+    "field-proof",
+    "independent-judgment",
+    "integration-design",
+    "make-a-goal",
+    "product-design",
+    "product-sense",
+    "product-tests",
+    "remove-slop",
+    "review-a-prototype",
+    "sandbox-experience",
+    "veto-stack",
+    "work-control"
+  ],
+  "role_guides": 9,
+  "yaml": "parsed by PyYAML",
+  "max_skill_characters": 8247,
+  "goal_characters": 3956,
+  "bounded_goal_characters": 3627,
+  "source_inputs_verified": 10,
+  "behavioral_specifications": 85,
+  "agent_behavior_trials_executed": false,
+  "example_cli_checks": {
+    "feedback-example": {
+      "exit_code": 1,
+      "verdict": "NOT_ACCEPTED"
+    },
+    "legacy-example": {
+      "exit_code": 1,
+      "verdict": "NOT_ACCEPTED"
+    },
+    "legacy_with_require_feedback": {
+      "exit_code": 2,
+      "verdict": "INVALID"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "veto-codex",
+  "displayName": "Veto Codex",
+  "version": "2026.9.1203",
+  "description": "How Veto works in Codex: research, design, implementation, verification and durable handoffs.",
+  "author": {
+    "name": "Veto"
+  },
+  "skills": "./skills/"
+}

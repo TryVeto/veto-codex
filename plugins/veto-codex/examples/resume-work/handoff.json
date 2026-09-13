@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "task_id": "synthetic-focus-repair",
+  "assignment_revision": 1,
+  "owner": "author-replay",
+  "outcome": "Make a fresh officer read return the submitted contribution from the same office/file; preserve isolation.",
+  "state": "ready_for_review",
+  "candidate_id": "synthetic store.py; SHA-256 in candidate reference",
+  "must_preserve": [
+    "This is a disposable synthetic fixture, not Veto application code.",
+    "Separate offices and files must retain their exact persisted contributions.",
+    "The baseline evaluation fixture and original oracle remain unchanged."
+  ],
+  "next_action": "A distinct native-host reviewer should replay the unchanged oracle and assess whether the agent actually loaded and used the method.",
+  "resume_condition": "This packet grants no runtime authority. Inspect current task/mandate/pauses before any further action.",
+  "references": [
+    {
+      "id": "request",
+      "kind": "request",
+      "path": "request.md",
+      "sha256": "6228ed9ebffee89db9e8c78365560ab3c6554e0b19d1003d48dece2622c84e30"
+    },
+    {
+      "id": "candidate",
+      "kind": "candidate",
+      "path": "store.py",
+      "sha256": "d626c433e171497366bc8c3f143d8a5095a97af12953d7facefd7140fe626744"
+    },
+    {
+      "id": "before",
+      "kind": "evidence",
+      "path": "before.json",
+      "sha256": "99f396699257c758c155b967eb75469e10d3a0bf1938c13504b294c5044ab329"
+    },
+    {
+      "id": "after",
+      "kind": "evidence",
+      "path": "after.json",
+      "sha256": "e38d55684f87d99ac2b0612884fa4468e1f7983b8a0f18d416f1d75334f0a651"
+    }
+  ],
+  "completed": [
+    {
+      "id": "exact_retrieval",
+      "result": "Author-run synthetic oracle passed: exact retrieval",
+      "evidence_ids": [
+        "after"
+      ]
+    },
+    {
+      "id": "separate_file",
+      "result": "Author-run synthetic oracle passed: separate file",
+      "evidence_ids": [
+        "after"
+      ]
+    },
+    {
+      "id": "separate_office",
+      "result": "Author-run synthetic oracle passed: separate office",
+      "evidence_ids": [
+        "after"
+      ]
+    },
+    {
+      "id": "fresh_module_reads_saved_work",
+      "result": "Author-run synthetic oracle passed: fresh module reads saved work",
+      "evidence_ids": [
+        "after"
+      ]
+    }
+  ],
+  "remaining": [
+    "Native-host plugin loading has not been tested.",
+    "A distinct native agent has not implemented or reviewed this example.",
+    "No Veto application verification or deployment was performed."
+  ]
+}

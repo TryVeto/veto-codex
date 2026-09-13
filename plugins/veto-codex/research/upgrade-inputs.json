@@ -1,0 +1,101 @@
+{
+  "inputs": [
+    {
+      "file": "SKILL(20260911-201941) (1).md",
+      "sha256": "5447a2c6669db7485bdf69d46b6602da733add36fc12ea569f35a3bfc5f75e61",
+      "use": "research/source-skills/stripe-style-product-shipping.md",
+      "duplicate_of": null
+    },
+    {
+      "file": "SKILL(20260911-201941)(1).md",
+      "sha256": "5447a2c6669db7485bdf69d46b6602da733add36fc12ea569f35a3bfc5f75e61",
+      "use": "research/source-skills/stripe-style-product-shipping.md",
+      "duplicate_of": "research/source-skills/stripe-style-product-shipping.md"
+    },
+    {
+      "file": "SKILL(20260911-202031)(1).md",
+      "sha256": "27b0f7d23c32f11173591f7cbde74dd1ed6a2d450e671a35d0de30fce8ece8f9",
+      "use": "research/source-skills/veto-integrations.md",
+      "duplicate_of": null
+    },
+    {
+      "file": "SKILL(20260911-202137)(1).md",
+      "sha256": "6936a44f4bd299557d166fdddb8d98dccc4d83a6570059daf4c92930552411f3",
+      "use": "research/source-skills/head-of-engineering.md",
+      "duplicate_of": null
+    },
+    {
+      "file": "SKILL(9) (1).md",
+      "sha256": "0f88faac78e92152943bfc1338235fe1125a2cf78deba8a0cb67daaf1e04063f",
+      "use": "research/source-skills/sandbox-experience.md",
+      "duplicate_of": null
+    },
+    {
+      "file": "SKILL(9)(1).md",
+      "sha256": "0f88faac78e92152943bfc1338235fe1125a2cf78deba8a0cb67daaf1e04063f",
+      "use": "research/source-skills/sandbox-experience.md",
+      "duplicate_of": "research/source-skills/sandbox-experience.md"
+    },
+    {
+      "file": "SKILL(10) (1).md",
+      "sha256": "869c3ce0633b95a5ed0f02f77fdc7238dfc9fa4909a700752f1ced648b1f5252",
+      "use": "research/source-skills/local-development.md",
+      "duplicate_of": null
+    },
+    {
+      "file": "SKILL(10)(1).md",
+      "sha256": "869c3ce0633b95a5ed0f02f77fdc7238dfc9fa4909a700752f1ced648b1f5252",
+      "use": "research/source-skills/local-development.md",
+      "duplicate_of": "research/source-skills/local-development.md"
+    },
+    {
+      "file": "SKILL(20260911-201929)(1).md",
+      "sha256": "a4a24bfb58afc8f60e74070cab4971d7488e2e0df2cd907d287819e816358bfd",
+      "use": "research/source-skills/front-end-design.md",
+      "duplicate_of": null
+    },
+    {
+      "file": "SKILL(20260911-201939)(1).md",
+      "sha256": "fc1f8627effec591fd43b9bd50ffdac1dbb6c6068834a34e8b2f579f90a4b7e9",
+      "use": "research/source-skills/product-designer.md",
+      "duplicate_of": null
+    },
+    {
+      "file": "SKILL(8)(1).md",
+      "sha256": "2629f87852e1817e4201e34f48792baf13c37018bf3a0f2d500af0d7219180af",
+      "use": "research/source-skills/veto-feature-team.md",
+      "duplicate_of": null
+    },
+    {
+      "file": "useful-backend-engineering(1).zip!useful-backend-engineering/SKILL.md",
+      "sha256": "8ea517af06dd32c06f86ac68347afeed2783ee30d27cfa342a7a6a303a99c61b",
+      "use": "research/source-skills/useful-backend-engineering.md"
+    },
+    {
+      "file": "Veto-Stack.zip",
+      "sha256": "560ac8443b8642ae96e1262666ee8351e8cbc3429f773b69e6456c8305359fe8",
+      "use": "upgrade basis; original attachment not redistributed"
+    },
+    {
+      "file": "how_stripe_ships(1).pdf",
+      "sha256": "7e0847c6f0c8f08170f6a9fe6750292b17ab320aaab5223bbc53c6ac83555c03",
+      "use": "upgrade basis; original attachment not redistributed"
+    },
+    {
+      "file": "Veto-Product-Foundations-v10(9).pdf",
+      "sha256": "8d57c9b6e53ca38cdfe17818172197f12e0ab0fb21399467f8bb13c1334a64a0",
+      "use": "upgrade basis; original attachment not redistributed"
+    },
+    {
+      "file": "f748e2c6-e612-4c36-85d3-bd7ca4c1cba9.png",
+      "sha256": "a649116fcb9e98d5b9e12b2e5dcdc03c172cb7f011644d5e1f8b1f5f6d4bd1d6",
+      "use": "upgrade basis; original attachment not redistributed"
+    },
+    {
+      "file": "2a774b47-675e-4a70-8249-5ccda4c6d6a0.png",
+      "sha256": "9b3e6f03c3d431ea3ff00fd70753d99552c626ee9e7abb217acdbe07f34111b7",
+      "use": "upgrade basis; original attachment not redistributed"
+    }
+  ],
+  "unique_uploaded_skill_contents": 9
+}

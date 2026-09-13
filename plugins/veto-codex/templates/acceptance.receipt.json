@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "contract_id": "example-only-not-approved",
+  "contract_sha256": "6da0af9bde79170008c9bc418dc4cd03bcae7f3e0ac42f791afc0ba3cdef8806",
+  "candidate": {
+    "id": "SYNTHETIC-EXAMPLE-NOT-A-RELEASE",
+    "environment": "disposable-rehearsal"
+  },
+  "results": [
+    {
+      "id": "J02",
+      "status": "not_run",
+      "layer": "persistence",
+      "actual": "Format example only. No application was tested.",
+      "evidence": [],
+      "reason": "Requires the actual candidate and authorized test environment."
+    },
+    {
+      "id": "J13",
+      "status": "not_run",
+      "layer": "journey",
+      "actual": "Format example only. No application was tested.",
+      "evidence": [],
+      "reason": "Requires the actual candidate and authorized test environment."
+    }
+  ]
+}

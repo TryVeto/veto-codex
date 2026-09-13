@@ -1,0 +1,866 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data: blob:; font-src 'none'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"><title>Veto · Prepare this review</title><link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAACMCAYAAABF/m9RAAAv60lEQVR42u19ebxcVZXu961TVXfKyM3NTdU5VZeEMEUUSFAQHBBBBhHhKYOCQGvj1M+27Unb17y2tVv7dbdDv7adnhAGRSYZVAYVkWZQQAJoQxgMCbfqVN17CTfzzZ3q7PX+yLl2jAmEm9pVp27t7/fLj5Dc7HP22mutb6919l4LcHBwcHBwcHBwcHBwcHBwcHBwcNgN6ETg4ND0kFwuN19Va2rPJLVSqWwEYJyIHRzRODi0MIIg2A/ALwB013joYQDHhmG4wUnZYV+QciJwcGhuRFEkIrKQ5PxajquqnjFGnIQd9jnkdiJwcGh+kIyaYUwHRzQODg4ODg6OaBwcHBwcHNE4ODg4ODg4onFwcHBwcETj4ODg4OCIxsHBwcHBwRGNg4ODg4MjGgcHBwcHRzQODg4ODg6OaBwcHBwcHNE4ODg4ODiicXBwcHBwcETj4ODg4OCIxsHBwcHBwRGNg4ODg4MjGgcHBwcHRzQODg4ODg6OaBwcHBwcHNE4ODg4ODiicXBwcHBwcETj4ODg4OCIxsHBwcGhFZByInBo5Eanu7u7a9asWV2q2gmgPYqitKpSRCJjzISqjpIc6ezs3LZmzZpxJzKHmYJly5ZlRkZGOqMo6gLQISKZKIpSAOB5XtUYMwFg1PO8ka6uru2rV6+eaNa50i23Qz30LJ/PZ1X1QACvUtVDSC4B4APYT1VnkWxX1TTJqShbVTUiOQFgO4DNqvoCgCKA3wJ4kuRT4+Pjz69fv35bKwu3UCjMN8Y8C2BBjYdev3379qUbNmzY4lR4+ujp6ZnV3t7eZ4w5hOQyAAeqaoHkQlWdC6ALQAZAakr/VdUAqAKYADBCcrOqrgcQAlhD8hkRecYYsy4Mww2OaFocvb29XSLSsdcLQmoqlTKjo6OTPT09E826i8nn8zlVPRrA8QCOVtWDSM4nf1/lVHVv5fIHf6aqk6oaAnhcRO6Noug/582b92Qz7/x2xdKlS9smJyc7JiYmUi8hm26SvyC5Xy2fraqbVPVsERkyxoyn0+kJVR2vVqsTnZ2dk2NjY5Nz5syJVq9eXQVgnLX/95pNTEwcpqpvMsa8CcDhJH2Smd3IeF/036jqEMmnATykqvelUqlH+/v7B5uGaHp7e7symcyRAA4zxiwG0ENyDoA2AF6845wAsJ3kVlXdsst/twLYJiLbAIyKyAiA0SiKtjQDA9cInu/7PyJ51N7a9i47+VEAmwG8AOA5EXkUwP3FYnFdEiebzWYLInIyyXcCOIZk9ys1qGkpcWyEqlpV1acA3KmqN1cqlV/Fu8KmQjabXeB53kWq+jaSfao6m2T6JeyVAObD3jfXaqyTk6o6SXISwISqjgMYJzkOYCz+NRr/d3v8++1Tv0huB7A9iqJRkttVdSyVSo2q6hjJUVUdU9XxKIomjDFjQ0NDLzYRgaULhcLrVPUsY8zJJA8l6dVT/+PnrAfwMIDbAfwkDMM1iSWaIAg6APyE5BtqsCuaSoNMxs6zUq1W3zA4OLh+prNMPp8/SlUfmq4D2MMuZhOAL4Zh+PkkGOHSpUvbRkdH30ryQlU9SUT2s21Ye0k6RlVXicg1qnpDGIblZtAZ3/dfQ/JakofWw0nVysHto3+Y8hFVAFOENkTy6KRvSoMg8EmeY4w5n+RyxkJp5JrtZAPbVPV+Ebm2Wq3eNjAw8GLSIhoJguCnJE+otcBIQlU/EIbh5TOdaIIg+DLJP6ulDGP5NTx3Hn8XeA+AS0gekUSHuJPBvaCq13me941isbg6qfqSy+W6ReR+kocklVzqBVXdaIw5qJHO8aXQ19d3SBRFHwLwXpILk7ohmLIBY0yZ5A2qurJcLv+m3u+xp522AXCNRSW6EDP8aPWSJUvmAniXDeVT1VUbNmzY2oh5dXd3z/Z9/+PGmEdI/gfJI1Q1kUa203stFJGPGWMeCoLgW7lc7uCERgifdiTzO1lECd0MHBQEwdeiKHqY5J8BWJhU/d/ZBuJvRH8G4MEgCK4rFArHJYFoICK3G2M22Jg4yWNzudxrZrKhjI2NnUwyb2n4W7Dje069jeyc9vb2X4jIV0guSbKB7SFFM4vkJSLyYBAEX8hmswuS8n75fP4Akpc4kkkment7FwZB8AUReYjkRwDMbra1in1vR5zquycIghuDIHhtQ4mmWCwOYMd3Ghu7lbTneRfMZMUUkYssKcvWKIrurDPBHOz7/s2e510nIoc1E8HsgXDmkfyUiPwyCIL3JOG9jDEfJDnbufTkBVf5fP7idDr9IMlPAZjX7JuB+P1TJN+lqvcGQfD1bDZbaAjRxPiOxcm+e+nSpXNmombmcrmDABxv4/sWgHsHBwf76zUX3/cvEZH7ReTMZiaY3RmbiCwleY3v+9/L5XL5Rr1LoVCYD+B8F80kC9ls9pAgCH4AYCXJxTNtfeIIp53khz3PezAIgo/C0iX+lySaarV6jzFmTa2jmniCfaOjoyfPUB09l2SnJeW4tk5GtsD3/e+IyLcALJiJTnCKOEXkPBG5L5/Pn9GI96hWq2eIiO9ce3Lg+/4HPc+7j+TpM2mD9RIRTpbkfwRBcHsQBIfVlWiGhoZGSN5oLSYlL5ppi9bX19dO8jxLCvFCFEU/rkNEdoTneXeJSEvssqc2Pqp6k+/7n0V9SzPRVprVYVq63x0EwdUi8s2ZusF6GTs4ieR/+r7/wboRzdQOOr6YaYNF3xKnmWYMjDFvJHmopbTZnbbvH/m+/3YR+QnJw1vNyAB4InJpEATfi9NZ1hEEwWGqepxLmyWCZI4UkZ+RvKBV1yOO3vYTkW8GQbCyVnbwskRTLpf/S1UftHQooFNEzp1hC3UhLQgr3m1817KhXSQiN5DsaWVDI/luY8ztfX19+9fhkeeKSMa5+cYiCIIzW3GD9TJ2cLGq/rivr+9Q60SDHXdqbB4KeE9fX1/7TFicuL7XaZaimWdV9T6L7/5hEblMVTvcZUEFyWOiKLrTRr56CrHev8u5+YZHMh8GcB3JBY5k/iDKf221Wv2p7/tvsU00yGQyP1DVFy0Z9KFRFL15hizMmVMlWCzgxjAMR20M7Pv+h1T1P7Cjhp3Df+vmwQBuKxQKy208o1qtHgPgYOfcGgff9z8lIl8HkHHrsHs7EBGf5K2+7097U7RXRLNu3bohkj+0lD6Dql48A9bEA/A+GwPHfVmus5QyeA/Jr8I1wdsT2RSMMbf6vn+4hUe8y0aa1WGvdf9SEfmCk8ReRTazSX5nuvfO9tq5GGOuVguUHw95iu/7QZMr7XIAR1lKmz1YLpefsJAyeCuA/wfXAO/lyCYgeVMQBEtrNW42m+0EcIqTcMMimU+S/KyLYl4R2gFcHgTBWdaIZu7cuQ+o6hM2NmAiMg/Nn6u+gKQth/0d1LhScy6XO1hEribZ5exnr8hmCYDra1W2JpVKrSB5gHN0DSGZD4nIF5zsp002V+Tz+TdaIZq4mdQ1FidwQbPurPv6+uYB+B+WCmgOp1KpH9ZyzO7u7tkkryKZdcb2isjmSM/zLluxYkV6X8eLe5a4tFmdkc/n30Hy31TVyX6aIDlHVb+bz+cPqDnRAIDneder6jZLRry8UCgc3YyCn5ycPIVkYGFBAeCOWnfM6+jo+FcReV1SSIbkHn8lkGzOGBwcvHRfg3iSb3Uu6yVlXfODKUEQvFpVLyfZllAH3kybrryqXhGngF8+gn8lDygWi2t9379rqu5VjYUsxpj3AXigCRn+IosLenWNje08kh9sBMns0gkQqjrVQXQLgBEAY3EnR1HVDIBOkrPiDpOzd01NNmIO8Zp8Kp/P318qlX4ynTF6eno6Aczbk3NplijTZuMzAMOe59UsXdzX1zcviqKrGnmEeTdtzKuqOgJglOSEMcbspPsdADpIZqbb/rwOdvAGz/P+AcCfv+zcp+GoziR5s6U00ZAx5rCkNjvaHXK53MEkHyPZUWulVNWnASyv1bHmXC6XJ/mQiNQ1ZRbPZarN8sOq+oiIPAWgDGCD53nb+/v7J7DLd6gVK1akn3/++fbOzs7ZqtqtqgGAAwG8GsDhAA4Skbn1Nj6SMMasUdVjKpXK8HTXQkTeCOA1AA5Q1d6YfLqwo116iqTsjY2qaorkPItT3pdWzn/QzjmKou1xK+fReHMxmk6nx2y2cg6CYGV8AbEhBBNvrJ4D8LCI/MoY8zTJUFU3ktw+Ojo6mUqlTLValY6OjjSADhGZa4zpUdUCgIMAHEZymaruP3XJNwGkE6nqGeVy+faaEk1PT8+sTCbzaxFZYuOEVRRF769UKiubhWiCIPg7kp+x1In0M2EY/n2txvR9/1oRObdeyhnPYR2Aa0TkplmzZj0Rf+uryfDZbDYvIq8FcArJE0nuXy/ji8nmq+Vy+WM1HDaVzWYzHR0d6YmJCS+Kor1KbadSqeWqWvMaeKq6SVXPFpEhY8x4Op2eUNXxarU60dnZOTk2NjY5Z86caPXq1VUkoK34S+j9+0Tkqno75Vj/XwRwk6peOzEx8av169dv20d/0xH3gjoGO04tvpFkb6NIZ2rT9XJttznNyX6B5KcsOdd7wjA8AQ1o7DWdRQfwqI2uiKo6aoxZPjAw8HQtxosrE99Sj4+g8TpWAHwJwMp69H3v6+ubV61WTyJ5CYATSbIOhjehqm8ul8sPNjiqPkJEHp2uPb8EGt4yfF+xaNGivlQq9RCA3jo7340kv1GtVr9ps63H4sWLe6vV6smq+kcA3lwnvd+dvX85DMM9ptCme0nvu8aYcQs7KAA41vf9Zum++SYAh9jqO1Mrkunp6ZlljPm8BUe0p3W80hhzTBiGX6wHyQBAf3//pnK5fEMYhm8jebKqPmD742qcP/8cGlxRgaRaiijY1tbW1HXYUqnUP0/t+OvodK9T1deHYfhp272j1q1bN1Qqla4Kw/AEEXmbqv6s3ocK4rTgh3O53JE1JZowDJ8keb+lSgEZAOc3gxLHBTRtKWzNDgG0t7d/UEReZXOnE8vhRVV9XxiGF1cqlVKj1qVUKv3U87wTVfULtg0MwIm+7zf04qWIVFXVwOEPoniSZ9crlQrgBWPMhWEYnlepVJ6ptzsqFot3hWF4MoCPAthUT8IRkQ6Sn9nTZlamb2N6pcVFO7u7uzvRbW2DIPABnGpDiY0xFRG5vUapgx5jzF/YJhljzH8ZY04ql8vfScL69Pf3j4Vh+GljzEcBVC07mL9uZFQTRVGiv5E0Ar29vV3GmH+sRxQf6//DJE8ol8tXN3jqUalU+jrJk1T1N/Uim/gU2um+7x9fS6IByduMMRVLL7x/e3v72xIezbxLRObbUFoRuaVYLG6sUergIyKSs5wq+LnneSdXKpXHk7ZOlUrl66r6JwAiiwb2Rt/339TAiCZyRPP7SKfT7xeRw2xHM7H+3+R53imlUunJpMy/VCo9Mjk5eZKq/qBeZBOfkvzr3ZH7tIkmzr3fZDF1dHGC9TiFHZUMbDiuyBhTk11RNptdoKofsmVssZHdkclkzioWiwNJXaxyufwtVf1fFnWVJD/SSKIh6Yjmv7MN+6nqX9aDZIwxK9vb299bq41hLTE0NPRCe3v7Oar6zXqQzVSHzlwud0zNiCYW9FXxJauavzCAt/i+f2ASFblQKLyO5HJLp+5WlcvlR2rkgC6wFc3E7/qzTCbznrVr125OuvMpl8v/xxhzmQ2Di/Xg1EKhsKQRc5ucnHQRzS6bVBEp1CGSuaJcLn9wzZo140mVxZo1a8bDMPyIMeaL9SAbkp6IfLSmRBOG4aOq+rClQwFdqprI7pvGmPeR9Cwt1HdQg28K8dHrSywa2ePVarUpSGYKY2Njn1DVVZb0dZYxpiGFYVOpVFVVIzigu7t7tjHmT+oQydzS3t7+YVj8/lfLvVC5XP5LVf2KbbKJT6C9I5vNFmpGNNiR97Z5KCBx3TfjdNSZlg4BbARwU43GequILLNVwcHzvPcODg6ubyYnNDw8vJXkh+OyHzbk8m404FBAKpVyEU2M9vb2s2xcJt+FZB7xPO/9SY5k9hAY/KUx5ru2yUZE5pI8u5ZEg7a2tltUdb0FowXJZcaYNyVpsUieLiKLbCgwgDvCMCzXaLEvtiSCCMBH+vv7n2pGR1QqlR6xsbObqu4cBMGyBkRqEUkX0ezwZ5fYfICqrk+lUu9L4jeZvbHdsbGxj6jqg3W4Y3Yudqqluc9Es3bt2hdsnWyIdw8XJWihKCLWCmiKSE2iw1wul1fVkyx9Q/pmGIY3N7M38jzvi8aY52utsyTTAE5uwHyMS50B+Xx+OcljLEYzCuBP+/v7n25WGQ0PD2/1PO/9qjps6xlTm65cLvfqmhFNvHu+0saFsVhhTovvrDQcccWCYy058NUicm+Nhny7iMyxQPrrVPV/N7tDinej/9fS8A0hGlg6vt1kOM9W88HYRr8ThuG1zS6k/v7+p1T10zajGpIpEXl7TYmmVCo9qKqP2eq+qapJ6b55fly5wMYu4Hv9/f1jNVrksywpz+enW604aUilUitrHdXEH0KXL168uLeec9m2bVvLp86CIOhQ1TNsjW+MGQDwNzNFXuVy+TJV/bnlFNopUxwjNRpwEsBVFl+44d03466UZ1sime0kr6tR1BUAOLqWUVe8m3smiqJrZoqh9ff3b7IR1YjIfpOTk0fWmTRNXMa/ZYmG5FEAltpIm8VN+D5fq++nCUEkIpeq6qQlnwYAhy9atChfS6IBye/Hp6Zq/sIkl+dyudc1clXa29tPJrm/pQKad5fL5d/WyNEdN9Wjpcb43sDAwPaZ5JxU9SpL1S2OrbNuRmjx1JmqnmqjNXacMl4dRdHlM01mxWLxAVW93eJF5lme572upkQThmGZ5I8sHQrwROR9Dd4xXWTRSK6oYYh/ooX3M6p650wztEqlMkzyBgs6W9eW5F1dXabFU2eiqm+1aPtfnmmbrJ1s+9/VYgkFksfVlGimHKaNl45z3+8MgmC/RixGXKHgBBvRjDFm3djY2E9qMd6KFSvSAI6xIP8tqVSqfyYamjHmR7Vc1zgCP7SeRWE7OjrURoWOZkFvb28h7jxZc/tU1WImk7lhpsoum83eC+DXtqIaVT0KAGtKNHPnzr0fwG8sHQrIqurbGxTNnEey09LY1w8PD2+txVhDQ0N92NEWuObvOTY2NiMvBKZSqVELxrWoo6Ojr15zWLVqlSHZskSTTqePJDnLln02U/WLaejOJMkbLZEMABzQ29vbU1Oiidv0WisTT/JC1Kl51xT6+vraVfU9lnbT4wC+W8MhXy0iHRZIfm46nT57phlZLpc72BjzD7XeGIlIWlUPqWdg1uL3aKykKuMCtzfOdOFFUXSbrYiY5ALP85amLLz09Z7nXQpgTo0XHar6xnw+v6ye5bijKHozyUMtHQK4PwzDJ2ooo+WWikYSwJeDIHgdye+TfGJ0dPSF9evXjyD5LbfZ19fXNjk52ZVKpeZWq9VFAA4UkRMBvIPkXEsnlV4FoF5OStEcNbfsTF71CAuXb6Gqazo6Oh6f6fLr7Ox8amxsbI2NlvTxfZpDa040AwMDxSAI7iB5bq1fWkTa4ujib+uoxBeLCCzVDLuyxo761TYzFHFEeaExZqStre1F3/dfBLCB5GZV3QpgBMAogDGSk6o6SXKq4ONUKXtDUqMo0lgRdUoG8d9Hxhiz058zXntRVVFVT0RSqpoCkFHVDIA2ku2q2gmgA8AskrNUdTaA2dVqdQ7J2caY2SLSOeWU4s2LLb05tK5s2qKps2w22wngQEtr+Itmq2c2HaxZs2Y8CIKHARxiyxZs3U1Zaavysqqe29vb+4WhoaER2wuQy+XysNhFk+RttSQCAAdYJt2p33YB6BKRvl0itN1Fbbv9O8/bc+3JPf1dfJ9hj2Pv+pyd/3/nNaxHa18AS2KSrMvDVLXaivdoMpnMwiiKei1Fpfe3kCgfAnChpbGXio1R29vb71HVJ20ULhSRpZ7nvaVOu8R327iTEsvl5rh5XE3Q29s7n+SiOjnR34sImuFXnVM5AJBbsmTJnHo9k+QkWhDGmCDe+NR6DaMoih5vIVE+YSlrA5IFK0QTh5vWDgXYKmy5mwjByt2dePdZ00oK6XR6oarOg0NS0D0+Pr6wjuTWkqkzVQ0sfZd80fO851tFjpOTk0XsSH3bkOVCsfXi1Wr12jhvb2O3+LZdG+vUGkEQvJ7k4ZbO5j8chuGqGu/sem0VFHSY1jq3A8jX8XnVFpVzzsKYABCGYbiphSLDFwG8aGmN5lkjmqGhoecB3GmpUsAcku+2vFO6kKQt+VyJGpcMEZGFrVzrKoEOECTrdpemhSMaW1FjiBZqJrd+/foRVV1vyYd0iuX3v9xib4jzsSO9VXMsXry4l+Q7LeUs17e1td1i4bUXOPeeOBTq9aBW/UYDwFa1kEqLyVFtRTSodWWAXeF53j2qutpSN8Mj8vm8lYtaExMTZ5JcYMEZQFVvXbt27QsWXnue8+uJQ65uXsJSFd4miGhsHbgYbkFxWusaapVo4v4qVg4FkBRVtfGx3rNVQFNVTa26aO5m7FlwSBq66xjRtOo3Gluloba2oCytldqxnTqD53nXquo2C44VqvrObDZb08gjCIIVAF5r6RDAo6VS6UFLStLu/Hri0FmvB7VwRJO2NO54C8pyS9MSTbFYXAfgx5YKbfaSPL3Gwr7IYjvYq2CpVIiqes6vJ89267gbbdVvNLZ8WCuerBlttkXa1QleZutQgIjUrNBm3IbgLEuVADaS/P5McGoOe633G+v4rFYlGlsnw1ouQ2Czp1FdiCaVSv3c1qEAVT3O9/2a1PgyxpwhIlkLCwiSPyqVShWLStKqjibJWO0imuacN8m5rSZLm1mRuhBNfCjgKisTEMmQfG8thiJ5saUFVFW13Qp2FA5JMtrI87w76/i8Vv1Gs93SuAtbTZa2vvOq6pjUaxJRFF1r62OTqp7d09OzT6euCoXCESSPtXQI4LFFixY9YNngtsAhKQYLANcUi8XH6vjYVo1obOm934LinGtpjTbXjWgGBwf7VfU2S4U2l7S1tZ24L+MYYy4kmbY0/StXrVpl2xFshEPDCSbeWNwhIh+HOwxQDwxbkmdh2bJlmRaTZY+lTfCLUs9ZxIcC1NLY0777UigU5qvquy0dAtggItYbYJF8AQ4NI5eYYJ41xvxZe3v7WcVicWOdbatVU2dDFsYEgGDTpk29LSZOK9+nAZTrWoRx3rx5923ZsuXXJI+opVOPKwWcWCgUFsfHqV8Roih6h4j4ltJmt9o8BLAToQ2JCBymZQivWN9UdSLeTa8F8LCq/nRsbOz+4eHhrQ2ax0SLLmHZkjxne553CIBSS4QyOz49+JZkubauRLN69eoJ3/evJHmEhcnMMsacDeCfX+E/FQDvt7TbMiKysh6yTaVSQ8aY7ajTJcGXctA7EfZUL/upzpom/rOp7pm/+xV31AT2Pd20c2dO3fE6it08z+zgZ2Owo/tnFHcEnQQwDmAMOw5YbIu/f20g+aKqDorIgIiUjTGDtewptI9ouQuGsa6FFrukvh7AT1tBjplMJquqvZbk+HTdy8qLyPXGmEtJ2iiGd/6yZcu+snr16r3e3RUKhSONMVYOARhjVoVh+Mt6yHVkZGR9R0fHsE2imSIXY8yEqhYBrANQBFCOU3cbYqc8AmBMVcc9z5uIomjS87xIRKKJiQkjIoakklQRMSKiIyMjmPozVeXU7/fxfTXWud/9l6R6nqciohs3btRUKmXa29ujdDqta9as+R0pNqHDHW/F6t2qWgawFcBsC8MfD+CzrSBHETkUQHut/WBszPUnmlKpVPF9/wckL651+gzAqzdv3nwsgHv29t9FUXSxiKQttYK9ApYqAeyK4eHhbb7vF0Ukb2kuUNVnSH5TRH5SrVbXDQwMbIdDYoimFeedyWReiKJokORsC/7kqGw2WxgYGCi2gP683lIDuS2e5z3bkKS+iFyuqjXfNXIH9vpQQC6X6wbwbkvtAF5Mp9Pfr6euAHjaViSjqr+IougNpVLpy6VS6UlHMsmC53ljrTjv+I7eby3p/WwRObkFxEgAb7KUASnOmjWr3BCiKZVKv1TVVTaOOgM4ffHixb17KYj/ISKLLAn45nXr1g3VVVtIa/c2VPXrAwMDL8IhqRhr1Ymr6mMWbeq9mOF1zwqFwmIAh1v61vVfq1evnmjUMaWqrY/kJBdMTEycuRc/miL5AUuKHxljVtZbqMaYx2wdHxcR1yY62WjZyhCq+rClcQHguGw2e+RMlp8x5jSSXZb88YNAnUrQ7A4TExPfV9X1loa/8OXmls/nXw9L7QAA/KpSqTxcb5mKyNM27hXEyvg258sT7WzHbJ2+aoK5P66qVo6Vk0yLyEdmsPhEVd9jaV0MgMYSzdDQ0AsAbrLUffN1cV+Zl/q5D5J2Ooyq6koAUb1lGh+1/bUlmb69UCgscS490RFNSzLNwMBACOBJSx+zQfJc3/cPnImyy+Vyx5A82tIdwv7JycnVDSWaKYesqjU/lUUy9VLdN/v6+vYHcIalSgBDURTd3CiZkrzb0rhzoij6c+fPE000UYvO3QC426JNzQbwyZkoOJIfI+lZGvv+oaGhkYYTTblcfkRVH7J0KOBdhUJh/u7+vlqtXkxyjgXBAsBNg4OD6xslUxH5WXxJ0sbO7o983z/c+fREOozRFu5JA5J3WixvBZIX+L5/zEySWaFQWA5L/bfiNbntd36pwXONSFopny8iuSiK/qD75pIlS+YCuNiSQlbjuzMNw6xZs/5LVZ+2kUYg2Uny8wnQG4fdRzTjrTr5arW6SlWfs3VplWQbgH+ZQYU2aYz5exFps+QLh1Op1D1JIRoYY241xgxYUo6LscvRxPHx8XNEpM9STvLBMAwfaaQ846oIt1nc2Z0WBME5zq8nL6JBCx9xHhgY2E7yR7bGj6vEv2Hz5s0zIn2cy+XOIXm6xcvdd+98vaPhRFOpVIZJ3mApffaGXC73u1RPX19fO4CPWTT2lUhA+RKSN9pIn+0k23+M2147JATGmDEAI61YhmYnvbzOst6D5KWFQuG4ZpZTEAS+iPyLZR/0vZ3/XxJiJFfYyC+TzIjIRTuF1+eIyKstHQIYMMbcmgR5hmH4mKo+ausUjogsUdV/mAnOKZvNFnzf/6Tv+5cFQfCPQRCcsnTp0jnNNo8wDMdJbmtlso2/+a6ySbYkO40xK4MgaNbGaCkAXydprVSVMeb5rq6uuxJHNJVK5XEA99uIalT13O7u7tm9vb1dJP/WkvIBwI2VSmU4IcpUJXml5Z3dh4IgOK+ZHZPv+2d7nvdLEfknEXk/yU+TvGN0dPTRIAj+qVAoLGumoEZVN7V4YFcFcJnlqAkkDwRwdXd39+xmE1AQBP9A8h0271yRvOaZZ57ZmjiiwY7z/1YURESyHR0dn0qlUv9G8kBLdc0mPc+7MkkKNTk5eYOq2myGJgC+5vv+0c3okfL5/CdIfo9kLt6Q/O6XiBxA8pPGmIfz+fz3fN8/Hk1QhoRkzTc6nuc1VSXrOG0c1oFs3tLR0bEyTsc3y8bqEyQ/aZNkVHVEVa/YnbNIBDKZzI9UtWTpsuGnReQDFj98/aLO/eFfFvGF2GsspxHmk7zB9/3XNNmu7u8AfAmAtzudmCIcAF0AziN5dxAEd+VyudOTTDi13lioqkeyvZnWNgzDDap6me1vVbFfeVcURVf19vZ2JV0uvu9/nOS/Wo5kAODmcrn828QSzdq1azer6rW2lMJyeY7LkcAeJqr6NVXdZtnY8iR/2Ax3DIIg6AiC4GskP7O3+hD/HEme4HneD33fv6NQKByb0N38QI3Hm6+q1+Xz+Vc1E9l4nvdNi+WtdtX/s1Op1I29vb0LEyoO8X3/cyS/Ytvfq+qEiHxlT+mP5EhE5EpjTFPdBTDGlD3P+2ES3y3eWViNamJjK5C8PcnfbHK53EEAfkTyI9PZdOyUVjvZGHN3EARf6uvrm5e0Db0F8nqDqv48CIL3NotNFovFAQD/UY8TeLFOnJJOp3+azWaXJ0kOCxcu7A2C4Hsi8re2nxXL+pZisbgq8URTKpWeBPDzZjmiSRIkry8WixsTnE75V1sFB3fZ9c8HcE0QBF9JmAOWIAg+ICL3kjxhXyPb+N+3kfxEFEV3J6lSAsnQ0tr2APhuEARfaYY0UbwB/Koxpr9eZEPyNZ7n3eX7/oeQgPSq7/tvz2Qy95I8px7FVo0xo6r6+T0aYQJ15DI0CeKWxlcm+R3L5fJvVfUbdSJvkvy4Mea+IAjOTICxHeP7/m0kvw2gt9YdGEkeSfLOIAhelxSiMcZMWhz/4+l0+sfNkEqL7+d9ro4bOgCYLyLfCILg5kbJyPf9A4MguILkD0geVA+SiX3LynK5/Os9/kzSFKSnp2dWJpP5dXxXI9HRjKr+LAzDk5DwqrmLFi3qSaVSqwDk6ygbALjDGPPFSqVydz1lFJ+E+xjJs0lmbH8AVdXHPM87Nu722DAEQbCfqq4m2Wt5vi+o6p+Uy+Ubk6z3K1asSA8ODv5URN5cT18Sy2gzgG+o6lfL5XJo+5l9fX37V6vVj5L84/jbWj2zJgMiclSpVKo0DdHEjuKzInJpExDN+WEYXtMM0Vcul7vY87yVDTA4VdV7RWTlxMTEHfFpuJojm80u8DzvJFW9iOQJJNN1nOuQ53mH9Pf3b2rwMovv+w+JyFF1mLtR1a9Vq9XP2VrTGun9kSJyH3acIGyEjxgiebWqXhmG4RO1fkQQBEcB+CMA55DsrrfPjOd4SRiG337Jn0uochwkIo8B6EwwyRQzmcxr1q5duxnNAS8Igh+SPLURyhjvfAZJ3mOMuUNVH5w3b97zcW22V4xly5ZlNm3atD/JowGcAuB4EcntlMaopy7cE4bhCUmIbIMguJLkhfVKmajq8wC+aoy5vlKplF6pTvb29rYD6MpkMrNJzgMw3xizoFqt/qxWVdB93/8bEfl8ozau8W35UQD3Avg+gHvK5fJzmMZJ1aVLl7aNjo4eQvIkAGcCODpui9Koed1ZLpdPx8u0qEjsV3ff928VkTOSGNXEAv6Xcrn812gi+L5/IMlfAuhupOwATBneWpJPAlitqs8BqKjqRgAjqVSqCgDVajWtql3xnZ0cgANIvkpVDwWwREQ66k0uu9GFD5XL5W8lZI3/VET+rd5ka4zZAOARko8CeE5VN6jqhOd5nqp2AZgHYIGq9pLsiXVwP1WdR3JWvMbtjBUkiqIj44oh+4xly5ZlNm/efJuInNhIf7LThmtEVZ8iucoY8ziANZ7nDURRtMUYM0ZSoyjyOjo6OiYnJ+cD8EXkYFU9kuRyAEtJphup9zHWAzg2DMM1Lzv3BIe87/A87wdJJBpVHSd5lIVQuB5y/SPP8y5Pglx3PaAQv5NR1UmSUfxnXmxUsoefb3Rk++z27dtfu2HDhi0JIZpjSD6ABhz0mc6Bkz1cmB31PO+wYrG4tlbv1tvbuziVSt0nIn7SdD8+Oj8JYJTkRBzpeADaAHTu2gk4Ke+vqheEYfjdvfn5xPYVEZG7VPWZpB11jt/nP8MwfBJNiEqlstIYc3kS5Lpr6ZeppY97f3TGRtY2pad7+PmGTgHAJ5NCMgAwNjb2JIByEtZzb37taRrY0V+nZhgaGlpH8o9VNRH39HaVAcl03IxxAYCFccQ3C4AkTe/jCPbf95ZkEk00YRiOkrw6ie+mqpehifuzd3R0fMIY86tWLilfI2P7ehiGtyTpvYaHh7eq6n1NvrZjsNBbJwzDOwH8ldP7fY5k7iL5ilpbS8IndY3NEirTdC7rxsfH72hmZVmzZs0WVb3AGFNxRjdtY/t5tVpN6je6m5pZtgC2x/11bGxg/11V/4/T+2n7vydF5MIwDF9RxJlooikWi+sA3JEkpSB57fDw8NZmV5pKpfIsgPNtVw2YoSTzuOd57x0aGhpJ4ju2tbXdparFZnWmJEfCMJywNX4Yhp9W1W86snnFet9vjHl3XOLnFaEZer9fpglJyBtjxjzPu3qmKE+5XL4HwIVxG2CHvTO230xOTp7V398/mNT3jAvUXtnEoh7ByxyX3VdTDsPwfxpjLnNks9eRTNkYc9bAwMDT0xkj8UTT3t5+j6o+2WiFiOua3d3f3//UTFKiMAxvMca8Dy3eBngvSeYhY8zpQ0NDzzfB+9algrEN1CnKrpbL5Q8D+JrT+5ePZDzPO6NSqUy7FUriiWbNmjXjNrtFvkIDuGwmKlO5XP6+qp6tquud0e3R2H5gjHn7NC4lNmoDUQbwz824niTrdYqvWiqV/qcx5nNO73ev9wCeqFarpxWLxUf3ZaxmSJ3BGHOdMWZTg0PH56rV6o9nqlKVy+U7ROTUuFaWs7LfN7Yvtre3n5OgVt17Bc/zvmqMaboTaKpaz+PiWi6X/7eqXuKi+j/YXN0N4OTBwcHV+zpeUxBNpVIpkfxRg5XgmqR+/K0VisXiKs/z3qqqN7W6wcXzX6+qF5RKpb9cs2bNeLPNob+/f0xV/1hVB5ppPesY0ewcAX4bwGmq+qzTfcIYc/n4+Pg7X6pQ5owjmniXc5mqmgY9e7uqfqcVlKy/v38wDMOzoyj6CwBbWtHopu4KeJ735ldyKS2hm7RnVfV8Vd3cLGsZVz6uO8IwvFdEjlfV61tY70cB/EW5XP7A+vXra3a1pGmIplwuP6Cqj9dbAeLn3RUfB24VmEql8iVjzPHx5Sy0guHFhrYBwF/09vaeNlMOfpTL5Z8DOE9VNzbJOm5qYFQ/EIbhuXEqbbBVCCfW/SdJnloqlb5U6/GliWQxSfKKBi3CZWhBVCqVx8IwPFVVL1HV52eq0e1U7PAGY8xxpVLpS6tWrZqcSXMMw/DOKIre0Qzr2IjU2W7k9W0ROc4Y810AOsN1PwLwNWPMm8Mw/E8bz2kmooHneTeo6nA9F0FVn61Wq3ehdVENw/Dbk5OTRxtjPgvghZlidFORmqr+UlVPD8PwnOneE2gGDAwMPCAib1XVRLdLb1TqbDfRzdpyuXwBgFNV9YGZFNlPzSUuRXVaqVT6E5uHXbxmEs7mzZu3zZ49+yARWV5Htv+/lUqllYkGADAyMjKydevWe7q6uq4XkRFVPUBE5jTp8dkpgnlUVf967ty5f7V27dqnW2EdN2/evHHOnDnXq2qa5NG7VgZOyNpctmXLlueS8k5btmx5bsuWLVfPmTPnKZIFkn4TV12Y0v3nAFxK8uNhGD5j/bnNJqhcLnesiNxfp3cfIXl4qVR6Dg6/h97e3oXpdPocABcDWLFT++ZEG5mqGlW9T0S+LiK3Nrr9ciPh+/6pJL9M8uAkrZ0x5thKpfLLJMos7m1zOskPAzi+zp1c93XTDFVdrarfInl1GIYb6vb8JrSPlO/7t5M8Ot6VpQGkdhbmNEL1PTmlm8IwfJejlT0j7st+HMnzAJxCsu+l5NooAzPGlEneRvLqUqn0AJq4+nYtsWjRoh7P8y4l+UGSbQlYs0hVl5fL5d8kXXZBELwWwPkAziC5OEl6vwu5bAFwj6peXa1W72jENY2mjP96enpmZTKZeSTbAXQA6FDVTuzoYdJFchaALlWdBWDWVAe/+PddUz839W8BtANoU9U2kpmYwERVzyiXy7c7d7R36Ovrm1etVo8F8HaSbwZw0FQnwHoZ4E7GBQBFVb0PwK3GmJ8PDAy86FZpj9HNMSQ/BeC0RnZvVNVxEXlVM2URlixZMnd8fPwNJN8B4C3Y0QFTGqH3Oz1vCMDDJG8n+ZNaNpFrGaKpIbylS5emNm7cmGlra8ukUqlMTDod1Wq1LZvNPjHTTh/VC1O9zQEcQ/JYAEcA2B/Abr/rvBJj3MO/rwIYiI9o/kJV70ulUo/39/dvcqux98jn80cBOM8Y8zYAS6daZVsiFcSRZaSqVZKTqvpiJpN5/bp164aaUX7ZbLbT87xXqepxsd6/GkA+3uDudUblpXR913+rqltIllX1GRH5VRRFDxljfjM4OJiYWneu3oJDvZDK5XJZkgcAOJjkQaq6mGROVbvj7oIdcVTp4fdPREYxkYxjx3ezTQBeAFACsEZVnwLwbFtb2/Nr167d7ES971ixYkV6YGBgcbxWSwDk8N9dH9tJpmL/odjRfrtKchLARNzFcgzAdgDbSW7HjorMozv9/2j8a0xVx1R13BgzbowZGxoaWo8Zktrs6+trN8b4AJYAWGqMOYBkXlV7Sc6Psy5tsTyndN6oakSyqqoTAMZIjsSn8TaQHARQIVmMoqgIIOzs7HwhydUrHNE4NBxBEHREUTSV0uwUkTbP81KqSpLGGDOpqmMkt3ueN7JgwYIRF2k6zISMSjabbevo6EiPjY2lVJVxFKPpdDratm1b1NHRUQ3DcBJA1YnLwcHBwcHBwcHBwcHBwcHBwcFhxuH/A4jJmgz0tgfRAAAAAElFTkSuQmCC"><style>:root{--ink:#272b28;--muted:#616760;--faint:#737971;--paper:#fff;--bg:#f7f8f5;--soft:#f0f2ed;--line:#dfe3db;--dark:#293b30;--good:#365b43;--good-bg:#edf3ed;--warn:#79501b;--warn-bg:#fcf4e7;--bad:#a0342c;--bad-bg:#fff0ee;--radius:10px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;color-scheme:light;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-size:15px;line-height:1.55}button,input,select,textarea{font:inherit;color:inherit}button,a,input,select,textarea{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.45}a{color:inherit;text-underline-offset:3px}button,input,select,textarea,summary{outline-offset:4px}button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid #637a68}button{border:0;background:none}p,h1,h2,h3,h4,dl,dd{margin:0}h1,h2,h3{line-height:1.25;letter-spacing:-.025em}h2{font-size:25px;font-weight:600}h3{font-size:17px;font-weight:600}p{line-height:1.65}small,.small{font-size:13px;line-height:1.6}.muted{color:var(--muted)}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.94em;font-variant-numeric:tabular-nums}.serif{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-.035em}.icon{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;vertical-align:middle}.row{display:flex;align-items:center;gap:12px}.wrap{flex-wrap:wrap}.between{justify-content:space-between}.grow{flex:1;min-width:0}.stack{display:flex;flex-direction:column;gap:14px}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.skip{position:fixed;left:16px;top:-100px;padding:12px 18px;background:var(--paper);z-index:100}.skip:focus{top:10px}svg{flex-shrink:0}[hidden]{display:none!important}
+.demo-bar{background:#ebeee7;border-bottom:1px solid #dce0d6;min-height:36px;font-size:12px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:8px 28px;color:#4d554b}.demo-bar strong{font-size:12px;font-weight:650}.demo-bar button{font-size:12px;text-decoration:underline;text-underline-offset:3px;min-height:28px}.demo-dot{height:6px;width:6px;border-radius:50%;background:#62735f;display:inline-block;margin-right:8px}.topbar{height:70px;padding:0 40px;background:var(--paper);border-bottom:1px solid var(--line);display:flex;gap:32px;align-items:center}.logo{width:87px;height:31px;object-fit:contain;display:block}.brand-btn{padding:6px 0;min-height:44px}.topbar .separator{height:23px;width:1px;background:var(--line)}.office-name{font-weight:550;font-size:14px}.top-nav{margin-left:10px;display:flex;gap:22px;align-self:stretch}.top-nav button{padding:0 3px;border-bottom:2px solid transparent;font-size:14px;color:var(--muted)}.top-nav button.active{border-color:var(--ink);color:var(--ink)}.persona{margin-left:auto;display:flex;align-items:center;gap:10px}.avatar{width:34px;height:34px;background:#e9ece5;color:#3e4c3f;border:1px solid #d8dfd3;border-radius:50%;display:grid;place-items:center;font-weight:600;font-size:12px;flex-shrink:0}.persona select{border:0;background:transparent;max-width:205px;font-size:14px;padding:10px 25px 10px 2px;cursor:pointer}.persona-label{font-size:11px;color:var(--muted);display:block;margin-bottom:-7px}.workspace{max-width:1296px;margin:0 auto;padding:21px 40px 58px}.crumb{display:flex;align-items:center;gap:9px;font-size:13px;color:var(--muted);margin-bottom:14px}.crumb button{padding:4px 0;min-height:30px;color:var(--muted)}.crumb .icon{width:13px;height:13px;color:#969c92}.page-heading{display:flex;justify-content:space-between;gap:24px;align-items:flex-start;margin-bottom:20px}.page-heading h1{font-size:38px;line-height:1.15;margin-bottom:10px}.page-heading p{font-size:14px;color:var(--muted)}.page-heading .meta-dot{padding:0 9px;color:#9a9f94}.page-heading .badge{margin-top:7px}.badge{font-size:12px;border:1px solid var(--line);background:var(--paper);border-radius:6px;display:inline-flex;align-items:center;gap:7px;padding:5px 9px;font-weight:550;line-height:1.5;white-space:normal}.badge:before{content:'';width:5px;height:5px;border-radius:50%;background:#808a7c;flex-shrink:0}.badge.good{color:var(--good);background:var(--good-bg);border-color:#d2e0cf}.badge.good:before{background:var(--good)}.badge.warn{color:var(--warn);background:var(--warn-bg);border-color:#ebd7b4}.badge.warn:before{background:var(--warn)}.view-tabs{display:flex;gap:29px;border-bottom:1px solid var(--line);margin-bottom:23px;min-height:42px}.view-tabs button{font-size:14px;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px;padding:9px 0 14px;display:flex;align-items:center;gap:7px}.view-tabs button.active{color:var(--ink);font-weight:600;border-color:var(--ink)}.view-tabs .tab-number{font-size:11px;min-width:18px;text-align:center;border:1px solid var(--line);border-radius:4px;padding:0 4px}.tab-actions{margin-left:auto;display:flex;gap:14px}.view-tabs .tab-actions button{font-size:13px;border:0}.progress{display:flex;gap:22px;align-items:center;border-bottom:1px solid var(--line);padding:5px 0 18px;margin-bottom:24px;font-size:13px;color:var(--muted)}.progress .step{display:flex;align-items:center;gap:8px}.step-num{width:21px;height:21px;display:grid;place-items:center;border:1px solid #b9c2b3;border-radius:50%;font-size:11px}.step.current{color:var(--ink);font-weight:600}.step.current .step-num{background:var(--dark);color:#fff;border-color:var(--dark)}.step.done .step-num{background:#e8eee3;color:var(--good);border-color:#d7e0d0}.step .icon{width:12px;height:12px}.progress>.icon{color:#a7afa0;width:15px}
+.btn{border-radius:7px;min-height:44px;padding:10px 16px;font-size:14px;font-weight:550;display:inline-flex;align-items:center;justify-content:center;gap:9px;line-height:1.4;border:1px solid transparent;transition:background .13s,border-color .13s;max-width:100%;text-align:center}.btn.primary{color:#fff;background:var(--dark);border-color:var(--dark)}.btn.primary:hover{background:#3b5142;border-color:#3b5142}.btn.secondary{background:var(--paper);border-color:#ccd2c6}.btn.secondary:hover{background:#f0f3ec;border-color:#aeb9a5}.btn.tertiary{border-color:transparent;background:transparent;color:var(--muted);padding:10px 6px}.btn.tertiary:hover{background:#edf0e8}.btn.danger{color:var(--bad);border-color:#dfb4aa;background:#fff}.btn.full{width:100%}.btn.compact{font-size:13px;min-height:38px;padding:8px 12px}.icon-btn{width:40px;height:40px;display:inline-flex;justify-content:center;align-items:center;border:1px solid var(--line);border-radius:7px;background:var(--paper);flex-shrink:0}.icon-btn:hover{background:var(--soft)}.text-link{min-height:35px;color:var(--dark);font-size:13px;text-decoration:underline;text-underline-offset:4px;padding:5px 0}.button-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.block-space{margin-top:22px}.note{border-left:2px solid #b9c5b0;padding:2px 0 2px 13px;color:var(--muted);font-size:13px;line-height:1.65}.notice{padding:16px 18px;border:1px solid var(--line);border-radius:8px;background:var(--paper);display:flex;align-items:flex-start;gap:12px;margin-bottom:22px}.notice .icon{margin-top:2px}.notice strong{font-size:14px;display:block;font-weight:600}.notice p{font-size:13px;margin-top:3px;color:var(--muted)}.notice.warn{background:var(--warn-bg);border-color:#e8d7b8;color:var(--warn)}.notice.warn p{color:#715735}.notice.good{background:var(--good-bg);border-color:#d4dfce;color:var(--good)}.notice.error{background:var(--bad-bg);border-color:#e5c1b8;color:var(--bad)}.notice .btn{margin-left:auto;flex-shrink:0}.banner-error{margin:18px auto 0;max-width:1216px}.entry-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(310px,1fr);gap:56px}.section-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}.section-title p{font-size:13px;color:var(--muted)}.documents{border-top:1px solid var(--line)}.doc-row{width:100%;display:flex;align-items:center;gap:16px;text-align:left;padding:20px 0;border-bottom:1px solid var(--line)}.doc-row:hover .doc-title{text-decoration:underline;text-underline-offset:4px}.file-icon{width:43px;height:49px;border:1px solid #d5dbce;border-radius:6px;background:var(--paper);display:grid;place-items:center;color:#6b7862;flex-shrink:0}.doc-row .doc-title{font-size:15px;font-weight:550}.doc-row p{font-size:13px;color:var(--muted);margin-top:3px}.doc-row .right{margin-left:auto;font-size:12px;color:var(--muted);text-align:right;max-width:180px}.prepare-box{padding:28px;background:#eef1e9;border:1px solid #dce2d4;border-radius:10px;align-self:start}.prepare-box h2{font-size:24px;margin-bottom:13px}.prepare-box>p{color:#576151;font-size:14px;margin-bottom:22px}.mini-steps{margin-bottom:24px;display:flex;flex-direction:column;gap:13px;font-size:14px}.mini-steps div{display:flex;gap:11px;align-items:center}.mini-steps .icon{width:16px;height:16px;color:#53674b}.scope-line{border-top:1px solid var(--line);padding-top:18px;margin-top:28px;display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--muted);font-size:13px}.scope-line button{flex-shrink:0}.spinner{display:inline-block;width:20px;height:20px;border:2px solid #cbd3c4;border-top-color:var(--dark);border-radius:50%;animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.prepare-work{padding:36px;text-align:center}.prepare-work h2{margin:18px 0 10px}
+.review-layout{display:grid;grid-template-columns:minmax(330px,.92fr) minmax(420px,1.15fr);grid-template-rows:auto 1fr;gap:21px 45px;align-items:start}.review-summary{grid-column:1;grid-row:1}.review-summary h2{margin:0 0 12px;max-width:420px}.review-summary>.intro{color:var(--muted);font-size:14px;margin-bottom:23px}.review-decision{grid-column:1;grid-row:2}.source-panel{grid-column:2;grid-row:1/span 2;min-width:0;border:1px solid #dce0d6;border-radius:10px;background:#ecefe7;overflow:hidden}.facts{margin:0 0 24px}.fact{display:flex;gap:20px;padding:9px 0;align-items:baseline;border-bottom:1px solid #e5e8e0;font-size:14px}.fact dt{color:var(--muted);flex:0 0 132px}.fact dd{margin-left:auto;text-align:right;overflow-wrap:anywhere}.fact:last-child{border:0}.fact .text-link{min-height:24px;font-size:12px;margin-left:9px;padding:0}.evidence-list{border-top:1px solid var(--line);margin-top:22px}.evidence-item{display:flex;gap:11px;padding:13px 0;border-bottom:1px solid var(--line);align-items:flex-start;text-align:left;width:100%}.evidence-item>.icon{width:16px;height:16px;margin-top:3px;color:#65745d}.evidence-item strong{font-size:13px;font-weight:550;display:block}.evidence-item p{font-size:12px;color:var(--muted);margin-top:2px}.evidence-item .right{margin-left:auto;font-size:12px;color:var(--muted);flex-shrink:0;padding-top:2px}.source-toolbar{padding:12px 15px;display:flex;gap:10px;align-items:center;border-bottom:1px solid #d9dfd0;background:#f4f6f0}.source-toolbar select{max-width:100%;flex:1;min-width:0;background:transparent;border:0;font-size:13px;padding:8px 22px 8px 0;cursor:pointer;font-weight:550}.source-toolbar .icon-btn{width:33px;height:33px;min-width:33px;background:transparent;border:0}.source-viewport{padding:23px 24px 18px;overflow:auto;max-height:510px;scrollbar-width:thin}.document-paper{background:#fff;min-height:470px;padding:30px 28px 25px;box-shadow:0 1px 4px #34422214;border:1px solid #dfe3d9;position:relative}.paper-title{font-size:17px;font-weight:600;letter-spacing:.04em;margin-bottom:5px}.paper-subtitle{font-size:12px;color:var(--muted);border-bottom:1px solid #dde3d7;padding-bottom:17px;margin-bottom:20px}.source-line{font-size:13px;line-height:1.8;white-space:pre-wrap;overflow-wrap:anywhere;min-height:12px}.source-line.marked{background:#edf2e6;box-shadow:-5px 0 0 #ccd8ba;padding:2px 5px;margin:3px -5px}.source-line.problem{background:#fff2d9;box-shadow:-5px 0 0 #d6b879}.source-line.specimen{font-size:10px;letter-spacing:.055em;color:#757c6e;margin-top:24px;padding-top:12px;border-top:1px solid #e3e7de}.source-foot{padding:12px 17px 15px;font-size:12px;color:var(--muted);border-top:1px solid #dbe1d1;background:#f4f6f0}.source-foot .row{justify-content:space-between;margin-bottom:6px}.source-foot button{font-size:12px;min-height:28px}.source-foot p{font-size:12px;line-height:1.6}.decision-actions{border-top:1px solid var(--line);padding-top:21px;margin-top:1px}.decision-actions .button-row{margin-bottom:13px}.decision-actions .small{color:var(--muted)}.private-note{margin-top:22px;border-top:1px solid var(--line);padding-top:15px}.private-note summary{font-size:13px;color:var(--muted);cursor:pointer;min-height:34px;display:list-item}.private-note textarea{margin-top:10px;min-height:85px;font-size:13px}.private-note .button-row{justify-content:space-between;margin-top:10px}.private-note p{font-size:12px;color:var(--muted)}.question-box{border-left:2px solid #c8d1be;padding:1px 0 1px 17px;margin:17px 0 23px}.question-box h3{font-size:12px;font-weight:550;color:var(--muted);letter-spacing:0;margin-bottom:9px}.question-box p{font-size:15px;line-height:1.65}.responsibility{display:flex;align-items:center;gap:11px;margin:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0}.responsibility strong{font-size:13px;font-weight:550;display:block}.responsibility p{font-size:12px;color:var(--muted)}.subtle-panel{border:1px solid var(--line);background:#f1f3ed;border-radius:8px;padding:16px 18px}.subtle-panel p{font-size:13px;color:var(--muted)}.resolved-line{display:flex;gap:8px;font-size:13px;color:var(--good);margin-bottom:16px}.resolved-line .icon{height:16px;width:16px;margin-top:3px}
+.success-layout{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(280px,.8fr);gap:60px;align-items:start}.success-main{padding:10px 0}.success-symbol{height:47px;width:47px;border:1px solid #d4dfcc;border-radius:50%;background:#e8f0e2;color:var(--good);display:grid;place-items:center;margin-bottom:21px}.success-main h2{font-size:29px;margin-bottom:14px}.success-main>.intro{max-width:560px;color:var(--muted);font-size:15px}.record-tile{display:flex;gap:16px;align-items:center;margin:26px 0 22px;padding:20px;border:1px solid var(--line);border-radius:9px;background:var(--paper)}.record-tile h3{font-size:15px}.record-tile p{font-size:12px;color:var(--muted);margin-top:4px}.record-tile .file-icon{background:#f4f6ef}.receipt-lines{border-top:1px solid var(--line);margin-top:29px}.receipt-line{padding:15px 0;display:flex;gap:12px;border-bottom:1px solid var(--line)}.receipt-line>.icon{margin-top:3px;width:17px;height:17px;color:#63745a}.receipt-line strong{font-size:13px;display:block}.receipt-line p{font-size:13px;color:var(--muted);margin-top:3px}.boundary-aside{border-left:1px solid var(--line);padding-left:28px;margin-top:12px}.boundary-aside h3{font-size:16px;margin-bottom:12px}.boundary-aside p{font-size:13px;color:var(--muted);margin-bottom:18px}.boundary-aside .fact{font-size:12px}.boundary-aside .fact dt{flex-basis:100px}.list-tools{display:flex;justify-content:space-between;gap:18px;align-items:center;margin-bottom:24px}.filter-set{display:flex;padding:3px;gap:3px;background:#e9ede3;border-radius:7px}.filter-set button{padding:8px 15px;min-height:38px;font-size:13px;border-radius:5px;color:var(--muted)}.filter-set button.active{background:white;color:var(--ink);box-shadow:0 1px 3px #24331b14}.search{max-width:265px;display:flex;gap:8px;align-items:center;border:1px solid #d5dbcb;border-radius:7px;background:var(--paper);padding:0 11px}.search input{border:0;padding:10px 0;background:transparent;min-width:0;width:100%;font-size:13px}.files-table{border-top:1px solid var(--line)}.file-list-head{display:grid;grid-template-columns:1.1fr 1.3fr .6fr 35px;gap:24px;color:var(--muted);font-size:12px;border-bottom:1px solid var(--line);padding:12px 16px}.file-list-row{display:grid;grid-template-columns:1.1fr 1.3fr .6fr 35px;gap:24px;align-items:center;width:100%;padding:24px 16px;text-align:left;border-bottom:1px solid var(--line)}.file-list-row:hover{background:#eef2e8}.file-list-row .address{font-family:Georgia,serif;font-size:21px;display:block;line-height:1.3;margin-bottom:5px}.file-list-row p{font-size:12px;color:var(--muted)}.file-list-row .status-title{font-size:14px;display:block;margin-bottom:5px}.empty{padding:55px 25px;text-align:center;color:var(--muted);font-size:14px}.empty h3{color:var(--ink);margin-bottom:9px}.timeline{max-width:840px}.timeline-item{display:flex;gap:21px;position:relative;padding-bottom:26px}.timeline-item:not(:last-child):before{content:'';position:absolute;left:13px;top:30px;bottom:0;width:1px;background:var(--line)}.timeline-dot{width:28px;height:28px;border-radius:50%;border:1px solid var(--line);background:var(--paper);display:grid;place-items:center;flex-shrink:0;color:#66715d;z-index:1}.timeline-dot .icon{width:13px;height:13px}.timeline-item h3{font-size:14px;font-weight:550;margin:3px 0 4px}.timeline-item p{font-size:13px;color:var(--muted);max-width:680px}.timeline-item time{font-size:11px;color:var(--muted)}
+.participant{max-width:580px;margin:0 auto;padding:32px 26px 70px}.participant .office-lockup{display:flex;align-items:center;gap:12px;font-size:15px;margin-bottom:26px}.office-mark{width:36px;height:40px;border:1px solid #d3ddc9;border-radius:6px;display:grid;place-items:center;color:#657759;background:#eef3e8}.participant .property-context{border-bottom:1px solid var(--line);padding-bottom:22px;margin-bottom:27px}.participant .property-context h1{font-size:28px;margin-bottom:8px}.participant .property-context p{font-size:13px;color:var(--muted)}.participant h2{font-size:26px;margin-bottom:13px}.participant .intro{font-size:15px;color:var(--muted);margin-bottom:24px}.participant .question-box p{font-size:15px}.participant .receipt{background:white;border:1px solid var(--line);border-radius:10px;padding:26px;margin-top:20px}.participant .receipt h2{font-size:24px}.participant .receipt p{font-size:14px;color:var(--muted);margin-bottom:15px}.participant .sample-picker{margin:21px 0}.sample-options{display:grid;gap:10px}.sample-option{padding:15px 17px;border:1px solid var(--line);border-radius:8px;background:white;display:flex;gap:13px;align-items:flex-start;text-align:left;cursor:pointer}.sample-option:has(input:checked){border-color:#6f865e;background:#f1f5ea;box-shadow:0 0 0 1px #6f865e}.sample-option input{margin-top:4px;flex-shrink:0;accent-color:var(--dark)}.sample-option strong{font-size:14px;font-weight:550;display:block}.sample-option small{font-size:12px;color:var(--muted)}.attachment-preview{border:1px solid var(--line);padding:18px 20px;background:white;border-radius:8px;margin:19px 0}.attachment-preview .document-paper{border:0;padding:12px 0;box-shadow:none;min-height:0}.attachment-preview .source-line{font-size:13px}.participant-help{margin-top:27px;border-top:1px solid var(--line);padding-top:20px}.participant-help p{font-size:13px;color:var(--muted)}.help-answer{padding:20px;border:1px solid #d4dfcb;background:#f0f5e9;border-radius:8px;margin-bottom:24px}.help-answer h3{font-size:14px;margin-bottom:10px}.help-answer p{font-size:14px;white-space:pre-wrap}.help-answer .btn{margin-top:17px}.message{border:1px solid var(--line);border-radius:8px;padding:17px 19px;margin-bottom:12px;background:white}.message .who{font-size:12px;color:var(--muted);margin-bottom:8px}.message p{font-size:14px;white-space:pre-wrap}.service-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(300px,.85fr);gap:45px}.service-grid h2{margin-bottom:13px}.service-grid>.intro{color:var(--muted)}.service-request{border:1px solid var(--line);background:var(--paper);border-radius:10px;padding:24px;margin-top:22px}.service-request h3{margin-bottom:13px}.service-request blockquote{border-left:2px solid #cad6be;margin:15px 0 23px;padding-left:17px;font-size:15px}.reply-history{margin-top:22px}.reply-entry{font-size:13px;border-bottom:1px solid var(--line);padding:13px 0}.reply-entry small{color:var(--muted);display:block}.change-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin:22px 0}.change-card{border:1px solid var(--line);border-radius:8px;background:white;padding:20px}.change-card.new{border-color:#e2cda8;background:#fffbf3}.change-card h3{font-size:14px;margin-bottom:15px}.change-card p{font-size:13px;color:var(--muted);margin-top:8px}.report-card{border:1px solid #e3d2b5;background:#fffaf1;padding:22px;border-radius:9px;margin-bottom:18px}.report-card h3{font-size:17px;margin-bottom:10px}.report-card p{font-size:14px;margin-bottom:14px}.report-card small{color:var(--muted);display:block;margin-bottom:16px}
+.bottom{border-top:1px solid var(--line);padding:17px 40px;font-size:12px;color:var(--muted);background:#f7f8f5;display:flex;gap:20px;justify-content:space-between;align-items:center}.bottom button{font-size:12px;text-decoration:underline;text-underline-offset:4px;min-height:32px}.storage-mode{display:inline-flex;align-items:center;gap:7px}.storage-mode .icon{height:13px;width:13px}.footer-scope{color:#747a6d}.toast{position:fixed;right:26px;bottom:25px;max-width:450px;background:#2a362e;color:white;padding:15px 20px;border-radius:9px;box-shadow:0 8px 24px #23351a25;z-index:80;font-size:14px;display:flex;gap:12px;align-items:center}.toast .icon{width:17px;height:17px}.toast button{color:inherit;margin-left:8px;display:grid;place-items:center}.toast.error{background:#77342c}
+dialog{padding:0;border:1px solid #d6ddce;border-radius:13px;background:var(--bg);color:var(--ink);width:min(600px,calc(100% - 32px));max-height:calc(100dvh - 48px);box-shadow:0 28px 100px #1e2a2230;overflow:auto}dialog::backdrop{background:#202b2466;backdrop-filter:blur(2px)}dialog.wide{width:min(920px,calc(100% - 32px))}.dialog-top{display:flex;justify-content:space-between;gap:22px;padding:25px 27px 17px;align-items:flex-start;border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:4}.dialog-top h2{font-size:23px;margin-top:5px}.dialog-top p{font-size:13px;color:var(--muted);margin-top:8px}.dialog-body{padding:25px 28px 28px}.dialog-body>.intro{font-size:14px;color:var(--muted);margin-bottom:22px}.dialog-footer{display:flex;align-items:center;justify-content:flex-end;gap:12px;padding:18px 28px;border-top:1px solid var(--line);background:var(--paper);position:sticky;bottom:0;z-index:3}.dialog-body label.field-label{font-size:13px;font-weight:550;display:block;margin:19px 0 7px}.dialog-body label.field-label:first-child{margin-top:0}.form-error{color:var(--bad);background:var(--bad-bg);border:1px solid #e7c8bf;border-radius:7px;font-size:14px;line-height:1.6;padding:12px 15px;margin:0 0 18px}.form-error:empty{display:none}.control,input[type=text],textarea,select.control{border:1px solid #cbd3c2;border-radius:7px;background:#fff;width:100%;padding:11px 13px;min-height:44px}textarea{resize:vertical;line-height:1.6;min-height:100px}input[type=checkbox],input[type=radio]{accent-color:var(--dark);width:17px;height:17px}.check-label{display:flex;gap:11px;align-items:flex-start;cursor:pointer;font-size:14px;line-height:1.55;margin:18px 0}.check-label input{margin:3px 0 0;flex-shrink:0}.radio-choices{display:grid;gap:10px;margin:20px 0}.radio-choices label{display:flex;gap:12px;padding:16px;border:1px solid var(--line);border-radius:8px;background:var(--paper);cursor:pointer}.radio-choices label:has(input:checked){background:#eef4e7;border-color:#7b8e6a}.radio-choices input{margin-top:3px;flex-shrink:0}.radio-choices strong{font-size:14px;display:block;font-weight:550}.radio-choices small{font-size:12px;color:var(--muted);display:block;margin-top:4px}.dialog-body .facts{padding:14px 18px;background:white;border:1px solid var(--line);border-radius:8px;margin-bottom:22px}.dialog-body .fact{font-size:13px}.dialog-body .fact dt{flex-basis:110px}.dialog-body fieldset{border:0;padding:0;margin:0}.dialog-body legend{font-size:14px;font-weight:550}.original-body{background:#e9ede1;padding:24px 35px}.original-body .document-paper{max-width:650px;margin:auto;padding:43px}.original-body .source-line{font-size:15px}.demo-control-group{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:21px}.demo-control-group h3{margin-bottom:9px;font-size:15px}.demo-control-group p{font-size:13px;color:var(--muted);margin-bottom:13px}.demo-control-group .button-row{gap:9px}.demo-controls-note{font-size:13px;color:var(--muted)}.issued-record{background:white;max-width:800px;margin:auto;padding:30px 35px;font-size:14px}.issued-record .record-brand{width:75px;height:auto;display:block;margin-bottom:25px}.issued-record h1{font-family:Georgia,serif;font-weight:400;font-size:32px;line-height:1.2;margin-bottom:10px}.issued-record h2{font-size:18px;margin:25px 0 12px}.issued-record h3{font-size:14px;margin:18px 0 10px}.issued-record p{font-size:13px;margin-bottom:10px;line-height:1.7}.issued-record .record-rule{border-top:1px solid #dce2d6;margin:22px 0}.issued-record table{border-collapse:collapse;width:100%;font-size:13px;margin-bottom:12px}.issued-record th,.issued-record td{padding:9px 0;border-bottom:1px solid #e2e6de;text-align:left;vertical-align:top}.issued-record th{width:38%;font-weight:400;color:#636b5b;padding-right:16px}.issued-record .record-specimen{font-size:11px;border:1px solid #cfd8c7;padding:9px 12px;display:inline-block;letter-spacing:.03em;margin-bottom:20px;color:#5e6e52}.issued-record details{font-size:12px;border-top:1px solid #e2e6de;padding-top:12px;margin-top:12px}.issued-record summary{cursor:pointer;min-height:30px}.issued-record pre{white-space:pre-wrap;font:12px/1.7 ui-monospace,monospace;overflow-wrap:anywhere;background:#f4f6f0;padding:15px}.source-refs{font-size:13px;color:var(--muted);margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}.source-refs p{margin-bottom:8px}
+@media(min-width:1450px){.workspace{padding-top:38px}.source-viewport{max-height:550px}.review-layout{gap:25px 56px}.review-summary h2{font-size:27px}.document-paper{padding:35px 32px}}
+@media(max-width:1080px){.workspace{padding:27px 26px 60px}.topbar{padding:0 26px;gap:22px}.review-layout{grid-template-columns:minmax(290px,.9fr) minmax(370px,1fr);gap:24px}.source-viewport{padding:16px}.document-paper{padding:25px 20px}.entry-grid{gap:28px}.fact dt{flex-basis:115px}.page-heading h1{font-size:34px}.success-layout{gap:30px}.office-name{font-size:13px}.top-nav{gap:13px;margin-left:0}.demo-bar{padding:8px 24px}}
+@media(max-width:820px){.topbar{gap:17px;height:72px}.office-name{display:none}.topbar .separator{display:none}.top-nav{gap:19px}.persona select{font-size:13px;max-width:175px}.demo-explanation{display:none}.review-layout{display:flex;flex-direction:column;gap:24px}.review-summary,.review-decision,.source-panel{width:100%}.review-summary{order:0}.source-panel{order:1}.review-decision{order:2}.review-summary h2{max-width:none}.source-viewport{max-height:430px;padding:22px}.document-paper{max-width:600px;margin:auto;padding:27px 30px}.entry-grid{grid-template-columns:1fr;gap:30px}.prepare-box{order:-1}.success-layout,.service-grid{grid-template-columns:1fr;gap:30px}.boundary-aside{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:22px}.file-list-head,.file-list-row{grid-template-columns:1fr 1.15fr 23px}.file-list-head .owner,.file-list-row .owner{display:none}.bottom{padding:15px 26px}.footer-scope{display:none}.page-heading{gap:16px}.progress{gap:15px}.source-foot p{font-size:12px}.demo-bar .row{gap:8px}}
+@media(max-width:540px){body{font-size:15px}.demo-bar{padding:7px 16px;gap:8px}.demo-bar button{font-size:12px}.topbar{height:69px;padding:0 19px;gap:20px}.logo{width:70px;height:29px}.top-nav{display:none}.persona{gap:7px}.persona select{max-width:164px;padding-right:17px}.avatar{width:31px;height:31px;font-size:10px}.workspace{padding:21px 19px 45px}.crumb{margin-bottom:20px}.page-heading{flex-direction:column;gap:10px;margin-bottom:22px}.page-heading h1{font-size:33px}.page-heading p{font-size:13px}.page-heading .badge{margin:0}.meta-dot{padding:0 5px!important}.view-tabs{gap:24px;margin-bottom:24px}.view-tabs button{font-size:13px}.view-tabs .tab-actions{display:none}.progress{gap:10px;font-size:12px;padding:0 0 21px}.progress>.icon{width:12px}.progress .step{gap:6px}.prepare-box{padding:24px}.prepare-box h2{font-size:23px}.doc-row{gap:12px;padding:19px 0}.doc-row .right{display:none}.scope-line{align-items:flex-start;flex-direction:column;gap:4px}.review-summary h2{font-size:25px}.facts{margin-bottom:21px}.fact dt{flex-basis:117px}.fact{font-size:14px}.source-toolbar{padding:10px 12px}.source-viewport{padding:16px 12px;max-height:405px}.document-paper{padding:25px 19px}.source-line{font-size:13px}.source-toolbar select{font-size:12px}.source-foot{padding:13px}.source-foot .row{gap:8px}.decision-actions .button-row{flex-direction:column;align-items:stretch}.decision-actions .btn{width:100%}.private-note .button-row{gap:5px}.private-note .button-row .btn{width:auto}.notice{padding:15px;flex-wrap:wrap;gap:9px}.notice .btn{margin-left:26px}.notice strong{font-size:14px}.list-tools{align-items:stretch;flex-direction:column}.search{max-width:none}.file-list-head{display:none}.file-list-row{padding:21px 3px;grid-template-columns:1fr 24px;gap:12px}.file-list-row .status-cell{grid-column:1}.file-list-row>.icon{grid-column:2;grid-row:1/span 2}.file-list-row .address{font-size:23px}.file-list-row .status-title{font-size:13px}.file-list-row p{font-size:12px}.bottom{padding:13px 19px;gap:10px;font-size:11px}.bottom button{font-size:11px;max-width:130px;text-align:right}.toast{bottom:13px;left:13px;right:13px;max-width:none;font-size:13px}.participant{padding:26px 21px 55px}.participant h2{font-size:25px}.participant .property-context h1{font-size:29px}.participant .receipt{padding:23px}.participant .btn.full{font-size:15px;min-height:48px}.dialog-top{padding:20px 19px 15px}.dialog-top h2{font-size:22px}.dialog-body{padding:22px 20px}.dialog-footer{padding:15px 19px;gap:9px}.dialog-footer .btn{font-size:13px;padding:10px 12px}dialog{width:calc(100% - 20px);max-height:calc(100dvh - 26px);border-radius:11px}.original-body{padding:15px 12px}.original-body .document-paper{padding:24px 18px}.original-body .source-line{font-size:14px}.dialog-body .facts{padding:10px 14px}.issued-record{padding:23px 18px}.issued-record h1{font-size:28px}.issued-record table{font-size:12px}.issued-record th{width:40%}.change-grid{grid-template-columns:1fr}.record-tile{padding:16px;gap:12px}.success-main h2{font-size:27px}.record-tile .file-icon{width:37px;height:44px}.service-request{padding:20px}.dialog-body .radio-choices label{padding:15px}.report-card{padding:19px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}.spinner{border-top-color:#8c9c7f}}
+@media print{body{background:white}.demo-bar,.topbar,.workspace,.bottom,.toast,.dialog-top,.dialog-footer{display:none!important}dialog{position:static;display:block!important;border:0;box-shadow:none;width:100%;max-height:none;overflow:visible}.dialog-body{padding:0}.issued-record{padding:0;max-width:none}.issued-record details{display:block}.issued-record p,.issued-record tr{break-inside:avoid}}
+</style></head>
+<body><a class="skip" href="#app">Skip to the review</a><div id="header"></div><div id="global-error"></div><div id="app"><main class="workspace"><h1>Veto · Prepare this review</h1><p>Opening the local prototype…</p><noscript><p>JavaScript must be enabled. Download this HTML file and open it in a browser to use the interactive prototype.</p></noscript></main></div><div id="footer"></div><dialog id="dialog" aria-labelledby="dialog-title"></dialog><div id="toast" class="toast" hidden role="status"></div><div id="announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div><script>window.VETO_LOGO = "data:image/png;base64,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";
+/* Veto — Prepare this review. Synthetic, local-only domain model.
+ * Rules here support a demonstration, not authentication or payment controls.
+ */
+(function (root) {
+  'use strict';
+  const clone = x => JSON.parse(JSON.stringify(x));
+  const PEOPLE = Object.freeze({
+    maya: { name: 'Maya Chen', short: 'Maya', initials: 'MC', role: 'Escrow officer' },
+    alex: { name: 'Alex Rivera', short: 'Alex', initials: 'AR', role: 'Covering officer' },
+    jordan: { name: 'Jordan Lee', short: 'Jordan', initials: 'JL', role: 'Veto service owner' },
+    seller: { name: 'Seller', short: 'Seller', initials: 'EM', role: 'Seller' }
+  });
+  function assert(value, message) { if (!value) throw new Error(message); }
+  function now() { return new Date().toISOString(); }
+  function id(s, prefix) { s.seq += 1; return prefix + '-' + String(s.seq).padStart(4, '0'); }
+  function event(s, f, actor, title, detail) {
+    const e = { id: id(s, 'event'), actor, title, detail: detail || '', at: now() };
+    f.events.push(e); return e;
+  }
+  function makeFile(key, address, seller, account, incomplete) {
+    const f = {
+      id: key, reference: key, address, city: 'Irvine, California', seller,
+      email: seller.toLowerCase().split(' ')[0] + '@example.invalid',
+      initialAccount: account, assigned: 'maya', proposedOwner: null,
+      prepared: false, basis: 1,
+      instruction: { version: 1, name: seller, bank: 'Example Bank', account,
+        routing: 'DEMO-000', type: 'Checking', currency: 'USD', withdrawn: false },
+      procedure: 'Harbor Escrow · receiving-review specimen 1',
+      sources: [], questions: [], holds: [], paused: null, decisions: [],
+      records: [], deliveries: {}, events: [], messages: [], help: [],
+      drafts: {}, participantDraft: { selection: '', attested: false },
+      participantReceipt: null, pendingReceipt: null, change: null, reports: [],
+      service: { owner: 'jordan', observation: 'open', observationLabel: 'Until this sample observation is ended',
+        lateOwner: 'maya', endpoint: key + ' / Receiving instructions',
+        checkpoint: new Date(Date.now() + 30 * 60000).toISOString() }
+    };
+    const source = (type, title, body, origin, extra) => ({
+      id: key + '-' + type + '-1', type, title, body, origin,
+      edition: 1, receivedAt: now(), receivedBasis: 1, fileId: key,
+      complete: true, relevant: true, synthetic: true, ...extra
+    });
+    f.sources = [
+      source('instruction', 'Seller receiving instructions',
+        'RECEIVING INSTRUCTIONS\n\nClosing file: ' + key + '\nProperty: ' + address +
+        '\nSeller / account holder: ' + seller + '\nBank: Example Bank\nAccount type: Checking\nAccount reference: ' + account +
+        '\nRouting reference: DEMO-000\nCurrency: USD\n\nI ask the escrow office to review this receiving arrangement. This document does not instruct payment of a specified amount.\n\nSubmitted by: ' + seller + '\nInstruction edition: 1\n\nFICTIONAL SPECIMEN — NOT PAYMENT INSTRUCTIONS',
+        'Seller submission retained in the sample closing file.'),
+      source('account', incomplete ? 'Account page · cropped copy' : 'Account page',
+        'EXAMPLE BANK\nAccount details\n\nAccount holder: ' + (incomplete ? '[outside the cropped page]' : seller) +
+        '\nAccount reference: ' + account + '\nAccount type: Checking\nRouting reference: DEMO-000\nCurrency: USD\n\n' +
+        (incomplete ? 'The top of this sample page is cropped. The account-holder line cannot be inspected.' : 'The account-holder name and account reference are visible in this sample copy.') +
+        '\n\nThis seller-supplied specimen is not an independent live bank attestation.\n\nFICTIONAL SPECIMEN — NO REAL BANK ACCOUNT',
+        'Seller-supplied account page. Same contributor as the instruction; not independent corroboration.', { complete: !incomplete }),
+      source('office', 'Office procedure & prior check',
+        'HARBOR ESCROW\nReceiving-review specimen 1\n\nClosing file: ' + key + '\nScope: Domestic USD receiving instructions for an individual seller.\n\nFor this fictional exercise, the office requires readable receiving details, the matching source page, and its own reviewer’s determination.\n\nExisting office check: Maya Chen recorded the seller’s confirmation through the contact already retained by the office, separately from these receiving documents.\n\nNo new signature is required in the ordinary sufficient sample. Amount-specific disbursement authorization and bank execution remain outside this review.\n\nThis procedure and prior check are fixtures, not a real office policy or a verification result.\n\nFICTIONAL SPECIMEN — NO LIVE CHECK PERFORMED',
+        'Pre-existing sample office record. A stipulated fixture, not a check performed by this prototype.')
+    ];
+    f.events.push({ id: key + '-intake', actor: 'maya', title: 'Sample file material is available',
+      detail: 'Three fictional source documents retained. No preparation job started yet.', at: now() });
+    return f;
+  }
+  function initial() {
+    return { schema: 1, rev: 0, seq: 100, cases: [
+      makeFile('ESC-1042', '108 Olive Avenue', 'Elena Morris', 'DEMO-4321', false),
+      makeFile('ESC-1043', '62 Alder Court', 'Daniel Brooks', 'DEMO-7812', true)
+    ] };
+  }
+  function file(s, fid) { const f = s.cases.find(x => x.id === fid); assert(f, 'This sample file could not be found.'); return f; }
+  function person(actor, f) { return actor === 'seller' ? f.seller : (PEOPLE[actor]?.name || actor); }
+  function officer(f, actor) { assert(actor === f.assigned, 'Only ' + person(f.assigned, f) + ' can make this office act. Arrange accepted coverage first.'); }
+  function material(f) { return f.sources.filter(x => x.type === 'account' && x.relevant && x.complete && x.fileId === f.id).at(-1); }
+  function question(f, qid) { const q = f.questions.find(x => x.id === qid); assert(q, 'The original question is not available.'); return q; }
+  function openQuestions(f) { return f.questions.filter(x => x.status !== 'resolved'); }
+  function openHolds(f) { return f.holds.filter(x => !x.resolved); }
+  function latestDecision(f) { return [...f.decisions].reverse().find(x => x.basis === f.basis && x.kind === 'supported'); }
+  function historicalComplete(f) { return f.records.some(r => f.deliveries[r.id]?.status === 'placed'); }
+  function currentRecord(f) { return [...f.records].reverse().find(r => r.basis === f.basis); }
+  function blocking(f) {
+    if (!f.prepared) return 'Prepare the file first.';
+    if (f.pendingReceipt) return 'Reconcile the original save before another decision.';
+    if (f.instruction.withdrawn || f.change) return 'The previous instruction was withdrawn. The office must handle the proposed replacement separately.';
+    if (f.paused) return 'Resume the paused work before recording a review.';
+    if (!material(f)) return 'A readable account page is still needed.';
+    if (openQuestions(f).length) return 'The returned question still needs its own disposition.';
+    if (openHolds(f).length) return 'Resolve each open hold against relevant new evidence first.';
+    if (f.help.some(h => h.status === 'requested')) return 'Deliver the help Veto accepted before completing the job.';
+    return '';
+  }
+  function status(f) {
+    const p = person(f.assigned, f), q = openQuestions(f)[0], rec = currentRecord(f);
+    const r = f.reports.find(x => !x.transferred);
+    if (f.pendingReceipt) return { label: 'Check the saved review', detail: 'The save response was lost. Reconcile the original operation.', group: 'active', tone: 'warn', next: p };
+    if (f.change && !f.change.transferred) return { label: 'Changed destination reported', detail: 'The earlier instruction was withdrawn. Office handling is needed.', group: 'active', tone: 'warn', next: p };
+    if (r) return { label: 'Late report needs handoff', detail: 'The earlier review remains filed. This is new, owned work.', group: 'active', tone: 'warn', next: r.warningPlaced ? p : 'Jordan Lee' };
+    if (f.change?.transferred) return { label: 'Change handed to the office', detail: 'The replacement needs a separate office review. No current receiving clearance.', group: 'complete', tone: 'neutral', next: p };
+    if (f.paused) return { label: 'Review paused', detail: f.paused.reason, group: 'active', tone: 'warn', next: p };
+    if (f.help.some(h => h.status === 'requested')) return { label: 'Veto is arranging help', detail: 'Jordan has the obstacle and will reply through the seller’s task.', group: 'active', tone: 'neutral', next: 'Jordan Lee' };
+    if (f.proposedOwner) return { label: 'Coverage offered to ' + PEOPLE[f.proposedOwner].short, detail: p + ' remains responsible until the covering officer accepts.', group: 'active', tone: 'neutral', next: PEOPLE[f.proposedOwner].name };
+    if (q) return q.status === 'returned'
+      ? { label: 'A response is ready for review', detail: 'The requested page arrived. Its sufficiency is still your decision.', group: 'active', tone: 'neutral', next: p }
+      : { label: 'Veto is following up', detail: q.lastIssue || 'The request stays with Jordan through a useful reply.', group: 'active', tone: 'neutral', next: 'Jordan Lee' };
+    if (openHolds(f).length) return { label: 'Review on hold', detail: openHolds(f)[0].reason, group: 'active', tone: 'warn', next: p };
+    if (rec) return f.deliveries[rec.id]?.status === 'placed'
+      ? { label: 'Review returned to closing file', detail: 'The receiving-review job is complete. Payment is outside this service.', group: 'complete', tone: 'good', next: 'Office / bank' }
+      : { label: 'Review saved · filing needed', detail: 'Recover delivery without repeating the office decision.', group: 'active', tone: 'warn', next: 'Jordan Lee' };
+    if (!f.prepared) return { label: 'Ready to prepare', detail: 'Three source documents are already in the closing file.', group: 'active', tone: 'neutral', next: p };
+    if (!material(f)) return { label: 'A clearer page is needed', detail: 'The account-holder name is outside the cropped copy.', group: 'active', tone: 'warn', next: p };
+    return { label: 'Ready for your review', detail: 'The existing material is prepared. No additional request is needed.', group: 'active', tone: 'neutral', next: p };
+  }
+  function message(s, f, sender, body, qid, edition) {
+    const m = { id: id(s, 'message'), sender, body, questionId: qid || null, questionEdition: edition || null, at: now(), audience: 'participant' };
+    f.messages.push(m); return m;
+  }
+  function sample(f, kind, text) {
+    const good = kind === 'complete' || kind === 'assisted';
+    const unrelated = kind === 'wrong';
+    return {
+      title: good ? (kind === 'assisted' ? 'Account page · accessible text copy' : 'Account page · complete copy') : kind === 'partial' ? 'Account page · still cropped' : 'Account page · another file',
+      body: text || ('EXAMPLE BANK\nAccount details\n\nClosing file: ' + (unrelated ? 'ESC-9999' : f.id) +
+        '\nAccount holder: ' + (kind === 'partial' ? '[outside the cropped page]' : unrelated ? 'Another Sample Seller' : f.seller) +
+        '\nAccount reference: ' + (unrelated ? 'DEMO-9999' : f.initialAccount) +
+        '\nAccount type: Checking\nRouting reference: DEMO-000\nCurrency: USD\n\n' +
+        (kind === 'assisted' ? 'Accessible text copy of the complete sample page, provided for the seller to inspect and submit personally.' : 'The sample page is retained exactly as submitted.') +
+        '\n\nSeller-supplied specimen. Not independent bank verification.\n\nFICTIONAL SPECIMEN — NO REAL BANK ACCOUNT'),
+      complete: kind !== 'partial', relevant: !unrelated, fileId: unrelated ? 'ESC-9999' : f.id,
+      type: 'account', origin: kind === 'assisted' ? 'Accessible copy supplied in the demo help route and submitted by the seller.' : 'Seller response to the identified request. No live check performed.', synthetic: true
+    };
+  }
+  function reduce(state, action) {
+    const s = clone(state); const f = file(s, action.fileId); const actor = action.actor;
+    const q = action.questionId ? question(f, action.questionId) : null;
+    const ev = (title, detail) => event(s, f, actor, title, detail);
+    switch (action.type) {
+      case 'PREPARE':
+        officer(f, actor); assert(!f.prepared, 'This review is already prepared.');
+        f.prepared = true;
+        ev('Veto prepared the sample review', 'Three retained specimens linked to instruction 1. No live extraction or verification.');
+        break;
+      case 'NOTE':
+        assert(['maya', 'alex'].includes(actor), 'Private office notes are available only in an office role.');
+        f.drafts[actor] = { text: String(action.text || '').slice(0, 6000), at: now() }; break;
+      case 'REQUEST': {
+        officer(f, actor); assert(f.prepared, 'Prepare this file before requesting a contribution.');
+        assert(!f.change && !f.instruction.withdrawn, 'Changed-destination handling belongs with the office.');
+        assert(!openQuestions(f).length, 'Continue the existing request instead of duplicating it.');
+        assert(String(action.text || '').trim(), 'State the specific question.');
+        f.basis += 1;
+        const item = { id: id(s, 'question'), edition: 1, text: action.text.trim(), reason: action.reason || 'A readable account page is needed for this receiving review.',
+          sourceId: action.sourceId || f.sources.find(x => x.type === 'account').id, status: 'waiting',
+          owner: 'jordan', recipient: 'seller', createdAt: now(), basis: f.basis, responses: [], lastIssue: '' };
+        f.questions.push(item); f.participantReceipt = null; f.participantDraft = { selection: '', attested: false };
+        message(s, f, actor, item.text, item.id, item.edition);
+        ev('Veto accepted the targeted follow-up', item.text + ' Jordan owns pursuit; the office keeps judgment.'); break;
+      }
+      case 'AUTO_REPLY':
+        assert(q && q.status !== 'resolved', 'Start an open request first.');
+        q.responses.push({ id: id(s, 'reply'), kind: 'auto', at: now(), edition: q.edition, body: 'Automatic reply: I am away from my desk.' });
+        q.lastIssue = 'An automatic reply arrived, not the requested page. Jordan still owns follow-up.';
+        ev('Automatic reply received · question remains open', 'No new source or professional determination.'); break;
+      case 'PARTICIPANT_DRAFT':
+        assert(actor === 'seller', 'This draft belongs to the seller.');
+        f.participantDraft = { ...f.participantDraft, ...clone(action.draft) }; break;
+      case 'SUBMIT_PAGE': {
+        assert(actor === 'seller', 'Only the seller can submit this personal contribution.');
+        assert(q && q.status !== 'resolved', 'There is no open question for this contribution.');
+        assert(action.attested, 'Confirm that this is the page you intend to submit.');
+        assert(['complete', 'partial', 'wrong', 'assisted'].includes(action.kind), 'Choose a sample page.');
+        if (action.kind === 'assisted') assert(f.help.some(h => h.status === 'delivered' && h.assisted), 'Ask Veto for the accessible text route first.');
+        const src = sample(f, action.kind); f.basis += 1;
+        Object.assign(src, { id: id(s, 'source'), edition: 1, receivedAt: now(), receivedBasis: f.basis,
+          questionId: q.id, questionEdition: action.edition, actor: 'seller' });
+        f.sources.push(src); const matched = action.edition === q.edition;
+        const response = { id: id(s, 'reply'), kind: action.kind, sourceId: src.id, edition: action.edition, at: now(), usable: src.complete && src.relevant && matched };
+        q.responses.push(response);
+        if (response.usable) { q.status = 'returned'; q.lastIssue = ''; }
+        else {
+          q.status = 'waiting';
+          q.lastIssue = !matched ? 'This page answered an earlier question edition. Jordan must reconcile it.' : !src.relevant ? 'That page belongs to a different file. The original request remains open.' : 'The new page is still cropped. The account-holder name remains unreadable.';
+          message(s, f, 'jordan', q.lastIssue + ' Please send the complete page for ' + f.reference + '.', q.id, q.edition);
+        }
+        f.participantReceipt = { id: response.id, questionId: q.id, edition: action.edition, sourceId: src.id, at: now(), usable: response.usable };
+        f.participantDraft = { selection: '', attested: false };
+        ev('Seller page received', src.title + '. ' + (response.usable ? 'Prepared for the assigned reviewer; the question is not yet resolved.' : q.lastIssue)); break;
+      }
+      case 'ACCEPT_RESPONSE': {
+        officer(f, actor); assert(q && q.status === 'returned', 'A relevant complete response is needed.');
+        const resp = q.responses.filter(r => r.usable && r.edition === q.edition).at(-1);
+        assert(resp, 'No usable answer to this question edition is available.');
+        const src = f.sources.find(x => x.id === resp.sourceId);
+        assert(src && src.fileId === f.id && src.relevant && src.complete, 'This source cannot resolve the selected question.');
+        q.status = 'resolved'; q.resolvedAt = now(); q.resolvedBy = actor; q.resolvedSource = src.id;
+        f.basis += 1;
+        ev('Office accepted the response to its question', q.id + ', edition ' + q.edition + ', against ' + src.id + '. This is not a payment authorization.'); break;
+      }
+      case 'ASK_AGAIN':
+        officer(f, actor); assert(q, 'Select the original question.');
+        assert(action.text?.trim(), 'Explain what is still needed.');
+        q.edition += 1; q.status = 'waiting'; q.text = action.text.trim(); q.lastIssue = '';
+        f.basis += 1; f.participantReceipt = null;
+        message(s, f, actor, q.text, q.id, q.edition);
+        ev('The original question needs another contribution', q.id + ' now has edition ' + q.edition + '. Earlier replies retain their original edition.'); break;
+      case 'HELP': {
+        assert(actor === 'seller', 'This help request belongs to the seller.');
+        assert(action.text?.trim(), 'Describe what is stopping you.');
+        assert(!f.help.some(h => h.status === 'requested'), 'Jordan already has your help request. Your original obstacle is retained.');
+        const h = { id: id(s, 'help'), obstacle: action.text.trim(), status: 'requested', at: now(), owner: 'jordan', questionId: q?.id || null, answer: '', assisted: false };
+        f.help.push(h); message(s, f, 'seller', 'I need help: ' + h.obstacle, q?.id, q?.edition);
+        ev('Seller asked for help · Veto owns the next action', h.obstacle); break;
+      }
+      case 'DELIVER_HELP': {
+        assert(actor === 'jordan', 'Jordan is the demo service owner for assistance.');
+        const h = f.help.find(x => x.id === action.helpId); assert(h?.status === 'requested', 'This assistance request is not open.');
+        assert(action.text?.trim(), 'Write the answer the seller will receive.');
+        h.answer = action.text.trim(); h.status = 'delivered'; h.deliveredAt = now(); h.assisted = !!action.assisted;
+        message(s, f, 'jordan', h.answer, h.questionId, q?.edition);
+        ev('Help delivered to the seller’s task', 'Jordan’s response is visible to the participant. The participant’s own submission is still required.'); break;
+      }
+      case 'PAUSE':
+        officer(f, actor); assert(action.reason?.trim(), 'State why this work is paused.');
+        f.paused = { reason: action.reason.trim(), actor, at: now() }; ev('Review paused', f.paused.reason); break;
+      case 'RESUME':
+        officer(f, actor); assert(f.paused, 'This review is not paused.');
+        f.paused = null; ev('Office resumed the review', 'Received material was preserved during the pause.'); break;
+      case 'OFFER_COVERAGE':
+        officer(f, actor); assert(['maya', 'alex'].includes(action.next) && action.next !== actor, 'Choose the other qualified sample officer.');
+        f.proposedOwner = action.next; ev('Coverage offered', person(actor, f) + ' remains responsible until ' + person(action.next, f) + ' accepts.'); break;
+      case 'ACCEPT_COVERAGE':
+        assert(f.proposedOwner === actor, 'Only the proposed covering officer can accept this task.');
+        f.assigned = actor; f.proposedOwner = null; ev('Covering officer accepted responsibility', 'Task acceptance does not approve the evidence.'); break;
+      case 'HOLD':
+        officer(f, actor); assert(f.prepared, 'Prepare this file first.');
+        assert(action.reason?.trim(), 'State the concern that remains unresolved.');
+        f.basis += 1;
+        f.holds.push({ id: id(s, 'hold'), reason: action.reason.trim(), actor, at: now(), openedBasis: f.basis, resolved: false });
+        ev('Office recorded a hold', action.reason.trim()); break;
+      case 'RESOLVE_HOLD': {
+        officer(f, actor); const h = f.holds.find(x => x.id === action.holdId); assert(h && !h.resolved, 'This hold is not open.');
+        const src = f.sources.find(x => x.id === action.sourceId);
+        assert(src && src.fileId === f.id && src.relevant && src.complete && src.receivedBasis > h.openedBasis, 'Use relevant new evidence received after this hold. Inspecting unchanged or unrelated material cannot clear it.');
+        assert(action.reason?.trim(), 'Record why this evidence resolves this particular concern.');
+        Object.assign(h, { resolved: true, resolvedBy: actor, resolution: action.reason.trim(), sourceId: src.id, resolvedAt: now() });
+        f.basis += 1; ev('Office resolved one hold', h.id + ': ' + h.resolution + '. Other concerns retain their own status.'); break;
+      }
+      case 'DECIDE': {
+        officer(f, actor); assert(action.basis === f.basis, 'The material changed while this review was open. Close this dialog and inspect the new basis.');
+        assert(!blocking(f), blocking(f)); assert(action.inspected, 'Confirm that you inspected the basis for this receiving review.');
+        assert(!latestDecision(f), 'The review is already saved. Recover filing, not the decision.');
+        const d = { id: action.operationId || id(s, 'review'), kind: 'supported', actor, basis: f.basis, instructionVersion: f.instruction.version, rationale: String(action.reason || ''), at: now() };
+        assert(!f.decisions.some(x => x.id === d.id), 'This operation is already saved.'); f.decisions.push(d);
+        const rec = { id: id(s, 'record'), edition: f.records.length + 1, decisionId: d.id, basis: f.basis, createdAt: d.at,
+          scope: 'Receiving-instruction review only. Not amount-specific payment authorization, bank submission, execution, or receipt.',
+          fileId: f.id, address: f.address, seller: f.seller, office: 'Harbor Escrow (fictional)',
+          instruction: clone(f.instruction), procedure: f.procedure, decision: clone(d),
+          sources: clone(f.sources), questions: clone(f.questions), holds: clone(f.holds),
+          observation: clone(f.service), synthetic: true };
+        f.records.push(rec); f.deliveries[rec.id] = { status: 'pending', attempts: [], placement: null };
+        if (f.drafts[actor]) f.drafts[actor].committedReview = d.id;
+        if (action.unknown) f.pendingReceipt = { operationId: d.id, recordId: rec.id, since: now() };
+        ev('Office review saved against the inspected basis', d.id + ', instruction ' + f.instruction.version + ', basis ' + f.basis + '.'); break;
+      }
+      case 'RECONCILE':
+        officer(f, actor); assert(f.pendingReceipt, 'There is no uncertain operation to reconcile.');
+        assert(f.decisions.some(x => x.id === f.pendingReceipt.operationId), 'The original operation is not found. Do not repeat it yet.');
+        ev('Original save reconciled', f.pendingReceipt.operationId + ' exists exactly once. No decision repeated.'); f.pendingReceipt = null; break;
+      case 'DELIVER': {
+        assert(['jordan', f.assigned, 'system'].includes(actor), 'Only the accepted delivery route can file this record.');
+        assert(!f.pendingReceipt, 'Reconcile the original save before filing.');
+        const rec = f.records.find(x => x.id === action.recordId); assert(rec, 'The issued edition is not found.');
+        assert(rec.basis === f.basis && !f.change, 'Do not file an earlier review as current after its material basis changed.');
+        const delivery = f.deliveries[rec.id]; assert(delivery.status !== 'placed', 'This exact edition is already in the closing file.');
+        delivery.attempts.push({ id: id(s, 'filing'), at: now(), result: action.fail ? 'failed' : 'placed' });
+        if (action.fail) { delivery.status = 'failed'; ev('Sample filing failed', 'The office decision remains saved. Jordan owns delivery recovery.'); }
+        else { delivery.status = 'placed'; delivery.placement = { id: id(s, 'placement'), destination: f.service.endpoint, recordId: rec.id, at: now(), simulated: true };
+          ev('Record returned to the sample closing file', rec.id + ', edition ' + rec.edition + '. The placement event is simulated; no external system was contacted.'); }
+        break;
+      }
+      case 'CHANGE':
+        assert(f.prepared && !f.change, 'Prepare an unchanged sample review first.');
+        f.basis += 1;
+        f.change = { id: id(s, 'change'), at: now(), old: clone(f.instruction), proposal: { ...clone(f.instruction), version: f.instruction.version + 1, bank: 'Second Example Bank', account: 'DEMO-9086', routing: 'DEMO-NEW' },
+          source: 'Synthetic seller report through the demo route', originalWithdrawn: true, transferred: false };
+        f.instruction.withdrawn = true;
+        ev('Seller reported a new destination and withdrew the original', 'A proposal is not an accepted instruction. Earlier review and source text are preserved.'); break;
+      case 'TRANSFER_CHANGE':
+        officer(f, actor); assert(f.change && !f.change.transferred, 'No changed-destination transfer is pending.');
+        assert(action.reason?.trim(), 'Record the office’s next action.');
+        Object.assign(f.change, { transferred: true, acceptedBy: actor, acceptedAt: now(), nextAction: action.reason.trim(), noticePlacement: f.service.endpoint + ' / change-notice' });
+        ev('Office accepted changed-destination handling', 'The earlier instruction remains withdrawn. This transfer does not review or activate the replacement.'); break;
+      case 'END_OBSERVATION':
+        assert(actor === 'jordan' || actor === f.assigned, 'Use an office or service-owner role.');
+        assert(f.service.observation === 'open', 'Sample observation already ended.');
+        f.service.observation = 'ended'; f.service.endedAt = now(); ev('Sample observation ended', 'Further relevant reports use the named office transfer route, not an implied new review.'); break;
+      case 'LATE_REPORT': {
+        assert(historicalComplete(f), 'First finish one receiving-review handoff.');
+        const rec = [...f.records].reverse().find(r => f.deliveries[r.id]?.status === 'placed');
+        const r = { id: id(s, 'report'), text: action.text || 'The seller reports a possible issue with the receiving account after the review was filed.', source: 'Synthetic late report through the agreed demo route', at: now(), recordId: rec.id,
+          observationAtReceipt: f.service.observation, owner: 'jordan', warningPlaced: false, transferred: false };
+        f.reports.push(r); ev('Relevant late report received', r.text + ' Historical handoff ' + rec.id + ' remains intact.'); break;
+      }
+      case 'WARN_REPORT': {
+        assert(actor === 'jordan' || actor === f.assigned, 'Use the accepted service or office role.');
+        const r = f.reports.find(x => x.id === action.reportId); assert(r && !r.warningPlaced, 'This report is already linked to the closing file.');
+        r.warningPlaced = { id: id(s, 'warning'), destination: f.service.endpoint, at: now(), simulated: true };
+        ev('Late-report notice placed beside the issued edition', r.recordId + ' is unchanged. The office still needs to accept the new work.'); break;
+      }
+      case 'ACCEPT_REPORT': {
+        officer(f, actor); const r = f.reports.find(x => x.id === action.reportId);
+        assert(r && r.warningPlaced && !r.transferred, 'Place the notice first, then obtain the office’s acceptance.');
+        assert(action.reason?.trim(), 'State the office’s next action.');
+        Object.assign(r, { transferred: true, owner: actor, nextAction: action.reason.trim(), acceptedAt: now() });
+        ev('Office accepted the late-report follow-up', r.id + '. Historical receiving review remains complete; no bank control is implied.'); break;
+      }
+      default: throw new Error('Unsupported demo action: ' + action.type);
+    }
+    s.rev += 1; return s;
+  }
+  const api = { clone, PEOPLE, initial, file, person, material, openQuestions, openHolds, latestDecision, currentRecord, historicalComplete, blocking, status, sample, reduce };
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+  root.VetoModel = api;
+})(typeof window !== 'undefined' ? window : globalThis);
+
+/* Local interactive prototype. No fetch, sockets, analytics, CDN, or API calls. */
+(function () {
+'use strict';
+const M = window.VetoModel;
+const KEY = 'veto-prepare-review-prototype-v1';
+const $ = (s, root = document) => root.querySelector(s);
+const e = value => String(value == null ? '' : value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const paths = {
+ arrow:'M4 12h15M13 5l7 7-7 7', left:'M20 12H5m6-7-7 7 7 7', chevron:'m9 5 7 7-7 7', down:'m5 9 7 7 7-7',
+ check:'m5 12 4 4L19 6', file:'M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9zm0 0v6h6M8 13h8M8 17h5',
+ folder:'M3 7V5a2 2 0 0 1 2-2h5l2 3h7a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z',
+ search:'M21 21l-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0', lock:'M7 10V7a5 5 0 0 1 10 0v3M5 10h14v11H5zM12 14v3',
+ clock:'M12 8v5l3 2M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0', info:'M12 11v6m0-10v.1M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0',
+ warning:'m12 3 10 18H2zM12 9v5m0 3v.1', close:'m6 6 12 12M6 18 18 6', mail:'M3 5h18v14H3zM3 5l9 7 9-7',
+ expand:'M14 3h7v7m0-7-8 8M10 21H3v-7m0 7 8-8', download:'M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5',
+ user:'M8 6a4 4 0 1 0 8 0 4 4 0 1 0-8 0M4 21v-3a8 8 0 0 1 16 0v3',
+ home:'m2 11 10-9 10 9M5 9v12h14V9M9 21v-7h6v7', refresh:'M20 7v5h-5M4 17v-5h5M5 7a8 8 0 0 1 13-3l2 3M4 17l2 3a8 8 0 0 0 13-3',
+ more:'M5 12h.01M12 12h.01M19 12h.01', help:'M9 8a3 3 0 1 1 6 0c0 2-3 2-3 4m0 4v.1M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0',
+ pause:'M8 5v14M16 5v14', link:'m9 15 6-6M10 7l3-3a5 5 0 0 1 7 7l-3 3M14 17l-3 3a5 5 0 0 1-7-7l3-3',
+ print:'M6 9V3h12v6M6 18H3V9h18v9h-3M6 14h12v7H6z'
+};
+function icon(name, cls = '') { return '<svg class="icon ' + cls + '" viewBox="0 0 24 24" aria-hidden="true"><path d="' + (paths[name] || paths.file) + '"/></svg>'; }
+function btn(label, action, options = {}) {
+ return '<button type="button" class="btn ' + (options.kind || 'secondary') + (options.full ? ' full' : '') + (options.compact ? ' compact' : '') + '" data-a="' + e(action) + '"' + (options.id ? ' data-id="' + e(options.id) + '"' : '') + (options.disabled ? ' disabled' : '') + (options.title ? ' title="' + e(options.title) + '"' : '') + '>' + (options.icon ? icon(options.icon) : '') + e(label) + (options.end ? icon(options.end) : '') + '</button>';
+}
+function time(s) { return new Date(s).toLocaleTimeString([], { hour:'numeric', minute:'2-digit' }); }
+function stamp(s) { return new Date(s).toLocaleString([], { month:'short', day:'numeric', hour:'numeric', minute:'2-digit' }); }
+let sessionOnly = false, bootWarning = '', memory = null, state;
+try {
+ const testKey = KEY + '-probe'; localStorage.setItem(testKey, '1'); localStorage.removeItem(testKey);
+ const raw = localStorage.getItem(KEY);
+ if (raw) { const parsed = JSON.parse(raw); if (parsed.schema !== 1 || !Array.isArray(parsed.cases)) throw new Error('Unrecognized saved prototype'); state = parsed; }
+ else { state = M.initial(); localStorage.setItem(KEY, JSON.stringify(state)); }
+} catch (err) {
+ sessionOnly = true; state = M.initial(); memory = JSON.stringify(state);
+ bootWarning = 'Browser storage is unavailable here. This demo still works, but progress lasts only while this page stays open.';
+}
+const storage = {
+ read() { return sessionOnly ? memory : localStorage.getItem(KEY); },
+ write(next) { const raw = JSON.stringify(next); if (sessionOnly) memory = raw; else localStorage.setItem(KEY, raw); }
+};
+const ui = { fileId:'ESC-1042', view:'review', actor:'maya', sourceId:null, showFull:false, filter:'all', query:'', error:'', modal:null, modalContext:{}, noteDirty:false, preparing:false, busy:false };
+const faults = { save:null, delivery:false };
+let toastTimer, priorFocus, cachedScroll=0;
+function f() { return M.file(state, ui.fileId); }
+function actorName() { return M.person(ui.actor, f()); }
+function canDecide() { return ui.actor === f().assigned; }
+function checkpoint() { return 'Demo checkpoint ' + time(f().service.checkpoint); }
+function saveCopy() { return sessionOnly ? 'Saved for this session' : 'Saved in this browser'; }
+function notify(text, isError=false) {
+ clearTimeout(toastTimer); const el = $('#toast');
+ el.className = 'toast' + (isError ? ' error' : '');
+ el.innerHTML = icon(isError ? 'warning' : 'check') + '<span>' + e(text) + '</span><button type="button" data-a="dismiss-toast" aria-label="Dismiss notification">' + icon('close') + '</button>';
+ el.hidden = false; $('#announcer').textContent = text; toastTimer = setTimeout(() => { el.hidden = true; }, 6500);
+}
+function readFresh() {
+ const raw = storage.read(); if (!raw) return state;
+ const latest = JSON.parse(raw); if (latest.schema !== 1) throw new Error('Saved prototype data is incompatible. Restart this demo.');
+ return latest;
+}
+function commit(action, opts={}) {
+ try {
+   const latest = readFresh();
+   if (latest.rev !== state.rev) { state = latest; render(); throw new Error('This file changed in another tab. Review the latest material before repeating your action.'); }
+   const a = { fileId:ui.fileId, actor:ui.actor, ...action };
+   if (a.type === 'DECIDE' && faults.save === 'fail') { faults.save=null; throw new Error('Simulated storage failure. Your review was not saved. Your selections are still here; retry when ready.'); }
+   if (a.type === 'DECIDE' && faults.save === 'unknown') { faults.save=null; a.unknown=true; }
+   const next = M.reduce(state, a);
+   try { storage.write(next); } catch(err) { throw new Error('Your changes could not be saved. The last acknowledged state is unchanged. Keep this page open and retry.'); }
+   state = next; ui.error='';
+   if (!opts.quiet) render(); return true;
+ } catch(err) { showError(err.message); return false; }
+}
+function showError(message) {
+ const out = $('#dialog .form-error');
+ if ($('#dialog').open && out) { out.textContent=message; out.focus(); }
+ else { ui.error=message; render(); }
+ $('#announcer').textContent=message;
+}
+function navigate(view, fid=ui.fileId, actor=ui.actor) {
+ if (ui.noteDirty && !saveNote(true)) return;
+ $('#toast').hidden=true; clearTimeout(toastTimer);
+ ui.view=view; ui.fileId=fid; ui.actor=actor; ui.sourceId=null; ui.error=''; ui.showFull=false;
+ if ($('#dialog').open) closeDialog();
+ const hash = '#/' + e(fid) + '/' + view + '/' + actor;
+ if (location.hash !== hash) location.hash = hash;
+ render(); window.scrollTo(0,0); const heading=$('main h1'); if (heading) heading.focus({preventScroll:true});
+}
+function parseHash() {
+ const parts = location.hash.replace(/^#\//,'').split('/');
+ if (state.cases.some(x => x.id === parts[0]) && ['review','file','activity','list','seller','service'].includes(parts[1]) && M.PEOPLE[parts[2]]) {
+   ui.fileId=parts[0]; ui.view=parts[1]; ui.actor=parts[2];
+   if (ui.actor==='seller') ui.view='seller';
+ }
+}
+function badge(file) { const s=M.status(file); return '<span class="badge ' + s.tone + '">' + e(s.label) + '</span>'; }
+function logo() { return '<img class="logo" src="' + window.VETO_LOGO + '" alt="Veto">'; }
+function renderHeader() {
+ const file=f(), pp=M.PEOPLE[ui.actor];
+ return '<div class="demo-bar"><div class="row"><strong><span class="demo-dot"></span>Interactive prototype</strong><span class="demo-explanation">Fictional data. No live checks, messages, or payments.</span></div><button type="button" data-a="controls">Demo controls</button></div>' +
+ '<header class="topbar"><button class="brand-btn" data-a="home" aria-label="Veto sample files">'+logo()+'</button><div class="separator"></div><span class="office-name">Harbor Escrow <span class="muted small">· example office</span></span>' +
+ (ui.actor==='seller'?'':'<nav class="top-nav" aria-label="Main navigation"><button type="button" data-a="home" class="active">Files</button></nav>') +
+ '<div class="persona"><span class="avatar">'+e(ui.actor==='seller'?file.seller.split(' ').map(x=>x[0]).join(''):pp.initials)+'</span><div><label class="persona-label" for="actor-select">Experience as</label><select id="actor-select" aria-label="Experience as">'+Object.entries(M.PEOPLE).map(([id,p])=>'<option value="'+id+'"'+(ui.actor===id?' selected':'')+'>'+e(id==='seller'?file.seller+' · Seller':p.short+' · '+(id==='jordan'?'Veto':id==='alex'?'Covering officer':'Escrow officer'))+'</option>').join('')+'</select></div></div></header>';
+}
+function renderFooter() {
+ return '<footer class="bottom"><span class="storage-mode">'+icon(sessionOnly?'info':'lock')+e(sessionOnly?'Session-only demo · leave this page open':'Demo progress is saved in this browser')+'</span><span class="footer-scope">The office decides. Its bank executes.</span><button type="button" data-a="about">About this prototype</button></footer>';
+}
+function fileHeading(active='review') {
+ const file=f(); const s=M.status(file);
+ return '<div class="crumb"><button data-a="home" type="button">Files</button>'+icon('chevron')+'<span>'+e(file.reference)+'</span></div>'+
+ '<div class="page-heading"><div><h1 class="serif" tabindex="-1">'+e(file.address)+'</h1><p>'+e(file.seller)+'<span class="meta-dot">·</span>Seller proceeds<span class="meta-dot">·</span>Domestic USD</p></div>'+badge(file)+'</div>'+
+ '<nav class="view-tabs" aria-label="File views">'+[['review','Review'],['file','Closing file'],['activity','Activity']].map(([id,label])=>'<button type="button" class="'+(active===id?'active':'')+'" data-a="view-'+id+'"'+(active===id?' aria-current="page"':'')+'>'+label+(id==='file'?'<span class="tab-number">'+(file.sources.length+file.records.filter(r=>file.deliveries[r.id]?.status==='placed').length)+'</span>':'')+'</button>').join('')+'<div class="tab-actions"><button type="button" data-a="scope">Scope & handoff</button><button type="button" data-a="file-actions" aria-label="More file actions">'+icon('more')+'</button></div></nav>';
+}
+function progress() {
+ const file=f(), rec=M.currentRecord(file), done=rec&&file.deliveries[rec.id]?.status==='placed';
+ const current=!file.prepared?0:rec?2:1;
+ return '<div class="progress" aria-label="Receiving review progress">'+['Preparation','Your review','Closing file'].map((text,i)=> (i?icon('chevron'):'')+'<span class="step '+(done||i<current?'done':i===current?'current':'')+'"><span class="step-num">'+(done||i<current?icon('check'):i+1)+'</span>'+text+'</span>').join('')+'</div>';
+}
+function docRow(src, extra='') {
+ return '<button type="button" class="doc-row" data-a="source" data-id="'+e(src.id)+'"><span class="file-icon">'+icon('file')+'</span><div class="grow"><span class="doc-title">'+e(src.title)+'</span><p>'+e(src.type==='office'?'Prior office record · sample':src.origin.startsWith('Seller')?'Seller-supplied · sample':'Sample source document')+'</p></div><span class="right">'+e(extra||'Edition '+src.edition)+'</span>'+icon('chevron')+'</button>';
+}
+function renderEntry() {
+ const file=f();
+ return progress()+'<div class="entry-grid"><section><div class="section-title"><h2 style="font-size:20px">Already in this file</h2><span class="small muted">3 documents</span></div><div class="documents">'+file.sources.map(s=>docRow(s)).join('')+'</div><div class="scope-line"><span>'+icon('folder')+' '+e(file.reference)+' / Receiving instructions</span><button class="text-link" data-a="scope">View the sample scope</button></div></section><section class="prepare-box"><h2>Prepare the receiving review.</h2><p>Start with what the office already has. Veto puts the relevant details and their sources together for Maya.</p><div class="mini-steps"><div>'+icon('file')+'Prepare the existing material</div><div>'+icon('user')+'Keep the office’s decision with Maya</div><div>'+icon('folder')+'Return the review to this closing file</div></div>'+btn('Prepare this review','prepare',{kind:'primary',full:true,end:'arrow'})+'<p class="small muted" style="margin:15px 0 0">'+(M.material(file)?'This example has sufficient material. It should not need another request.':'This example has a cropped account page. Prepare it to see the focused follow-up.')+'</p></section></div>';
+}
+function paper(src) {
+ const lines=src.body.split('\n'); let first=true;
+ return '<div class="document-paper">'+lines.map((line,i)=>{
+   if (first && line) { first=false; return '<div class="paper-title">'+e(line)+'</div><div class="paper-subtitle">Original sample source · retained as supplied</div>'; }
+   const cls=line.includes('FICTIONAL SPECIMEN')?'specimen':line.includes('[outside')?'marked problem':/^(Seller \/ account holder:|Account holder:|Account reference:)/.test(line)?'marked':'';
+   return '<div class="source-line '+cls+'">'+(line?e(line):'&nbsp;')+'</div>';
+ }).join('')+'</div>';
+}
+function selectedSource() {
+ const file=f(); if (ui.sourceId) { const s=file.sources.find(x=>x.id===ui.sourceId); if(s) return s; }
+ const q=M.openQuestions(file).find(x=>x.status==='returned');
+ if(q) {const rr=q.responses.filter(x=>x.usable).at(-1); if(rr)return file.sources.find(x=>x.id===rr.sourceId);}
+ return !M.material(file)?file.sources.find(x=>x.type==='account'):file.sources.find(x=>x.type==='instruction');
+}
+function sourcePanel() {
+ const file=f(), src=selectedSource(), idx=file.sources.indexOf(src);
+ return '<section class="source-panel" aria-label="Source document"><div class="source-toolbar">'+icon('file')+'<select id="source-select" aria-label="Choose source document">'+file.sources.map(s=>'<option value="'+e(s.id)+'"'+(s.id===src.id?' selected':'')+'>'+e(s.title)+'</option>').join('')+'</select><button type="button" class="icon-btn" data-a="source" data-id="'+e(src.id)+'" aria-label="Open full original source">'+icon('expand')+'</button></div><div class="source-viewport">'+paper(src)+'</div><div class="source-foot"><div class="row"><span>Source '+(idx+1)+' of '+file.sources.length+' · edition '+src.edition+'</span><button class="text-link" data-a="source" data-id="'+e(src.id)+'">Open original</button></div><p>'+e(src.origin)+'</p></div></section>';
+}
+function facts(file, inst=file.instruction) {
+ return '<dl class="facts">'+[
+  ['Account holder',inst.name],['Bank',inst.bank],['Account reference',ui.showFull?inst.account:'•••• '+inst.account.slice(-4)],['Account type',inst.type],['Instruction','Edition '+inst.version+' · receiving only']
+ ].map(([label,val])=>'<div class="fact"><dt>'+e(label)+'</dt><dd>'+e(val)+(label==='Account reference'?'<button class="text-link" type="button" data-a="toggle-details">'+(ui.showFull?'Hide':'Show sample details')+'</button>':'')+'</dd></div>').join('')+(ui.showFull?'<div class="fact"><dt>Routing reference</dt><dd class="mono">'+e(inst.routing)+'</dd></div>':'')+'</dl>';
+}
+function evidenceRows() {
+ const file=f(); const mat=M.material(file); const rows=[
+  ['Receiving details','Prepared from the seller’s source',file.sources.find(x=>x.type==='instruction').id],
+  ['Account page',mat?'Seller-supplied · not independent verification':'Account-holder line is cropped', (mat||file.sources.find(x=>x.type==='account')).id],
+  ['Existing office check','Retained in the file · fictional prior check',file.sources.find(x=>x.type==='office').id]
+ ];
+ return '<div class="evidence-list">'+rows.map(([t,d,id])=>'<button type="button" class="evidence-item" data-a="select-source" data-id="'+e(id)+'">'+icon('file')+'<span><strong>'+t+'</strong><p>'+e(d)+'</p></span><span class="right">View '+icon('chevron')+'</span></button>').join('')+'</div>';
+}
+function privateNote() {
+ if (!['maya','alex'].includes(ui.actor)) return '';
+ const draft=f().drafts[ui.actor];
+ return '<details class="private-note"'+(draft?.text?' open':'')+'><summary>Private working note'+(draft?.text?(draft.committedReview?' · retained':' · saved draft'):'')+'</summary><label class="sr-only" for="private-note">Private working note for '+e(actorName())+'</label><textarea id="private-note" maxlength="6000" placeholder="For you, not the participant or the issued record.">'+e(draft?.text||'')+'</textarea><div class="button-row"><p id="note-state">'+e(draft?'Saved '+time(draft.at):'Only visible in your demo officer role')+'</p>'+btn('Save private note','save-note',{compact:true})+'</div></details>';
+}
+function roleNotice() {
+ const file=f(); if(ui.actor===file.assigned) return '';
+ if(file.proposedOwner===ui.actor) return '<div class="notice"><div class="grow"><strong>You have been offered this review.</strong><p>'+e(M.person(file.assigned,file))+' remains responsible until you accept the task. Acceptance does not approve the evidence.</p></div>'+btn('Accept coverage','accept-coverage',{kind:'primary',compact:true})+'</div>';
+ return '<div class="notice">'+icon('user')+'<div><strong>'+e(M.person(file.assigned,file))+' owns this review.</strong><p>You can inspect the material, but cannot make that person’s decision. Use the demo role selector to return to the assigned officer.</p></div></div>';
+}
+function reviewContent() {
+ const file=f(), s=M.status(file), q=M.openQuestions(file)[0], mat=M.material(file);
+ if(!file.prepared) return renderEntry();
+ if(file.change) return changeView();
+ if(file.pendingReceipt) return unknownView();
+ const rec=M.currentRecord(file);
+ if(rec) return completeView(rec);
+ let title='Review the receiving instructions.', intro='The existing material is prepared. No additional request is needed.', summary='', actions='';
+ if(q?.status==='returned') {
+   title='The requested page is ready for review.'; intro='The new copy includes the previously missing account-holder line. Decide whether it answers your original question.';
+   summary='<div class="question-box"><h3>Your original question · edition '+q.edition+'</h3><p>'+e(q.text)+'</p></div><div class="responsibility"><span class="avatar">'+M.PEOPLE[file.assigned].initials+'</span><div><strong>'+e(M.person(file.assigned,file))+' · reviewer</strong><p>Receipt and preparation are complete. Your determination is still needed.</p></div></div>';
+   actions=btn('Accept this response','accept-response',{kind:'primary',id:q.id,disabled:!canDecide(),end:'arrow'})+btn('Ask for something else','ask-again',{id:q.id,disabled:!canDecide()});
+ } else if(q) {
+   title='Veto is carrying the follow-up.'; intro=q.lastIssue || 'You asked the question. Jordan will handle the agreed pursuit and bring back the material for your review.';
+   summary='<div class="question-box"><h3>Requested from '+e(file.seller)+'</h3><p>'+e(q.text)+'</p></div><div class="responsibility"><span class="avatar">JL</span><div><strong>Jordan Lee · Veto service owner</strong><p>'+e(checkpoint())+' · through the sample participant link</p></div></div><div class="subtle-panel"><p>The same request is waiting in the seller view. No email has actually been sent.</p></div>';
+   actions=btn('Open seller’s task','open-seller',{kind:'primary',end:'arrow'})+btn('See Veto’s follow-up','open-service');
+ } else if(!mat) {
+   title='One page needs a clearer copy.'; intro='The account reference is visible, but the account-holder name is outside the crop. Ask only for the missing page.';
+   summary=facts(file)+'<div class="note">A cropped account page is not enough to inspect who the account belongs to. The source remains available on the right.</div>';
+   actions=btn('Request the complete page','request',{kind:'primary',disabled:!canDecide(),end:'arrow'})+btn('Record a hold','hold',{disabled:!canDecide()});
+ } else {
+   summary=facts(file)+evidenceRows();
+   actions=btn('Record review','decision',{kind:'primary',disabled:!canDecide()||!!M.blocking(file),end:'arrow'})+btn('Ask a question','request',{disabled:!canDecide()});
+ }
+ const resolved=file.questions.filter(x=>x.status==='resolved');
+ let holds=M.openHolds(file).map(h=>'<div class="notice warn">'+icon('warning')+'<div class="grow"><strong>Open hold</strong><p>'+e(h.reason)+'</p><div style="margin-top:9px">'+btn('Resolve this hold','resolve-hold',{id:h.id,compact:true,disabled:!canDecide()})+'</div></div></div>').join('');
+ const pause=file.paused?'<div class="notice warn">'+icon('pause')+'<div class="grow"><strong>The review remains paused.</strong><p>'+e(file.paused.reason)+'</p></div>'+btn('Resume','resume',{compact:true,disabled:!canDecide()})+'</div>':'';
+ const help=file.help.some(h=>h.status==='requested')?'<div class="notice">'+icon('help')+'<div class="grow"><strong>Veto is arranging help.</strong><p>The seller’s obstacle belongs to Jordan now, not to a waiting seller.</p></div>'+btn('Open help','open-service',{compact:true})+'</div>':'';
+ return roleNotice()+pause+help+holds+'<div class="review-layout"><section class="review-summary"><h2>'+title+'</h2><p class="intro">'+e(intro)+'</p>'+summary+'</section>'+sourcePanel()+'<section class="review-decision">'+(resolved.length&&!q?'<div class="resolved-line">'+icon('check')+'<span>The office accepted the returned page. The receiving review is still a separate act.</span></div>':'')+'<div class="decision-actions"><div class="button-row">'+actions+'</div><p class="small">'+(q?.status==='returned'?'Accepting the response closes this question only. It does not authorize a payment.':q?'No need to draft a second message or keep checking an inbox. This prototype advances when you act in the other role.':'This review concerns the receiving arrangement, not an amount-specific payment or a bank transfer.')+'</p></div>'+privateNote()+'</section></div>';
+}
+function completeView(rec) {
+ const file=f(), delivery=file.deliveries[rec.id], done=delivery.status==='placed';
+ const reports=file.reports.filter(r=>!r.transferred).map(reportCard).join('');
+ return progress()+reports+'<div class="success-layout"><section class="success-main"><div class="success-symbol">'+icon(done?'check':'folder')+'</div><h2>'+ (done?'Back in the closing file.':'The review is saved. Filing is not finished.')+'</h2><p class="intro">'+(done?e(M.person(rec.decision.actor,file))+'’s receiving review and its sources are together in '+e(file.reference)+'. The office can continue without rebuilding the review.':'The office’s decision is intact. Veto still owns returning this edition to the agreed destination. Retry delivery, not the review.')+'</p><div class="record-tile"><span class="file-icon">'+icon('file')+'</span><div class="grow"><h3>Receiving Review Record</h3><p>Edition '+rec.edition+' · '+e(M.person(rec.decision.actor,file))+' · '+stamp(rec.createdAt)+'</p></div><span class="badge '+(done?'good':'warn')+'">'+(done?'Filed':'Not filed')+'</span></div><div class="button-row">'+(done?btn('View the filed record','record',{kind:'primary',id:rec.id,icon:'file'})+btn('Open closing file','view-file',{icon:'folder'}):btn('Retry filing','retry-delivery',{kind:'primary',id:rec.id,icon:'refresh'})+btn('Inspect saved record','record',{id:rec.id}))+'</div><div class="receipt-lines"><div class="receipt-line">'+icon('check')+'<div><strong>Office review saved</strong><p>'+e(M.person(rec.decision.actor,file))+' · instruction '+rec.instruction.version+' · material basis '+rec.basis+'</p></div></div><div class="receipt-line">'+icon(done?'check':'clock')+'<div><strong>'+(done?'Exact edition placed at the agreed destination':'Closing-file placement still needed')+'</strong><p>'+e(file.service.endpoint)+(done?' · '+e(delivery.placement.id):' · owned by Jordan Lee')+'</p></div></div><div class="receipt-line">'+icon('arrow')+'<div><strong>The office and bank keep their next decisions</strong><p>Amount-specific authorization, bank submission, execution, and receipt are not established by this record.</p></div></div></div></section><aside class="boundary-aside"><h3>This is receiving-review completion.</h3><p>The placement above is in the prototype’s sample closing file. It demonstrates the handoff, not a live integration.</p><h3>After the handoff</h3><p>'+e(file.service.observation==='open'?'Sample observation is still open. Relevant late reports create new, owned work without rewriting this record.':'Sample observation has ended. New reports go through the named office-transfer route; no renewed review is implied.')+'</p>'+btn('Try a late report','late-report',{compact:true,disabled:!done})+'<div style="margin-top:16px">'+btn('Try a destination change','simulate-change',{compact:true,disabled:!!file.change})+'</div><div class="source-refs"><p>These are optional diagnostic paths. An ordinary sufficient review ends without extra ceremony.</p><button class="text-link" data-a="scope">See the sample responsibility boundary</button></div></aside></div>';
+}
+function unknownView() {
+ const file=f(); return progress()+'<div class="notice warn">'+icon('warning')+'<div><strong>The save response was lost.</strong><p>The original operation may already be saved. Do not create another decision.</p></div></div><div class="success-layout"><section><h2>Check the original review.</h2><p class="muted block-space">The prototype simulated a lost response after storage. The correct recovery is to reconcile the same operation, then continue filing once its status is known.</p><dl class="facts block-space"><div class="fact"><dt>Operation</dt><dd class="mono">'+e(file.pendingReceipt.operationId)+'</dd></div><div class="fact"><dt>Next actor</dt><dd>'+e(M.person(file.assigned,file))+'</dd></div></dl>'+btn('Check saved review','reconcile',{kind:'primary',disabled:!canDecide(),icon:'refresh'})+'</section><aside class="boundary-aside"><h3>No repeat decision</h3><p>Your source material and office act remain tied to the same operation. A retry must not create a second act.</p></aside></div>';
+}
+function reportCard(r) {
+ const file=f(); return '<section class="report-card"><h3>New report about an already filed review</h3><p>'+e(r.text)+'</p><small>Linked to '+e(r.recordId)+' · received '+stamp(r.at)+' · sample observation '+e(r.observationAtReceipt)+' at receipt</small>'+(!r.warningPlaced?btn('Place warning in closing file','warn-report',{id:r.id,kind:'primary',compact:true,disabled:!['jordan',file.assigned].includes(ui.actor)}):'<p class="small">The warning is placed beside the unchanged historical record. The office must still accept this new work.</p>'+btn('Accept the follow-up','accept-report',{id:r.id,kind:'primary',compact:true,disabled:!canDecide()}))+'</section>';
+}
+function changeView() {
+ const file=f(), c=file.change;
+ return '<div class="notice warn">'+icon('warning')+'<div><strong>The earlier instruction was withdrawn.</strong><p>Its review does not carry over. Rejecting the replacement would not restore the withdrawn instruction.</p></div></div><div class="success-layout"><section><h2>'+(c.transferred?'The office owns the change.':'A new destination needs office handling.')+'</h2><p class="muted block-space">This report is a proposal, not an accepted replacement. Changed-destination review is outside the first sample undertaking.</p><div class="change-grid"><div class="change-card"><h3>Earlier instruction · withdrawn</h3><strong>'+e(c.old.bank)+'</strong><p class="mono">'+e(c.old.account)+'</p><p>Edition '+c.old.version+' · retained as history</p></div><div class="change-card new"><h3>Proposed replacement · not reviewed</h3><strong>'+e(c.proposal.bank)+'</strong><p class="mono">'+e(c.proposal.account)+'</p><p>No inherited review or approval</p></div></div>'+(c.transferred?'<div class="notice good">'+icon('check')+'<div><strong>'+e(M.person(c.acceptedBy,file))+' accepted the separate office task.</strong><p>'+e(c.nextAction)+'</p></div></div>':roleNotice()+btn('Accept changed-destination handling','transfer-change',{kind:'primary',disabled:!canDecide(),end:'arrow'}))+'<div class="button-row block-space">'+btn('Inspect original sources','view-file',{icon:'file'})+btn('View history','view-activity')+'</div></section><aside class="boundary-aside"><h3>Preserved, not overwritten</h3><p>The original source documents and every issued review remain unchanged. No new bank details have been activated.</p><h3>The transfer has a boundary</h3><p>The office applies its own change procedure. This prototype contains no bank connection and cannot stop a transfer.</p>'+btn('Restart this example','restart',{compact:true})+'</aside></div>';
+}
+function renderClosingFile() {
+ const file=f(), placed=file.records.filter(r=>file.deliveries[r.id]?.status==='placed');
+ return fileHeading('file')+'<div class="section-title"><div><h2 style="font-size:22px">Receiving instructions</h2><p>'+e(file.reference)+' · the agreed sample destination</p></div>'+btn('Back to review','view-review',{compact:true,icon:'left'})+'</div><p class="small muted" style="margin-bottom:24px">This is a local stand-in for the office’s normal closing file. Nothing is connected to an external escrow system.</p>'+
+ (file.change?'<div class="notice warn">'+icon('warning')+'<div><strong>A change report affects the earlier instruction.</strong><p>Historical records remain below. They are not current approval for the proposed replacement.</p></div></div>':'')+
+ file.reports.filter(r=>r.warningPlaced).map(r=>'<div class="report-card"><h3>Linked late-report notice</h3><p>'+e(r.text)+'</p><small>Historical record '+e(r.recordId)+' is unchanged. '+(r.transferred?'Follow-up accepted by '+e(M.person(r.owner,file))+'.':'Follow-up is not yet accepted by the office.')+'</small></div>').join('')+
+ (placed.length?'<h3 style="margin-bottom:15px">Filed reviews</h3><div class="documents">'+placed.map(r=>'<button class="doc-row" data-a="record" data-id="'+e(r.id)+'"><span class="file-icon">'+icon('file')+'</span><div class="grow"><span class="doc-title">Receiving Review Record · edition '+r.edition+'</span><p>'+e(M.person(r.decision.actor,file))+' · '+stamp(r.createdAt)+' · '+e(r.id)+'</p></div><span class="badge good">Filed</span>'+icon('chevron')+'</button>').join('')+'</div><div class="block-space"></div>':'<div class="subtle-panel" style="margin-bottom:26px"><p>No review has been filed yet. Exporting a draft would not complete the agreed handoff.</p></div>')+
+ '<h3 style="margin-bottom:16px">Retained source documents</h3><div class="documents">'+file.sources.map(s=>docRow(s,s.complete&&s.relevant?'Original retained':!s.relevant?'Different file':'Cropped copy')).join('')+'</div>'+privateNote();
+}
+function renderActivity() {
+ const file=f(); return fileHeading('activity')+'<div class="section-title"><h2 style="font-size:22px">What happened on this file</h2><span class="small muted">Local demo events</span></div><div class="timeline">'+[...file.events].reverse().map(ev=>'<article class="timeline-item"><span class="timeline-dot">'+icon('check')+'</span><div><time>'+stamp(ev.at)+' · '+e(M.person(ev.actor,file))+'</time><h3>'+e(ev.title)+'</h3><p>'+e(ev.detail)+'</p></div></article>').join('')+'</div>';
+}
+function renderList() {
+ let files=state.cases.filter(file=>ui.filter==='all'||ui.filter==='drafts'?(ui.filter==='drafts'?!!file.drafts[ui.actor]?.text && !file.drafts[ui.actor]?.committedReview:true):M.status(file).group===ui.filter);
+ if(ui.query) files=files.filter(file=>(file.address+' '+file.reference+' '+file.seller).toLowerCase().includes(ui.query.toLowerCase()));
+ const active=state.cases.filter(x=>M.status(x).group==='active').length, complete=state.cases.length-active;
+ return '<div class="page-heading" style="margin-top:21px"><div><h1 class="serif" tabindex="-1">Receiving reviews</h1><p>Two sample files. One complete job, from prepared material to the closing file.</p></div>'+btn('Start with the ordinary file','ordinary',{kind:'primary',end:'arrow'})+'</div><div class="list-tools"><div class="filter-set" aria-label="Filter sample files">'+[['all','All files · 2'],['active','Active · '+active],['complete','Completed · '+complete],['drafts','My drafts']].map(([key,label])=>'<button type="button" class="'+(ui.filter===key?'active':'')+'" data-a="filter" data-id="'+key+'">'+label+'</button>').join('')+'</div><label class="search">'+icon('search')+'<span class="sr-only">Search sample files</span><input id="file-search" value="'+e(ui.query)+'" placeholder="Find a file or seller"></label></div><div class="files-table"><div class="file-list-head"><span>File</span><span>Next useful action</span><span class="owner">Next person</span><span></span></div>'+files.map(file=>{const s=M.status(file);return '<button type="button" class="file-list-row" data-a="open-file" data-id="'+file.id+'"><span><span class="address">'+e(file.address)+'</span><p>'+e(file.reference)+' · '+e(file.seller)+'</p></span><span class="status-cell"><span class="status-title">'+e(s.label)+'</span><p>'+e(s.detail)+'</p></span><span class="owner small">'+e(s.next)+'</span>'+icon('chevron')+'</button>';}).join('')+(files.length?'':'<div class="empty"><h3>No files in this view</h3><p>'+(ui.filter==='drafts'?'Your private saved notes will appear here. A committed review is not a draft.':'Try another filter or search.')+'</p></div>')+'</div><div class="scope-line"><span>No bank actions are part of these file statuses.</span>'+btn('Try the missing-page case','question-case',{compact:true})+'</div>';
+}
+function participantPage() {
+ const file=f(), q=M.openQuestions(file)[0], receipt=file.participantReceipt;
+ const h=file.help.at(-1);
+ let content='';
+ if(!q) {
+   content='<h2>Nothing more is needed from you.</h2><p class="intro">'+(file.questions.length?'Your contribution is saved. The office owns the receiving review.':'Your receiving instructions are already in the sample closing file. The office will contact you through the agreed route if it needs something specific.')+'</p>'+btn('View your original instructions','source',{id:file.sources[0].id,full:true,icon:'file'})+'<div class="note block-space">This is not a payment receipt. Veto has not sent a wire.</div>';
+ } else {
+   if(h?.status==='requested') content+='<div class="notice"><div class="grow"><strong>Jordan has your help request.</strong><p>“'+e(h.obstacle)+'”</p><p>'+e(checkpoint())+'. Your earlier work is saved.</p></div></div><div class="button-row" style="margin-bottom:25px">'+btn('Experience Jordan’s reply','open-service',{kind:'secondary',compact:true,end:'arrow'})+'</div>';
+   if(h?.status==='delivered') content+='<div class="help-answer"><h3>Jordan from Veto replied</h3><p>'+e(h.answer)+'</p>'+(h.assisted?btn('Read the accessible text copy','assisted',{compact:true,icon:'file'}):'')+'</div>';
+   if(receipt && receipt.questionId===q.id) {
+     content+='<div class="receipt"><div class="success-symbol">'+icon('check')+'</div><h2>Your page was received.</h2><p>'+e(receipt.usable?'Your contribution is saved for the office’s review. '+M.person(file.assigned,file)+' decides what the material supports.':q.lastIssue)+'</p><dl class="facts"><div class="fact"><dt>File</dt><dd>'+e(file.reference)+'</dd></div><div class="fact"><dt>Question</dt><dd>Edition '+receipt.edition+'</dd></div><div class="fact"><dt>Submitted</dt><dd>'+time(receipt.at)+'</dd></div></dl>'+btn('View your submitted page','source',{id:receipt.sourceId,full:true,icon:'file'})+'<p class="small" style="margin:15px 0 0">You submitted a document, not approval of an office payment. No money has moved through Veto.</p></div><div class="block-space">'+btn('Return to the officer’s review','open-officer',{kind:'primary',full:true,end:'arrow'})+'</div>';
+   }
+   if(q.status==='waiting') {
+     content+=(receipt?'<div style="height:29px"></div>':'')+'<h2>'+(receipt?'Send the right page.':'One clearer page, please.')+'</h2><p class="intro">'+e(M.person(file.assigned,file))+' at Harbor Escrow needs the complete account page for your receiving-instruction review.</p><div class="question-box"><h3>The office’s request</h3><p>'+e(q.text)+'</p></div>'+
+       '<div class="sample-picker"><h3 style="font-size:15px;margin-bottom:12px">Choose a sample to try</h3><p class="small muted" style="margin-bottom:14px">These are fictional documents. Do not enter real financial information.</p><div class="sample-options">'+[
+         ['complete','Complete account page','Includes your name and the account reference.'],
+         ['partial','Another cropped copy','Try a reply that still does not answer the question.'],
+         ['wrong','A page from another file','Try a mismatched response.']
+       ].map(([key,title,desc])=>'<label class="sample-option"><input type="radio" name="sample-page" value="'+key+'"'+(file.participantDraft.selection===key?' checked':'')+'><span><strong>'+title+'</strong><small>'+desc+'</small></span></label>').join('')+'</div></div>';
+       if(file.participantDraft.selection) {
+         const src=M.sample(file,file.participantDraft.selection);
+         content+='<div class="attachment-preview"><div class="section-title"><h3 style="font-size:14px">'+e(src.title)+'</h3>'+icon('file')+'</div>'+paper(src)+'</div><label class="check-label"><input type="checkbox" id="participant-attest"'+(file.participantDraft.attested?' checked':'')+'><span>I have reviewed this sample and intend to submit it for this request.</span></label>'+btn('Submit page to the office','submit-page',{kind:'primary',full:true,end:'arrow'});
+       }
+   }
+   content+='<div class="participant-help"><h3 style="font-size:15px;margin-bottom:7px">Having trouble?</h3><p>Ask for help without restarting. You will get the answer here, with your request still attached.</p>'+btn('I need help','help-request',{kind:'tertiary',icon:'help',disabled:h?.status==='requested'})+'</div>';
+ }
+ return '<main class="participant"><div class="office-lockup"><span class="office-mark">'+icon('home')+'</span><div><strong>Harbor Escrow</strong><p class="small muted">Example office · supported by Veto</p></div></div><div class="property-context"><h1 class="serif" tabindex="-1">'+e(file.address)+'</h1><p>'+e(file.reference)+' · '+e(file.seller)+' · receiving instructions</p></div>'+content+'<p class="small muted" style="margin-top:30px">Local interactive example. No email or text was sent, and no bank was contacted.</p></main>';
+}
+function servicePage() {
+ const file=f(), q=M.openQuestions(file)[0], helper=file.help.find(h=>h.status==='requested');
+ let work='';
+ if(helper) {
+   work+='<section class="service-request"><h3>'+e(file.seller)+' needs help</h3><blockquote>'+e(helper.obstacle)+'</blockquote><p class="small muted">The reply goes to the participant’s task, not just this internal activity log. Their own submission is still required.</p><div class="block-space">'+btn('Write a helpful reply','help-reply',{id:helper.id,kind:'primary',end:'arrow'})+'</div></section>';
+ }
+ if(q) {
+   work+='<section class="service-request"><h3>'+ (q.status==='returned'?'The response is with the office':'Keep the original request moving')+'</h3><div class="question-box"><h3>'+e(q.id)+' · question edition '+q.edition+'</h3><p>'+e(q.text)+'</p></div><p class="small muted">'+e(q.lastIssue || (q.status==='returned'?'The page is readable and associated with this request. '+M.person(file.assigned,file)+' still decides whether it is sufficient.':'Jordan owns the agreed follow-up. A reply alone will not close the question.'))+'</p><div class="button-row block-space">'+(q.status==='returned'?btn('Open the officer’s review','open-officer',{kind:'primary',end:'arrow'}):btn('Open the seller’s task','open-seller',{kind:'primary',end:'arrow'})+btn('Simulate an automatic reply','auto-reply',{id:q.id,compact:true}) )+'</div>'+
+     (q.responses.length?'<div class="reply-history"><h3 style="font-size:14px">Replies, without losing the question</h3>'+q.responses.map(r=>'<div class="reply-entry">'+e(r.kind==='auto'?'Automatic reply · not an answer':r.usable?'Complete relevant page · office decision pending':r.kind==='wrong'?'Wrong file · request remains open':'Incomplete or mismatched reply · request remains open')+'<small>Question edition '+r.edition+' · '+stamp(r.at)+'</small></div>').join('')+'</div>':'')+'</section>';
+ }
+ const rec=M.currentRecord(file);
+ if(rec&&file.deliveries[rec.id].status!=='placed') work+='<section class="service-request"><h3>The saved review needs filing</h3><p class="small muted">Recover the same edition. Do not ask the office to repeat its decision.</p><div class="block-space">'+btn('Retry filing','retry-delivery',{kind:'primary',id:rec.id,icon:'refresh',disabled:!!file.pendingReceipt})+'</div></section>';
+ work+=file.reports.filter(r=>!r.transferred).map(reportCard).join('');
+ if(!work) work='<section class="service-request"><h3>No service intervention is needed.</h3><p class="small muted">Ordinary sufficient work goes to the officer without a manufactured follow-up.</p><div class="block-space">'+btn('Open the officer’s review','open-officer',{kind:'primary',end:'arrow'})+'</div></section>';
+ return fileHeading('review')+'<div class="service-grid"><section><h2>The work Veto is carrying</h2><p class="muted">This is the service-owner view of the same file, not another example.</p>'+work+'</section><aside class="boundary-aside"><div class="responsibility" style="margin-top:0"><span class="avatar">JL</span><div><strong>Jordan Lee</strong><p>Demo service owner</p></div></div><h3>Accepted work</h3><p>Prepare the material, pursue the requested page, deliver usable help, and return the office’s reviewed result.</p><h3>Next checkpoint</h3><p>'+e(checkpoint())+'. The timer is a fictional scenario setting, not a service promise. Nothing runs after this page closes.</p><h3>Reserved decisions</h3><p>Jordan cannot make the officer’s determination, submit on behalf of the seller, waive a hold, or authorize a payment.</p>'+btn('View the connected history','view-activity',{compact:true})+'</aside></div>';
+}
+function render() {
+ const scroll=window.scrollY;
+ $('#header').innerHTML=renderHeader(); $('#footer').innerHTML=renderFooter();
+ $('#global-error').innerHTML=ui.error?'<div class="notice error banner-error" role="alert">'+icon('warning')+'<div class="grow"><strong>'+e(ui.error)+'</strong></div><button data-a="clear-error" class="icon-btn" aria-label="Dismiss error">'+icon('close')+'</button></div>':'';
+ if(ui.actor==='seller') $('#app').innerHTML=participantPage();
+ else {
+   let html;
+   if(ui.view==='list') html=renderList();
+   else if(ui.view==='file') html=renderClosingFile();
+   else if(ui.view==='activity') html=renderActivity();
+   else if(ui.actor==='jordan'||ui.view==='service') html=servicePage();
+   else html=fileHeading('review')+(ui.preparing?'<div class="prepare-work" aria-live="polite"><span class="spinner"></span><h2>Putting the sample review together.</h2><p class="muted">Linking the retained sources to this receiving instruction.</p></div>':reviewContent());
+   $('#app').innerHTML='<main class="workspace">'+html+'</main>';
+ }
+ window.scrollTo(0,scroll);
+}
+function closeDialog() {
+ const d=$('#dialog'); if(d.open)d.close(); ui.modal=null; ui.modalContext={};
+ if(priorFocus?.isConnected) priorFocus.focus({preventScroll:true}); else $('main h1')?.focus({preventScroll:true});
+}
+function simpleDialog(title, sub, body, footer='', wide=false) {
+ return '<div class="dialog-top"><div><h2 id="dialog-title">'+e(title)+'</h2>'+(sub?'<p>'+e(sub)+'</p>':'')+'</div><button type="button" data-a="close-dialog" class="icon-btn" aria-label="Close dialog">'+icon('close')+'</button></div><div class="dialog-body"><div class="form-error" role="alert" tabindex="-1"></div>'+body+'</div><div class="dialog-footer">'+(footer||btn('Done','close-dialog',{kind:'primary'}))+'</div>';
+}
+function formDialog(title, sub, body, id, submit='Save') {
+ return '<form id="'+id+'"><div class="dialog-top"><div><h2 id="dialog-title">'+e(title)+'</h2>'+(sub?'<p>'+e(sub)+'</p>':'')+'</div><button type="button" data-a="close-dialog" class="icon-btn" aria-label="Close dialog">'+icon('close')+'</button></div><div class="dialog-body"><div class="form-error" role="alert" tabindex="-1"></div>'+body+'</div><div class="dialog-footer">'+btn('Cancel','close-dialog')+'<button type="submit" class="btn primary">'+e(submit)+'</button></div></form>';
+}
+function recordMarkup(rec) {
+ const r=rec;
+ return '<article class="issued-record"><img class="record-brand" src="'+window.VETO_LOGO+'" alt="Veto"><div class="record-specimen">FICTIONAL PROTOTYPE · NOT FOR A LIVE PAYMENT</div><h1>Receiving Review Record</h1><p>'+e(r.address)+' · '+e(r.fileId)+' · edition '+r.edition+'</p><p class="muted">This issued edition is a fixed account of what the reviewer considered. It is not a live statement that no later changes have occurred.</p><div class="record-rule"></div><h2>What this edition establishes</h2><p>'+e(M.person(r.decision.actor,f()))+' recorded that the receiving instructions were supported by the material reviewed under the sample office procedure.</p><p><strong>'+e(r.scope)+'</strong></p><h2>The receiving arrangement reviewed</h2><table>'+[
+ ['Account holder',r.instruction.name],['Bank',r.instruction.bank],['Account reference',r.instruction.account],['Routing reference',r.instruction.routing],['Account type / currency',r.instruction.type+' / '+r.instruction.currency],['Instruction', 'Edition '+r.instruction.version],['Material basis',String(r.basis)],['Office reviewer',M.person(r.decision.actor,f())],['Review recorded',stamp(r.decision.at)],['Operation',r.decisionId],['Procedure',r.procedure]
+ ].map(([key,value])=>'<tr><th>'+e(key)+'</th><td>'+e(value)+'</td></tr>').join('')+'</table>'+(r.decision.rationale?'<h3>Reviewer’s stated basis</h3><p>'+e(r.decision.rationale)+'</p>':'')+'<h2>Sources retained</h2>'+r.sources.map(s=>'<p><strong>'+e(s.title)+'</strong><br>'+e(s.id)+' · edition '+s.edition+'<br>'+e(s.origin)+'</p>').join('')+(r.questions.length?'<h2>Questions and their disposition</h2>'+r.questions.map(q=>'<p><strong>'+e(q.text)+'</strong><br>Question '+e(q.id)+' · edition '+q.edition+' · '+e(q.status)+'<br>'+(q.resolvedBy?'Resolved by '+e(M.person(q.resolvedBy,f()))+' against '+e(q.resolvedSource):'Unresolved in this edition')+'</p>').join(''):'<p>No additional contribution was requested on the ordinary sufficient path.</p>')+'<h2>Where the result belongs</h2><p>'+e(r.observation.endpoint)+'. Destination placement is a separate event; a generated or downloaded record alone does not establish that event.</p><h2>What remains</h2><p>The office retains any amount-specific disbursement authorization and bank-side procedure. Bank submission, execution, settlement, and receipt have not been established by this review.</p><p>Sample observation: '+e(r.observation.observationLabel)+'. Relevant reports go to the named sample service owner and then the office through the accepted transfer route. No new fee or renewed review is implied.</p><p>All identities, bank references, procedures, checks, and documents in this edition are synthetic fixtures.</p><details><summary>Inspect the original source text retained in this edition</summary>'+r.sources.map(s=>'<h3>'+e(s.title)+'</h3><pre>'+e(s.body)+'</pre>').join('')+'</details><div class="record-rule"></div><p class="mono">'+e(r.id)+' · '+e(r.decisionId)+'</p></article>';
+}
+function exportHTML(rec) {
+ return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Veto · '+e(rec.fileId)+' · Review edition '+rec.edition+'</title><style>body{margin:0;padding:35px 20px;background:#f4f6ef;font:14px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:#283128}.issued-record{max-width:760px;background:white;margin:20px auto;padding:45px;border:1px solid #dfe4d8}.record-brand{width:80px;display:block;margin-bottom:25px}.record-specimen{border:1px solid #bccbb2;padding:9px 12px;font-size:11px;display:inline-block;margin-bottom:24px}h1{font:36px/1.2 Georgia,serif}h2{font-size:19px;margin:30px 0 12px}h3{font-size:15px}p{line-height:1.75}table{width:100%;border-collapse:collapse;font-size:14px}td,th{padding:9px 0;border-bottom:1px solid #dfe4d8;text-align:left;vertical-align:top}th{font-weight:400;color:#616e55;width:38%;padding-right:18px}.record-rule{border-top:1px solid #dfe4d8;margin:25px 0}.mono{font:12px/1.6 monospace}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.65 monospace;background:#f5f7f0;padding:16px}summary{cursor:pointer;padding:12px 0}nav{max-width:850px;margin:0 auto;text-align:right}button{border:1px solid #253628;border-radius:6px;background:#253628;color:white;padding:10px 17px;font:14px sans-serif;cursor:pointer}@media print{body{padding:0;background:white}.issued-record{border:0;margin:0;padding:0;max-width:none}nav{display:none}p,tr{break-inside:avoid}@page{margin:18mm}}</style></head><body><nav><button onclick="window.print()">Print / Save as PDF</button></nav>'+recordMarkup(rec)+'</body></html>';
+}
+function download(name, text, mime='text/plain;charset=utf-8') {
+ const blob=new Blob([text],{type:mime}); const url=URL.createObjectURL(blob); const a=document.createElement('a');
+ a.href=url; a.download=name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),5000);
+}
+function dialog(type, context={}) {
+ const file=f(); priorFocus=document.activeElement; ui.modal=type; ui.modalContext={ ...context };
+ const d=$('#dialog'); let html='', wide=false;
+ if(type==='source') {
+   const src=file.sources.find(s=>s.id===context.id);
+   if(!src || (ui.actor==='seller'&&src.type==='office')) { showError('This source is not in the participant’s permitted view.'); ui.modal=null; return; }
+   wide=true; html=simpleDialog(src.title,'Retained source · '+src.id+' · edition '+src.edition,'<p class="intro">'+e(src.origin)+'</p><div class="original-body">'+paper(src)+'</div>',btn('Save source text','download-source',{id:src.id,icon:'download'})+btn('Back','close-dialog',{kind:'primary'}));
+ } else if(type==='decision') {
+   ui.modalContext.basis=file.basis;
+   html=formDialog('Record your receiving review',file.reference+' · instruction '+file.instruction.version+' · basis '+file.basis,
+     '<p class="intro">Save the office’s determination against the material you inspected. This does not approve a wire or authorize payment of a specified amount.</p>'+facts(file)+
+     '<fieldset><legend>Your determination</legend><div class="radio-choices"><label><input type="radio" name="outcome" value="supported" required><span><strong>Receiving instructions supported</strong><small>I can support this receiving arrangement under the sample office procedure.</small></span></label><label><input type="radio" name="outcome" value="hold" required><span><strong>Keep the review on hold</strong><small>A material question remains. Do not return an affirmative review.</small></span></label></div></fieldset>'+ '<label class="field-label" for="decision-reason">Reason or limitation <span class="muted">· required for a hold</span></label><textarea id="decision-reason" name="reason" maxlength="3000" placeholder="Record your own basis, not the assistant’s conclusion."></textarea><label class="check-label"><input type="checkbox" name="inspected" required><span>I inspected the instruction and its source material for this review.</span></label><p class="small muted">After an affirmative review, the prototype returns the same edition to its sample closing-file destination.</p>', 'decision-form','Save review');
+ } else if(type==='request'||type==='ask-again') {
+   const q=context.id?file.questions.find(q=>q.id===context.id):null;
+   const text=q?q.text:'Please send a complete, readable copy of your account page showing the account-holder name and the account reference '+file.initialAccount+'. We have the other material already.';
+   html=formDialog(type==='request'?'Ask for the missing contribution':'Keep the question attached', 'To '+file.seller+' · '+file.email,
+     '<p class="intro">Veto will carry this permitted request, prepare the response, and bring the question back to the reviewer. The office keeps the determination.</p><label class="field-label" for="request-text">What do you need?</label><textarea id="request-text" name="text" required maxlength="3000" style="min-height:145px">'+e(text)+'</textarea><div class="responsibility"><span class="avatar">JL</span><div><strong>Jordan Lee will carry the follow-up</strong><p>'+e(checkpoint())+' · sample participant link</p></div></div><p class="small muted">The invitation appears in the seller view. No real message is sent, and this request does not ask for a bank password or login code.</p>',type==='request'?'request-form':'ask-again-form',type==='request'?'Let Veto handle the request':'Send the revised question');
+ } else if(type==='help-request') {
+   html=formDialog('What is getting in the way?','Your work stays attached to this request.','<p class="intro">Jordan will see your obstacle and reply here. The participant still makes their own contribution.</p><label class="field-label" for="help-text">Tell us what you need help with</label><textarea id="help-text" name="text" maxlength="3000" required placeholder="For example: I can’t upload a clearer copy from my phone."></textarea><p class="small muted" style="margin-top:15px">This is a simulated support request. Do not include real account information.</p>','help-form','Ask Veto for help');
+ } else if(type==='help-reply') {
+   const h=file.help.find(h=>h.id===context.id);
+   html=formDialog('Reply to '+file.seller,'This answer is delivered to the seller’s task.','<div class="question-box"><h3>What stopped the seller</h3><p>'+e(h.obstacle)+'</p></div><label class="field-label" for="help-answer">Your reply</label><textarea id="help-answer" name="text" required maxlength="3000" style="min-height:150px">I’ve made an accessible text copy of the sample page available below. Choose “Read the accessible text copy,” inspect it, and submit it yourself. You do not need to upload a file or restart.</textarea><label class="check-label"><input type="checkbox" name="assisted" checked><span>Offer the accessible text copy as an alternative to uploading.</span></label><p class="small muted">The source is a complete fictional specimen. Delivering help does not submit or approve it for the participant.</p>','help-reply-form','Deliver the reply');
+ } else if(type==='hold'||type==='pause') {
+   html=formDialog(type==='hold'?'Record a specific hold':'Pause this review',file.reference,'<label class="field-label" for="reason">'+(type==='hold'?'What remains unresolved?':'Why is work paused?')+'</label><textarea id="reason" name="reason" required maxlength="3000" placeholder="Name the issue and the next useful action."></textarea><p class="small muted block-space">'+(type==='hold'?'Each concern stays separate. Requests and evidence can still arrive; relevant new evidence and the office’s explicit disposition are needed to resolve this hold.':'Incoming material will be retained without lifting this pause. Only the assigned officer can resume the review.')+'</p>',type==='hold'?'hold-form':'pause-form',type==='hold'?'Save this hold':'Pause the review');
+ } else if(type==='resolve-hold') {
+   const h=file.holds.find(h=>h.id===context.id);
+   const sources=file.sources.filter(s=>s.complete&&s.relevant&&s.fileId===file.id&&s.receivedBasis>h.openedBasis);
+   html=formDialog('Resolve only this hold',h.reason,
+     '<label class="field-label" for="hold-source">Relevant new evidence</label><select class="control" id="hold-source" name="sourceId" required><option value="">Choose a new source</option>'+sources.map(s=>'<option value="'+s.id+'">'+e(s.title)+'</option>').join('')+'</select>'+(sources.length?'':'<p class="small" style="color:var(--warn);margin-top:12px">No relevant new evidence has arrived since this hold. Request the needed contribution first. Unchanged details cannot clear it.</p>')+'<label class="field-label" for="reason">Why does this resolve the concern?</label><textarea id="reason" name="reason" required maxlength="3000"></textarea>','resolve-hold-form','Resolve this hold');
+ } else if(type==='coverage') {
+   const next=file.assigned==='maya'?'alex':'maya';
+   html=formDialog('Arrange a covering officer','A handoff is not a decision.','<p class="intro">'+e(M.person(file.assigned,file))+' stays responsible until the covering officer accepts. The sources, original question, and saved work travel together.</p><label class="field-label" for="next-officer">Qualified sample officer</label><select id="next-officer" class="control" name="next"><option value="'+next+'">'+e(M.PEOPLE[next].name)+'</option></select><p class="small muted block-space">Switch into the covering officer’s demo role to accept the task. This selector simulates roles; it is not authentication.</p>','coverage-form','Offer this review');
+ } else if(type==='transfer-change'||type==='accept-report') {
+   html=formDialog(type==='transfer-change'?'Accept the separate change task':'Accept the late-report follow-up',file.reference,
+     '<p class="intro">You are accepting responsibility for the next office action. You are not approving a new destination or directing the bank.</p><label class="field-label" for="next-action">What will the office do next?</label><textarea id="next-action" name="reason" required maxlength="3000">'+(type==='transfer-change'?'Use the office’s established change procedure to obtain and review a properly supported replacement. Do not rely on the withdrawn instruction.':'Contact the relevant person through the office’s established route, assess the report, and handle any affected payment under the office and bank procedures.')+'</textarea><p class="small muted block-space">This transfer does not silently purchase new preparation or add a fee. Earlier records remain unchanged.</p>',type==='transfer-change'?'transfer-change-form':'accept-report-form','Accept the next action');
+ } else if(type==='late-report') {
+   html=formDialog('Try a relevant late report','Diagnostic scenario · no real report is sent.','<p class="intro">The historical handoff stays complete. This report creates a separate obligation linked to that issued edition.</p><label class="field-label" for="report-text">Sample report</label><textarea id="report-text" name="text" maxlength="3000" required>The seller reports a possible issue with the receiving account after the review was filed. The office needs to assess the report before relying further on those details.</textarea><p class="small muted block-space">Current sample observation: '+e(file.service.observation)+'. Jordan triages; the office must accept the subsequent task.</p>','late-report-form','Add the sample report');
+ } else if(type==='record') {
+   const rec=file.records.find(r=>r.id===context.id); if(!rec){showError('This issued record could not be found.');return;}
+   wide=true;
+   html=simpleDialog('Review Record · edition '+rec.edition,'Fixed issued snapshot · '+rec.id,recordMarkup(rec),btn('Structured JSON','download-json',{id:rec.id,compact:true})+btn('Download record','download-record',{id:rec.id,icon:'download',compact:true})+btn('Print / Save PDF','print-record',{id:rec.id,kind:'primary',icon:'print',compact:true}));
+ } else if(type==='scope') {
+   html=simpleDialog('The sample undertaking','Demonstration settings, not customer terms.',
+     '<h3>Prepare this receiving review</h3><p class="intro block-space">One individual seller’s domestic USD receiving arrangement. Use the three sample sources, the office’s prior procedure, and the assigned reviewer. All admission fields are stipulated for the demonstration.</p><dl class="facts"><div class="fact"><dt>Office decision</dt><dd>'+e(M.person(file.assigned,file))+'</dd></div><div class="fact"><dt>Veto owner</dt><dd>Jordan Lee</dd></div><div class="fact"><dt>Return destination</dt><dd>'+e(file.service.endpoint)+'</dd></div><div class="fact"><dt>Endpoint</dt><dd>Simulated exact-edition placement in the sample closing file</dd></div><div class="fact"><dt>Observation</dt><dd>'+e(file.service.observation==='open'?'Open until ended in demo controls':'Ended in this sample')+'</dd></div><div class="fact"><dt>Late-report route</dt><dd>Jordan prepares a warning; the assigned officer accepts the follow-up.</dd></div></dl><h3>The boundaries do not disappear</h3><p class="intro block-space">A changed destination does not inherit the earlier review. Its handling transfers to the office outside this initial undertaking. This prototype does not decide entitlement, authorize an unspecified payment, move money, provide insurance, or verify a bank account.</p><h3>The checkpoint is a fixture</h3><p class="intro block-space">The demo uses a 30-minute illustrative checkpoint, advanced only by your actions. It is not an adopted response-time promise. Nothing is monitored after you close this page. Buyer funding is outside this focused prototype, not removed from Veto’s existing commitments.</p>');
+ } else if(type==='about') {
+   html=simpleDialog('A complete local experience','Prepare → review → return to the closing file.',
+    '<p class="intro">Start with 108 Olive Avenue for the ordinary sufficient file. Use 62 Alder Court for the missing-page loop. Change roles to follow the same request as the seller, Veto’s helper, and the covering officer.</p><h3>What works here</h3><p class="intro block-space">Retained sources, targeted questions, partial and wrong-file replies, delivered help, reviewer decisions, private notes, accepted coverage, holds and pauses, record creation, simulated filing and recovery, late reports, and local exports all use connected state.</p><h3>What is simulated</h3><p class="intro block-space">Every identity, document, contact, bank reference, check, message, and destination is fictional. Preparation uses explicit fixtures, not an AI or document-reading API. Role switching is a demo affordance, not access control. Local browser storage is not a secure financial system.</p><h3>Data handling</h3><p class="intro block-space">The app has no network calls or external dependencies. It stores only this prototype’s data under one browser-storage key when permitted. Do not put live client data here. Restart clears only this demo’s sample state.</p><div class="source-refs"><p>Based on <em>Veto — First Feature Analysis</em>, pp. 8–18; <em>Product Foundations v10</em>, pp. 3–5, 13–15, 31, 37–40, and 45–49.</p><p>New fixture choices, sample names, and screen implementation are prototype design, not observations about actual customers.</p></div>');
+ } else if(type==='controls') {
+   html=simpleDialog('Try the connected experience','Controls change only this local fictional prototype.',
+     '<div class="demo-control-group"><h3>Start with a file</h3><p>The ordinary file needs no additional request. The other file needs one readable page.</p><div class="button-row">'+btn('108 Olive Avenue','ordinary',{compact:true})+btn('62 Alder Court','question-case',{compact:true})+'</div></div>'+
+     '<div class="demo-control-group"><h3>Test recovery</h3><p>Each option affects the next review save or filing only. Then continue the ordinary review.</p><div class="button-row">'+btn('Fail the next review save','fault-save',{compact:true})+btn('Lose the next save response','fault-unknown',{compact:true})+btn('Fail the next filing','fault-delivery',{compact:true})+'</div><p style="margin-top:10px">Armed: '+e([faults.save==='fail'?'review save failure':faults.save==='unknown'?'lost save response':'',faults.delivery?'filing failure':''].filter(Boolean).join(', ')||'none')+'</p></div>'+
+     '<div class="demo-control-group"><h3>Test change and duration</h3><p>Preserve the prior record while creating new, owned work. The current file is '+e(file.reference)+'.</p><div class="button-row">'+btn('Report a changed destination','simulate-change',{compact:true,disabled:!file.prepared||!!file.change})+btn('Add a late report','late-report',{compact:true,disabled:!M.historicalComplete(file)})+btn('End sample observation','end-observation',{compact:true,disabled:file.service.observation==='ended'||!['jordan',file.assigned].includes(ui.actor)})+'</div></div>'+
+     '<div class="demo-control-group"><h3>Reset the sample</h3><p>This removes only the selected file’s demo progress. The other example is preserved.</p>'+btn('Restart this example','restart',{compact:true,icon:'refresh'})+'</div><p class="demo-controls-note">'+e(sessionOnly?'Browser storage is not available in this viewer. All work is session-only.':'Progress is local to this browser; no data is sent to a server.')+'</p>');
+ } else if(type==='file-actions') {
+   html=simpleDialog('Actions on this review',file.reference,
+    '<div class="stack">'+btn(file.paused?'Resume the review':'Pause the review',file.paused?'resume':'pause',{disabled:!canDecide()})+btn('Arrange officer coverage','coverage',{disabled:!canDecide()})+btn('Record a separate hold','hold',{disabled:!canDecide()||!file.prepared})+btn('Open the seller’s view','open-seller')+btn('Open Veto’s service view','open-service')+btn('View sample scope','scope')+'</div>');
+ } else if(type==='restart') {
+   html=simpleDialog('Restart this example?','Only '+file.reference+' will be reset.','<p>The local questions, notes, reviews, and sample history for this example will be removed. The other file and your source application are untouched.</p>',btn('Keep my progress','close-dialog')+btn('Restart example','confirm-restart',{kind:'primary',icon:'refresh'}));
+ }
+ d.className=wide?'wide':''; d.innerHTML=html;
+ if(!d.open)d.showModal(); d.scrollTop=0;
+ const focus=d.querySelector('textarea, input:not([type=checkbox]):not([type=radio]), select, .dialog-footer .btn, .icon-btn');
+ if(focus)focus.focus({preventScroll:true});
+}
+function saveNote(quiet=false) {
+ const input=$('#private-note'); if(!input)return true;
+ const text=input.value;
+ const success=commit({type:'NOTE',text},{quiet:true});
+ if(success) {ui.noteDirty=false; const label=$('#note-state'); if(label)label.textContent=saveCopy()+' · '+time(new Date().toISOString()); if(!quiet)notify(saveCopy()+'. Private note retained.');}
+ return success;
+}
+function finishFiling(fileId, recordId) {
+ const target=M.file(state,fileId); if(target.pendingReceipt)return;
+ const fail=faults.delivery; faults.delivery=false;
+ const ok=commit({type:'DELIVER',fileId,recordId,actor:'system',fail});
+ if(ok)notify(fail?'Review saved. Filing failed; Veto still owns delivery.':'Review saved and placed in the sample closing file.',fail);
+}
+function getQuestion() {return M.openQuestions(f())[0];}
+function handleAction(action, element) {
+ const file=f(), id=element?.dataset?.id;
+ if (ui.noteDirty && !['save-note','dismiss-toast'].includes(action) && !saveNote(true)) return;
+ switch(action) {
+  case 'dismiss-toast': $('#toast').hidden=true; return;
+  case 'clear-error': ui.error=''; render(); return;
+  case 'close-dialog': closeDialog(); return;
+  case 'home': navigate('list',ui.fileId,ui.actor==='seller'?'maya':ui.actor); return;
+  case 'view-review': navigate('review'); return;
+  case 'view-file': navigate('file'); return;
+  case 'view-activity': navigate('activity'); return;
+  case 'open-file': navigate('review',id,ui.actor==='seller'?'maya':ui.actor); return;
+  case 'ordinary': navigate('review','ESC-1042','maya'); return;
+  case 'question-case': navigate('review','ESC-1043','maya'); return;
+  case 'open-seller': navigate('seller',ui.fileId,'seller'); return;
+  case 'open-service': navigate('service',ui.fileId,'jordan'); return;
+  case 'open-officer': navigate('review',ui.fileId,file.assigned); return;
+  case 'filter': ui.filter=id; render(); return;
+  case 'controls': case 'about': case 'scope': case 'file-actions': case 'restart': case 'pause': case 'hold': case 'coverage': case 'request': case 'decision': case 'help-request': case 'late-report': case 'transfer-change':
+   if(ui.noteDirty&&!saveNote(true))return; dialog(action); return;
+  case 'source': case 'record': case 'ask-again': case 'resolve-hold': case 'help-reply': case 'accept-report':
+   if(ui.noteDirty&&!saveNote(true))return; dialog(action,{id}); return;
+  case 'select-source': if(ui.noteDirty&&!saveNote(true))return; ui.sourceId=id; render(); $('.source-panel')?.scrollIntoView({block:'nearest',behavior:'auto'}); return;
+  case 'toggle-details': if(ui.noteDirty&&!saveNote(true))return; ui.showFull=!ui.showFull; render(); if (ui.modal==='decision' && $('#dialog .facts')) $('#dialog .facts').outerHTML=facts(file); return;
+  case 'save-note': saveNote(); return;
+  case 'prepare': {
+    if(!commit({type:'PREPARE'}))return;
+    ui.preparing=true; render(); const fid=file.id;
+    setTimeout(()=>{ui.preparing=false;render();if(ui.fileId===fid)$('#announcer').textContent='The sample review is ready.';},750); return;
+  }
+  case 'accept-response': {
+    if(commit({type:'ACCEPT_RESPONSE',questionId:id})){ui.sourceId=null; render(); notify('Response accepted by the office. The receiving review is a separate act.');} return;
+  }
+  case 'submit-page': {
+    const q=getQuestion(); if(!q){showError('There is no open request to submit to.');return;}
+    if(commit({type:'SUBMIT_PAGE',questionId:q.id,edition:q.edition,kind:file.participantDraft.selection,attested:file.participantDraft.attested})){
+      render(); window.scrollTo(0,0); notify(saveCopy()+'. Your page is with the office.');
+    } return;
+  }
+  case 'assisted':
+    if(commit({type:'PARTICIPANT_DRAFT',draft:{selection:'assisted',attested:false}})) {closeDialog();render(); $('.attachment-preview')?.scrollIntoView({block:'start'});notify('Read the accessible sample before submitting it yourself.');} return;
+  case 'auto-reply': {
+    const q=getQuestion(); if(q&&commit({type:'AUTO_REPLY',questionId:q.id}))notify('Automatic reply received. The question stays open.'); return;
+  }
+  case 'resume': if(commit({type:'RESUME'})){closeDialog();render();notify('Review resumed. Incoming material and earlier work were preserved.');} return;
+  case 'accept-coverage': if(commit({type:'ACCEPT_COVERAGE'})){render();notify('You accepted the review task, not the evidence.');} return;
+  case 'reconcile':
+    if(commit({type:'RECONCILE'})){const rec=M.currentRecord(f());if(rec)finishFiling(file.id,rec.id);} return;
+  case 'retry-delivery': if(!file.pendingReceipt)finishFiling(file.id,id); return;
+  case 'fault-save': faults.save='fail';closeDialog();notify('The next review save will fail once. Continue the ordinary review.');return;
+  case 'fault-unknown': faults.save='unknown';closeDialog();notify('The next review’s save response will be lost once.');return;
+  case 'fault-delivery': faults.delivery=true;closeDialog();notify('The next closing-file placement will fail once.');return;
+  case 'simulate-change':
+    closeDialog(); if(commit({type:'CHANGE',actor:'seller'})){ui.sourceId=null; if(ui.actor==='seller'||ui.actor==='jordan')navigate('review',file.id,file.assigned);else render();notify('Change reported. The earlier instruction is not restored or reused.');} return;
+  case 'end-observation':
+    if(commit({type:'END_OBSERVATION'})){closeDialog();render();notify('Sample observation ended. Relevant late reports still have an office-transfer route.');} return;
+  case 'warn-report': if(commit({type:'WARN_REPORT',reportId:id})){notify('Warning placed beside the unchanged historical record. Office acceptance remains.');}return;
+  case 'confirm-restart': {
+    const next=M.clone(state), fresh=M.initial().cases.find(x=>x.id===file.id); next.cases=next.cases.map(x=>x.id===file.id?fresh:x);next.rev+=1;
+    try{storage.write(next);state=next;faults.save=null;faults.delivery=false;ui.noteDirty=false;closeDialog();navigate('review',file.id,'maya');notify('This sample was restarted. The other file is unchanged.');}catch(err){showError('The sample could not be reset. No reset was acknowledged.');}return;
+  }
+  case 'download-source': {
+    const src=file.sources.find(s=>s.id===id); if(!src||(ui.actor==='seller'&&src.type==='office'))return;
+    download(file.id+'-'+src.id+'.txt',src.body);notify('Source text exported. No review or delivery status changed.');return;
+  }
+  case 'download-record': case 'download-json': case 'print-record': {
+    const rec=file.records.find(r=>r.id===id);if(!rec)return;
+    if(action==='download-record') {download('Veto-'+file.id+'-Review-Edition-'+rec.edition+'.html',exportHTML(rec),'text/html;charset=utf-8');notify('Record exported. Export alone does not establish closing-file delivery.');}
+    else if(action==='download-json') {download('Veto-'+file.id+'-Review-Edition-'+rec.edition+'.json',JSON.stringify({record:rec,deliveryReceipt:file.deliveries[rec.id],formatVersion:1},null,2),'application/json');notify('Exact record and separate delivery receipt exported.');}
+    else {
+      const w=window.open('','_blank');
+      if(!w){showError('Your browser blocked the print window. Use Download record, open that HTML file, then Print / Save as PDF.');return;}
+      w.opener=null; w.document.write(exportHTML(rec));w.document.close();
+      setTimeout(()=>{try{w.focus();w.print();}catch(err){notify('Use Print / Save as PDF in the opened record.');}},250);
+    }return;
+  }
+ }
+}
+document.addEventListener('click',ev=>{
+ const button=ev.target.closest('[data-a]');if(!button||button.disabled)return;
+ ev.preventDefault();handleAction(button.dataset.a,button);
+});
+document.addEventListener('change',ev=>{
+ const el=ev.target;
+ if(el.id==='actor-select') {
+   if(ui.noteDirty&&!saveNote(true)){render();return;}
+   const actor=el.value; navigate(actor==='seller'?'seller':actor==='jordan'?'service':'review',ui.fileId,actor);
+ } else if(el.id==='source-select') {if(ui.noteDirty&&!saveNote(true))return; ui.sourceId=el.value;render();$('#source-select')?.focus({preventScroll:true});}
+ else if(el.name==='sample-page') {commit({type:'PARTICIPANT_DRAFT',draft:{selection:el.value,attested:false}});}
+ else if(el.id==='participant-attest') {commit({type:'PARTICIPANT_DRAFT',draft:{attested:el.checked}},{quiet:true});}
+});
+document.addEventListener('input',ev=>{
+ if(ev.target.id==='private-note') {ui.noteDirty=true;const label=$('#note-state');if(label)label.textContent='Not yet saved';}
+ if(ev.target.id==='file-search') {const pos=ev.target.selectionStart;ui.query=ev.target.value;render();const input=$('#file-search');input.focus();input.setSelectionRange(pos,pos);}
+});
+document.addEventListener('submit',ev=>{
+ ev.preventDefault();const form=ev.target, data=new FormData(form), type=form.id;const c=ui.modalContext,file=f(); let ok=false;
+ if(type==='decision-form') {
+   if(c.basis!==file.basis){showError('The material changed while the review was open. Close this dialog and inspect the current basis.');return;}
+   if(data.get('outcome')==='hold') {
+     if(!String(data.get('reason')||'').trim()){showError('Explain the material question before recording a hold.');return;}
+     ok=commit({type:'HOLD',reason:data.get('reason')});
+     if(ok){closeDialog();render();notify('A separate hold was saved. No affirmative review was issued.');}return;
+   }
+   if(data.get('outcome')!=='supported'){showError('Choose your determination. Nothing is preselected.');return;}
+   ok=commit({type:'DECIDE',basis:c.basis,inspected:data.get('inspected')==='on',reason:data.get('reason'),operationId:'review-'+file.id+'-'+(state.seq+1)});
+   if(ok){closeDialog();ui.noteDirty=false;render();if(f().pendingReceipt)notify('Save response lost. Check the original review before continuing.',true);else{const rec=M.currentRecord(f());finishFiling(file.id,rec.id);}}return;
+ }
+ if(type==='request-form')ok=commit({type:'REQUEST',text:data.get('text')});
+ else if(type==='ask-again-form')ok=commit({type:'ASK_AGAIN',questionId:c.id,text:data.get('text')});
+ else if(type==='help-form')ok=commit({type:'HELP',questionId:getQuestion()?.id,text:data.get('text')});
+ else if(type==='help-reply-form')ok=commit({type:'DELIVER_HELP',helpId:c.id,questionId:getQuestion()?.id,text:data.get('text'),assisted:data.get('assisted')==='on'});
+ else if(type==='pause-form')ok=commit({type:'PAUSE',reason:data.get('reason')});
+ else if(type==='hold-form')ok=commit({type:'HOLD',reason:data.get('reason')});
+ else if(type==='resolve-hold-form')ok=commit({type:'RESOLVE_HOLD',holdId:c.id,sourceId:data.get('sourceId'),reason:data.get('reason')});
+ else if(type==='coverage-form')ok=commit({type:'OFFER_COVERAGE',next:data.get('next')});
+ else if(type==='transfer-change-form')ok=commit({type:'TRANSFER_CHANGE',reason:data.get('reason')});
+ else if(type==='late-report-form')ok=commit({type:'LATE_REPORT',text:data.get('text')});
+ else if(type==='accept-report-form')ok=commit({type:'ACCEPT_REPORT',reportId:c.id,reason:data.get('reason')});
+ if(ok){closeDialog();render();notify(type==='request-form'?'Veto accepted the follow-up. Open the seller’s task to continue.':type==='help-reply-form'?'Your answer is now visible in the seller’s task.':type==='help-form'?'Jordan has your obstacle. Veto owns the next action.':type==='coverage-form'?'Coverage offered. Switch to the other officer to accept.':saveCopy()+'. The next action has been updated.');}
+});
+$('#dialog').addEventListener('cancel',ev=>{ev.preventDefault();closeDialog();});
+window.addEventListener('hashchange',()=>{parseHash();render();});
+window.addEventListener('storage',ev=>{
+ if(ev.key!==KEY||!ev.newValue)return;
+ try{const next=JSON.parse(ev.newValue);if(next.schema!==1||next.rev<=state.rev)return;
+ const dirty=$('#private-note')?.value; state=next;render();
+ if(ui.noteDirty&&$('#private-note')){$('#private-note').value=dirty;$('#note-state').textContent='Local draft not yet saved';}
+ if($('#dialog').open)showError('Another tab changed this file. Your open form is retained; inspect the current basis before committing.');
+ else notify('This file was updated in another tab. Current views have been refreshed.');
+ }catch(err){showError('Another tab supplied unreadable demo state. The current view was not replaced.');}
+});
+window.addEventListener('beforeunload',ev=>{if(ui.noteDirty){const saved=saveNote(true);if(!saved){ev.preventDefault();ev.returnValue='';}}});
+parseHash();render();
+if(bootWarning)$('#announcer').textContent=bootWarning;
+window.VetoPrototype=Object.freeze({version:'1.0.0',snapshot:()=>M.clone(state),storageMode:()=>sessionOnly?'session':'browser-local',exportRecord:id=>{const rec=state.cases.flatMap(x=>x.records).find(r=>r.id===id);return rec?M.clone(rec):null;}});
+})();
+</script></body></html>

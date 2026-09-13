@@ -1,0 +1,89 @@
+# Verification — 2026.9.1107
+
+Prepared 11 September 2026. Scope: the shareable plugin, targeted engineering
+instructions and unchanged offline helpers—not Veto's application, installed
+agents or WorkOS configuration.
+
+## Executed during authoring
+
+The supplied **2026.9.1106** archive passed **177 helper/package tests** before
+editing. The 1107 candidate passed the same **177 tests** after editing. No
+executable helper or test implementation changed. These results concern the
+Python utilities and package structure, not the new instructions' effectiveness.
+[Baseline log](verification/baseline-tests.log) · [Candidate log](verification/helper-tests.log).
+
+Baseline archive SHA-256:
+`b64658d719e0d39b658df1045c71bf31326e7e35dc7320731d27a05df08e58eb`.
+Byte comparison against that actual ZIP confirmed unchanged five helper files,
+four test files, original fixtures/oracles, both goals, existing acceptance/review
+JSON templates and the central feedback/evidence/diagnosis contracts. The 69 prior
+behavioral specifications were retained unchanged; eight new specifications were
+added. Same **13 skill identities and nine role guides**.
+
+The goals remain **3,956** and **3,627 Unicode characters**, including whitespace,
+both below 4,000. All 13 new source attachments' hashes were checked against their
+local bytes. The integration sample is preserved exactly and remains illustrative,
+unadopted and unexecuted. The duplicate 1104 review was compared byte-for-byte.
+
+Actual existing-helper invocations produced the expected results:
+
+- [Feedback fixture](verification/feedback-example.json): **NOT_ACCEPTED**, exit 1;
+  independent source review and required address behavior are still unperformed.
+- [Legacy unrun fixture](verification/legacy-example.json): **NOT_ACCEPTED**, exit 1.
+- [Legacy with `--require-feedback`](verification/legacy_with_require_feedback.json):
+  **INVALID**, exit 2; an evidence-only contract cannot satisfy that invocation.
+
+The [authoring and preservation record](verification/format-checks.json) retains
+commands, exit codes, full results, source hashes and preservation checks. These
+are mechanical consistency results. They do not authenticate a reviewer, verify
+semantic completeness or establish browser behavior. No new checker was added.
+
+The doctor checks manifests, metadata, local links, skill size, Python syntax,
+source-snapshot declarations and payload hashes. An intermediate
+[doctor result](verification/candidate-doctor-before-records.json) identifies the
+candidate before the final verification records were written; it is not a receipt
+for the final ZIP's exact inventory. Final distribution evidence is delivered
+beside the ZIP: fresh-extraction doctor, the same test suite, archive integrity and
+byte comparison. Keeping that receipt outside the ZIP avoids a self-hashing claim.
+
+## What has not been established
+
+**Behavior:** all **77 evaluation cases** remain authored specifications. No model
+trial, held-out omission experiment, actual independent agent review, continuation
+trial or comparative performance measurement was run. Historical review results
+remain attributed to their source and candidate.
+
+**Runtime:** native-host installation, loaded revision, activation, model/mode,
+browser access, peer communication and operational adoption remain unverified.
+No scheduler, hook, CI runner, automatic gate or host configuration was installed.
+
+**Product:** no application source was edited, server started, browser journey
+operated, saved-state replay performed or production suite run. No WorkOS account
+or configuration was inspected here. The dated WorkOS study is source evidence,
+not current production truth. The new procedure and request template implement
+neither credential custody nor a server-side permission ceiling or cleanup.
+
+**Authority:** running agents, the active goal, permissions, pauses, approval
+policy, customer records, spending and release state were unchanged. A package
+update is not a deployment or grant to log in. A successful helper check is not
+product acceptance. Do not interpret new design/engineering guidance as a mandate
+for a catalog, refactor, CI migration or production-access project.
+
+Previous authoring evidence is retained under
+`research/prior-release-verification/1106/`; it is historical, not a new run.
+
+## Reproduce and earn the next claim
+
+From the plugin folder:
+
+```sh
+python3 -B scripts/doctor.py .
+python3 -B -m unittest discover -s tests -v
+```
+
+Then run [the intentionally unaccepted feedback example](templates/feedback-example/README.md).
+For missing behavioral evidence, use [ADOPTION.md](ADOPTION.md) on one already-
+authorized change with the same originals, starting state, available tools and
+endpoint as a credible baseline. Measure whether the useful correction finishes
+without a repeated founder instruction or weakened safeguard—not whether another
+manual or test count looks impressive.

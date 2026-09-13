@@ -1,0 +1,85 @@
+{
+  "scope": "Offline helper calls, not agent behavior or native mutations",
+  "passed": 1,
+  "failed": 8,
+  "cases": [
+    {
+      "case": "quoted_review",
+      "expected": false,
+      "observed": true,
+      "passed": false,
+      "prompt": "Review this sentence: \"Set this as your goal\". Do not execute it.",
+      "hook_claims_adoption_requested": true
+    },
+    {
+      "case": "explanation",
+      "expected": false,
+      "observed": true,
+      "passed": false,
+      "prompt": "Can you explain how to set a goal?",
+      "hook_claims_adoption_requested": true
+    },
+    {
+      "case": "negated_request",
+      "expected": false,
+      "observed": true,
+      "passed": false,
+      "prompt": "I am not asking you to set a goal; only review the documentation.",
+      "hook_claims_adoption_requested": true
+    },
+    {
+      "case": "explicit_update",
+      "expected": "adopt",
+      "observed": "draft",
+      "passed": false,
+      "prompt": "Please update my native goal to \"Finish the buyer flow\"."
+    },
+    {
+      "case": "empty_objective",
+      "expected": false,
+      "observed": true,
+      "passed": false
+    },
+    {
+      "case": "paused_flag",
+      "expected": false,
+      "observed": true,
+      "passed": false
+    },
+    {
+      "case": "missing_objective_event",
+      "expected": false,
+      "observed": true,
+      "passed": false,
+      "event_result": {
+        "request": {
+          "intent": "adopt",
+          "requires_native_readback": true,
+          "native_action": "get_goal_then_supported_update_or_create_goal"
+        },
+        "goal": {
+          "action": "create_goal",
+          "can_report_success": false,
+          "reason": "No native goal is present; create it and read it back."
+        },
+        "readback": {
+          "verified": true,
+          "issues": []
+        }
+      }
+    },
+    {
+      "case": "unbound_task_identity",
+      "expected": false,
+      "observed": true,
+      "passed": false,
+      "qualification": "Proposed stronger contract: same-task assurance requires an expected task ID."
+    },
+    {
+      "case": "valid_same_task_positive_control",
+      "expected": true,
+      "observed": true,
+      "passed": true
+    }
+  ]
+}

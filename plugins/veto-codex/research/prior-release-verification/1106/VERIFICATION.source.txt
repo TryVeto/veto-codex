@@ -1,0 +1,36 @@
+# Verification — 2026.9.1106
+
+Prepared 11 September 2026. Scope: the shareable plugin, its instruction/reference changes and unchanged offline helpers—not Veto's application, local environment or running agents.
+
+## Executed here
+
+The supplied **2026.9.1105** archive passed **177 helper/package tests** before editing. The 1106 candidate passed the same **177 tests** after editing. No executable helper or test implementation changed. [Baseline log](verification/baseline-tests.log) · [Candidate log](verification/helper-tests.log).
+
+The baseline archive SHA-256 is `886d449c32aec026e4384f96d341274797028aafa11c9ea46eb83b942747d22d`. Comparison against its actual archive bytes confirmed unchanged `scripts/`, `tests/`, original evaluation fixtures/oracles, the two goal templates, the review JSON templates, acceptance templates and core feedback/evidence/diagnosis contracts. The goals remain **3,956** and **3,627 Unicode characters**, including whitespace—both below 4,000.
+
+The synthetic feedback example still returns **NOT_ACCEPTED**, exit **1**. The unrun legacy example also returns **NOT_ACCEPTED**, exit **1**. Invoking that legacy contract with `--require-feedback` returns invalid input, exit **2**. These are mechanical parser/consistency results, not application or reviewer observations. The 1105 flag and its semantics were preserved; no new checker was added.
+
+[Authoring and preservation record](verification/format-checks.json) records actual helper invocations, byte comparisons and targeted text checks. The text checks confirm the presence of relevant instructions, not that a model follows them. Package validation checks manifest consistency, skill metadata and size, local links, Python syntax, input identity declarations and payload hashes. The new observation template is an ordinary evidence attachment; no machine validator checks the truth of its narrative.
+
+Final distribution checks run the doctor and the same test suite from a fresh ZIP extraction, compare all distributed bytes and check the archive's integrity. Their receipt is delivered beside the ZIP so it does not claim to hash itself. Prior verification files are retained under `research/prior-release-verification/1105/`; those are historical, not new results.
+
+## Evidence boundaries
+
+**Behavior:** all **69 evaluation cases** are authored specifications. No agent/model trial, held-out omission test, fresh-worker continuation or comparative performance run was executed. The source's independent 1104 review reports its own earlier probes; those are not this release's experiments. Different declared reviewer identities do not establish actual independent execution.
+
+**Runtime:** installed plugin identity, native-host loading, actual skill activation, model/mode availability, browser access, peer messaging and adoption remain unverified. No host configuration, scheduler, hook, model bridge or automatic gate was installed.
+
+**Product:** no application browser journey, saved-state replay, packaged-runtime build, provider integration, customer flow or production system was run. An optional specimen/observation template does not implement a stable local environment. This release preserves current source-derived boundaries without claiming to repair the user's live browser, sign-out or address-entry behavior.
+
+**Authority:** no running agent, active goal, product repository, local server, saved user case, permission, approval policy, spending or release state was changed. Packaging is not installation, successful helper checks are not product acceptance, and a complete evidence pack cannot establish semantic completeness or customer value.
+
+## Reproduce the package checks
+
+From the plugin folder:
+
+```sh
+python3 -B scripts/doctor.py .
+python3 -B -m unittest discover -s tests -v
+```
+
+Then run [the deliberately unaccepted feedback fixture](templates/feedback-example/README.md). For the missing operational evidence, follow [ADOPTION.md](ADOPTION.md) on one authorized batch and a controlled comparison. Do not infer improved product sense or autonomy from the unchanged helper-test total.

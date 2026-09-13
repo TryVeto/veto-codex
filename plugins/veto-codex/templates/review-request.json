@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "review_id": "REPLACE_WITH_REVIEW_ID",
+  "candidate": {
+    "id": "REPLACE_WITH_EXACT_CANDIDATE",
+    "environment": "REPLACE_WITH_ACTUAL_ENVIRONMENT"
+  },
+  "task": "Review the same seller contribution from file entry to officer retrieval. Replace with the actual task.",
+  "fixed_constraints": [
+    "Preserve adopted Veto design and actual authority.",
+    "No decorative eyebrows; keep functional labels, status and disclosures."
+  ],
+  "required_states": [
+    "entry-desktop",
+    "contribution-narrow",
+    "saved-receipt",
+    "officer-retrieval"
+  ],
+  "require_source": true,
+  "require_runtime_identity": true
+}

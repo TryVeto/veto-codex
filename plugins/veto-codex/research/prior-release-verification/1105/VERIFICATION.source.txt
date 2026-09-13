@@ -1,0 +1,38 @@
+# Verification — 2026.9.1105
+
+Prepared 11 September 2026. Scope: the shareable plugin and its offline helpers, not the Veto application or a running agent.
+
+## Executed here
+
+The exact supplied **2026.9.1104** baseline passed **168 helper/package tests** before editing. The candidate passed **177**, including nine additional tests for coverage-required invocations and checked-package identity. [Baseline log](verification/baseline-tests.log) · [Candidate log](verification/helper-tests.log).
+
+The new tests exercise both outcomes: evidence-only schema 1 is still usable for legacy work, but is rejected when `--require-feedback` is set; consistent schema-2 declarations remain usable, while missing source inputs and unresolved coverage cannot pass. The command-line interface returns the tested status codes. Doctor identifies the checked version/path and explicitly disclaims runtime-loading proof.
+
+The existing suite still tests omission/mapping/pin errors, path and digest handling, declared provenance, source snapshot identity, slop heuristics and review-package behavior. It retains the important limitation case: a falsely complete semantic audit can still yield consistent declarations. No helper authenticates reviewer independence or determines the full meaning of the request.
+
+The [feedback example](verification/feedback-example.json) ran with `--require-feedback` and returned **NOT_ACCEPTED**, exit 1. Its original-source audit and browser behavior are unrun. The [legacy example](verification/legacy-example.json) returned **NOT_ACCEPTED**, exit 1, with coverage **NOT_CHECKED**. These are synthetic format exercises, not product observations.
+
+[Format checks](verification/format-checks.json) record 13 active skill entries, **3,956 characters** in the vision goal and **3,627** in the finite-bet goal. Both templates are byte-identical to 1104. All existing skill names and nine role guides remain; no new active entry was added. Release manifests, local links, Python syntax, source snapshots and payload hashes are checked by the doctor.
+
+Final distribution checks run the same tests and doctor from a fresh ZIP extraction. Their record is supplied beside the ZIP rather than written into the archive being validated. Prior release logs are retained under research/prior-release-verification and do not count as fresh observations.
+
+## Not established
+
+**Runtime:** installed version, native-host loading, natural skill selection, peer wakeups, independent reviewer availability and invocation inside a live completion path remain untested. Doctor's reported path/version concerns files only. No hooks, scheduler, automatic checks or policy changes were installed.
+
+**Behavior:** all **66 behavioral scenarios** are authored specifications, not agent trials. There is no measured improvement in product judgment, autonomy, feedback retention or founder intervention. The attached independent review concerns 1102, not this candidate.
+
+**Product and incident:** no Veto browser journey, address expansion, sign-out state, storage, provider, delivery or real user outcome was exercised. The latest browser diagnosis is attributed to a supplied transcript; its underlying diagnostic was not independently reproduced here. Existing denials were not bypassed or resolved by packaging.
+
+**Authority and state:** no running agent, current goal, product repository, approval policy, browser permission, release, connection or customer record was changed. The new flag protects one selected invocation from an evidence-only contract; it is not a host enforcement mechanism, semantic grader or authentication system.
+
+## Reproduce
+
+From the plugin folder:
+
+```sh
+python3 -B scripts/doctor.py .
+python3 -B -m unittest discover -s tests -v
+```
+
+Then run [the deliberately unaccepted fixture](templates/feedback-example/README.md). For the missing operational evidence, use [ADOPTION.md](ADOPTION.md) on one authorized real batch and the prior-version comparison plan. Do not turn local test totals into a claim that the organization now works better.

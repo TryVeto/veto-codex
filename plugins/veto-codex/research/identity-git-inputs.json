@@ -1,0 +1,51 @@
+{
+  "release": "2026.9.1109",
+  "baseline": "2026.9.1108",
+  "baseline_archive_sha256": "cee755123594d05595ee31aa4e382c1a6cd51e570da1616a0218140167e30efd",
+  "scope": "Shareable instruction package only; no live account/repository or application audit.",
+  "inputs": [
+    {
+      "input": "SKILL(20260911-232711)(1).md",
+      "kind": "user-supplied-skill",
+      "source_skill": "veto-git",
+      "sha256": "8b54d4d14963dc02b3de896560abcc71bee1134858e22645b90a5fa098cdeceb",
+      "bytes": 17718,
+      "packaged_snapshot": "research/source-skills/veto-git-1109.source.txt",
+      "treatment": "Git source handoff, review identity, recovery and cleanup; adapted into a conditional reference."
+    },
+    {
+      "input": "SKILL(20260911-232005)(1).md",
+      "kind": "user-supplied-skill",
+      "source_skill": "ship-to-preview",
+      "sha256": "f1596c0751d1350ba78af848ad6cd9848a6b67bf5df7e9d7b935a4d5b89a528d",
+      "bytes": 18932,
+      "packaged_snapshot": "research/source-skills/ship-to-preview-1109.source.txt",
+      "treatment": "Refines the existing canonical preview and exact-candidate delivery procedure; not a second active skill."
+    },
+    {
+      "input": "SKILL(20260911-231559)(1).md",
+      "kind": "user-supplied-skill",
+      "source_skill": "ship-preview-to-production",
+      "sha256": "2200bbb0c5dee7244dbb8bdc3b4e69666074da131a7d9c14ea2448e39f6bb252",
+      "bytes": 19014,
+      "packaged_snapshot": "research/source-skills/ship-preview-to-production-1109.source.txt",
+      "treatment": "Refines guarded promotion, configuration identity and recovery; no new production authority."
+    },
+    {
+      "input": "WorkOS-for-Veto-Preview-and-Production(1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "af44cc0bf13719862923e730c26b0b346985ae2aa5b754eab664e3ef7def19c8",
+      "bytes": 285129,
+      "packaged_snapshot": null,
+      "treatment": "Selected environment/admission/session/testing/release and evidence-boundary sections; recommendations remain proposals."
+    },
+    {
+      "input": "what-your-git-should-look-like(1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "30caa500535e1fea6c0da7363e3e31c7a6d0eaada3e8041b48acc491da4a2171",
+      "bytes": 313442,
+      "packaged_snapshot": null,
+      "treatment": "Selected integration, worktree, candidate, recovery and evidence-boundary sections, alongside the complete supplied Git skill."
+    }
+  ]
+}

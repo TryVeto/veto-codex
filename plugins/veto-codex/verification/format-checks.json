@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "source_inputs": 5,
+  "active_skills": [
+    {
+      "name": "build-a-capability",
+      "characters": 8120,
+      "description_characters": 193
+    },
+    {
+      "name": "field-proof",
+      "characters": 4671,
+      "description_characters": 174
+    },
+    {
+      "name": "independent-judgment",
+      "characters": 3412,
+      "description_characters": 189
+    },
+    {
+      "name": "integration-design",
+      "characters": 6019,
+      "description_characters": 208
+    },
+    {
+      "name": "make-a-goal",
+      "characters": 4929,
+      "description_characters": 185
+    },
+    {
+      "name": "product-design",
+      "characters": 5475,
+      "description_characters": 187
+    },
+    {
+      "name": "product-sense",
+      "characters": 6459,
+      "description_characters": 162
+    },
+    {
+      "name": "product-tests",
+      "characters": 8356,
+      "description_characters": 195
+    },
+    {
+      "name": "remove-slop",
+      "characters": 5024,
+      "description_characters": 182
+    },
+    {
+      "name": "review-a-prototype",
+      "characters": 5777,
+      "description_characters": 181
+    },
+    {
+      "name": "sandbox-experience",
+      "characters": 3409,
+      "description_characters": 182
+    },
+    {
+      "name": "veto-stack",
+      "characters": 8240,
+      "description_characters": 173
+    },
+    {
+      "name": "work-control",
+      "characters": 6669,
+      "description_characters": 180
+    }
+  ],
+  "role_guides": [
+    "backend-engineer",
+    "data-analyst",
+    "frontend-engineer",
+    "head-of-engineering",
+    "independent-verifier",
+    "product-designer",
+    "product-manager",
+    "specialist",
+    "user-researcher"
+  ],
+  "preserved_files": [
+    "assets/veto-logo.png",
+    "evals/fixtures/craft/README.md",
+    "evals/fixtures/craft/review.html",
+    "evals/fixtures/focus/README.md",
+    "evals/fixtures/focus/review.html",
+    "evals/fixtures/focus/store.py",
+    "evals/fixtures/pause/README.md",
+    "evals/fixtures/pause/app.py",
+    "evals/fixtures/pause/goal.md",
+    "evals/oracles/craft_oracle.py",
+    "evals/oracles/focus_oracle.py",
+    "examples/integration-contract-draft.md",
+    "examples/prepare-this-review/README.md",
+    "examples/prepare-this-review/prototype.html",
+    "references/diagnosis-and-approval.md",
+    "references/evidence.md",
+    "references/feedback-coverage.md",
+    "references/review-protocol.md",
+    "references/stripe-operating-system.md",
+    "references/veto-contract.md",
+    "references/working-contract.md",
+    "scripts/check_receipt.py",
+    "scripts/common.py",
+    "scripts/doctor.py",
+    "scripts/lint_slop.py",
+    "scripts/review_pack.py",
+    "templates/acceptance.contract.json",
+    "templates/acceptance.receipt.json",
+    "templates/bounded-goal.md",
+    "templates/decision-card.md",
+    "templates/feedback-example/README.md",
+    "templates/feedback-example/audit.txt",
+    "templates/feedback-example/contract.json",
+    "templates/feedback-example/coverage-review.json",
+    "templates/feedback-example/feedback.json",
+    "templates/feedback-example/original.txt",
+    "templates/feedback-example/receipt.json",
+    "templates/field-card.md",
+    "templates/friction-log.md",
+    "templates/goal.md",
+    "templates/integration-contract.md",
+    "templates/pro-review-prompt.md",
+    "templates/production-verification-request.md",
+    "templates/review-manifest.json",
+    "templates/review-observations.md",
+    "templates/review-request.json",
+    "templates/work-order.md",
+    "tests/test_feedback_coverage.py",
+    "tests/test_helpers.py",
+    "tests/test_review_pack.py",
+    "tests/test_work_control_package.py"
+  ],
+  "prior_behavior_cases_unchanged": 85,
+  "new_behavior_specifications": 12,
+  "behavioral_trials_executed": 0,
+  "goal_characters": {
+    "templates/goal.md": 3956,
+    "templates/bounded-goal.md": 3627
+  },
+  "local_markdown_links_checked": 343,
+  "source_reading": "Three complete skills; selected PDF sections and retrieved/rendered pages; not a new live audit."
+}

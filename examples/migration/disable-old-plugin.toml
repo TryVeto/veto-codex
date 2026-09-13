@@ -1,0 +1,5 @@
+# Illustration only. Merge the specific setting into the actual existing local config.
+# Use the real marketplace name. Do not replace the whole config with this file.
+# This does not disable a workspace-managed imported plugin.
+[plugins."veto-stack@veto-team"]
+enabled = false

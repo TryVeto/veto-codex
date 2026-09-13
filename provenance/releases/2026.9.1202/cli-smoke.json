@@ -1,0 +1,149 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "plugins/veto-stack/scripts/role_context.py",
+      "--list"
+    ],
+    "exit": 0,
+    "result": {
+      "verdict": "ROLE_CATALOG_READ",
+      "roles": [
+        "backend-engineer",
+        "data-analyst",
+        "frontend-engineer",
+        "head-of-engineering",
+        "independent-verifier",
+        "product-designer",
+        "product-manager",
+        "specialist",
+        "user-researcher"
+      ],
+      "plugin_manifest_sha256": "3a2f8d16ab4a1e72129d778f0d122e846e0ca85683b4bcfb00b96324765d989e",
+      "runtime_changed": false
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "plugins/veto-stack/scripts/role_context.py",
+      "--role",
+      "backend-engineer"
+    ],
+    "exit": 0,
+    "result": {
+      "verdict": "ROLE_CONTEXT_PREPARED",
+      "plugin": "veto-stack",
+      "plugin_version": "2026.9.1202",
+      "plugin_manifest_sha256": "3a2f8d16ab4a1e72129d778f0d122e846e0ca85683b4bcfb00b96324765d989e",
+      "role_id": "backend-engineer",
+      "role_context_sha256": "b055e86440963455eac7bf4c78e85f9a9f6e6aef69a266a3413182ed7807652b",
+      "sources": [
+        {
+          "path": "references/working-contract.md",
+          "sha256": "e72d2aba0dfdd1c33210aba9ea299a39194e328f89eb6cd704d6e90d5f360d75"
+        },
+        {
+          "path": "team/SHARED.md",
+          "sha256": "5a0c44aa7a60e7a2bff846cf2f5fdba667e93c36101220f36565b7416bd349ab"
+        },
+        {
+          "path": "team/backend-engineer/AGENTS.md",
+          "sha256": "92482fa29c6f39677831cbe6acdfcfdee988b93fe9190c74e1a946647df78c10"
+        }
+      ],
+      "runtime_changed": false,
+      "authority_granted": false,
+      "ownership_transferred": false,
+      "native_loading_verified": false,
+      "independent_review_established": false,
+      "next": "Load in a supported agent run with the actual current assignment, permissions, and evidence. Resolve links relative to each source path.",
+      "limits": [
+        "Local content integrity, not authenticated authorship or safe instructions.",
+        "No task state, credentials, model configuration, or native-agent registration is included.",
+        "A renamed or re-roled builder is not an independent reviewer.",
+        "This is not a hostile-filesystem sandbox; use a stable, trusted source checkout."
+      ]
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "plugins/veto-stack/scripts/check_handoff.py",
+      "--record",
+      "plugins/veto-stack/examples/resume-work/handoff.json",
+      "--root",
+      "plugins/veto-stack/examples/resume-work",
+      "--task-id",
+      "synthetic-focus-repair",
+      "--revision",
+      "1",
+      "--sha256",
+      "5cb61526e9a9def7d123a2ec0981191c5bd1e27366cd91c55b6c137f807b5242"
+    ],
+    "exit": 0,
+    "result": {
+      "verdict": "HANDOFF_INTEGRITY_PASSED",
+      "issues": [],
+      "native_state_verified": false,
+      "permission_granted": false,
+      "runtime_action": "none",
+      "limits": [
+        "Only declared files were checked; no complete-checkout identity is established.",
+        "A hash does not prove execution, authorship, independent review or source truth.",
+        "Read current native state and authority before continuing; this helper grants neither."
+      ],
+      "task_id": "synthetic-focus-repair",
+      "assignment_revision": 1,
+      "owner": "author-replay",
+      "recorded_state": "ready_for_review",
+      "declared_candidate_id": "synthetic store.py; SHA-256 in candidate reference",
+      "references_checked": 4,
+      "completed": [
+        {
+          "id": "exact_retrieval",
+          "result": "Author-run synthetic oracle passed: exact retrieval",
+          "evidence_ids": [
+            "after"
+          ]
+        },
+        {
+          "id": "separate_file",
+          "result": "Author-run synthetic oracle passed: separate file",
+          "evidence_ids": [
+            "after"
+          ]
+        },
+        {
+          "id": "separate_office",
+          "result": "Author-run synthetic oracle passed: separate office",
+          "evidence_ids": [
+            "after"
+          ]
+        },
+        {
+          "id": "fresh_module_reads_saved_work",
+          "result": "Author-run synthetic oracle passed: fresh module reads saved work",
+          "evidence_ids": [
+            "after"
+          ]
+        }
+      ],
+      "remaining": [
+        "Native-host plugin loading has not been tested.",
+        "A distinct native agent has not implemented or reviewed this example.",
+        "No Veto application verification or deployment was performed."
+      ],
+      "must_preserve": [
+        "This is a disposable synthetic fixture, not Veto application code.",
+        "Separate offices and files must retain their exact persisted contributions.",
+        "The baseline evaluation fixture and original oracle remain unchanged."
+      ],
+      "next_action": "A distinct native-host reviewer should replay the unchanged oracle and assess whether the agent actually loaded and used the method.",
+      "resume_condition": "This packet grants no runtime authority. Inspect current task/mandate/pauses before any further action."
+    }
+  }
+]

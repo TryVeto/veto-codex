@@ -1,0 +1,16 @@
+{
+  "verdict": "STRUCTURAL_CHECKS_PASSED",
+  "errors": [],
+  "package_version": "2026.9.1108",
+  "plugin_root": "/mnt/data/veto-stack-identity-git-update/Veto-Stack/plugins/veto-stack",
+  "files_checked": 189,
+  "skills_checked": 13,
+  "description_characters": 2331,
+  "goal_characters": 3956,
+  "bounded_goal_characters": 3627,
+  "limits": [
+    "Local package checks only; not the native host validator.",
+    "Reported version/path identify the checked files, not instructions loaded by a running agent.",
+    "No host registration, application tests or agent-behavior evaluation is established."
+  ]
+}

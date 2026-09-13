@@ -1,0 +1,211 @@
+{
+  "date": "2026-09-11",
+  "scope": "Local source identity and selected content basis, not independent corroboration or application audit.",
+  "sources": [
+    {
+      "id": "I1",
+      "source_filename": "Veto-Product-Foundations-v10(9).pdf",
+      "title": "Product Foundations v10",
+      "sha256": "8d57c9b6e53ca38cdfe17818172197f12e0ab0fb21399467f8bb13c1334a64a0",
+      "review_scope": "pp. 1\u201319, 25\u201330, 37\u201349",
+      "limit": "Product meaning and carried constraints; not current application or market proof."
+    },
+    {
+      "id": "I2",
+      "source_filename": "Veto-Founding-Documents-v10.pdf",
+      "title": "Founding Documents v10",
+      "sha256": "df8cbe8c790d63fdbaa0dd72141e47bfb9f5ce79e2bff1a5725bb14586406487",
+      "review_scope": "pp. 1\u20138 and existing responsibility boundaries",
+      "limit": "Company direction; separate from product/build lineage."
+    },
+    {
+      "id": "I3",
+      "source_filename": "Veto-Product-Surfaces-Analysis(1).pdf",
+      "title": "Product Surfaces",
+      "sha256": "0649e6f5682a5819d14a06af5b39b97db274eb9b27a53ab6eed6e0d548d4ff83",
+      "review_scope": "pp. 1\u20136, 23\u201327",
+      "limit": "Surface architecture recommendations, conditional on actual work; not adoption."
+    },
+    {
+      "id": "I4",
+      "source_filename": "Veto-First-Feature-Analysis(1).pdf",
+      "title": "First Feature",
+      "sha256": "e81bea6412342a9ff7358d9d4e508f83b4eecf81504b0f21f3b31ac491cef1c8",
+      "review_scope": "pp. 1\u20137, 15\u201322",
+      "limit": "Prepared receiving-instruction review hypothesis; no customer demand claimed."
+    },
+    {
+      "id": "I5",
+      "source_filename": "Veto-Integrations-Analysis-2026-09-11 (1).pdf",
+      "title": "Integrations",
+      "sha256": "028427928986e77a1939cc25dde562280deff3fc2f9338f3fc339748b06a1658",
+      "review_scope": "pp. 1\u20137, 19\u201326",
+      "limit": "Dependency and permission qualification; vendor details not revalidated as procurement advice."
+    },
+    {
+      "id": "I6",
+      "source_filename": "The_Useful_Product_Manager(1).pdf",
+      "title": "The Useful Product Manager",
+      "sha256": "3fdd5226ecd4a02b6d4d573e9b1059aed04acfebf367d9f33346da683a7171a5",
+      "review_scope": "pp. 4\u201311, 33\u201335, 76\u201380, 86\u201387",
+      "limit": "Decision quality, explanatory taste, burden and source distinctions; synthesis not empirical scale."
+    },
+    {
+      "id": "I7",
+      "source_filename": "Veto-One-Real-Wire-Experience-Analysis (1).pdf",
+      "title": "One Real Wire experience",
+      "sha256": "8e6d6945742f3ba9808ab202f958df1e966f9163300ca6ad15f21eeda8ec7787",
+      "review_scope": "pp. 1\u20136 and companion full supplied skill",
+      "limit": "Connected receiving job; staged acceptance and limits."
+    },
+    {
+      "id": "I8",
+      "source_filename": "Autonomous_Product_Development(1).pdf",
+      "title": "Autonomous Product Development",
+      "sha256": "d087d442ba233fcabfbf427b8fb2c92578056c461e796632e597a403675191bd",
+      "review_scope": "executive judgment and chapters 1\u20132; supplied operational skill",
+      "limit": "Outcome ownership and independent evidence, not live runtime installation."
+    },
+    {
+      "id": "I9",
+      "source_filename": "Building-Good-Product-with-AI(1).pdf",
+      "title": "Building Good Product with AI",
+      "sha256": "0eb1088d3b0ba89d75ec7b42fc350416e44c4872bb80c5eba017f216365fdacd",
+      "review_scope": "pp. 4\u201310 and supplied full skill/short brief",
+      "limit": "Useful outcomes, consequential bounded work and separate evidence layers."
+    },
+    {
+      "id": "I10",
+      "source_filename": "Against_Slop (1).pdf",
+      "title": "Against Slop",
+      "sha256": "1ed65949573017dadb91f71ab4be128c4e1c1007a6e7c6446405b5d33878ddaf",
+      "review_scope": "pp. 4\u201310 and supplied full skill/short brief",
+      "limit": "Six failure types and craft; illustrative, not audited current screens."
+    },
+    {
+      "id": "I11",
+      "source_filename": "Veto-Product-Change-Analysis-2026-09-11 (1).pdf",
+      "title": "Product-change analysis",
+      "sha256": "987e57defaac8ea3ab239166e65514d105dd99f5945f10acec18275a355a0e49",
+      "review_scope": "pp. 1\u20135 and supplied alignment skill",
+      "limit": "Historical synthetic prototype findings; reproduce or retire on the actual candidate."
+    },
+    {
+      "id": "S1",
+      "source_filename": "SKILL(2)(1).md",
+      "title": "autonomous-product-development",
+      "sha256": "39e8d45115fd813ba9dea579090546e9ff84b992fef900b327fa161b2136a7ad",
+      "review_scope": "complete supplied skill",
+      "limit": "Consolidated into entry/build/test workflows."
+    },
+    {
+      "id": "S2",
+      "source_filename": "SKILL(3)(1).md",
+      "title": "one-real-wire",
+      "sha256": "7b92e21ca52820ad549bfcad43ec15d631536057da559221b7354357e0c50bce",
+      "review_scope": "complete supplied skill",
+      "limit": "Continuity reference with domain and stage limits."
+    },
+    {
+      "id": "S3",
+      "source_filename": "SKILL(4)(1).md",
+      "title": "basecamp-product-ops",
+      "sha256": "8441c88c59f9201c4f7cf7cdcf6df7872c4020cffdfe2f5b6b6378a4060b1fd2",
+      "review_scope": "complete supplied skill",
+      "limit": "Conditional coordination reference, no automatic CLI or connection."
+    },
+    {
+      "id": "S4",
+      "source_filename": "SKILL(5)(1).md",
+      "title": "build-good-product",
+      "sha256": "93d50992abbbe802cf3626e6d0dd4c44fcacb78bff13dfae235baf4ef35a771e",
+      "review_scope": "complete supplied skill",
+      "limit": "Decision/build/field workflows, not a second orchestrator."
+    },
+    {
+      "id": "S5",
+      "source_filename": "SKILL(6)(1).md",
+      "title": "veto-foundation-alignment",
+      "sha256": "da8f537e3857f916714a01c04d8da6f62825e077dabcfd959c8cc6ea7fdef8d6",
+      "review_scope": "complete supplied skill",
+      "limit": "Shared product contract and acceptance cases."
+    },
+    {
+      "id": "S6",
+      "source_filename": "SKILL(7)(1).md",
+      "title": "against-slop",
+      "sha256": "bcb20666addaed5b4e7a1d50934a7984fdb7f631423b4c597a795df77c1e9574",
+      "review_scope": "complete supplied skill",
+      "limit": "Craft workflow and semantic review examples."
+    },
+    {
+      "id": "P1",
+      "source_filename": "veto-stack-2026-09-11.zip",
+      "title": "Prior Veto Stack",
+      "sha256": "6e9f39ba2f5cdada5e2373e608312f0fea79d463260623b48a2fb7664acd4ac1",
+      "review_scope": "manifests, skill inventory, helpers and migration design",
+      "limit": "Available prior package; not the full running installed stack."
+    },
+    {
+      "id": "P2",
+      "source_filename": "veto-feature-team-2026-09-11/AGENTS.md",
+      "title": "Prior feature-team charter",
+      "sha256": "ff8d8eef18579db4bdc960d4dcf3bd799e6d450412d849676dbf605aa7d66a0b",
+      "review_scope": "shared role/preview/acceptance constraints",
+      "limit": "Stable team model; old screenshot state not frozen forever."
+    },
+    {
+      "id": "P3",
+      "source_filename": "veto-feature-team-skill/veto-feature-team/SKILL.md",
+      "title": "Prior feature-team skill",
+      "sha256": "2629f87852e1817e4201e34f48792baf13c37018bf3a0f2d500af0d7219180af",
+      "review_scope": "existing team workflow and activation boundaries",
+      "limit": "Maintains continuity; not proof of installed configuration."
+    }
+  ],
+  "identical_pdf_copies": [
+    {
+      "sha256": "4bff8b133a65609f5e12f8809294f9b4e9affcde1dd25b9f2f49af6dfd188c77",
+      "filenames": [
+        "Against_Slop_Brief (2).pdf",
+        "Against_Slop_Brief(1).pdf",
+        "Against_Slop_Brief (1).pdf"
+      ]
+    },
+    {
+      "sha256": "028427928986e77a1939cc25dde562280deff3fc2f9338f3fc339748b06a1658",
+      "filenames": [
+        "Veto-Integrations-Analysis-2026-09-11(1).pdf",
+        "Veto-Integrations-Analysis-2026-09-11 (1).pdf"
+      ]
+    },
+    {
+      "sha256": "131cf6370ec9f2cfc60bccb319465af29e59ca5f36b02ce48b9762e69a0d149c",
+      "filenames": [
+        "Veto-Product-Changes-Short-Brief (1).pdf",
+        "Veto-Product-Changes-Short-Brief(1).pdf"
+      ]
+    },
+    {
+      "sha256": "cfacab80b5f04be2a75b7dcdb3747e65f7b7a590e82efa0c9180d17bb547d9f4",
+      "filenames": [
+        "Building-Good-Product-with-AI-Short-Brief (1).pdf",
+        "Building-Good-Product-with-AI-Short-Brief(1).pdf"
+      ]
+    },
+    {
+      "sha256": "8d57c9b6e53ca38cdfe17818172197f12e0ab0fb21399467f8bb13c1334a64a0",
+      "filenames": [
+        "Veto-Product-Foundations-v10(1).pdf",
+        "Veto-Product-Foundations-v10(9).pdf"
+      ]
+    },
+    {
+      "sha256": "3c8aa1d572c7f69be911667a68866f4c2f1da9ffe78f2736a2d40072b7ae8ab8",
+      "filenames": [
+        "Veto-One-Real-Wire-Brief(1).pdf",
+        "Veto-One-Real-Wire-Brief (1).pdf"
+      ]
+    }
+  ]
+}

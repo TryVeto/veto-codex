@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "contract_id": "example-only-not-approved",
+  "candidate": {
+    "id": "SYNTHETIC-EXAMPLE-NOT-A-RELEASE",
+    "environment": "disposable-rehearsal"
+  },
+  "requirements": [
+    {
+      "id": "J02",
+      "expected": "Participant contribution reopens in the exact office file after reload.",
+      "layer": "persistence",
+      "allowed_provenance": [
+        "service"
+      ],
+      "required": true
+    },
+    {
+      "id": "J13",
+      "expected": "Actual permitted browser supports correction, help and readable completion with no decorative preheading.",
+      "layer": "journey",
+      "allowed_provenance": [
+        "browser"
+      ],
+      "required": true
+    }
+  ]
+}

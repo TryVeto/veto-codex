@@ -1,0 +1,1990 @@
+{
+  "summary": {
+    "unchanged": 234,
+    "identity-only": 19,
+    "reviewed-edit": 29,
+    "baseline_files": 282,
+    "missing_files": 0,
+    "role_guides_unchanged": 9,
+    "prior_test_methods_retained": 294,
+    "extra_test_methods": 30
+  },
+  "files": [
+    {
+      "before": ".agents/plugins/marketplace.json",
+      "after": ".agents/plugins/marketplace.json",
+      "change": "identity-only",
+      "before_sha256": "fdfcb0b41e0f3d25eed6546899580c5bf8c358268c6c6b92faa4eae9edf0f429",
+      "after_sha256": "544cd196ff8eeab50b8de8d02ea59d4a82bb2eca65e4c7144e48972b7969646d"
+    },
+    {
+      "before": ".gitattributes",
+      "after": ".gitattributes",
+      "change": "unchanged",
+      "before_sha256": "5387ead273164e0813b9b7fb7b30dca5b6081d5f1fe8b233c9790eb821e980b1",
+      "after_sha256": "5387ead273164e0813b9b7fb7b30dca5b6081d5f1fe8b233c9790eb821e980b1"
+    },
+    {
+      "before": ".github/workflows/checks.yml",
+      "after": ".github/workflows/checks.yml",
+      "change": "unchanged",
+      "before_sha256": "475b88cc2a50221ce04b0e27922e4312f22f4351001e173df6b320a2fa8fd6c2",
+      "after_sha256": "475b88cc2a50221ce04b0e27922e4312f22f4351001e173df6b320a2fa8fd6c2"
+    },
+    {
+      "before": ".github/workflows/package.yml",
+      "after": ".github/workflows/package.yml",
+      "change": "identity-only",
+      "before_sha256": "dc87877d254393d450fa62e76dcbfaf30d85006e26dada963205a8dcf2d52ef2",
+      "after_sha256": "08a7a7f6008be24a9f1c97af6b323977601e607e23152ced88736681d42b7366"
+    },
+    {
+      "before": ".gitignore",
+      "after": ".gitignore",
+      "change": "unchanged",
+      "before_sha256": "760673459aaf6baf18d69681ba2be2e034e556736412be3703e9385bfba159f1",
+      "after_sha256": "760673459aaf6baf18d69681ba2be2e034e556736412be3703e9385bfba159f1"
+    },
+    {
+      "before": "ADOPT.md",
+      "after": "ADOPT.md",
+      "change": "reviewed-edit",
+      "before_sha256": "8ee146f555cd9b3636255e67d56d69fda7977fd90f1b64356b1c3e010db249f4",
+      "after_sha256": "f5e4d82bfb3a0c6e663a0ae9a11cda22a1e514f8f3d52ef859b3e5f57c06d668"
+    },
+    {
+      "before": "AGENTS.md",
+      "after": "AGENTS.md",
+      "change": "reviewed-edit",
+      "before_sha256": "42b72a5066104a1deaa542d71cb30dd2f1db6ac24f708100272975cd52c26170",
+      "after_sha256": "f8c7db71de9fe2f27d9166fb12d2f1419f3fd23f3fe326b182f06b9d183ad989"
+    },
+    {
+      "before": "CHANGELOG.md",
+      "after": "CHANGELOG.md",
+      "change": "reviewed-edit",
+      "before_sha256": "1bd9782e540a3d521f4f167dc97a103c7f72f48cb517156bb107b618fde17ece",
+      "after_sha256": "a7ce3ff1eeae110ba182c8cc5034c55552dd5536a324df5c24988309e5892059"
+    },
+    {
+      "before": "NOTICE.md",
+      "after": "NOTICE.md",
+      "change": "identity-only",
+      "before_sha256": "7f405cf3a8d3bbfb4a0a63e58f5fbb43f024f51d238723232596e91577eef525",
+      "after_sha256": "f40f4fbdff58e49830c731f279c1c7c500ac5c95efe9cfbed800dce34ec1d0a8"
+    },
+    {
+      "before": "README.md",
+      "after": "README.md",
+      "change": "reviewed-edit",
+      "before_sha256": "f50d8e98eb7ea769ae93bdef23f360a2061ab407c2ff7531a028ab10cd725b36",
+      "after_sha256": "3b4d0c3f3f8c91ee3fcd16239c479a97f929cd7e9d142c1a9558bc4896f020fd"
+    },
+    {
+      "before": "REPOSITORY.json",
+      "after": "REPOSITORY.json",
+      "change": "reviewed-edit",
+      "before_sha256": "2610fb0bdc9d5f88f494d2b2c9278742adf0e51ec2df034882627a6185df8b86",
+      "after_sha256": "6310adb5336b7d8911a8f0df699dbbb574016e97991de832fc715cc822b770be"
+    },
+    {
+      "before": "SOURCE-MANIFEST.json",
+      "after": "SOURCE-MANIFEST.json",
+      "change": "reviewed-edit",
+      "before_sha256": "c7885e2414948ec75e7f73910639c86fb00a4c71db8703469ab043f754833b9d",
+      "after_sha256": null,
+      "note": "Generated integrity index; validated by release checks, not embedded here to avoid recursive digests."
+    },
+    {
+      "before": "docs/guide/README.md",
+      "after": "docs/guide/README.md",
+      "change": "reviewed-edit",
+      "before_sha256": "d1aa2246f99316616b730c9f3c0ebe16782c43339b4ac1e281760f6533626307",
+      "after_sha256": "fad68cc8b0d1484886f2965a0e57e191d8eec65b14710d39bc3f8769eab43fb2"
+    },
+    {
+      "before": "docs/guide/explanation/operating-model.md",
+      "after": "docs/guide/explanation/operating-model.md",
+      "change": "identity-only",
+      "before_sha256": "690c9131cfa31a3eb5d9f99f56bcb66461cf367b49bd68d39b94f476c4ae427a",
+      "after_sha256": "aa2c0e4860b48b030e8df5f6ee76fa90bfc6eb398f1cd87cb742f525e29fdc09"
+    },
+    {
+      "before": "docs/guide/how-to/install.md",
+      "after": "docs/guide/how-to/install.md",
+      "change": "reviewed-edit",
+      "before_sha256": "e815ea9ac5a584f0bec99379b56a9e5ea8dc0633aee1e4f39c16dcccf7d7258c",
+      "after_sha256": "42425ea841fc1bf325aea118c9c678a1aa9670ca6e0e358d45f2be724783fe79"
+    },
+    {
+      "before": "docs/guide/how-to/maintain.md",
+      "after": "docs/guide/how-to/maintain.md",
+      "change": "unchanged",
+      "before_sha256": "5c50bd18fd8532c845cd9e0b4ab5608ae56f9d840ab97862b3e04b1e3c3eafd0",
+      "after_sha256": "5c50bd18fd8532c845cd9e0b4ab5608ae56f9d840ab97862b3e04b1e3c3eafd0"
+    },
+    {
+      "before": "docs/guide/how-to/qualify.md",
+      "after": "docs/guide/how-to/qualify.md",
+      "change": "reviewed-edit",
+      "before_sha256": "a04c71e66f1acd29b9d69df82403fad7bebe4edaecb7a06b1d1693541e7e397b",
+      "after_sha256": "78a39e3a835167d463d2b614ab2dfd35df57cfeb5cf877a3f19e46af63655ca3"
+    },
+    {
+      "before": "docs/guide/how-to/use-roles.md",
+      "after": "docs/guide/how-to/use-roles.md",
+      "change": "identity-only",
+      "before_sha256": "6e583b0ac99efc1a3502533d71ebd61e051206572926f0866d18d5e8d078a077",
+      "after_sha256": "a4b08b0fdf4ff499c7402ff77098918ffcffedd3de34d4f7bc54d1f7810ce3bb"
+    },
+    {
+      "before": "docs/guide/reference/repository.md",
+      "after": "docs/guide/reference/repository.md",
+      "change": "reviewed-edit",
+      "before_sha256": "3897235bd283463e0ad561776fcac9d780dfeded3541843245eb254ef1dcb027",
+      "after_sha256": "66cd648662b75faeb8178aa6cca68ef87c878a7d08a65c307031afbac7de3ddc"
+    },
+    {
+      "before": "docs/guide/reference/sources.md",
+      "after": "docs/guide/reference/sources.md",
+      "change": "reviewed-edit",
+      "before_sha256": "7a836a5c7add2fd0ccae47b6eb80d9569ad6f75cff0a9a1521860c92225f15bf",
+      "after_sha256": "cd653198f24d30733654c91e28947eec3688d0f3eefdd577ee8943d4d2f4e4e4"
+    },
+    {
+      "before": "docs/guide/tutorials/one-checked-handoff.md",
+      "after": "docs/guide/tutorials/one-checked-handoff.md",
+      "change": "identity-only",
+      "before_sha256": "f10e264af2dcc46a8c8a9916f41dde9c510c992e6299b0cca4a51e47ae0103cf",
+      "after_sha256": "0b3f27d95fbaf62f19e9b6912052a6710b89048c1d130c4bbce11727fd3fac6a"
+    },
+    {
+      "before": "examples/codex/veto-reader.toml",
+      "after": "examples/codex/veto-reader.toml",
+      "change": "identity-only",
+      "before_sha256": "7b149cf200ff1662e8e0ed1b9a79c3c94ddcb41850d009ab3606d0c9a38ba5e6",
+      "after_sha256": "58a3d68d4f4eae775ff583ad769e029bfce04a934c414d850e053de0867fd71e"
+    },
+    {
+      "before": "examples/native-qualification.json",
+      "after": "examples/native-qualification.json",
+      "change": "unchanged",
+      "before_sha256": "d97b20ae0c3bb3541449ae7534e367763bbcdacd98f12cd2761998dc86ad9dd7",
+      "after_sha256": "d97b20ae0c3bb3541449ae7534e367763bbcdacd98f12cd2761998dc86ad9dd7"
+    },
+    {
+      "before": "plugins/veto-stack/.claude-plugin/plugin.json",
+      "after": "plugins/veto-codex/.claude-plugin/plugin.json",
+      "change": "reviewed-edit",
+      "before_sha256": "a5cad6733c4864eebde3d7815b7179c5d8d7746ab734fcdebe7c57d6ebf6c478",
+      "after_sha256": "2c91babe83c0ca575fc80928caa2f175a9799dd46a6337f2adb5b8883efb5a78"
+    },
+    {
+      "before": "plugins/veto-stack/.codex-plugin/plugin.json",
+      "after": "plugins/veto-codex/.codex-plugin/plugin.json",
+      "change": "reviewed-edit",
+      "before_sha256": "acd65f4be9c6918df1ec3bbbd2c108b1a57b2332efaba6ff021d4fa26b8356bc",
+      "after_sha256": "db3c8492ff3cc369a8d7016ffd58932f536ce5342899bc5685bdf06a16cf66d8"
+    },
+    {
+      "before": "plugins/veto-stack/ADOPTION.md",
+      "after": "plugins/veto-codex/ADOPTION.md",
+      "change": "reviewed-edit",
+      "before_sha256": "13ef8df97311ee9a8da2ef0455695c292bc8b66444ec3a99f27c64744fed77d6",
+      "after_sha256": "1257140d8b6db544e86cbf7323bb766108ec1e18009ce19cff65744bcadc41ab"
+    },
+    {
+      "before": "plugins/veto-stack/AGENTS.md",
+      "after": "plugins/veto-codex/AGENTS.md",
+      "change": "reviewed-edit",
+      "before_sha256": "77a005dedab2ed2eeb43760418ea299826c3aed4c42b2b842f1e695a3057e64d",
+      "after_sha256": "424d18414d700825653464ea7173c9063e383e6b174bc3bd4fa85e500804daa9"
+    },
+    {
+      "before": "plugins/veto-stack/CHANGELOG.md",
+      "after": "plugins/veto-codex/CHANGELOG.md",
+      "change": "reviewed-edit",
+      "before_sha256": "632c3ed7c61e0f20376699a297e9edba5d17303045cdf4a817b825ceadb8f971",
+      "after_sha256": "9013e4ea8876da463da3a6c031cbb98960e6e4941a24ec0707e140b9414ed0e4"
+    },
+    {
+      "before": "plugins/veto-stack/FILES.sha256.json",
+      "after": "plugins/veto-codex/FILES.sha256.json",
+      "change": "reviewed-edit",
+      "before_sha256": "3a2f8d16ab4a1e72129d778f0d122e846e0ca85683b4bcfb00b96324765d989e",
+      "after_sha256": null,
+      "note": "Generated integrity index; validated by release checks, not embedded here to avoid recursive digests."
+    },
+    {
+      "before": "plugins/veto-stack/GUIDE.md",
+      "after": "plugins/veto-codex/GUIDE.md",
+      "change": "identity-only",
+      "before_sha256": "fff08ff7c02594dc0b1be996a3780c6a67118a842eb29d9408193b5be4a3fb1b",
+      "after_sha256": "449cc2c4c973c37a824ee95ee20bf368fe7db6abcb473bf23034a0248f75ad78"
+    },
+    {
+      "before": "plugins/veto-stack/LOCAL-INSTALL.md",
+      "after": "plugins/veto-codex/LOCAL-INSTALL.md",
+      "change": "reviewed-edit",
+      "before_sha256": "2563d9245dc6078aca1e9ecc27b466c83a28b5ee1f1401a2c6e50861afe5bf5e",
+      "after_sha256": "e7823a78ce3d2a700de3d1e767b076eddd5714e7f87ec88f2dd3a0bf9e33e872"
+    },
+    {
+      "before": "plugins/veto-stack/MIGRATION.md",
+      "after": "plugins/veto-codex/MIGRATION.md",
+      "change": "reviewed-edit",
+      "before_sha256": "b24439d8d0d87bb5f9e548675dab79c4ae7f6b0f164b8c1e4c91d5928d8bb7cd",
+      "after_sha256": "38eea2a0be73c690b28b329d77c87944c429e2df8b2d6a0ac35fad1f23bfca00"
+    },
+    {
+      "before": "plugins/veto-stack/OPERATING-GUIDE.md",
+      "after": "plugins/veto-codex/OPERATING-GUIDE.md",
+      "change": "identity-only",
+      "before_sha256": "9ecd6eb63d85a9d41fc0a030e00c50ceadcf808c540e12152d7998eca84969df",
+      "after_sha256": "cd8b4b3d58230a3685cf2c6270dbdad01cad821b30e266241dd21f8cfc49172e"
+    },
+    {
+      "before": "plugins/veto-stack/OPERATOR-GUIDE.md",
+      "after": "plugins/veto-codex/OPERATOR-GUIDE.md",
+      "change": "unchanged",
+      "before_sha256": "fcb1a920edd13ca12a2b6cfad266bb312a33a70123af474dff41e0a0fec9e147",
+      "after_sha256": "fcb1a920edd13ca12a2b6cfad266bb312a33a70123af474dff41e0a0fec9e147"
+    },
+    {
+      "before": "plugins/veto-stack/README.md",
+      "after": "plugins/veto-codex/README.md",
+      "change": "reviewed-edit",
+      "before_sha256": "e35ab323e49bb767c79dbddfc26a9d42caea7c95c27532208b81fab620e1f6ba",
+      "after_sha256": "1532859e8e24e3e4837dd57ae0008af939734730ac53293755404c0cfea3ebb2"
+    },
+    {
+      "before": "plugins/veto-stack/RELEASE.json",
+      "after": "plugins/veto-codex/RELEASE.json",
+      "change": "reviewed-edit",
+      "before_sha256": "9f84e7d00bad383e26057457d6347ffbfcd50d34ae273716f1a6b070d442cc94",
+      "after_sha256": "e217accb7f6994f440e4c931113822333434f695d02a2f6e06233fd58cc50d17"
+    },
+    {
+      "before": "plugins/veto-stack/SECURITY.md",
+      "after": "plugins/veto-codex/SECURITY.md",
+      "change": "unchanged",
+      "before_sha256": "1d75f376f51ea9e38c74cb193e6f0c4d2028efe914bee604ac4070949efcbf57",
+      "after_sha256": "1d75f376f51ea9e38c74cb193e6f0c4d2028efe914bee604ac4070949efcbf57"
+    },
+    {
+      "before": "plugins/veto-stack/VERIFICATION.md",
+      "after": "plugins/veto-codex/VERIFICATION.md",
+      "change": "reviewed-edit",
+      "before_sha256": "2bd20df8b7e71a797e11e8c79f8a4019a38a6ea78fc3e32d65b512b698e4d186",
+      "after_sha256": "f9869fecb2ab2e2acfed6995de3150177cf98a76545d1026b45d03bed953d4da"
+    },
+    {
+      "before": "plugins/veto-stack/assets/veto-logo.png",
+      "after": "plugins/veto-codex/assets/veto-logo.png",
+      "change": "unchanged",
+      "before_sha256": "ce6303308dd52319f02214d0a995d519c1182e24c94bf6ff3cafc15072302b7c",
+      "after_sha256": "ce6303308dd52319f02214d0a995d519c1182e24c94bf6ff3cafc15072302b7c"
+    },
+    {
+      "before": "plugins/veto-stack/components/design-reference/RAMP.md",
+      "after": "plugins/veto-codex/components/design-reference/RAMP.md",
+      "change": "unchanged",
+      "before_sha256": "1d17549f13586b586be82f931d32692a79aa82c6450a7f3d00a98269d97d2c5c",
+      "after_sha256": "1d17549f13586b586be82f931d32692a79aa82c6450a7f3d00a98269d97d2c5c"
+    },
+    {
+      "before": "plugins/veto-stack/components/design-reference/REFERENCE.md",
+      "after": "plugins/veto-codex/components/design-reference/REFERENCE.md",
+      "change": "identity-only",
+      "before_sha256": "622e447dd8ba48817409ef29c438b09bb066501e33a4de2f9e1f3e86601ab07b",
+      "after_sha256": "2f371c8494e4257b0fe9aff1c41cb031dfc9801d20e584970816042a9855d6c2"
+    },
+    {
+      "before": "plugins/veto-stack/components/design-reference/veto-v10.html",
+      "after": "plugins/veto-codex/components/design-reference/veto-v10.html",
+      "change": "unchanged",
+      "before_sha256": "71ba3026d411c300baa0b60a0013e1d6c02585ffadd530ea078b3a81c3de633d",
+      "after_sha256": "71ba3026d411c300baa0b60a0013e1d6c02585ffadd530ea078b3a81c3de633d"
+    },
+    {
+      "before": "plugins/veto-stack/evals/JUDGMENT-CALIBRATION.md",
+      "after": "plugins/veto-codex/evals/JUDGMENT-CALIBRATION.md",
+      "change": "unchanged",
+      "before_sha256": "6a7068fc37ca863a45b2afdff832fcb8a91eb5a9146af30bc18aabc9733f9b48",
+      "after_sha256": "6a7068fc37ca863a45b2afdff832fcb8a91eb5a9146af30bc18aabc9733f9b48"
+    },
+    {
+      "before": "plugins/veto-stack/evals/README.md",
+      "after": "plugins/veto-codex/evals/README.md",
+      "change": "identity-only",
+      "before_sha256": "50b8290b7743eff0e7d7183c7d366ef948c925a1e14d20f994cc2561edcd706c",
+      "after_sha256": "39e65ad878f624d0b8a2945dd7805c48f67e268b3d04b00c8167dfcbb2d9c6c9"
+    },
+    {
+      "before": "plugins/veto-stack/evals/cases.json",
+      "after": "plugins/veto-codex/evals/cases.json",
+      "change": "identity-only",
+      "before_sha256": "22d048528f7028e52fdbfd8a5e4518a92df912a32a7b00934771433f5a9b56c8",
+      "after_sha256": "383c6b8729b5e6c5f996b2767e15b889ceb77f0a6b91ebff157d8eacf78b4ef4"
+    },
+    {
+      "before": "plugins/veto-stack/evals/fixtures/craft/README.md",
+      "after": "plugins/veto-codex/evals/fixtures/craft/README.md",
+      "change": "unchanged",
+      "before_sha256": "07a4a72c60eaca46ac57a572b572f895b5dcf89ab9083f3aece0ab0dc39b9be8",
+      "after_sha256": "07a4a72c60eaca46ac57a572b572f895b5dcf89ab9083f3aece0ab0dc39b9be8"
+    },
+    {
+      "before": "plugins/veto-stack/evals/fixtures/craft/review.html",
+      "after": "plugins/veto-codex/evals/fixtures/craft/review.html",
+      "change": "unchanged",
+      "before_sha256": "294c2c71495ad043d1c9aeb4ba662e2ab8730cf721db3af6a7bf55fab295b017",
+      "after_sha256": "294c2c71495ad043d1c9aeb4ba662e2ab8730cf721db3af6a7bf55fab295b017"
+    },
+    {
+      "before": "plugins/veto-stack/evals/fixtures/focus/README.md",
+      "after": "plugins/veto-codex/evals/fixtures/focus/README.md",
+      "change": "unchanged",
+      "before_sha256": "6228ed9ebffee89db9e8c78365560ab3c6554e0b19d1003d48dece2622c84e30",
+      "after_sha256": "6228ed9ebffee89db9e8c78365560ab3c6554e0b19d1003d48dece2622c84e30"
+    },
+    {
+      "before": "plugins/veto-stack/evals/fixtures/focus/review.html",
+      "after": "plugins/veto-codex/evals/fixtures/focus/review.html",
+      "change": "unchanged",
+      "before_sha256": "7f1f936e08e534e0e636d27a67d23783d4033811ba82e9b85844c5cd98e1baf7",
+      "after_sha256": "7f1f936e08e534e0e636d27a67d23783d4033811ba82e9b85844c5cd98e1baf7"
+    },
+    {
+      "before": "plugins/veto-stack/evals/fixtures/focus/store.py",
+      "after": "plugins/veto-codex/evals/fixtures/focus/store.py",
+      "change": "unchanged",
+      "before_sha256": "bb0f03f3368bc7df859de6a8114b33ca504521b156a4fb23a21b64052b3c58d6",
+      "after_sha256": "bb0f03f3368bc7df859de6a8114b33ca504521b156a4fb23a21b64052b3c58d6"
+    },
+    {
+      "before": "plugins/veto-stack/evals/fixtures/pause/README.md",
+      "after": "plugins/veto-codex/evals/fixtures/pause/README.md",
+      "change": "unchanged",
+      "before_sha256": "e275f898f3e87de8ac80945dc9691673a7ea225133f0ceda266153ff37deb028",
+      "after_sha256": "e275f898f3e87de8ac80945dc9691673a7ea225133f0ceda266153ff37deb028"
+    },
+    {
+      "before": "plugins/veto-stack/evals/fixtures/pause/app.py",
+      "after": "plugins/veto-codex/evals/fixtures/pause/app.py",
+      "change": "unchanged",
+      "before_sha256": "eebf44efb22378c9ea108783b4df9558453e4b01bf7249b1c1a7e6fff5054365",
+      "after_sha256": "eebf44efb22378c9ea108783b4df9558453e4b01bf7249b1c1a7e6fff5054365"
+    },
+    {
+      "before": "plugins/veto-stack/evals/fixtures/pause/goal.md",
+      "after": "plugins/veto-codex/evals/fixtures/pause/goal.md",
+      "change": "unchanged",
+      "before_sha256": "db54772ebe803c1fb49f3cca8bdf7e5a9059c2198c1bc093bd1d709254e13025",
+      "after_sha256": "db54772ebe803c1fb49f3cca8bdf7e5a9059c2198c1bc093bd1d709254e13025"
+    },
+    {
+      "before": "plugins/veto-stack/evals/oracles/craft_oracle.py",
+      "after": "plugins/veto-codex/evals/oracles/craft_oracle.py",
+      "change": "unchanged",
+      "before_sha256": "afec3860004a9046c7df199cfb5e6bf88101bb9050a5ed688bd335dbc0565352",
+      "after_sha256": "afec3860004a9046c7df199cfb5e6bf88101bb9050a5ed688bd335dbc0565352"
+    },
+    {
+      "before": "plugins/veto-stack/evals/oracles/focus_oracle.py",
+      "after": "plugins/veto-codex/evals/oracles/focus_oracle.py",
+      "change": "unchanged",
+      "before_sha256": "a01df40eae5ec6eb14a624cc569585831f53555fd4d8c902b12f065817389f23",
+      "after_sha256": "a01df40eae5ec6eb14a624cc569585831f53555fd4d8c902b12f065817389f23"
+    },
+    {
+      "before": "plugins/veto-stack/examples/integration-contract-draft.md",
+      "after": "plugins/veto-codex/examples/integration-contract-draft.md",
+      "change": "unchanged",
+      "before_sha256": "11229113aa6d90a91c697e3d549f8a012c22805150adc6fefaf061c385e53938",
+      "after_sha256": "11229113aa6d90a91c697e3d549f8a012c22805150adc6fefaf061c385e53938"
+    },
+    {
+      "before": "plugins/veto-stack/examples/prepare-this-review/README.md",
+      "after": "plugins/veto-codex/examples/prepare-this-review/README.md",
+      "change": "unchanged",
+      "before_sha256": "9f38592554ab8811817ea738a6238291121da42cdad8150de3ba708c93b8053e",
+      "after_sha256": "9f38592554ab8811817ea738a6238291121da42cdad8150de3ba708c93b8053e"
+    },
+    {
+      "before": "plugins/veto-stack/examples/prepare-this-review/prototype.html",
+      "after": "plugins/veto-codex/examples/prepare-this-review/prototype.html",
+      "change": "unchanged",
+      "before_sha256": "e7cf68593afa3c3639a18b463ca961e00283fd64f7288245a1ee1e5a9d7cb4e5",
+      "after_sha256": "e7cf68593afa3c3639a18b463ca961e00283fd64f7288245a1ee1e5a9d7cb4e5"
+    },
+    {
+      "before": "plugins/veto-stack/examples/resume-work/README.md",
+      "after": "plugins/veto-codex/examples/resume-work/README.md",
+      "change": "unchanged",
+      "before_sha256": "c37e18189a795363ededc0e53ed8eef6aa3e2ac4d05c2317b6297016ebb015e6",
+      "after_sha256": "c37e18189a795363ededc0e53ed8eef6aa3e2ac4d05c2317b6297016ebb015e6"
+    },
+    {
+      "before": "plugins/veto-stack/examples/resume-work/after.json",
+      "after": "plugins/veto-codex/examples/resume-work/after.json",
+      "change": "unchanged",
+      "before_sha256": "e38d55684f87d99ac2b0612884fa4468e1f7983b8a0f18d416f1d75334f0a651",
+      "after_sha256": "e38d55684f87d99ac2b0612884fa4468e1f7983b8a0f18d416f1d75334f0a651"
+    },
+    {
+      "before": "plugins/veto-stack/examples/resume-work/before.json",
+      "after": "plugins/veto-codex/examples/resume-work/before.json",
+      "change": "unchanged",
+      "before_sha256": "99f396699257c758c155b967eb75469e10d3a0bf1938c13504b294c5044ab329",
+      "after_sha256": "99f396699257c758c155b967eb75469e10d3a0bf1938c13504b294c5044ab329"
+    },
+    {
+      "before": "plugins/veto-stack/examples/resume-work/handoff.json",
+      "after": "plugins/veto-codex/examples/resume-work/handoff.json",
+      "change": "unchanged",
+      "before_sha256": "5cb61526e9a9def7d123a2ec0981191c5bd1e27366cd91c55b6c137f807b5242",
+      "after_sha256": "5cb61526e9a9def7d123a2ec0981191c5bd1e27366cd91c55b6c137f807b5242"
+    },
+    {
+      "before": "plugins/veto-stack/examples/resume-work/request.md",
+      "after": "plugins/veto-codex/examples/resume-work/request.md",
+      "change": "unchanged",
+      "before_sha256": "6228ed9ebffee89db9e8c78365560ab3c6554e0b19d1003d48dece2622c84e30",
+      "after_sha256": "6228ed9ebffee89db9e8c78365560ab3c6554e0b19d1003d48dece2622c84e30"
+    },
+    {
+      "before": "plugins/veto-stack/examples/resume-work/store.py",
+      "after": "plugins/veto-codex/examples/resume-work/store.py",
+      "change": "unchanged",
+      "before_sha256": "d626c433e171497366bc8c3f143d8a5095a97af12953d7facefd7140fe626744",
+      "after_sha256": "d626c433e171497366bc8c3f143d8a5095a97af12953d7facefd7140fe626744"
+    },
+    {
+      "before": "plugins/veto-stack/playbooks/finish-and-handoff.md",
+      "after": "plugins/veto-codex/playbooks/finish-and-handoff.md",
+      "change": "reviewed-edit",
+      "before_sha256": "f402e60bb09df85e4d3f61a2b7e7b29bd191a6c398054c4b9b0ad00ae16d5b74",
+      "after_sha256": "f747c9b07290f80862a1e8f9310616a33b0ca0a7cde2c5681577e223a4643090"
+    },
+    {
+      "before": "plugins/veto-stack/playbooks/improve-the-method.md",
+      "after": "plugins/veto-codex/playbooks/improve-the-method.md",
+      "change": "unchanged",
+      "before_sha256": "44240a88fc0e0b2fe49abf23eb9e79ab142629d4dcf5562c66ad814f978a934d",
+      "after_sha256": "44240a88fc0e0b2fe49abf23eb9e79ab142629d4dcf5562c66ad814f978a934d"
+    },
+    {
+      "before": "plugins/veto-stack/playbooks/investigate-and-build.md",
+      "after": "plugins/veto-codex/playbooks/investigate-and-build.md",
+      "change": "unchanged",
+      "before_sha256": "6c484af2d5b9ad065405be63475f3281042a49b8bf56a1bf96c2e925dde450c2",
+      "after_sha256": "6c484af2d5b9ad065405be63475f3281042a49b8bf56a1bf96c2e925dde450c2"
+    },
+    {
+      "before": "plugins/veto-stack/playbooks/manager-return.md",
+      "after": "plugins/veto-codex/playbooks/manager-return.md",
+      "change": "unchanged",
+      "before_sha256": "211199e846d78499dde187f0606a65dfe41a949e8010de48fd2bc453a3b254d6",
+      "after_sha256": "211199e846d78499dde187f0606a65dfe41a949e8010de48fd2bc453a3b254d6"
+    },
+    {
+      "before": "plugins/veto-stack/playbooks/start-and-resume.md",
+      "after": "plugins/veto-codex/playbooks/start-and-resume.md",
+      "change": "unchanged",
+      "before_sha256": "ae5a719236dedccf9cd5b59c944952e9bf3a17951a71ba3d44c266c82ff016d9",
+      "after_sha256": "ae5a719236dedccf9cd5b59c944952e9bf3a17951a71ba3d44c266c82ff016d9"
+    },
+    {
+      "before": "plugins/veto-stack/plugin.json",
+      "after": "plugins/veto-codex/plugin.json",
+      "change": "reviewed-edit",
+      "before_sha256": "c9cb5813ae0e428a475591f0c0b48598d833cd71d6ea2fedfabf50a3c8f89112",
+      "after_sha256": "bf92dd5bc2f33a581cc175cb52209afe21f3926b2c20af3e73252cf68ae775fd"
+    },
+    {
+      "before": "plugins/veto-stack/references/acceptance-cases.md",
+      "after": "plugins/veto-codex/references/acceptance-cases.md",
+      "change": "unchanged",
+      "before_sha256": "216a1f7959733d0688074878afba25ddebb681e239b1280a0589f3a459ebded2",
+      "after_sha256": "216a1f7959733d0688074878afba25ddebb681e239b1280a0589f3a459ebded2"
+    },
+    {
+      "before": "plugins/veto-stack/references/application-verification.md",
+      "after": "plugins/veto-codex/references/application-verification.md",
+      "change": "reviewed-edit",
+      "before_sha256": "0b503711d0ee4a78edee92dd7d539090afef3294c5e00b398703737ede0832d7",
+      "after_sha256": "f90ce2c812f99ed0978e7f3e4b1fe58d3eff63b0e7da9e3792f55e03c9379799"
+    },
+    {
+      "before": "plugins/veto-stack/references/basecamp.md",
+      "after": "plugins/veto-codex/references/basecamp.md",
+      "change": "unchanged",
+      "before_sha256": "8ae974e5d3bfea5534fa30c241d0ec3762759a7611ec081eff47eb8f13b112ca",
+      "after_sha256": "8ae974e5d3bfea5534fa30c241d0ec3762759a7611ec081eff47eb8f13b112ca"
+    },
+    {
+      "before": "plugins/veto-stack/references/decision-continuity.md",
+      "after": "plugins/veto-codex/references/decision-continuity.md",
+      "change": "unchanged",
+      "before_sha256": "ff2bb899e328ca99a17470f9803625e213e8cd23959159ed2ca1ed4837a9549d",
+      "after_sha256": "ff2bb899e328ca99a17470f9803625e213e8cd23959159ed2ca1ed4837a9549d"
+    },
+    {
+      "before": "plugins/veto-stack/references/design-system.md",
+      "after": "plugins/veto-codex/references/design-system.md",
+      "change": "unchanged",
+      "before_sha256": "6bab63e554a8b7a9c8b7b18e212a6964389955b8207ce3a50a5b681c507ca3f8",
+      "after_sha256": "6bab63e554a8b7a9c8b7b18e212a6964389955b8207ce3a50a5b681c507ca3f8"
+    },
+    {
+      "before": "plugins/veto-stack/references/diagnosis-and-approval.md",
+      "after": "plugins/veto-codex/references/diagnosis-and-approval.md",
+      "change": "unchanged",
+      "before_sha256": "d566563d1d2efddf456dd7d34fb0050b0dbd008b84e03d2f737f8220923b7ff9",
+      "after_sha256": "d566563d1d2efddf456dd7d34fb0050b0dbd008b84e03d2f737f8220923b7ff9"
+    },
+    {
+      "before": "plugins/veto-stack/references/engineering-quality.md",
+      "after": "plugins/veto-codex/references/engineering-quality.md",
+      "change": "unchanged",
+      "before_sha256": "894f8afb84350078fd2bc59fcaed253a952c5d86768024d9406378a37fae16b0",
+      "after_sha256": "894f8afb84350078fd2bc59fcaed253a952c5d86768024d9406378a37fae16b0"
+    },
+    {
+      "before": "plugins/veto-stack/references/evidence.md",
+      "after": "plugins/veto-codex/references/evidence.md",
+      "change": "unchanged",
+      "before_sha256": "6f9c25453643ad68ace9bbb9f2ee4a8a396b8b6345ae254e39b2e87faa2e3d86",
+      "after_sha256": "6f9c25453643ad68ace9bbb9f2ee4a8a396b8b6345ae254e39b2e87faa2e3d86"
+    },
+    {
+      "before": "plugins/veto-stack/references/feedback-coverage.md",
+      "after": "plugins/veto-codex/references/feedback-coverage.md",
+      "change": "unchanged",
+      "before_sha256": "800990c8121dcee476e760fe00c404c2071b4c8ba6489c4e8933007b2992e37d",
+      "after_sha256": "800990c8121dcee476e760fe00c404c2071b4c8ba6489c4e8933007b2992e37d"
+    },
+    {
+      "before": "plugins/veto-stack/references/financial-phone-experience.md",
+      "after": "plugins/veto-codex/references/financial-phone-experience.md",
+      "change": "unchanged",
+      "before_sha256": "a94c72919298f5ff06167203b4b022cde7f79a8b2dccfb0b7be62fae870d756b",
+      "after_sha256": "a94c72919298f5ff06167203b4b022cde7f79a8b2dccfb0b7be62fae870d756b"
+    },
+    {
+      "before": "plugins/veto-stack/references/git-workflow.md",
+      "after": "plugins/veto-codex/references/git-workflow.md",
+      "change": "unchanged",
+      "before_sha256": "d9fd2ce5c3e8c61af23bc2e3646feab69aae8705425629c68ae5e68c7e33ec73",
+      "after_sha256": "d9fd2ce5c3e8c61af23bc2e3646feab69aae8705425629c68ae5e68c7e33ec73"
+    },
+    {
+      "before": "plugins/veto-stack/references/handoff-record.md",
+      "after": "plugins/veto-codex/references/handoff-record.md",
+      "change": "identity-only",
+      "before_sha256": "0c8d03a4dee29a3a2d8378207a074344a7712038a79b53fdf73e5c6bb43f9768",
+      "after_sha256": "4a094545897166fdf53683aee22097c62a5c5dfff7e39eafa1456ad54fe2acee"
+    },
+    {
+      "before": "plugins/veto-stack/references/independent-judgment.md",
+      "after": "plugins/veto-codex/references/independent-judgment.md",
+      "change": "unchanged",
+      "before_sha256": "36d24d69bea50ef64dd7eef3b8372cb01cce7c57342e15c3cfd43736bb381f6f",
+      "after_sha256": "36d24d69bea50ef64dd7eef3b8372cb01cce7c57342e15c3cfd43736bb381f6f"
+    },
+    {
+      "before": "plugins/veto-stack/references/instruction-architecture.md",
+      "after": "plugins/veto-codex/references/instruction-architecture.md",
+      "change": "unchanged",
+      "before_sha256": "fa7745827451f29c323d80207e7ff4a3312ae4ab8fd3b160bcb3c81e0599a497",
+      "after_sha256": "fa7745827451f29c323d80207e7ff4a3312ae4ab8fd3b160bcb3c81e0599a497"
+    },
+    {
+      "before": "plugins/veto-stack/references/native-state-guards.md",
+      "after": "plugins/veto-codex/references/native-state-guards.md",
+      "change": "unchanged",
+      "before_sha256": "41e0cc3b72195138f629501974ea6ba3ff12ff27fa1f2e2171ae0caa5c89f6e7",
+      "after_sha256": "41e0cc3b72195138f629501974ea6ba3ff12ff27fa1f2e2171ae0caa5c89f6e7"
+    },
+    {
+      "before": "plugins/veto-stack/references/one-real-wire.md",
+      "after": "plugins/veto-codex/references/one-real-wire.md",
+      "change": "unchanged",
+      "before_sha256": "916498db4dfdb982ee81a1b64f7ef72cfc519a3b46ce6f3a441cb51e83837d14",
+      "after_sha256": "916498db4dfdb982ee81a1b64f7ef72cfc519a3b46ce6f3a441cb51e83837d14"
+    },
+    {
+      "before": "plugins/veto-stack/references/portable-roles.md",
+      "after": "plugins/veto-codex/references/portable-roles.md",
+      "change": "unchanged",
+      "before_sha256": "3a95e6f0521d6db509c6002ea17487e9747c84761072d1fcc251be57a8cb5b28",
+      "after_sha256": "3a95e6f0521d6db509c6002ea17487e9747c84761072d1fcc251be57a8cb5b28"
+    },
+    {
+      "before": "plugins/veto-stack/references/preview-and-release.md",
+      "after": "plugins/veto-codex/references/preview-and-release.md",
+      "change": "unchanged",
+      "before_sha256": "85d93a1588ed36256940bb4ca92ba339bba70a452604f03768b70826fb621c4e",
+      "after_sha256": "85d93a1588ed36256940bb4ca92ba339bba70a452604f03768b70826fb621c4e"
+    },
+    {
+      "before": "plugins/veto-stack/references/primitives.md",
+      "after": "plugins/veto-codex/references/primitives.md",
+      "change": "unchanged",
+      "before_sha256": "6dfa3f1dc27c5af035bec9b5bb24b90211352fc7ea0a1c221a94c6b5e12a1450",
+      "after_sha256": "6dfa3f1dc27c5af035bec9b5bb24b90211352fc7ea0a1c221a94c6b5e12a1450"
+    },
+    {
+      "before": "plugins/veto-stack/references/production-verification.md",
+      "after": "plugins/veto-codex/references/production-verification.md",
+      "change": "unchanged",
+      "before_sha256": "98fa438718144e9ef2fa426cdb019fb6160c0c84acdbd5fc63660af09c53a373",
+      "after_sha256": "98fa438718144e9ef2fa426cdb019fb6160c0c84acdbd5fc63660af09c53a373"
+    },
+    {
+      "before": "plugins/veto-stack/references/review-pack.md",
+      "after": "plugins/veto-codex/references/review-pack.md",
+      "change": "unchanged",
+      "before_sha256": "80744fc35f8fe3788364f58a395ff6d3ecb6761c0b65bf265752de232fb4e7a5",
+      "after_sha256": "80744fc35f8fe3788364f58a395ff6d3ecb6761c0b65bf265752de232fb4e7a5"
+    },
+    {
+      "before": "plugins/veto-stack/references/review-protocol.md",
+      "after": "plugins/veto-codex/references/review-protocol.md",
+      "change": "unchanged",
+      "before_sha256": "d1146aa33b9be10591e20a6ddcae86abbd3219995ccbde92af1453230a1e9a78",
+      "after_sha256": "d1146aa33b9be10591e20a6ddcae86abbd3219995ccbde92af1453230a1e9a78"
+    },
+    {
+      "before": "plugins/veto-stack/references/sandbox-and-local.md",
+      "after": "plugins/veto-codex/references/sandbox-and-local.md",
+      "change": "identity-only",
+      "before_sha256": "8294ce9cc4ac7ad0325eab134f0af04e8df41eae01f9e842e28d761cc3e62230",
+      "after_sha256": "21c9cc67349a41faf6083eb215d1c6f6895f829fbdf3e4f919e634858753fb7f"
+    },
+    {
+      "before": "plugins/veto-stack/references/slop-catalog.md",
+      "after": "plugins/veto-codex/references/slop-catalog.md",
+      "change": "unchanged",
+      "before_sha256": "9de0e54e9a333789b41d6732aa634d2bea5be4976af022b5a60c589d94fdf756",
+      "after_sha256": "9de0e54e9a333789b41d6732aa634d2bea5be4976af022b5a60c589d94fdf756"
+    },
+    {
+      "before": "plugins/veto-stack/references/stripe-operating-system.md",
+      "after": "plugins/veto-codex/references/stripe-operating-system.md",
+      "change": "unchanged",
+      "before_sha256": "02afa245387d78e45a4a4e2ac81118810988cf78fb7475b3ab1264b24193ec52",
+      "after_sha256": "02afa245387d78e45a4a4e2ac81118810988cf78fb7475b3ab1264b24193ec52"
+    },
+    {
+      "before": "plugins/veto-stack/references/surfaces-and-first-feature.md",
+      "after": "plugins/veto-codex/references/surfaces-and-first-feature.md",
+      "change": "unchanged",
+      "before_sha256": "f490270cc5380e4385ad5c0e78239bd439e8b0930ae59d700051cd4dfb670159",
+      "after_sha256": "f490270cc5380e4385ad5c0e78239bd439e8b0930ae59d700051cd4dfb670159"
+    },
+    {
+      "before": "plugins/veto-stack/references/veto-contract.md",
+      "after": "plugins/veto-codex/references/veto-contract.md",
+      "change": "unchanged",
+      "before_sha256": "1cac9957656f348b6fb1e94f57dcbdcaed1077b4889b30e1812b553f2f65a837",
+      "after_sha256": "1cac9957656f348b6fb1e94f57dcbdcaed1077b4889b30e1812b553f2f65a837"
+    },
+    {
+      "before": "plugins/veto-stack/references/work-control.md",
+      "after": "plugins/veto-codex/references/work-control.md",
+      "change": "unchanged",
+      "before_sha256": "773a624140bef089c1f90bd648cf2dea85eb9bdab322cbd951bf71a3df616362",
+      "after_sha256": "773a624140bef089c1f90bd648cf2dea85eb9bdab322cbd951bf71a3df616362"
+    },
+    {
+      "before": "plugins/veto-stack/references/working-contract.md",
+      "after": "plugins/veto-codex/references/working-contract.md",
+      "change": "unchanged",
+      "before_sha256": "e72d2aba0dfdd1c33210aba9ea299a39194e328f89eb6cd704d6e90d5f360d75",
+      "after_sha256": "e72d2aba0dfdd1c33210aba9ea299a39194e328f89eb6cd704d6e90d5f360d75"
+    },
+    {
+      "before": "plugins/veto-stack/references/workos-environments.md",
+      "after": "plugins/veto-codex/references/workos-environments.md",
+      "change": "unchanged",
+      "before_sha256": "1808d5a5072a710bc2f4d996e14c69161bad17fcda239575c08457d5555aa074",
+      "after_sha256": "1808d5a5072a710bc2f4d996e14c69161bad17fcda239575c08457d5555aa074"
+    },
+    {
+      "before": "plugins/veto-stack/research/ADOPTION-PATCH.md",
+      "after": "plugins/veto-codex/research/ADOPTION-PATCH.md",
+      "change": "unchanged",
+      "before_sha256": "d0697f0dfba138225e1381d662447378f1d8dd3a2250af4bab76ecdf2e56be12",
+      "after_sha256": "d0697f0dfba138225e1381d662447378f1d8dd3a2250af4bab76ecdf2e56be12"
+    },
+    {
+      "before": "plugins/veto-stack/research/AGENT-NATIVE-METHOD.md",
+      "after": "plugins/veto-codex/research/AGENT-NATIVE-METHOD.md",
+      "change": "unchanged",
+      "before_sha256": "fbbcf6782618637f5dd9a4ef0e519a7e38e4f97560e6716a4c2f1ea2e975139b",
+      "after_sha256": "fbbcf6782618637f5dd9a4ef0e519a7e38e4f97560e6716a4c2f1ea2e975139b"
+    },
+    {
+      "before": "plugins/veto-stack/research/DELIVERY-PATCH.md",
+      "after": "plugins/veto-codex/research/DELIVERY-PATCH.md",
+      "change": "unchanged",
+      "before_sha256": "4868d43e9e27938879237b46d820a9ae3a77a10ddc10d93959a705df8893d3d6",
+      "after_sha256": "4868d43e9e27938879237b46d820a9ae3a77a10ddc10d93959a705df8893d3d6"
+    },
+    {
+      "before": "plugins/veto-stack/research/ENGINEERING-PATCH.md",
+      "after": "plugins/veto-codex/research/ENGINEERING-PATCH.md",
+      "change": "unchanged",
+      "before_sha256": "95e664a57abbdba5be22f3877c956c88d01af5001b7760ef9239e16980e1b2c6",
+      "after_sha256": "95e664a57abbdba5be22f3877c956c88d01af5001b7760ef9239e16980e1b2c6"
+    },
+    {
+      "before": "plugins/veto-stack/research/GOAL-SEMANTIC-DIFF.md",
+      "after": "plugins/veto-codex/research/GOAL-SEMANTIC-DIFF.md",
+      "change": "unchanged",
+      "before_sha256": "197945a798f4e3b205226972f6f75482a4d28c374d630c2d3d4b1ba28afbc0de",
+      "after_sha256": "197945a798f4e3b205226972f6f75482a4d28c374d630c2d3d4b1ba28afbc0de"
+    },
+    {
+      "before": "plugins/veto-stack/research/IDENTITY-GIT-PATCH.md",
+      "after": "plugins/veto-codex/research/IDENTITY-GIT-PATCH.md",
+      "change": "unchanged",
+      "before_sha256": "e626086cdd6bffb7fb0ceaff7084686990595ec0387be71906896123ef142273",
+      "after_sha256": "e626086cdd6bffb7fb0ceaff7084686990595ec0387be71906896123ef142273"
+    },
+    {
+      "before": "plugins/veto-stack/research/INCIDENT-PATCH.md",
+      "after": "plugins/veto-codex/research/INCIDENT-PATCH.md",
+      "change": "unchanged",
+      "before_sha256": "3550ca45d43c70f04b53d4a5beb1277049d5680a2953765648d330758c10414c",
+      "after_sha256": "3550ca45d43c70f04b53d4a5beb1277049d5680a2953765648d330758c10414c"
+    },
+    {
+      "before": "plugins/veto-stack/research/LOCAL-REVIEW-PATCH.md",
+      "after": "plugins/veto-codex/research/LOCAL-REVIEW-PATCH.md",
+      "change": "unchanged",
+      "before_sha256": "8908380008478c3d615ab4c8f12e8df1e1957e1dbc61efea780c1d270da09484",
+      "after_sha256": "8908380008478c3d615ab4c8f12e8df1e1957e1dbc61efea780c1d270da09484"
+    },
+    {
+      "before": "plugins/veto-stack/research/PLUGIN-EXCELLENCE.md",
+      "after": "plugins/veto-codex/research/PLUGIN-EXCELLENCE.md",
+      "change": "unchanged",
+      "before_sha256": "04afc9b1d42af2bae062b56dd08b94ccd9b2a2d82108607591fa590f1f9886c5",
+      "after_sha256": "04afc9b1d42af2bae062b56dd08b94ccd9b2a2d82108607591fa590f1f9886c5"
+    },
+    {
+      "before": "plugins/veto-stack/research/SOURCE-MAP.md",
+      "after": "plugins/veto-codex/research/SOURCE-MAP.md",
+      "change": "unchanged",
+      "before_sha256": "c2bd1c30f6b2c1888b8b95d12a5316e3a5e1e1434ae2f4d8247e92b49e030ed0",
+      "after_sha256": "c2bd1c30f6b2c1888b8b95d12a5316e3a5e1e1434ae2f4d8247e92b49e030ed0"
+    },
+    {
+      "before": "plugins/veto-stack/research/STRIPE-SOURCE-MAP.md",
+      "after": "plugins/veto-codex/research/STRIPE-SOURCE-MAP.md",
+      "change": "unchanged",
+      "before_sha256": "cdbd45a3236d8de9ddf6102613fb58b7a0933b73c696bccfc07daf7f5f6ab8ec",
+      "after_sha256": "cdbd45a3236d8de9ddf6102613fb58b7a0933b73c696bccfc07daf7f5f6ab8ec"
+    },
+    {
+      "before": "plugins/veto-stack/research/WORK-CONTROL-SOURCE-MAP.md",
+      "after": "plugins/veto-codex/research/WORK-CONTROL-SOURCE-MAP.md",
+      "change": "unchanged",
+      "before_sha256": "494362b0ead3451ca074c32e4c057d4f08b496a718d07684bad97eea10487df6",
+      "after_sha256": "494362b0ead3451ca074c32e4c057d4f08b496a718d07684bad97eea10487df6"
+    },
+    {
+      "before": "plugins/veto-stack/research/delivery-inputs.json",
+      "after": "plugins/veto-codex/research/delivery-inputs.json",
+      "change": "unchanged",
+      "before_sha256": "2b0b3ba1fd64139a21c665f0f40c0bfc410d6157b237c84785ff02ddb4b47104",
+      "after_sha256": "2b0b3ba1fd64139a21c665f0f40c0bfc410d6157b237c84785ff02ddb4b47104"
+    },
+    {
+      "before": "plugins/veto-stack/research/engineering-inputs.json",
+      "after": "plugins/veto-codex/research/engineering-inputs.json",
+      "change": "unchanged",
+      "before_sha256": "92ff9892b0b2f8a80edac11a32ab640e4a82f117b9b35e5f757e179ee6228bb0",
+      "after_sha256": "92ff9892b0b2f8a80edac11a32ab640e4a82f117b9b35e5f757e179ee6228bb0"
+    },
+    {
+      "before": "plugins/veto-stack/research/identity-git-inputs.json",
+      "after": "plugins/veto-codex/research/identity-git-inputs.json",
+      "change": "unchanged",
+      "before_sha256": "0428ef157c9295358363fcbcfe0d5a328fbb0bb535cbca014180bf20978ba31a",
+      "after_sha256": "0428ef157c9295358363fcbcfe0d5a328fbb0bb535cbca014180bf20978ba31a"
+    },
+    {
+      "before": "plugins/veto-stack/research/local-review-inputs.json",
+      "after": "plugins/veto-codex/research/local-review-inputs.json",
+      "change": "unchanged",
+      "before_sha256": "2d0353819ab666fd7a2743aa7a871c0df97ebc17066b51cc804fb01074e29c99",
+      "after_sha256": "2d0353819ab666fd7a2743aa7a871c0df97ebc17066b51cc804fb01074e29c99"
+    },
+    {
+      "before": "plugins/veto-stack/research/next-inputs.json",
+      "after": "plugins/veto-codex/research/next-inputs.json",
+      "change": "reviewed-edit",
+      "before_sha256": "29f5ad2cbf48ac50dd15f2054905f2ef2ab707fbb4d1d5060bb6f3ed3e1733c1",
+      "after_sha256": "38ab21237a8f67613d591f9c58e4396ae1081725f2e4af055af5971d1d4be0f3"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1105/VERIFICATION.source.txt",
+      "after": "plugins/veto-codex/research/prior-release-verification/1105/VERIFICATION.source.txt",
+      "change": "unchanged",
+      "before_sha256": "aa18c0b021a28900778c17f34b231d1287106706bcf3792688ec256cf38597bd",
+      "after_sha256": "aa18c0b021a28900778c17f34b231d1287106706bcf3792688ec256cf38597bd"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1105/baseline-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/1105/baseline-tests.log",
+      "change": "unchanged",
+      "before_sha256": "61a6213d811b674dc9eee5a22fd8471bfb74abc3fe850deabf7eb94afc10459d",
+      "after_sha256": "61a6213d811b674dc9eee5a22fd8471bfb74abc3fe850deabf7eb94afc10459d"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1105/feedback-example.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1105/feedback-example.json",
+      "change": "unchanged",
+      "before_sha256": "c695abb8cd6125831a61cf3935c70b22c2583a32c62c6c703cf60ec2e9ce346f",
+      "after_sha256": "c695abb8cd6125831a61cf3935c70b22c2583a32c62c6c703cf60ec2e9ce346f"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1105/format-checks.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1105/format-checks.json",
+      "change": "unchanged",
+      "before_sha256": "375fa621b11239b559edd3011f9d98f1d9f822bd7952a9dd4550e347c9d8fe21",
+      "after_sha256": "375fa621b11239b559edd3011f9d98f1d9f822bd7952a9dd4550e347c9d8fe21"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1105/helper-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/1105/helper-tests.log",
+      "change": "unchanged",
+      "before_sha256": "343f6aa7d82a5d1a561de02702c34d0131744c84dd787ce523b06a47bbc0afc5",
+      "after_sha256": "343f6aa7d82a5d1a561de02702c34d0131744c84dd787ce523b06a47bbc0afc5"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1105/legacy-example.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1105/legacy-example.json",
+      "change": "unchanged",
+      "before_sha256": "0a039d65baa28b9ace1cef76d75e968871ce615b8c2c755478bf9ac95840e252",
+      "after_sha256": "0a039d65baa28b9ace1cef76d75e968871ce615b8c2c755478bf9ac95840e252"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1106/VERIFICATION.source.txt",
+      "after": "plugins/veto-codex/research/prior-release-verification/1106/VERIFICATION.source.txt",
+      "change": "unchanged",
+      "before_sha256": "c7ffdf3dd312333f22bd3288c27b0aa8538ca9d12c42508dd7725cf79b5e8832",
+      "after_sha256": "c7ffdf3dd312333f22bd3288c27b0aa8538ca9d12c42508dd7725cf79b5e8832"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1106/baseline-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/1106/baseline-tests.log",
+      "change": "unchanged",
+      "before_sha256": "72398a6aa543bdb139eb639e42c67d4c902cb9aa05535927a82ee4c123e79ced",
+      "after_sha256": "72398a6aa543bdb139eb639e42c67d4c902cb9aa05535927a82ee4c123e79ced"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1106/feedback-example.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1106/feedback-example.json",
+      "change": "unchanged",
+      "before_sha256": "c695abb8cd6125831a61cf3935c70b22c2583a32c62c6c703cf60ec2e9ce346f",
+      "after_sha256": "c695abb8cd6125831a61cf3935c70b22c2583a32c62c6c703cf60ec2e9ce346f"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1106/format-checks.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1106/format-checks.json",
+      "change": "unchanged",
+      "before_sha256": "3c2add6a9e3e705830e5293bf1c471448e4e26a57a1b520826b357fb9a240ada",
+      "after_sha256": "3c2add6a9e3e705830e5293bf1c471448e4e26a57a1b520826b357fb9a240ada"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1106/helper-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/1106/helper-tests.log",
+      "change": "unchanged",
+      "before_sha256": "aaaeb6eb8d3698d89fb70b680f411213d736b5e6780b09d799721bf9f8150824",
+      "after_sha256": "aaaeb6eb8d3698d89fb70b680f411213d736b5e6780b09d799721bf9f8150824"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1106/legacy-example.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1106/legacy-example.json",
+      "change": "unchanged",
+      "before_sha256": "0a039d65baa28b9ace1cef76d75e968871ce615b8c2c755478bf9ac95840e252",
+      "after_sha256": "0a039d65baa28b9ace1cef76d75e968871ce615b8c2c755478bf9ac95840e252"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1107/VERIFICATION.source.txt",
+      "after": "plugins/veto-codex/research/prior-release-verification/1107/VERIFICATION.source.txt",
+      "change": "unchanged",
+      "before_sha256": "2dbf0098425349dad20c374f9692c1cdccf00e9e6fd565a886e071c8be3fe96b",
+      "after_sha256": "2dbf0098425349dad20c374f9692c1cdccf00e9e6fd565a886e071c8be3fe96b"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1107/baseline-doctor.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1107/baseline-doctor.json",
+      "change": "unchanged",
+      "before_sha256": "1d3302b02c4672ffa44d70fed8311a1f1697cdebe197b6dc41efdf952d60676b",
+      "after_sha256": "1d3302b02c4672ffa44d70fed8311a1f1697cdebe197b6dc41efdf952d60676b"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1107/baseline-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/1107/baseline-tests.log",
+      "change": "unchanged",
+      "before_sha256": "fa98a0e5347410e2ff0a6dd973b9d4d346ea0029de595e2728d8843c1a87f913",
+      "after_sha256": "fa98a0e5347410e2ff0a6dd973b9d4d346ea0029de595e2728d8843c1a87f913"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1107/candidate-doctor-before-records.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1107/candidate-doctor-before-records.json",
+      "change": "unchanged",
+      "before_sha256": "6f01da330924ba5ce4fd5d0528f38cfd9dc27f334d3a57866305f2fe8614ec33",
+      "after_sha256": "6f01da330924ba5ce4fd5d0528f38cfd9dc27f334d3a57866305f2fe8614ec33"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1107/feedback-example.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1107/feedback-example.json",
+      "change": "unchanged",
+      "before_sha256": "19ef2060190f783d2db4950aeca5e75ceab083416e36240170ae7d565812f880",
+      "after_sha256": "19ef2060190f783d2db4950aeca5e75ceab083416e36240170ae7d565812f880"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1107/format-checks.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1107/format-checks.json",
+      "change": "unchanged",
+      "before_sha256": "9dbd5f8fc15a4b715c64a749889d6a3e0133bf84aaec642be8acddf6cc6c418f",
+      "after_sha256": "9dbd5f8fc15a4b715c64a749889d6a3e0133bf84aaec642be8acddf6cc6c418f"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1107/helper-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/1107/helper-tests.log",
+      "change": "unchanged",
+      "before_sha256": "98e1840d6f62d0700d9a199eafe0501895d3a43afd908d103f0dff3dd6fad26e",
+      "after_sha256": "98e1840d6f62d0700d9a199eafe0501895d3a43afd908d103f0dff3dd6fad26e"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1107/legacy-example.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1107/legacy-example.json",
+      "change": "unchanged",
+      "before_sha256": "ec67afb30037966ea3a4c9f1d97caf113641aa821abc98fd54a36a0a260eccba",
+      "after_sha256": "ec67afb30037966ea3a4c9f1d97caf113641aa821abc98fd54a36a0a260eccba"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1107/legacy_with_require_feedback.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1107/legacy_with_require_feedback.json",
+      "change": "unchanged",
+      "before_sha256": "804ef253cfe9ab86eee1cf736c31fdfd27dfb11a8612f977b8e3aa82c5c9337b",
+      "after_sha256": "804ef253cfe9ab86eee1cf736c31fdfd27dfb11a8612f977b8e3aa82c5c9337b"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1108/VERIFICATION.source.txt",
+      "after": "plugins/veto-codex/research/prior-release-verification/1108/VERIFICATION.source.txt",
+      "change": "unchanged",
+      "before_sha256": "99df5e2af6ebc0adceae024efb16f695fcd61ccc6876e57b593f536cc0bf9900",
+      "after_sha256": "99df5e2af6ebc0adceae024efb16f695fcd61ccc6876e57b593f536cc0bf9900"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1108/baseline-doctor.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1108/baseline-doctor.json",
+      "change": "unchanged",
+      "before_sha256": "6b00df7de6d5874bd330010e17400995c4b1590e770fe521fa5b1b75d7cdc856",
+      "after_sha256": "6b00df7de6d5874bd330010e17400995c4b1590e770fe521fa5b1b75d7cdc856"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1108/baseline-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/1108/baseline-tests.log",
+      "change": "unchanged",
+      "before_sha256": "a5143271619fbb57127d34aa88a28d5f21e741b4ef36892f71f7950978abe00e",
+      "after_sha256": "a5143271619fbb57127d34aa88a28d5f21e741b4ef36892f71f7950978abe00e"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1108/candidate-doctor-before-records.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1108/candidate-doctor-before-records.json",
+      "change": "unchanged",
+      "before_sha256": "bcaecec8bc3c7f6ba5c45862dcaadc4d99e6f755065a22993a77ca9de8725fa1",
+      "after_sha256": "bcaecec8bc3c7f6ba5c45862dcaadc4d99e6f755065a22993a77ca9de8725fa1"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1108/feedback-example.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1108/feedback-example.json",
+      "change": "unchanged",
+      "before_sha256": "04533e6bdfe0914dbde871f7dec7e0760fc6023c7e150e2eee81b49485c81a58",
+      "after_sha256": "04533e6bdfe0914dbde871f7dec7e0760fc6023c7e150e2eee81b49485c81a58"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1108/format-checks.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1108/format-checks.json",
+      "change": "unchanged",
+      "before_sha256": "1063c1887251e5dd5ffe7d894875c02af41504064a3235f94fcb49b0a94c80b6",
+      "after_sha256": "1063c1887251e5dd5ffe7d894875c02af41504064a3235f94fcb49b0a94c80b6"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1108/helper-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/1108/helper-tests.log",
+      "change": "unchanged",
+      "before_sha256": "8be6ee2c944fe8262fad003bd79940d8cd80e871159135168ee4e4741cb6c21e",
+      "after_sha256": "8be6ee2c944fe8262fad003bd79940d8cd80e871159135168ee4e4741cb6c21e"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1108/legacy-example.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1108/legacy-example.json",
+      "change": "unchanged",
+      "before_sha256": "b228a89d4ac5495f38e0c636277b8e9549a4d3258b19fea83dc5ed3660cb80b4",
+      "after_sha256": "b228a89d4ac5495f38e0c636277b8e9549a4d3258b19fea83dc5ed3660cb80b4"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/1108/legacy_with_require_feedback.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/1108/legacy_with_require_feedback.json",
+      "change": "unchanged",
+      "before_sha256": "8f938e6676998711145fee6b96019bf800b674e009ec44dce44ba0c45e03ee7c",
+      "after_sha256": "8f938e6676998711145fee6b96019bf800b674e009ec44dce44ba0c45e03ee7c"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1102/RELEASE.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1102/RELEASE.json",
+      "change": "unchanged",
+      "before_sha256": "f91d1fb5a8161c90480414b7871943d9b7782831cddb17e6472cb5bbbf99b7ce",
+      "after_sha256": "f91d1fb5a8161c90480414b7871943d9b7782831cddb17e6472cb5bbbf99b7ce"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1102/VERIFICATION.source.txt",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1102/VERIFICATION.source.txt",
+      "change": "unchanged",
+      "before_sha256": "faadc066a43ffe46f3c3d2da4e661e6d36ad16328326b836b635ab75dba2216c",
+      "after_sha256": "faadc066a43ffe46f3c3d2da4e661e6d36ad16328326b836b635ab75dba2216c"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1102/cli-smoke.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1102/cli-smoke.json",
+      "change": "unchanged",
+      "before_sha256": "65a2acbf182fb429dfb992a88a48cfa352ee9d94b64a42417168dec77deb2a02",
+      "after_sha256": "65a2acbf182fb429dfb992a88a48cfa352ee9d94b64a42417168dec77deb2a02"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1102/goal.source.txt",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1102/goal.source.txt",
+      "change": "unchanged",
+      "before_sha256": "57db2bfd5dccf0b654d260f0d1ef30b57774c3c044459264af80be4ef6397026",
+      "after_sha256": "57db2bfd5dccf0b654d260f0d1ef30b57774c3c044459264af80be4ef6397026"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1102/helper-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1102/helper-tests.log",
+      "change": "unchanged",
+      "before_sha256": "8ff700d8001f6f53e041b6b799483d35cc537a1bf791d765f7d636f701b25fb0",
+      "after_sha256": "8ff700d8001f6f53e041b6b799483d35cc537a1bf791d765f7d636f701b25fb0"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1102/initial-helper-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1102/initial-helper-tests.log",
+      "change": "unchanged",
+      "before_sha256": "bef3dcd339f766e0bc7286f9370729f57612cf65e2436d51de4081d90d5fe772",
+      "after_sha256": "bef3dcd339f766e0bc7286f9370729f57612cf65e2436d51de4081d90d5fe772"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1102/intermediate-helper-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1102/intermediate-helper-tests.log",
+      "change": "unchanged",
+      "before_sha256": "b65a13b3c4c90086f6ad1a584d0de3eb1d936bb00b2d40074bfb48bb8763cb14",
+      "after_sha256": "b65a13b3c4c90086f6ad1a584d0de3eb1d936bb00b2d40074bfb48bb8763cb14"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1102/schema-check.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1102/schema-check.json",
+      "change": "unchanged",
+      "before_sha256": "2e5cde12604003586d0ea0737a9ca308beae68b9d7bd82c4a181de8d10c01c0a",
+      "after_sha256": "2e5cde12604003586d0ea0737a9ca308beae68b9d7bd82c4a181de8d10c01c0a"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1103/VERIFICATION.source.txt",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1103/VERIFICATION.source.txt",
+      "change": "unchanged",
+      "before_sha256": "b7ecc155446ef55de41533dd821198aada4a03c1e3294898c3c8fe1876a94928",
+      "after_sha256": "b7ecc155446ef55de41533dd821198aada4a03c1e3294898c3c8fe1876a94928"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1103/baseline-tests.log.source.txt",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1103/baseline-tests.log.source.txt",
+      "change": "unchanged",
+      "before_sha256": "e903372d67fa5a869fc1063b65bd571c9c943602adbb2bb5dc0684df5b874bd0",
+      "after_sha256": "e903372d67fa5a869fc1063b65bd571c9c943602adbb2bb5dc0684df5b874bd0"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1103/format-checks.json.source.txt",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1103/format-checks.json.source.txt",
+      "change": "unchanged",
+      "before_sha256": "acf0c83e7488d028b84ed04b56818469dcca5eeef761d6cd8baadcda1f902c4a",
+      "after_sha256": "acf0c83e7488d028b84ed04b56818469dcca5eeef761d6cd8baadcda1f902c4a"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1103/helper-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1103/helper-tests.log",
+      "change": "unchanged",
+      "before_sha256": "f7f0cdbe3247a4e0cbef7a2e96e5fb2a40d4591a6087ee807fcfdfec7fef3736",
+      "after_sha256": "f7f0cdbe3247a4e0cbef7a2e96e5fb2a40d4591a6087ee807fcfdfec7fef3736"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1103/helper-tests.log.source.txt",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1103/helper-tests.log.source.txt",
+      "change": "unchanged",
+      "before_sha256": "f7f0cdbe3247a4e0cbef7a2e96e5fb2a40d4591a6087ee807fcfdfec7fef3736",
+      "after_sha256": "f7f0cdbe3247a4e0cbef7a2e96e5fb2a40d4591a6087ee807fcfdfec7fef3736"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1103/package-diff.json.source.txt",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1103/package-diff.json.source.txt",
+      "change": "unchanged",
+      "before_sha256": "9136d8e31229f82a23b4e697735a5dc063a84a2f51a0f6572c9ff056a5468dfa",
+      "after_sha256": "9136d8e31229f82a23b4e697735a5dc063a84a2f51a0f6572c9ff056a5468dfa"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1104/VERIFICATION.source.txt",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1104/VERIFICATION.source.txt",
+      "change": "unchanged",
+      "before_sha256": "bc18468fc775e44ef7b4ca7ce13f21c92f8a85911badb36d3faad5725a75d1e0",
+      "after_sha256": "bc18468fc775e44ef7b4ca7ce13f21c92f8a85911badb36d3faad5725a75d1e0"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1104/baseline-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1104/baseline-tests.log",
+      "change": "unchanged",
+      "before_sha256": "b25108d01ba2b5133091b326c71abf22a4f5708cbe7f4ad97c0b0e0403474c6b",
+      "after_sha256": "b25108d01ba2b5133091b326c71abf22a4f5708cbe7f4ad97c0b0e0403474c6b"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1104/feedback-example.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1104/feedback-example.json",
+      "change": "unchanged",
+      "before_sha256": "e15f9b57817a098f3689026b0fa2c9c17692d3eeb7957d9a6fc8673fa753433c",
+      "after_sha256": "e15f9b57817a098f3689026b0fa2c9c17692d3eeb7957d9a6fc8673fa753433c"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1104/format-checks.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1104/format-checks.json",
+      "change": "unchanged",
+      "before_sha256": "627071e61a474cf1ce34bdf598605b888a507fb07d079914f6280e9c09173c7e",
+      "after_sha256": "627071e61a474cf1ce34bdf598605b888a507fb07d079914f6280e9c09173c7e"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1104/helper-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1104/helper-tests.log",
+      "change": "unchanged",
+      "before_sha256": "efefb821328bc6350e316cdec9018bc6e69132db90f032b835939621bc790ebc",
+      "after_sha256": "efefb821328bc6350e316cdec9018bc6e69132db90f032b835939621bc790ebc"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/2026.9.1104/legacy-example.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/2026.9.1104/legacy-example.json",
+      "change": "unchanged",
+      "before_sha256": "523f8fc4ca0eb2465b32001db1fe1529b2411faa2a2c72b72d5a6b8d41db5060",
+      "after_sha256": "523f8fc4ca0eb2465b32001db1fe1529b2411faa2a2c72b72d5a6b8d41db5060"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/cli-smoke.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/cli-smoke.json",
+      "change": "unchanged",
+      "before_sha256": "c56560d6ec82a395ef13e13c6d147dd4f590909477abbea3acdbd929e05fb9f8",
+      "after_sha256": "c56560d6ec82a395ef13e13c6d147dd4f590909477abbea3acdbd929e05fb9f8"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/helper-tests.log",
+      "after": "plugins/veto-codex/research/prior-release-verification/helper-tests.log",
+      "change": "unchanged",
+      "before_sha256": "c7e5ebff47b5c7892015e36681ce851eb7fce669431d7d69cb29217d6ccbf3ee",
+      "after_sha256": "c7e5ebff47b5c7892015e36681ce851eb7fce669431d7d69cb29217d6ccbf3ee"
+    },
+    {
+      "before": "plugins/veto-stack/research/prior-release-verification/schema-check.json",
+      "after": "plugins/veto-codex/research/prior-release-verification/schema-check.json",
+      "change": "unchanged",
+      "before_sha256": "2dffe98ae287e62e53b40b6c9d71b0094d0ceb0cdc406b7c33ec76fc6d9e2988",
+      "after_sha256": "2dffe98ae287e62e53b40b6c9d71b0094d0ceb0cdc406b7c33ec76fc6d9e2988"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-manifest.json",
+      "after": "plugins/veto-codex/research/source-manifest.json",
+      "change": "unchanged",
+      "before_sha256": "e84de25e9b8b261dd3115c7c382fe2e632ba4c4ffb0ce7e1f34df454b640cdef",
+      "after_sha256": "e84de25e9b8b261dd3115c7c382fe2e632ba4c4ffb0ce7e1f34df454b640cdef"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/README.md",
+      "after": "plugins/veto-codex/research/source-skills/README.md",
+      "change": "unchanged",
+      "before_sha256": "37d5b42554bd207ac155841642c879e64b3a7e94e52f23a67bb2d1360ab73e6e",
+      "after_sha256": "37d5b42554bd207ac155841642c879e64b3a7e94e52f23a67bb2d1360ab73e6e"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/financial-phone-experience.source.txt",
+      "after": "plugins/veto-codex/research/source-skills/financial-phone-experience.source.txt",
+      "change": "unchanged",
+      "before_sha256": "54d5736a5f1b6725453bc5b08f7a07af68fb081f91dd4d21838c8015d9c734d7",
+      "after_sha256": "54d5736a5f1b6725453bc5b08f7a07af68fb081f91dd4d21838c8015d9c734d7"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/front-end-design.md",
+      "after": "plugins/veto-codex/research/source-skills/front-end-design.md",
+      "change": "unchanged",
+      "before_sha256": "a4a24bfb58afc8f60e74070cab4971d7488e2e0df2cd907d287819e816358bfd",
+      "after_sha256": "a4a24bfb58afc8f60e74070cab4971d7488e2e0df2cd907d287819e816358bfd"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/head-of-engineering.md",
+      "after": "plugins/veto-codex/research/source-skills/head-of-engineering.md",
+      "change": "unchanged",
+      "before_sha256": "6936a44f4bd299557d166fdddb8d98dccc4d83a6570059daf4c92930552411f3",
+      "after_sha256": "6936a44f4bd299557d166fdddb8d98dccc4d83a6570059daf4c92930552411f3"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/local-development.md",
+      "after": "plugins/veto-codex/research/source-skills/local-development.md",
+      "change": "unchanged",
+      "before_sha256": "869c3ce0633b95a5ed0f02f77fdc7238dfc9fa4909a700752f1ced648b1f5252",
+      "after_sha256": "869c3ce0633b95a5ed0f02f77fdc7238dfc9fa4909a700752f1ced648b1f5252"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/product-designer.md",
+      "after": "plugins/veto-codex/research/source-skills/product-designer.md",
+      "change": "unchanged",
+      "before_sha256": "fc1f8627effec591fd43b9bd50ffdac1dbb6c6068834a34e8b2f579f90a4b7e9",
+      "after_sha256": "fc1f8627effec591fd43b9bd50ffdac1dbb6c6068834a34e8b2f579f90a4b7e9"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/sandbox-experience.md",
+      "after": "plugins/veto-codex/research/source-skills/sandbox-experience.md",
+      "change": "unchanged",
+      "before_sha256": "0f88faac78e92152943bfc1338235fe1125a2cf78deba8a0cb67daaf1e04063f",
+      "after_sha256": "0f88faac78e92152943bfc1338235fe1125a2cf78deba8a0cb67daaf1e04063f"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/ship-preview-to-production-1109.source.txt",
+      "after": "plugins/veto-codex/research/source-skills/ship-preview-to-production-1109.source.txt",
+      "change": "unchanged",
+      "before_sha256": "2200bbb0c5dee7244dbb8bdc3b4e69666074da131a7d9c14ea2448e39f6bb252",
+      "after_sha256": "2200bbb0c5dee7244dbb8bdc3b4e69666074da131a7d9c14ea2448e39f6bb252"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/ship-to-preview-1109.source.txt",
+      "after": "plugins/veto-codex/research/source-skills/ship-to-preview-1109.source.txt",
+      "change": "unchanged",
+      "before_sha256": "f1596c0751d1350ba78af848ad6cd9848a6b67bf5df7e9d7b935a4d5b89a528d",
+      "after_sha256": "f1596c0751d1350ba78af848ad6cd9848a6b67bf5df7e9d7b935a4d5b89a528d"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/stripe-style-product-shipping.md",
+      "after": "plugins/veto-codex/research/source-skills/stripe-style-product-shipping.md",
+      "change": "unchanged",
+      "before_sha256": "5447a2c6669db7485bdf69d46b6602da733add36fc12ea569f35a3bfc5f75e61",
+      "after_sha256": "5447a2c6669db7485bdf69d46b6602da733add36fc12ea569f35a3bfc5f75e61"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/useful-backend-engineering.md",
+      "after": "plugins/veto-codex/research/source-skills/useful-backend-engineering.md",
+      "change": "unchanged",
+      "before_sha256": "8ea517af06dd32c06f86ac68347afeed2783ee30d27cfa342a7a6a303a99c61b",
+      "after_sha256": "8ea517af06dd32c06f86ac68347afeed2783ee30d27cfa342a7a6a303a99c61b"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/useful-product-management.source.txt",
+      "after": "plugins/veto-codex/research/source-skills/useful-product-management.source.txt",
+      "change": "unchanged",
+      "before_sha256": "9410a876d54edb92aba1688de6664fcc0a0a51dd5480231c65c3443b8f584608",
+      "after_sha256": "9410a876d54edb92aba1688de6664fcc0a0a51dd5480231c65c3443b8f584608"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/veto-feature-team.md",
+      "after": "plugins/veto-codex/research/source-skills/veto-feature-team.md",
+      "change": "unchanged",
+      "before_sha256": "2629f87852e1817e4201e34f48792baf13c37018bf3a0f2d500af0d7219180af",
+      "after_sha256": "2629f87852e1817e4201e34f48792baf13c37018bf3a0f2d500af0d7219180af"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/veto-git-1109.source.txt",
+      "after": "plugins/veto-codex/research/source-skills/veto-git-1109.source.txt",
+      "change": "unchanged",
+      "before_sha256": "8b54d4d14963dc02b3de896560abcc71bee1134858e22645b90a5fa098cdeceb",
+      "after_sha256": "8b54d4d14963dc02b3de896560abcc71bee1134858e22645b90a5fa098cdeceb"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/veto-integrations.md",
+      "after": "plugins/veto-codex/research/source-skills/veto-integrations.md",
+      "change": "unchanged",
+      "before_sha256": "27b0f7d23c32f11173591f7cbde74dd1ed6a2d450e671a35d0de30fce8ece8f9",
+      "after_sha256": "27b0f7d23c32f11173591f7cbde74dd1ed6a2d450e671a35d0de30fce8ece8f9"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/veto-primitives.source.txt",
+      "after": "plugins/veto-codex/research/source-skills/veto-primitives.source.txt",
+      "change": "unchanged",
+      "before_sha256": "7512595198889e9842298386e9f383bfbb50e43d31ee6f4a935a8c17fb5e09ff",
+      "after_sha256": "7512595198889e9842298386e9f383bfbb50e43d31ee6f4a935a8c17fb5e09ff"
+    },
+    {
+      "before": "plugins/veto-stack/research/source-skills/veto-product-surfaces.source.txt",
+      "after": "plugins/veto-codex/research/source-skills/veto-product-surfaces.source.txt",
+      "change": "unchanged",
+      "before_sha256": "bcd3209a5d681e81c7febf4b0991ab7cfa2f32db047591e4a4c3d18e6f90b5ac",
+      "after_sha256": "bcd3209a5d681e81c7febf4b0991ab7cfa2f32db047591e4a4c3d18e6f90b5ac"
+    },
+    {
+      "before": "plugins/veto-stack/research/upgrade-inputs.json",
+      "after": "plugins/veto-codex/research/upgrade-inputs.json",
+      "change": "unchanged",
+      "before_sha256": "f0f703a045444d90d204358309f85b8c919011e41deacf0a1472579793f0b61b",
+      "after_sha256": "f0f703a045444d90d204358309f85b8c919011e41deacf0a1472579793f0b61b"
+    },
+    {
+      "before": "plugins/veto-stack/scripts/check_handoff.py",
+      "after": "plugins/veto-codex/scripts/check_handoff.py",
+      "change": "unchanged",
+      "before_sha256": "47f86404f58e77a25bc0a7e843bade41506784e80bfdb4e1bf7f39fe915923e8",
+      "after_sha256": "47f86404f58e77a25bc0a7e843bade41506784e80bfdb4e1bf7f39fe915923e8"
+    },
+    {
+      "before": "plugins/veto-stack/scripts/check_receipt.py",
+      "after": "plugins/veto-codex/scripts/check_receipt.py",
+      "change": "unchanged",
+      "before_sha256": "8772a83dc9db5b2a3dd4ef3066b1b87b7325fec30bc22463485635675e82fc8a",
+      "after_sha256": "8772a83dc9db5b2a3dd4ef3066b1b87b7325fec30bc22463485635675e82fc8a"
+    },
+    {
+      "before": "plugins/veto-stack/scripts/common.py",
+      "after": "plugins/veto-codex/scripts/common.py",
+      "change": "unchanged",
+      "before_sha256": "545f70ae89890865f1f3290216143c69aea8a9fc5c90ebf8b42419f07b93ea50",
+      "after_sha256": "545f70ae89890865f1f3290216143c69aea8a9fc5c90ebf8b42419f07b93ea50"
+    },
+    {
+      "before": "plugins/veto-stack/scripts/doctor.py",
+      "after": "plugins/veto-codex/scripts/doctor.py",
+      "change": "reviewed-edit",
+      "before_sha256": "8b131dec67e28073eefeb8af3279b307ad69bd5893c47f4816941fffbeac84ae",
+      "after_sha256": "380377926a0e67e87af0847c8ee944ccd16745ddd100cac2fea604ff08e7c967"
+    },
+    {
+      "before": "plugins/veto-stack/scripts/hook_context.py",
+      "after": "plugins/veto-codex/scripts/hook_context.py",
+      "change": "unchanged",
+      "before_sha256": "3a45572b3e662a1c0a40b1e73d37919b82dac1eda3b7b2b1c347d9d63259f9d5",
+      "after_sha256": "3a45572b3e662a1c0a40b1e73d37919b82dac1eda3b7b2b1c347d9d63259f9d5"
+    },
+    {
+      "before": "plugins/veto-stack/scripts/lint_slop.py",
+      "after": "plugins/veto-codex/scripts/lint_slop.py",
+      "change": "unchanged",
+      "before_sha256": "e3d6d27881f237415560383227a8e5e44de65487875818926e0afcd1bf6eb87f",
+      "after_sha256": "e3d6d27881f237415560383227a8e5e44de65487875818926e0afcd1bf6eb87f"
+    },
+    {
+      "before": "plugins/veto-stack/scripts/review_pack.py",
+      "after": "plugins/veto-codex/scripts/review_pack.py",
+      "change": "unchanged",
+      "before_sha256": "da7fc46f2c9017be0b1a8a1c935bb03e1bd35bd4b0a8a23b0b09cd6635b8fa62",
+      "after_sha256": "da7fc46f2c9017be0b1a8a1c935bb03e1bd35bd4b0a8a23b0b09cd6635b8fa62"
+    },
+    {
+      "before": "plugins/veto-stack/scripts/role_context.py",
+      "after": "plugins/veto-codex/scripts/role_context.py",
+      "change": "identity-only",
+      "before_sha256": "8372427b8580190b7d76d0b4ec4773560fd286d459355fcb5aff008461d228b0",
+      "after_sha256": "229af90b178e53fa18c333ecab6e94010771ee909849e82f6f369677f0447e5e"
+    },
+    {
+      "before": "plugins/veto-stack/scripts/state_guards.py",
+      "after": "plugins/veto-codex/scripts/state_guards.py",
+      "change": "unchanged",
+      "before_sha256": "58b15255db769f2b2b1af5dcef2491cb5422a4cb3749258d2da15d47523714b2",
+      "after_sha256": "58b15255db769f2b2b1af5dcef2491cb5422a4cb3749258d2da15d47523714b2"
+    },
+    {
+      "before": "plugins/veto-stack/skills/build-a-capability/SKILL.md",
+      "after": "plugins/veto-codex/skills/build-a-capability/SKILL.md",
+      "change": "unchanged",
+      "before_sha256": "0abaf08b86cc4d3005d3be6b6f4df80c0c1843302812a1e9a692a9a9766983a6",
+      "after_sha256": "0abaf08b86cc4d3005d3be6b6f4df80c0c1843302812a1e9a692a9a9766983a6"
+    },
+    {
+      "before": "plugins/veto-stack/skills/field-proof/SKILL.md",
+      "after": "plugins/veto-codex/skills/field-proof/SKILL.md",
+      "change": "unchanged",
+      "before_sha256": "04439ded478d7522850544d55d3097a23fcebda3a5319dc802e26b5ef92d4608",
+      "after_sha256": "04439ded478d7522850544d55d3097a23fcebda3a5319dc802e26b5ef92d4608"
+    },
+    {
+      "before": "plugins/veto-stack/skills/independent-judgment/SKILL.md",
+      "after": "plugins/veto-codex/skills/independent-judgment/SKILL.md",
+      "change": "unchanged",
+      "before_sha256": "cf91ad25e9066938c432ab3de57ac078d2f493364cdb06b5a521c0f6cf567fa1",
+      "after_sha256": "cf91ad25e9066938c432ab3de57ac078d2f493364cdb06b5a521c0f6cf567fa1"
+    },
+    {
+      "before": "plugins/veto-stack/skills/integration-design/SKILL.md",
+      "after": "plugins/veto-codex/skills/integration-design/SKILL.md",
+      "change": "unchanged",
+      "before_sha256": "4ced1bc37be1920ef5cb854dd33d4095f3ca061f57d067ab814142e2fc97ddef",
+      "after_sha256": "4ced1bc37be1920ef5cb854dd33d4095f3ca061f57d067ab814142e2fc97ddef"
+    },
+    {
+      "before": "plugins/veto-stack/skills/make-a-goal/SKILL.md",
+      "after": "plugins/veto-codex/skills/make-a-goal/SKILL.md",
+      "change": "unchanged",
+      "before_sha256": "042e594271b68b9ba0be601f0f5076c5dcc8e6717800b9dd9b8e28a756c6cd75",
+      "after_sha256": "042e594271b68b9ba0be601f0f5076c5dcc8e6717800b9dd9b8e28a756c6cd75"
+    },
+    {
+      "before": "plugins/veto-stack/skills/product-design/SKILL.md",
+      "after": "plugins/veto-codex/skills/product-design/SKILL.md",
+      "change": "unchanged",
+      "before_sha256": "2b0f225cf59402bfbf6f735861e808cc5fea0a4e265e936f0deae60d6e66b310",
+      "after_sha256": "2b0f225cf59402bfbf6f735861e808cc5fea0a4e265e936f0deae60d6e66b310"
+    },
+    {
+      "before": "plugins/veto-stack/skills/product-sense/SKILL.md",
+      "after": "plugins/veto-codex/skills/product-sense/SKILL.md",
+      "change": "unchanged",
+      "before_sha256": "cad61e013c928413a0a78f8fda890b37ed7fb9e77518897f83f7bdda6c37fae3",
+      "after_sha256": "cad61e013c928413a0a78f8fda890b37ed7fb9e77518897f83f7bdda6c37fae3"
+    },
+    {
+      "before": "plugins/veto-stack/skills/product-tests/SKILL.md",
+      "after": "plugins/veto-codex/skills/product-tests/SKILL.md",
+      "change": "unchanged",
+      "before_sha256": "b9e19f497306287554ac749695c2588424fbe190a7ec866b1e08edfa55e0d756",
+      "after_sha256": "b9e19f497306287554ac749695c2588424fbe190a7ec866b1e08edfa55e0d756"
+    },
+    {
+      "before": "plugins/veto-stack/skills/remove-slop/SKILL.md",
+      "after": "plugins/veto-codex/skills/remove-slop/SKILL.md",
+      "change": "unchanged",
+      "before_sha256": "ff5e0a339aa331fde329773d23778571ebbec147654f29745e897bb08d494528",
+      "after_sha256": "ff5e0a339aa331fde329773d23778571ebbec147654f29745e897bb08d494528"
+    },
+    {
+      "before": "plugins/veto-stack/skills/review-a-prototype/SKILL.md",
+      "after": "plugins/veto-codex/skills/review-a-prototype/SKILL.md",
+      "change": "unchanged",
+      "before_sha256": "44f01cbd40512705396e75d0378c623d5e883b385fa7d35cd234f10a087b35d2",
+      "after_sha256": "44f01cbd40512705396e75d0378c623d5e883b385fa7d35cd234f10a087b35d2"
+    },
+    {
+      "before": "plugins/veto-stack/skills/sandbox-experience/SKILL.md",
+      "after": "plugins/veto-codex/skills/sandbox-experience/SKILL.md",
+      "change": "unchanged",
+      "before_sha256": "d3cb6db1c121fe5eeb6792c5e342c806f732ff8e61289c11646de519cca4cb7b",
+      "after_sha256": "d3cb6db1c121fe5eeb6792c5e342c806f732ff8e61289c11646de519cca4cb7b"
+    },
+    {
+      "before": "plugins/veto-stack/skills/veto-stack/SKILL.md",
+      "after": "plugins/veto-codex/skills/veto-codex/SKILL.md",
+      "change": "identity-only",
+      "before_sha256": "ef4fa635057afa3d1ca9be369c796af79879f9cdb3842476ebc36612b4d2d306",
+      "after_sha256": "c06d27126e14f7ebc038bc2c0583178320e326f90d762ec7ded5f03eeb26a075"
+    },
+    {
+      "before": "plugins/veto-stack/skills/work-control/SKILL.md",
+      "after": "plugins/veto-codex/skills/work-control/SKILL.md",
+      "change": "unchanged",
+      "before_sha256": "8651c449241f51f024188b3e0f2df67f1440f071bb2748133f02bc6016c6bc09",
+      "after_sha256": "8651c449241f51f024188b3e0f2df67f1440f071bb2748133f02bc6016c6bc09"
+    },
+    {
+      "before": "plugins/veto-stack/team/SHARED.md",
+      "after": "plugins/veto-codex/team/SHARED.md",
+      "change": "unchanged",
+      "before_sha256": "5a0c44aa7a60e7a2bff846cf2f5fdba667e93c36101220f36565b7416bd349ab",
+      "after_sha256": "5a0c44aa7a60e7a2bff846cf2f5fdba667e93c36101220f36565b7416bd349ab"
+    },
+    {
+      "before": "plugins/veto-stack/team/backend-engineer/AGENTS.md",
+      "after": "plugins/veto-codex/team/backend-engineer/AGENTS.md",
+      "change": "unchanged",
+      "before_sha256": "92482fa29c6f39677831cbe6acdfcfdee988b93fe9190c74e1a946647df78c10",
+      "after_sha256": "92482fa29c6f39677831cbe6acdfcfdee988b93fe9190c74e1a946647df78c10"
+    },
+    {
+      "before": "plugins/veto-stack/team/data-analyst/AGENTS.md",
+      "after": "plugins/veto-codex/team/data-analyst/AGENTS.md",
+      "change": "unchanged",
+      "before_sha256": "f7cd7d8a4b821712f569bc0fa41d48c7ea1fdef9039427d63e2f231c7d933b15",
+      "after_sha256": "f7cd7d8a4b821712f569bc0fa41d48c7ea1fdef9039427d63e2f231c7d933b15"
+    },
+    {
+      "before": "plugins/veto-stack/team/frontend-engineer/AGENTS.md",
+      "after": "plugins/veto-codex/team/frontend-engineer/AGENTS.md",
+      "change": "unchanged",
+      "before_sha256": "58d6a08b0bdf6fe4835e6f75ec01a8af654415f738f2ea7150416e2d6e7a41cb",
+      "after_sha256": "58d6a08b0bdf6fe4835e6f75ec01a8af654415f738f2ea7150416e2d6e7a41cb"
+    },
+    {
+      "before": "plugins/veto-stack/team/head-of-engineering/AGENTS.md",
+      "after": "plugins/veto-codex/team/head-of-engineering/AGENTS.md",
+      "change": "unchanged",
+      "before_sha256": "597669208c41b335f6764e4fd753ed7233751fc8264553811183728b500ea2b0",
+      "after_sha256": "597669208c41b335f6764e4fd753ed7233751fc8264553811183728b500ea2b0"
+    },
+    {
+      "before": "plugins/veto-stack/team/independent-verifier/AGENTS.md",
+      "after": "plugins/veto-codex/team/independent-verifier/AGENTS.md",
+      "change": "unchanged",
+      "before_sha256": "446dca7db7a636ebb2cc7f960430f61675429b9563444a52c75c2a8123eedb89",
+      "after_sha256": "446dca7db7a636ebb2cc7f960430f61675429b9563444a52c75c2a8123eedb89"
+    },
+    {
+      "before": "plugins/veto-stack/team/product-designer/AGENTS.md",
+      "after": "plugins/veto-codex/team/product-designer/AGENTS.md",
+      "change": "unchanged",
+      "before_sha256": "392ee666c987627d940130bb9219ed76e1fe2497f98d5c1ed09cd2e608b5381a",
+      "after_sha256": "392ee666c987627d940130bb9219ed76e1fe2497f98d5c1ed09cd2e608b5381a"
+    },
+    {
+      "before": "plugins/veto-stack/team/product-manager/AGENTS.md",
+      "after": "plugins/veto-codex/team/product-manager/AGENTS.md",
+      "change": "unchanged",
+      "before_sha256": "38811195ef572634851cc89fc10946df7ab5a8b8012e89081596464cf6a01632",
+      "after_sha256": "38811195ef572634851cc89fc10946df7ab5a8b8012e89081596464cf6a01632"
+    },
+    {
+      "before": "plugins/veto-stack/team/roles.json",
+      "after": "plugins/veto-codex/team/roles.json",
+      "change": "unchanged",
+      "before_sha256": "c660f3784ca3a19b19ebd0e20bbe39f75cd5d48d549390733414cea8ca102e46",
+      "after_sha256": "c660f3784ca3a19b19ebd0e20bbe39f75cd5d48d549390733414cea8ca102e46"
+    },
+    {
+      "before": "plugins/veto-stack/team/specialist/AGENTS.md",
+      "after": "plugins/veto-codex/team/specialist/AGENTS.md",
+      "change": "unchanged",
+      "before_sha256": "dbc1088d915ed26a9b0de8d0f265c3ff7692aded8249e20036cd48e4ce727042",
+      "after_sha256": "dbc1088d915ed26a9b0de8d0f265c3ff7692aded8249e20036cd48e4ce727042"
+    },
+    {
+      "before": "plugins/veto-stack/team/user-researcher/AGENTS.md",
+      "after": "plugins/veto-codex/team/user-researcher/AGENTS.md",
+      "change": "unchanged",
+      "before_sha256": "77937477bd2422e86eac1df4f032a6886d621261e20c99a1d10df2cc4e1e7fa0",
+      "after_sha256": "77937477bd2422e86eac1df4f032a6886d621261e20c99a1d10df2cc4e1e7fa0"
+    },
+    {
+      "before": "plugins/veto-stack/templates/acceptance.contract.json",
+      "after": "plugins/veto-codex/templates/acceptance.contract.json",
+      "change": "unchanged",
+      "before_sha256": "6da0af9bde79170008c9bc418dc4cd03bcae7f3e0ac42f791afc0ba3cdef8806",
+      "after_sha256": "6da0af9bde79170008c9bc418dc4cd03bcae7f3e0ac42f791afc0ba3cdef8806"
+    },
+    {
+      "before": "plugins/veto-stack/templates/acceptance.receipt.json",
+      "after": "plugins/veto-codex/templates/acceptance.receipt.json",
+      "change": "unchanged",
+      "before_sha256": "0ce22d9f0a39751ca9c8c1d669793fecca27b1b28c031fc791652f699bd83368",
+      "after_sha256": "0ce22d9f0a39751ca9c8c1d669793fecca27b1b28c031fc791652f699bd83368"
+    },
+    {
+      "before": "plugins/veto-stack/templates/bounded-goal.md",
+      "after": "plugins/veto-codex/templates/bounded-goal.md",
+      "change": "unchanged",
+      "before_sha256": "4df75fe14aac5ae46dd8e20b94a72bdc5218147977fea62f611e05c43a1f44fb",
+      "after_sha256": "4df75fe14aac5ae46dd8e20b94a72bdc5218147977fea62f611e05c43a1f44fb"
+    },
+    {
+      "before": "plugins/veto-stack/templates/decision-card.md",
+      "after": "plugins/veto-codex/templates/decision-card.md",
+      "change": "unchanged",
+      "before_sha256": "52601853a4ed8d5e3b9584f3ea84e45ac72b370644abb04d4b8ac51d6e79033f",
+      "after_sha256": "52601853a4ed8d5e3b9584f3ea84e45ac72b370644abb04d4b8ac51d6e79033f"
+    },
+    {
+      "before": "plugins/veto-stack/templates/feedback-example/README.md",
+      "after": "plugins/veto-codex/templates/feedback-example/README.md",
+      "change": "unchanged",
+      "before_sha256": "93e1e6d78e1cf9a6d8aa136d9adebc372f3a960ff1a0e069946c6412c88550bb",
+      "after_sha256": "93e1e6d78e1cf9a6d8aa136d9adebc372f3a960ff1a0e069946c6412c88550bb"
+    },
+    {
+      "before": "plugins/veto-stack/templates/feedback-example/audit.txt",
+      "after": "plugins/veto-codex/templates/feedback-example/audit.txt",
+      "change": "unchanged",
+      "before_sha256": "a7fc6fa82b8a328cc4aa033dcd2f0573b92a4317be742874a89c317621b9fc78",
+      "after_sha256": "a7fc6fa82b8a328cc4aa033dcd2f0573b92a4317be742874a89c317621b9fc78"
+    },
+    {
+      "before": "plugins/veto-stack/templates/feedback-example/contract.json",
+      "after": "plugins/veto-codex/templates/feedback-example/contract.json",
+      "change": "unchanged",
+      "before_sha256": "2ea366c423f7b6c751ac13fe6c7391527b87d1e7f9c0ddccef65ff0e4c4bdbc6",
+      "after_sha256": "2ea366c423f7b6c751ac13fe6c7391527b87d1e7f9c0ddccef65ff0e4c4bdbc6"
+    },
+    {
+      "before": "plugins/veto-stack/templates/feedback-example/coverage-review.json",
+      "after": "plugins/veto-codex/templates/feedback-example/coverage-review.json",
+      "change": "unchanged",
+      "before_sha256": "8a7c92704b6893011e08bcdf653ba3ab22ee57a536dcf09e49664400deed47b3",
+      "after_sha256": "8a7c92704b6893011e08bcdf653ba3ab22ee57a536dcf09e49664400deed47b3"
+    },
+    {
+      "before": "plugins/veto-stack/templates/feedback-example/feedback.json",
+      "after": "plugins/veto-codex/templates/feedback-example/feedback.json",
+      "change": "unchanged",
+      "before_sha256": "6b75cb68c7310797c65ab9db167f8ac45a49fa85edf25034e1551b4756adfef4",
+      "after_sha256": "6b75cb68c7310797c65ab9db167f8ac45a49fa85edf25034e1551b4756adfef4"
+    },
+    {
+      "before": "plugins/veto-stack/templates/feedback-example/original.txt",
+      "after": "plugins/veto-codex/templates/feedback-example/original.txt",
+      "change": "unchanged",
+      "before_sha256": "ce20a84aab5bf12b8b3031186dda912d51f0c5d057935cd686ad6e0bd25b4208",
+      "after_sha256": "ce20a84aab5bf12b8b3031186dda912d51f0c5d057935cd686ad6e0bd25b4208"
+    },
+    {
+      "before": "plugins/veto-stack/templates/feedback-example/receipt.json",
+      "after": "plugins/veto-codex/templates/feedback-example/receipt.json",
+      "change": "unchanged",
+      "before_sha256": "f1d8da88fb6d07d7017e1df1327dbd17061782ca28329ffc44d3ce9d00397307",
+      "after_sha256": "f1d8da88fb6d07d7017e1df1327dbd17061782ca28329ffc44d3ce9d00397307"
+    },
+    {
+      "before": "plugins/veto-stack/templates/field-card.md",
+      "after": "plugins/veto-codex/templates/field-card.md",
+      "change": "unchanged",
+      "before_sha256": "73bfe65b97fe6e1dc8505344fc3e72fc9670a6fa74d80d7e5f511e31ba62ba27",
+      "after_sha256": "73bfe65b97fe6e1dc8505344fc3e72fc9670a6fa74d80d7e5f511e31ba62ba27"
+    },
+    {
+      "before": "plugins/veto-stack/templates/friction-log.md",
+      "after": "plugins/veto-codex/templates/friction-log.md",
+      "change": "unchanged",
+      "before_sha256": "c540441bbdfa9298521ff9eee8b026044e7615b5061fb50dfd57a72ca7786efb",
+      "after_sha256": "c540441bbdfa9298521ff9eee8b026044e7615b5061fb50dfd57a72ca7786efb"
+    },
+    {
+      "before": "plugins/veto-stack/templates/goal.md",
+      "after": "plugins/veto-codex/templates/goal.md",
+      "change": "unchanged",
+      "before_sha256": "8bf7b83cae4f2f87de792fd647a6d8e60ca6a3779acd61aea786a73c83d3fb3e",
+      "after_sha256": "8bf7b83cae4f2f87de792fd647a6d8e60ca6a3779acd61aea786a73c83d3fb3e"
+    },
+    {
+      "before": "plugins/veto-stack/templates/integration-contract.md",
+      "after": "plugins/veto-codex/templates/integration-contract.md",
+      "change": "unchanged",
+      "before_sha256": "02341945745f446aaaa491605cff11dca121aa787346cd469769ba7fa889acfd",
+      "after_sha256": "02341945745f446aaaa491605cff11dca121aa787346cd469769ba7fa889acfd"
+    },
+    {
+      "before": "plugins/veto-stack/templates/pro-review-prompt.md",
+      "after": "plugins/veto-codex/templates/pro-review-prompt.md",
+      "change": "unchanged",
+      "before_sha256": "7a7a20bd359a3a57e8d30b7f0c483c3c8600c0aeb60f64c0a5481faf3bcd6372",
+      "after_sha256": "7a7a20bd359a3a57e8d30b7f0c483c3c8600c0aeb60f64c0a5481faf3bcd6372"
+    },
+    {
+      "before": "plugins/veto-stack/templates/production-verification-request.md",
+      "after": "plugins/veto-codex/templates/production-verification-request.md",
+      "change": "unchanged",
+      "before_sha256": "7222f5b6a09dbc48b4a336aebafaa76c1c85a2090c6fc1a7e9e840cb9509f6e6",
+      "after_sha256": "7222f5b6a09dbc48b4a336aebafaa76c1c85a2090c6fc1a7e9e840cb9509f6e6"
+    },
+    {
+      "before": "plugins/veto-stack/templates/project-entry.md",
+      "after": "plugins/veto-codex/templates/project-entry.md",
+      "change": "identity-only",
+      "before_sha256": "fa995c8a198b831f310aa932fc45d328b0df3051ac5dfb9fe5f9896e1923e27d",
+      "after_sha256": "8c28b456bda4299ffde43b55156dc8a186509c569591d8b95809cf64ff1cbdc3"
+    },
+    {
+      "before": "plugins/veto-stack/templates/review-manifest.json",
+      "after": "plugins/veto-codex/templates/review-manifest.json",
+      "change": "unchanged",
+      "before_sha256": "1eed094eafea3497d90d5819c09043cb3e744530da67dec4501bbd2c6fdc0f63",
+      "after_sha256": "1eed094eafea3497d90d5819c09043cb3e744530da67dec4501bbd2c6fdc0f63"
+    },
+    {
+      "before": "plugins/veto-stack/templates/review-observations.md",
+      "after": "plugins/veto-codex/templates/review-observations.md",
+      "change": "unchanged",
+      "before_sha256": "b117bf2e7e667bb0f9016bfa2be8716121c9d8a4a03a066103e1b1b2d22982fd",
+      "after_sha256": "b117bf2e7e667bb0f9016bfa2be8716121c9d8a4a03a066103e1b1b2d22982fd"
+    },
+    {
+      "before": "plugins/veto-stack/templates/review-request.json",
+      "after": "plugins/veto-codex/templates/review-request.json",
+      "change": "unchanged",
+      "before_sha256": "337da1d4b615f44610e629c2de1a63ff2b5667d6d146ec9767fb905ad62ea51a",
+      "after_sha256": "337da1d4b615f44610e629c2de1a63ff2b5667d6d146ec9767fb905ad62ea51a"
+    },
+    {
+      "before": "plugins/veto-stack/templates/work-order.md",
+      "after": "plugins/veto-codex/templates/work-order.md",
+      "change": "unchanged",
+      "before_sha256": "96cf9f081b6be1318e53e81c986b88672820cd545ade1520984ad367e07412de",
+      "after_sha256": "96cf9f081b6be1318e53e81c986b88672820cd545ade1520984ad367e07412de"
+    },
+    {
+      "before": "plugins/veto-stack/tests/test_agent_native_guards.py",
+      "after": "plugins/veto-codex/tests/test_agent_native_guards.py",
+      "change": "unchanged",
+      "before_sha256": "62d8a873ac656eb017ed249930e90be522912c30ef4b34b58d55c6e19bf67bed",
+      "after_sha256": "62d8a873ac656eb017ed249930e90be522912c30ef4b34b58d55c6e19bf67bed"
+    },
+    {
+      "before": "plugins/veto-stack/tests/test_feedback_coverage.py",
+      "after": "plugins/veto-codex/tests/test_feedback_coverage.py",
+      "change": "unchanged",
+      "before_sha256": "7fed6ee9bf3814a3354df03cfd880252666afca5ed784e25d26a3b90aa9dbac1",
+      "after_sha256": "7fed6ee9bf3814a3354df03cfd880252666afca5ed784e25d26a3b90aa9dbac1"
+    },
+    {
+      "before": "plugins/veto-stack/tests/test_handoff.py",
+      "after": "plugins/veto-codex/tests/test_handoff.py",
+      "change": "unchanged",
+      "before_sha256": "0cc89f44b4d3706d52d13bab3e41f908212ab76abc3e571ccb8f878bbe82ab68",
+      "after_sha256": "0cc89f44b4d3706d52d13bab3e41f908212ab76abc3e571ccb8f878bbe82ab68"
+    },
+    {
+      "before": "plugins/veto-stack/tests/test_helpers.py",
+      "after": "plugins/veto-codex/tests/test_helpers.py",
+      "change": "identity-only",
+      "before_sha256": "e7f4bac546d155d808d2434df5726cace3d09443efcb508b7d71ec0df4093973",
+      "after_sha256": "d62e6421560d6fc41fe9a2fd6b1c1983ffc73a4e8865139aa0754fcb3a8f4e07"
+    },
+    {
+      "before": "plugins/veto-stack/tests/test_review_pack.py",
+      "after": "plugins/veto-codex/tests/test_review_pack.py",
+      "change": "unchanged",
+      "before_sha256": "a4b4e506e84d0759f9beee5c0f8b4ded0344ded509c086a6c8294577870d3d40",
+      "after_sha256": "a4b4e506e84d0759f9beee5c0f8b4ded0344ded509c086a6c8294577870d3d40"
+    },
+    {
+      "before": "plugins/veto-stack/tests/test_role_context.py",
+      "after": "plugins/veto-codex/tests/test_role_context.py",
+      "change": "unchanged",
+      "before_sha256": "e73d311f4b4146da0ce2ab3023a9fd2cd92ec6e2b8811bc72f7a75e73dfb8382",
+      "after_sha256": "e73d311f4b4146da0ce2ab3023a9fd2cd92ec6e2b8811bc72f7a75e73dfb8382"
+    },
+    {
+      "before": "plugins/veto-stack/tests/test_state_guards.py",
+      "after": "plugins/veto-codex/tests/test_state_guards.py",
+      "change": "unchanged",
+      "before_sha256": "3caa7dfda3fb207dbf98e7e333c694c7bad1eb05deec240397e50344722b1356",
+      "after_sha256": "3caa7dfda3fb207dbf98e7e333c694c7bad1eb05deec240397e50344722b1356"
+    },
+    {
+      "before": "plugins/veto-stack/tests/test_work_control_package.py",
+      "after": "plugins/veto-codex/tests/test_work_control_package.py",
+      "change": "unchanged",
+      "before_sha256": "eb3f3eadf85d8f592d34168bf8bc912adf17526f65eeba44361b24eae7b3cceb",
+      "after_sha256": "eb3f3eadf85d8f592d34168bf8bc912adf17526f65eeba44361b24eae7b3cceb"
+    },
+    {
+      "before": "plugins/veto-stack/verification/1201/baseline-reviewer-regressions.json",
+      "after": "plugins/veto-codex/verification/1201/baseline-reviewer-regressions.json",
+      "change": "unchanged",
+      "before_sha256": "72c22aa4a247bfb9693b198b2c463c2a2a0235c985f13b5927bd4889f7158d3f",
+      "after_sha256": "72c22aa4a247bfb9693b198b2c463c2a2a0235c985f13b5927bd4889f7158d3f"
+    },
+    {
+      "before": "plugins/veto-stack/verification/1201/candidate-reviewer-regressions.json",
+      "after": "plugins/veto-codex/verification/1201/candidate-reviewer-regressions.json",
+      "change": "unchanged",
+      "before_sha256": "d43da01ad135903476abe63319f8837b09e1a4418f8de3b3da159d3eb4c5208a",
+      "after_sha256": "d43da01ad135903476abe63319f8837b09e1a4418f8de3b3da159d3eb4c5208a"
+    },
+    {
+      "before": "plugins/veto-stack/verification/1201/candidate-tests.log",
+      "after": "plugins/veto-codex/verification/1201/candidate-tests.log",
+      "change": "unchanged",
+      "before_sha256": "ab719417e62f409f82bd25be0f182425e6dd6126453406d7e7073d31adb8eabe",
+      "after_sha256": "ab719417e62f409f82bd25be0f182425e6dd6126453406d7e7073d31adb8eabe"
+    },
+    {
+      "before": "plugins/veto-stack/verification/1201/historical-adoption.txt",
+      "after": "plugins/veto-codex/verification/1201/historical-adoption.txt",
+      "change": "unchanged",
+      "before_sha256": "a0012c32694df168ddd51a40b0e1cbf8ae4512d6f79135b7740cba6328b50fec",
+      "after_sha256": "a0012c32694df168ddd51a40b0e1cbf8ae4512d6f79135b7740cba6328b50fec"
+    },
+    {
+      "before": "plugins/veto-stack/verification/1201/historical-verification.txt",
+      "after": "plugins/veto-codex/verification/1201/historical-verification.txt",
+      "change": "unchanged",
+      "before_sha256": "cb75005c3212898886b6bfa9482095688856275521c141d1b77059c3563d45ad",
+      "after_sha256": "cb75005c3212898886b6bfa9482095688856275521c141d1b77059c3563d45ad"
+    },
+    {
+      "before": "plugins/veto-stack/verification/1201/preservation-checks.json",
+      "after": "plugins/veto-codex/verification/1201/preservation-checks.json",
+      "change": "unchanged",
+      "before_sha256": "1db6570d266a781225f3b4a36d181fc2381073c63f447ed82cd39c056ffe5e6d",
+      "after_sha256": "1db6570d266a781225f3b4a36d181fc2381073c63f447ed82cd39c056ffe5e6d"
+    },
+    {
+      "before": "plugins/veto-stack/verification/1201/reproduce_guards.py",
+      "after": "plugins/veto-codex/verification/1201/reproduce_guards.py",
+      "change": "unchanged",
+      "before_sha256": "2f8563e94a50a153b70c8f99aed7f4bb4628139794a4c6ccb46a98fa9effb71a",
+      "after_sha256": "2f8563e94a50a153b70c8f99aed7f4bb4628139794a4c6ccb46a98fa9effb71a"
+    },
+    {
+      "before": "plugins/veto-stack/verification/1202/README.md",
+      "after": "plugins/veto-codex/verification/1202/README.md",
+      "change": "unchanged",
+      "before_sha256": "e925c59441f90e527d14ef5725033b0e8e40c485b152d6937de10ca3adf92119",
+      "after_sha256": "e925c59441f90e527d14ef5725033b0e8e40c485b152d6937de10ca3adf92119"
+    },
+    {
+      "before": "plugins/veto-stack/verification/baseline-doctor.json",
+      "after": "plugins/veto-codex/verification/baseline-doctor.json",
+      "change": "unchanged",
+      "before_sha256": "865b0eafbbbecd372c0c96a2bc73ef37f879db2cf86dc12a115312c9edfa0ff0",
+      "after_sha256": "865b0eafbbbecd372c0c96a2bc73ef37f879db2cf86dc12a115312c9edfa0ff0"
+    },
+    {
+      "before": "plugins/veto-stack/verification/baseline-tests.log",
+      "after": "plugins/veto-codex/verification/baseline-tests.log",
+      "change": "unchanged",
+      "before_sha256": "e3cf1db6c2f1e5f3358082b2fe1b7157f9992e966311aade7eb220d3eb6f7e9e",
+      "after_sha256": "e3cf1db6c2f1e5f3358082b2fe1b7157f9992e966311aade7eb220d3eb6f7e9e"
+    },
+    {
+      "before": "plugins/veto-stack/verification/candidate-doctor-1110.json",
+      "after": "plugins/veto-codex/verification/candidate-doctor-1110.json",
+      "change": "unchanged",
+      "before_sha256": "64e01895a3cfa9ec4c154065cca53fe66e255fe346a92af70a7f2aaf34f14416",
+      "after_sha256": "64e01895a3cfa9ec4c154065cca53fe66e255fe346a92af70a7f2aaf34f14416"
+    },
+    {
+      "before": "plugins/veto-stack/verification/candidate-doctor-1111.json",
+      "after": "plugins/veto-codex/verification/candidate-doctor-1111.json",
+      "change": "unchanged",
+      "before_sha256": "26fb4a9605296967c4c94433a2dd0758d8bed83c7679cf9f56794a2243160b29",
+      "after_sha256": "26fb4a9605296967c4c94433a2dd0758d8bed83c7679cf9f56794a2243160b29"
+    },
+    {
+      "before": "plugins/veto-stack/verification/candidate-doctor-before-records.json",
+      "after": "plugins/veto-codex/verification/candidate-doctor-before-records.json",
+      "change": "unchanged",
+      "before_sha256": "09fda44b56f4740bfb2a40567ba9c05904bb24fdddf5cfe8ce045a754c91a1fc",
+      "after_sha256": "09fda44b56f4740bfb2a40567ba9c05904bb24fdddf5cfe8ce045a754c91a1fc"
+    },
+    {
+      "before": "plugins/veto-stack/verification/feedback-example.json",
+      "after": "plugins/veto-codex/verification/feedback-example.json",
+      "change": "unchanged",
+      "before_sha256": "c695abb8cd6125831a61cf3935c70b22c2583a32c62c6c703cf60ec2e9ce346f",
+      "after_sha256": "c695abb8cd6125831a61cf3935c70b22c2583a32c62c6c703cf60ec2e9ce346f"
+    },
+    {
+      "before": "plugins/veto-stack/verification/format-checks.json",
+      "after": "plugins/veto-codex/verification/format-checks.json",
+      "change": "unchanged",
+      "before_sha256": "bda848dd1cab66b7c9bda038a14e7a38b172cf2c75353685a378ee2465fa017a",
+      "after_sha256": "bda848dd1cab66b7c9bda038a14e7a38b172cf2c75353685a378ee2465fa017a"
+    },
+    {
+      "before": "plugins/veto-stack/verification/helper-tests-1110.log",
+      "after": "plugins/veto-codex/verification/helper-tests-1110.log",
+      "change": "unchanged",
+      "before_sha256": "495c9e42f928f76d3f27fe34bd006fa2e3ede682dd3c4124be405d2c60735b8b",
+      "after_sha256": "495c9e42f928f76d3f27fe34bd006fa2e3ede682dd3c4124be405d2c60735b8b"
+    },
+    {
+      "before": "plugins/veto-stack/verification/helper-tests-1111.log",
+      "after": "plugins/veto-codex/verification/helper-tests-1111.log",
+      "change": "unchanged",
+      "before_sha256": "23fb1a701a555fe227c0ca0eedb99a9976b20bddc40fb10b9b71b1bcfbc95137",
+      "after_sha256": "23fb1a701a555fe227c0ca0eedb99a9976b20bddc40fb10b9b71b1bcfbc95137"
+    },
+    {
+      "before": "plugins/veto-stack/verification/helper-tests.log",
+      "after": "plugins/veto-codex/verification/helper-tests.log",
+      "change": "unchanged",
+      "before_sha256": "226e5ca0b4c02dfc615cb3625938fdad0a46691b8c7634ea1cf9a7c84dbe91aa",
+      "after_sha256": "226e5ca0b4c02dfc615cb3625938fdad0a46691b8c7634ea1cf9a7c84dbe91aa"
+    },
+    {
+      "before": "plugins/veto-stack/verification/legacy-example.json",
+      "after": "plugins/veto-codex/verification/legacy-example.json",
+      "change": "unchanged",
+      "before_sha256": "0a039d65baa28b9ace1cef76d75e968871ce615b8c2c755478bf9ac95840e252",
+      "after_sha256": "0a039d65baa28b9ace1cef76d75e968871ce615b8c2c755478bf9ac95840e252"
+    },
+    {
+      "before": "plugins/veto-stack/verification/legacy_with_require_feedback.json",
+      "after": "plugins/veto-codex/verification/legacy_with_require_feedback.json",
+      "change": "unchanged",
+      "before_sha256": "6ee96340b6e88961ac85935e3f88261ec09fcb479016b7ac9af1983a3684714a",
+      "after_sha256": "6ee96340b6e88961ac85935e3f88261ec09fcb479016b7ac9af1983a3684714a"
+    },
+    {
+      "before": "provenance/README.md",
+      "after": "provenance/README.md",
+      "change": "reviewed-edit",
+      "before_sha256": "f0dd7663d488dee82ed46ac3f5e64fa5269d80db8e601f8cd0a1616fdf97e0ac",
+      "after_sha256": "fb9a0e80154148703cd34c0fa2b88191427d0b2b12262bebc1c83ec1ac7de368"
+    },
+    {
+      "before": "provenance/baseline-files.json",
+      "after": "provenance/baseline-files.json",
+      "change": "unchanged",
+      "before_sha256": "78d98413b2358e754a9678bbe4d2c62f5f938556984d2dde0eec076833f147e1",
+      "after_sha256": "78d98413b2358e754a9678bbe4d2c62f5f938556984d2dde0eec076833f147e1"
+    },
+    {
+      "before": "provenance-1201.json",
+      "after": "provenance-1201.json",
+      "change": "unchanged",
+      "before_sha256": "a3e7de24ad873bd1109c6481f3144f1968bc96df0471426de5f936e811c407cc",
+      "after_sha256": "a3e7de24ad873bd1109c6481f3144f1968bc96df0471426de5f936e811c407cc"
+    },
+    {
+      "before": "tests/test_repository.py",
+      "after": "tests/test_repository.py",
+      "change": "identity-only",
+      "before_sha256": "11643c5e1b019fe15d79c85d2b19fe806db0589dd5698ffc0212f6b6824d0809",
+      "after_sha256": "a1a9a4c5ef200faf200683eb17c798d5e6fcb790a4b71f548192305e7ffd8c06"
+    },
+    {
+      "before": "tools/repo.py",
+      "after": "tools/repo.py",
+      "change": "reviewed-edit",
+      "before_sha256": "ff16ab70b358228550690648187cc0f45d46b7191187879d37c9526bc9a873bd",
+      "after_sha256": "b4ba978516b53c8a806f7f7aca3ddf55b4ef1b73d129df428fce719de35bb347"
+    },
+    {
+      "before": "verification/README.md",
+      "after": "provenance/releases/2026.9.1202/README.md",
+      "change": "unchanged",
+      "before_sha256": "e5a552d3198c3d5914ed675ff766276a6ff6fde47329b876d67af3a50ad162b0",
+      "after_sha256": "e5a552d3198c3d5914ed675ff766276a6ff6fde47329b876d67af3a50ad162b0"
+    },
+    {
+      "before": "verification/cli-smoke.json",
+      "after": "provenance/releases/2026.9.1202/cli-smoke.json",
+      "change": "unchanged",
+      "before_sha256": "2f65fc2eba255a124f90564ee1dd7122dc1ca31bb7dc30e3533907241ec01326",
+      "after_sha256": "2f65fc2eba255a124f90564ee1dd7122dc1ca31bb7dc30e3533907241ec01326"
+    },
+    {
+      "before": "verification/replay-results.txt",
+      "after": "provenance/releases/2026.9.1202/replay-results.txt",
+      "change": "unchanged",
+      "before_sha256": "46dc952ea758085a5910253c7082f6a6a393438abff560cc4b251b779456aba3",
+      "after_sha256": "46dc952ea758085a5910253c7082f6a6a393438abff560cc4b251b779456aba3"
+    },
+    {
+      "before": "verification/unit-tests.txt",
+      "after": "provenance/releases/2026.9.1202/unit-tests.txt",
+      "change": "unchanged",
+      "before_sha256": "ad6bb60635875cebfc5e55fbcfec79871635d8810ceee5ba29194cda471722a7",
+      "after_sha256": "ad6bb60635875cebfc5e55fbcfec79871635d8810ceee5ba29194cda471722a7"
+    },
+    {
+      "before": "verification/workflow-syntax.json",
+      "after": "provenance/releases/2026.9.1202/workflow-syntax.json",
+      "change": "unchanged",
+      "before_sha256": "800aa5190fd0d5fcba796cdb8b180ed51275e191abc3034d08fe80e4f5506f82",
+      "after_sha256": "800aa5190fd0d5fcba796cdb8b180ed51275e191abc3034d08fe80e4f5506f82"
+    }
+  ]
+}

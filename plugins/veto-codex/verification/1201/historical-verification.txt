@@ -1,0 +1,77 @@
+# Verification — Veto Stack 2026.9.1201
+
+**Source candidate checked. Native installation and agent qualification remain open.**
+12 September 2026. This is an upgrade of the exact supplied 2026.9.1111 ZIP,
+not a claim about the plugin currently running on Sebastian's machine.
+
+## Executed
+
+| Check | Result | Scope |
+|---|---|---|
+| Supplied baseline unit/integration suite | 203 passed | Executed on the untouched 1111 copy |
+| Candidate unit/integration suite | 245 passed; no failures or skips | All 203 original tests retained, plus 42 new test methods |
+| Original review reproducer | Baseline 1 pass / 8 failures; candidate 9 passes | Same offline helper probes; no native mutations |
+| Package doctor | Pass | Manifests, 13 skills, relative links, Python syntax, source hashes, file inventory, marketplace entry |
+| Original tests, fixture and oracle preservation | Byte-identical | No original test weakened or evaluation fixture repaired in place |
+| Original behavioral catalog | 104 cases unchanged; 10 appended | 114 written scenarios, **not agent runs** |
+| Synthetic author rehearsal | Same four oracle checks fail before and pass after | Copy of the existing focus fixture; not product or independent-agent proof |
+| Fresh-process handoff replay and corruption cases | Pass in the candidate test suite | Separate Python processes, not separate agent reviewers |
+
+The new tests cover the reported quoted, negated and explanatory goal prompts;
+positive goal updates; nonempty, same-task and nonpaused readback; absent versus
+explicitly empty native state; malformed flags; changed handoff/source/evidence;
+wrong task/revision; missing evidence; path escape and symlink refusal; preserved
+pause; and valid continuation packets. Counts overlap in what they exercise and
+must not be added into an agent-performance or safety rate.
+
+Goal template: **3,979 Unicode characters**. Bounded goal: **3,627**. Both remain
+byte-identical to the supplied baseline and below the existing 4,000-character
+limit. All 13 public skill identities and nine role guides are retained; there is
+one Veto Stack marketplace entry, not a second operating plugin.
+
+## Reproduce
+
+From the plugin root:
+
+```sh
+python3 -B scripts/doctor.py .
+python3 -B -m unittest discover -s tests -v
+python3 -B verification/1201/reproduce_guards.py .
+python3 -B evals/oracles/focus_oracle.py examples/resume-work
+```
+
+The last command executes the synthetic candidate and uses temporary synthetic
+storage. The unchanged raw evaluation fixture intentionally still fails; do not
+run it and rewrite its expected result to manufacture a pass.
+
+The [example handoff](examples/resume-work/README.md) includes a pinned-digest
+read-only validation command. Fresh-process and negative-case tests are in
+`tests/test_handoff.py`; goal regressions are in `tests/test_agent_native_guards.py`.
+
+Actual logs and preservation results are in `verification/1201/`. Prior receipts
+elsewhere under `verification/` and `research/prior-release-verification/` retain
+their historical dates and scopes; they are not new execution on this candidate.
+The outer delivery record identifies the source inventory and patch. The separate
+archive verification receipt records checks from fresh extraction of the final ZIP.
+
+## Not established
+
+No local Codex executable or session was available here. The build did not install
+or refresh Sebastian's plugin, inspect active native goals, change settings, start
+agents, register hooks, or add a schedule. Package availability is not evidence that
+a running agent loaded the intended instructions.
+
+No independent agent review, before/after skill benchmark, actual agent continuation
+trial, Veto product test, customer workflow, deployment or public plugin publication
+was performed. The synthetic oracle replay was authored and executed in this build
+session; a fresh Python process does not turn it into independent judgment.
+
+Natural-language routing remains a conservative hint, not an authorization
+mechanism. Hashes prove declared-byte consistency, not source truth, genuine
+identity, independent review or authority. Native pause/permission enforcement and
+actual deployment controls stay in their responsible systems. The package neither
+creates nor claims those controls.
+
+[ADOPTION.md](ADOPTION.md) gives the receiving local agent one bounded work order
+for source reconciliation, supported installation, actual loading evidence,
+synthetic behavior qualification and safe rollback.

@@ -1,0 +1,53 @@
+{
+  "baseline_version": "2026.9.1111",
+  "candidate_version": "2026.9.1201",
+  "baseline_tests": 203,
+  "candidate_tests": 245,
+  "new_test_methods": 42,
+  "original_test_files_byte_identical": true,
+  "original_test_files": 5,
+  "original_eval_fixtures_byte_identical": true,
+  "original_oracles_byte_identical": true,
+  "goal_templates_byte_identical": {
+    "goal.md": true,
+    "bounded-goal.md": true
+  },
+  "skill_names_unchanged": true,
+  "public_skills": 13,
+  "new_playbooks": 5,
+  "original_behavior_specifications": 104,
+  "candidate_behavior_specifications": 114,
+  "original_behavior_specifications_unchanged": true,
+  "agent_behavior_specifications_executed": false,
+  "native_host_installed": false,
+  "product_application_executed": false,
+  "independent_agent_review_performed": false,
+  "runtime_import_review": {
+    "check_handoff.py": [
+      "__future__",
+      "argparse",
+      "common",
+      "json",
+      "pathlib",
+      "sys",
+      "typing"
+    ],
+    "state_guards.py": [
+      "__future__",
+      "argparse",
+      "json",
+      "re",
+      "sys",
+      "typing"
+    ],
+    "hook_context.py": [
+      "__future__",
+      "argparse",
+      "json",
+      "pathlib",
+      "state_guards",
+      "sys",
+      "typing"
+    ]
+  }
+}

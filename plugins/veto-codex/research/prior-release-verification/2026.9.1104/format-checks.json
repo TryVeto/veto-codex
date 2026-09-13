@@ -1,0 +1,87 @@
+{
+  "release": "2026.9.1104",
+  "scope": "Local YAML/JSON and character checks, not native host loading.",
+  "skills": [
+    {
+      "path": "skills/build-a-capability/SKILL.md",
+      "name": "build-a-capability",
+      "characters": 6445,
+      "description_characters": 181
+    },
+    {
+      "path": "skills/field-proof/SKILL.md",
+      "name": "field-proof",
+      "characters": 4671,
+      "description_characters": 174
+    },
+    {
+      "path": "skills/independent-judgment/SKILL.md",
+      "name": "independent-judgment",
+      "characters": 2895,
+      "description_characters": 189
+    },
+    {
+      "path": "skills/integration-design/SKILL.md",
+      "name": "integration-design",
+      "characters": 5356,
+      "description_characters": 172
+    },
+    {
+      "path": "skills/make-a-goal/SKILL.md",
+      "name": "make-a-goal",
+      "characters": 4929,
+      "description_characters": 185
+    },
+    {
+      "path": "skills/product-design/SKILL.md",
+      "name": "product-design",
+      "characters": 4970,
+      "description_characters": 171
+    },
+    {
+      "path": "skills/product-sense/SKILL.md",
+      "name": "product-sense",
+      "characters": 6459,
+      "description_characters": 162
+    },
+    {
+      "path": "skills/product-tests/SKILL.md",
+      "name": "product-tests",
+      "characters": 7436,
+      "description_characters": 187
+    },
+    {
+      "path": "skills/remove-slop/SKILL.md",
+      "name": "remove-slop",
+      "characters": 5024,
+      "description_characters": 182
+    },
+    {
+      "path": "skills/review-a-prototype/SKILL.md",
+      "name": "review-a-prototype",
+      "characters": 4401,
+      "description_characters": 181
+    },
+    {
+      "path": "skills/sandbox-experience/SKILL.md",
+      "name": "sandbox-experience",
+      "characters": 2984,
+      "description_characters": 182
+    },
+    {
+      "path": "skills/veto-stack/SKILL.md",
+      "name": "veto-stack",
+      "characters": 7386,
+      "description_characters": 173
+    },
+    {
+      "path": "skills/work-control/SKILL.md",
+      "name": "work-control",
+      "characters": 6669,
+      "description_characters": 180
+    }
+  ],
+  "skill_count": 13,
+  "goal_characters": 3956,
+  "bounded_goal_characters": 3627
+}

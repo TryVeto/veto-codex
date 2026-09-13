@@ -1,0 +1,16 @@
+{
+  "name": "veto-codex",
+  "display_name": "Veto Codex",
+  "version": "2026.9.1203",
+  "release_date": "2026-09-12",
+  "edition": "veto-codex-rename",
+  "external_services": [],
+  "automatic_hooks": [],
+  "agent_performance_evaluated": false,
+  "native_host_installation_tested": false,
+  "compatibility": "Portable Agent Plugins 1.0.0 plus retained Codex and Claude compatibility manifests; native-host qualification pending.",
+  "upgrades": "2026.9.1202",
+  "helper_network_access": false,
+  "helper_subprocess_execution": false,
+  "previous_name": "veto-stack"
+}

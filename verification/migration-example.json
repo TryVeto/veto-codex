@@ -1,0 +1,51 @@
+{
+  "verdict": "MIGRATION_PLAN",
+  "marketplace": "existing-private-marketplace",
+  "from_plugin": "veto-stack",
+  "to_plugin": "veto-codex",
+  "source_catalog_sha256": "e397e13e5a948798058dbcd38c27b51b92397ddd013ba27c0591ff5b84f6e8bc",
+  "proposed_catalog": {
+    "name": "existing-private-marketplace",
+    "interface": {
+      "displayName": "Keep Me"
+    },
+    "plugins": [
+      {
+        "name": "other-tool",
+        "source": {
+          "source": "local",
+          "path": "./plugins/other"
+        },
+        "policy": {
+          "installation": "AVAILABLE",
+          "authentication": "ON_INSTALL"
+        },
+        "category": "Productivity"
+      },
+      {
+        "name": "veto-codex",
+        "source": {
+          "source": "local",
+          "path": "./plugins/veto-codex"
+        },
+        "policy": {
+          "installation": "NOT_AVAILABLE",
+          "authentication": "ON_INSTALL"
+        },
+        "category": "Developer Tools",
+        "annotations": {
+          "owner": "Veto"
+        }
+      }
+    ]
+  },
+  "unchanged_other_entries": 1,
+  "writes_performed": false,
+  "native_installation_changed": false,
+  "requirements": [
+    "Reconcile source and verify the target path before applying the proposed catalog.",
+    "Disable the old plugin through the actual host control before enabling the new identity.",
+    "Keep the old source and settings for rollback, outside active discovery.",
+    "Verify loading in a fresh session; this plan does not prove installation."
+  ]
+}

@@ -1,0 +1,11 @@
+Veto Stack 2026.9.1110 helper/package check
+Command: TMPDIR=/private/tmp python3 -B -m unittest discover -s tests -v
+Reason for TMPDIR: this host's default /var path is a symlink and the existing
+path-integrity fixtures intentionally reject paths through symlinks.
+
+Result:
+Ran 179 tests in 19.8 seconds on the final run
+OK
+
+The run includes the two marketplace-entry regressions. It does not establish
+native plugin loading, agent behavior, product behavior or customer acceptance.

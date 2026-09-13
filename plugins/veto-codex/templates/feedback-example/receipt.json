@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "contract_id": "SYNTHETIC-NOT-APPROVED",
+  "contract_sha256": "2ea366c423f7b6c751ac13fe6c7391527b87d1e7f9c0ddccef65ff0e4c4bdbc6",
+  "candidate": {
+    "id": "EXAMPLE-ONLY-NO-APPLICATION",
+    "environment": "synthetic-format-exercise"
+  },
+  "results": [
+    {
+      "id": "ADDRESS-01",
+      "status": "not_run",
+      "layer": "journey",
+      "actual": "No application was exercised.",
+      "evidence": [],
+      "reason": "Requires an authorized real candidate, independent coverage and browser evidence."
+    }
+  ]
+}

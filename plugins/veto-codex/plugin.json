@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "veto-codex",
+  "version": "2026.9.1203",
+  "description": "How Veto works in Codex: research, design, implementation, verification and durable handoffs.",
+  "author": {
+    "name": "Veto"
+  },
+  "keywords": [
+    "product-development",
+    "design",
+    "feature-team",
+    "quality",
+    "veto"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Veto Codex",
+        "shortDescription": "Skills, checks and handoffs for Veto in Codex.",
+        "longDescription": "Veto-specific methods for Codex. One entry point, 13 skills and nine reusable role profiles. Offline helpers, explicit authority and resumable work. Separate from Veto’s ChatGPT web setup.",
+        "developerName": "Veto",
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Finish the accepted outcome and bring back the working result with evidence.",
+          "Review the original work and return the decision to its execution owner.",
+          "Resume this authorized undertaking without repeating completed work."
+        ],
+        "composerIcon": "./assets/veto-logo.png",
+        "logo": "./assets/veto-logo.png",
+        "capabilities": [
+          "Interactive",
+          "Write"
+        ]
+      }
+    }
+  }
+}

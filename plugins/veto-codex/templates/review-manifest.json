@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "review_id": "REPLACE_WITH_REVIEW_ID",
+  "request_sha256": "REPLACE_WITH_PINNED_REQUEST_SHA256",
+  "candidate": {
+    "id": "REPLACE_WITH_EXACT_CANDIDATE",
+    "environment": "REPLACE_WITH_ACTUAL_ENVIRONMENT"
+  },
+  "purpose": "Review preparation template; no captures or checks performed.",
+  "served_build": {
+    "status": "unknown",
+    "identity": "Not established",
+    "observation": "Not observed in this template."
+  },
+  "source_description": "Include an explicitly sanitized source snapshot for the actual candidate.",
+  "sanitization": {
+    "status": "not_reviewed",
+    "reviewer": "Not yet assigned",
+    "note": "Inspect every shared source, image, log and nested archive before building."
+  },
+  "files": [],
+  "states": [
+    {
+      "id": "entry-desktop",
+      "scenario": "Replace with actual scenario and fixture edition.",
+      "role": "Replace with intended actor role.",
+      "route": "Replace with actual route.",
+      "viewport": [
+        1440,
+        900
+      ],
+      "status": "not_run",
+      "screenshot": null,
+      "evidence": [],
+      "candidate_id": "REPLACE_WITH_EXACT_CANDIDATE",
+      "reason": "Not captured; template only."
+    },
+    {
+      "id": "contribution-narrow",
+      "scenario": "Replace with actual scenario and fixture edition.",
+      "role": "Replace with intended actor role.",
+      "route": "Replace with actual route.",
+      "viewport": [
+        390,
+        844
+      ],
+      "status": "not_run",
+      "screenshot": null,
+      "evidence": [],
+      "candidate_id": "REPLACE_WITH_EXACT_CANDIDATE",
+      "reason": "Not captured; template only."
+    },
+    {
+      "id": "saved-receipt",
+      "scenario": "Replace with actual scenario and fixture edition.",
+      "role": "Replace with intended actor role.",
+      "route": "Replace with actual route.",
+      "viewport": [
+        1440,
+        900
+      ],
+      "status": "not_run",
+      "screenshot": null,
+      "evidence": [],
+      "candidate_id": "REPLACE_WITH_EXACT_CANDIDATE",
+      "reason": "Not captured; template only."
+    },
+    {
+      "id": "officer-retrieval",
+      "scenario": "Replace with actual scenario and fixture edition.",
+      "role": "Replace with intended actor role.",
+      "route": "Replace with actual route.",
+      "viewport": [
+        1440,
+        900
+      ],
+      "status": "not_run",
+      "screenshot": null,
+      "evidence": [],
+      "candidate_id": "REPLACE_WITH_EXACT_CANDIDATE",
+      "reason": "Not captured; template only."
+    }
+  ]
+}

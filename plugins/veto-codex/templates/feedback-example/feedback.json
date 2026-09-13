@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "batch_id": "SYNTHETIC-UNRUN-BATCH",
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "text",
+      "artifact": {
+        "path": "original.txt",
+        "sha256": "ce20a84aab5bf12b8b3031186dda912d51f0c5d057935cd686ad6e0bd25b4208"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "F1",
+      "source_id": "S1",
+      "original": "Please add address suggestions that expand the selected address into editable individual fields, then preserve corrections after save and reopen.",
+      "context": "Synthetic address-input screen; no application or screenshot supplied.",
+      "interpretation": "Suggestions, selection, editable field expansion, correction, save and reopen all need behavior checks.",
+      "kind": "requirement",
+      "owner": "example-frontend-owner"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+# Verification — 2026.9.1103
+
+Scope: the distributable plugin, retained optional helpers, source-snapshot identity and package constraints. No Veto application, customer workflow, native plugin host or model-performance experiment was executed.
+
+## Local results
+
+The inherited baseline passed its **121 tests** before modification. The updated suite passed **129 tests**: 121 retained plus eight new package regressions. See [helper-tests.log](verification/helper-tests.log). The added cases check the finite goal's strict character limit and Unicode counting, original source bytes, tampered/traversing source snapshots, digest format and version mismatch. These tests do not exercise goal mode or steering in a model.
+
+The retained suite checks pinned-contract receipts, required evidence, path/symlink boundaries, heuristic slop findings and controlled synthetic fixture sensitivity, review-packet coverage/identity, output overwrite refusal, fresh packet extraction and CLI behavior. No application test, screenshot or customer observation is inferred from those passes.
+
+The initial authored vision template was 4,297 characters; the final copy was shortened by editorial revision to **3,921 characters**. The finite-bet template is **3,627 characters**. Counts include spaces and line breaks. Both remain drafts; the [semantic diff](research/GOAL-SEMANTIC-DIFF.md) records preserved acceptance and material changes.
+
+[Format checks](verification/format-checks.json) parse 13 active skill entry points with PyYAML and the manifests with JSON. The package doctor checks metadata agreement, active inventory, local links, Python syntax, restricted file surfaces, both goal limits, source snapshot hashes and payload hashes. These are local checks, not a full published-schema validator or native installation test.
+
+Four new source skills and the attached HTML are retained byte-for-byte. Duplicate inputs are recorded in [next-inputs.json](research/next-inputs.json); their repetition is not independent evidence. Prior-release logs remain historical under `research/prior-release-verification/`. The supplied prototype was source-inspected only, not run or rendered.
+
+The final archive is also checked for CRC errors, unsafe paths and source-byte mismatch, then tested from a fresh extraction. The final distribution receipt accompanies the ZIP. `FILES.sha256.json` is a byte-inventory check, not a signature or proof that a source is true.
+
+## Unverified boundaries
+
+**Host:** Codex and Claude executables are absent in this environment. Installation, desktop discovery, hot reload, current goal changes, pause controls, queue timing and cross-worker cancellation remain untested here.
+
+**Behavior:** all **50 entries** in `evals/cases.json` are specifications. None is a completed model trial. Better product choices, fewer interruptions, useful disagreement and less founder reconstruction remain hypotheses to compare on an actual task.
+
+**Product:** no canonical Veto source repo, rendered journey, authentication, server saving/restart, external provider, actual normal-file delivery or user comprehension was tested. The bundled Prepare This Review HTML is a separate synthetic reference with explicitly limited fidelity.
+
+**Execution and safety:** no running agent, host setting, active goal or production deployment was changed. No MCP server, hook, scheduler, extra credential or model call was added. The pack builder still only packages explicitly declared materials when invoked; it does not execute, capture or upload them. Hashes and receipts cannot prove a test ran, a screenshot is genuine, a reviewer was blind or shared content is free of secrets. See [Security](SECURITY.md).
+
+## Reproduce
+
+From this plugin folder:
+
+```sh
+python3 -B scripts/doctor.py .
+python3 -B -m unittest discover -s tests -v
+python3 -B scripts/review_pack.py --help
+```
+
+Use the supported host import and the [operator guide](OPERATOR-GUIDE.md) separately. Keep the latest actual pause, permissions and accepted work intact during any adoption.

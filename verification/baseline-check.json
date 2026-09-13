@@ -1,0 +1,15 @@
+{
+  "verdict": "REPOSITORY_CHECKS_PASSED",
+  "version": "2026.9.1202",
+  "files_checked": 282,
+  "skills": 13,
+  "role_profiles": 9,
+  "original_tests_and_role_files_preserved": 16,
+  "errors": [],
+  "warnings": [],
+  "limits": [
+    "Source integrity and local structure only; not authenticated origin.",
+    "No native installation, worker dispatch, model cost result or product deployment.",
+    "Credential-pattern scanning is a limited check, not a complete security audit."
+  ]
+}

@@ -1,0 +1,40 @@
+name: Package source release
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Check release tag
+        env:
+          REF_TYPE: ${{ github.ref_type }}
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          expected = 'v' + json.loads(Path('REPOSITORY.json').read_text())['version']
+          if os.environ['REF_TYPE'] == 'tag' and os.environ['REF_NAME'] != expected:
+              raise SystemExit('Tag does not match repository version: ' + expected)
+          PY
+      - name: Test and package
+        run: python -B tools/repo.py package --output dist
+      - uses: actions/upload-artifact@v7
+        with:
+          name: veto-codex-source
+          path: |
+            dist/*.zip
+            dist/*.sha256
+          if-no-files-found: error
+          retention-days: 7

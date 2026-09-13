@@ -1,0 +1,19 @@
+{
+  "verdict": "STRUCTURAL_CHECKS_PASSED",
+  "errors": [],
+  "package_version": "2026.9.1111",
+  "plugin_root": "/Users/seb/plugins/veto-stack",
+  "files_checked": 218,
+  "skills_checked": 13,
+  "description_characters": 2395,
+  "goal_characters": 3979,
+  "bounded_goal_characters": 3627,
+  "warnings": [
+    "Enclosing marketplace retains archived Veto entries: archived-veto-stack, archived-veto-stack-v2, archived-veto-stack-v3, archived-veto-stack-v4, archived-veto-stack-v5. The host has no supported per-entry retirement control."
+  ],
+  "limits": [
+    "Local package checks only; not the native host validator.",
+    "Reported version/path identify the checked files, not instructions loaded by a running agent.",
+    "No host registration, application tests or agent-behavior evaluation is established."
+  ]
+}

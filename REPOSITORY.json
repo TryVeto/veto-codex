@@ -1,0 +1,15 @@
+{
+  "name": "veto-codex",
+  "version": "2026.9.1203",
+  "date": "2026-09-12",
+  "plugin": "plugins/veto-codex",
+  "baseline_version": "2026.9.1202",
+  "baseline_archive_sha256": "3022ad6c74062a91e7e2274dabb753e0dda7ae5e23b8b777b5c9528ff28b91c6",
+  "native_installation_tested": false,
+  "native_role_dispatch_tested": false,
+  "independent_agent_qualification_run": false,
+  "model_cost_comparison_run": false,
+  "product_deployed": false,
+  "previous_name": "veto-stack",
+  "scope": "Codex workflows; separate ChatGPT web setup unchanged"
+}

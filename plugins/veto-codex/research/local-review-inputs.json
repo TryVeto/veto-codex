@@ -1,0 +1,182 @@
+{
+  "release": "2026.9.1106",
+  "scope": "Input identity and disposition; not source truth, runtime state or adoption evidence. Originals remain user attachments; no duplicate runtime skill entries.",
+  "inputs": [
+    {
+      "input": "SKILL(20260911-220414)(1).md",
+      "kind": "user-supplied-skill",
+      "sha256": "a7dbc83c5b49cf1bdf9078f37001cc298a42ea3400afddfd216ed20dfedd203b",
+      "bytes": 17627,
+      "source_skill": "manage-agentic-work",
+      "identical_prior_inputs": [],
+      "packaged_snapshot": null,
+      "treatment": "Source procedure; consolidate ownership, continuation and proportional coordination in the existing Head/adoption routes. No new orchestration skill."
+    },
+    {
+      "input": "awesome-local-dev-environment(1).html",
+      "kind": "user-supplied-reference",
+      "sha256": "cac63d520fd2ec09c6ad6f896d5c98fc3e5cafad00d6fa1a7ebad54cf78a3d0e",
+      "bytes": 224693,
+      "source_skill": null,
+      "identical_prior_inputs": [],
+      "packaged_snapshot": null,
+      "treatment": "Targeted reading: recommendation, local lifecycle, isolation, fast versus packaged runtime, stable review and Veto-specific proposals. Historical repository observations are not a fresh audit. No infrastructure examples installed."
+    },
+    {
+      "input": "Let-Astra-See-the-Work(1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "822947f372237f4a26f9d0205abbed5682a6f64902a5b1fbdee5a379f2661d74",
+      "bytes": 217112,
+      "source_skill": null,
+      "identical_prior_inputs": [],
+      "packaged_snapshot": null,
+      "treatment": "Targeted reading: access architecture, specimen/state identity, observation loop, findings and appendices A–G. Adapt existing review protocol; do not import its API example or create a new snapshot server."
+    },
+    {
+      "input": "SKILL(20260911-215441)(1).md",
+      "kind": "user-supplied-skill",
+      "sha256": "6a85c3d9ffd3ea6cd2746569aa76afa9d061652ad7a9131fe0f6267ef4d99996",
+      "bytes": 14522,
+      "source_skill": "equip-self-sufficient-team",
+      "identical_prior_inputs": [],
+      "packaged_snapshot": null,
+      "treatment": "Consolidate eight-gap diagnosis, fresh-context continuation and founder direction/approval/coaching/rescue distinction in existing leadership and adoption. No new self-sufficiency audit for ordinary tasks."
+    },
+    {
+      "input": "SKILL(20260911-215130)(2).md",
+      "kind": "user-supplied-skill",
+      "sha256": "302a1a3f1037b8cdb5ef1880fc54c60b6682e39442de22c3f8744fa9c01321fa",
+      "bytes": 17832,
+      "source_skill": "founder-agent-team",
+      "identical_prior_inputs": [],
+      "packaged_snapshot": null,
+      "treatment": "Consolidate complete outcome ownership, minimal actual team and matched comparison; preserve existing actor and resource boundaries. No separate company simulator."
+    },
+    {
+      "input": "SKILL(20260911-215034)(2).md",
+      "kind": "user-supplied-skill",
+      "sha256": "17f2587cdc7c248a47eada0b929cb84c4e6800072a86c5b24bff3a2136f67ad9",
+      "bytes": 15160,
+      "source_skill": "encode-agent-culture",
+      "identical_prior_inputs": [],
+      "packaged_snapshot": null,
+      "treatment": "Keep changes at their actual causal layer and evaluate behavior rather than recitation. No new standing constitution or automatic memory."
+    },
+    {
+      "input": "OPERATOR-GUIDE(2).md",
+      "kind": "user-supplied-reference",
+      "sha256": "b89e2e25a642907bf0147763d7fe0f11bae01d85aa18bf41c3f7747009b8219f",
+      "bytes": 10059,
+      "source_skill": null,
+      "identical_prior_inputs": [],
+      "packaged_snapshot": null,
+      "treatment": "Historical 1103 operator guide; preserve current queue/steer/goal semantics and 1105 continuation rather than revert to this supplied edition."
+    },
+    {
+      "input": "SKILL(20260911-214709)(3).md",
+      "kind": "user-supplied-skill",
+      "sha256": "d403f4b46dce0e57e492c92e46307cc1448a61f7b7f7fad7bea2bd992f4338ec",
+      "bytes": 15507,
+      "source_skill": "autonomous-product-org",
+      "identical_prior_inputs": [
+        "SKILL(20260911-214709)(1).md"
+      ],
+      "packaged_snapshot": null,
+      "treatment": "Compare duplicate identity; retain existing integrated delivery method."
+    },
+    {
+      "input": "SKILL(20260911-214629)(3).md",
+      "kind": "user-supplied-skill",
+      "sha256": "aba8700b9bcc39b254f240d9321aaea6052cc011a8d2dc9400ddc88f3a883a24",
+      "bytes": 14813,
+      "source_skill": "own-the-outcome",
+      "identical_prior_inputs": [
+        "SKILL(20260911-214629)(1).md"
+      ],
+      "packaged_snapshot": null,
+      "treatment": "Compare duplicate identity; retain existing endpoint ownership and recovery."
+    },
+    {
+      "input": "SKILL(20260911-214452)(3).md",
+      "kind": "user-supplied-skill",
+      "sha256": "08499e82ccf42ea295175d02feab65cc156c3deaad1ae8e1edaab57f17c4c813",
+      "bytes": 18151,
+      "source_skill": "codex-parallel-communication",
+      "identical_prior_inputs": [
+        "SKILL(20260911-214452)(1).md"
+      ],
+      "packaged_snapshot": null,
+      "treatment": "Compare duplicate identity; retain existing recipient/activation/acceptance distinctions and supported lead relay."
+    },
+    {
+      "input": "Managing-the-Agentic-Team-Veto(3).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "967a24b9b5d1e61de67ae5b9342fb17ef308549f407aeff69b268a564fb3fcbe",
+      "bytes": 333145,
+      "source_skill": null,
+      "identical_prior_inputs": [
+        "Managing-the-Agentic-Team-Veto(1).pdf"
+      ],
+      "packaged_snapshot": null,
+      "treatment": "Compare prior source identity; targeted organizational guidance remains in existing work-control and team references, not a new mission hierarchy."
+    },
+    {
+      "input": "veto-stack-review(3).md",
+      "kind": "user-supplied-reference",
+      "sha256": "cd58590a6a41a24eef9b0abde20480e80d3b8a2ea94e306e330afc32264f989b",
+      "bytes": 7249,
+      "source_skill": null,
+      "identical_prior_inputs": [
+        "veto-stack-review(1).md"
+      ],
+      "packaged_snapshot": null,
+      "treatment": "Historical independent review of 1102. Keep its selective routing and behavioral-validation recommendation; do not repeat superseded no-coverage critique as a finding about 1105."
+    },
+    {
+      "input": "SKILL(20260911-213617)(3).md",
+      "kind": "user-supplied-skill",
+      "sha256": "8bde7ecb5261bdc764bd08ebd448ee1efaef53e543a40b6fc62ef10877126660",
+      "bytes": 12413,
+      "source_skill": "delegate-to-subagents",
+      "identical_prior_inputs": [
+        "SKILL(20260911-213617)(1).md"
+      ],
+      "packaged_snapshot": null,
+      "treatment": "Compare duplicate identity; retain existing bounded task contract and accessible return evidence."
+    },
+    {
+      "input": "SKILL(20260911-213344)(3).md",
+      "kind": "user-supplied-skill",
+      "sha256": "c3e7234d0ccc3ffdbd923648da587ad1d2ee50533a4737f93da9363937141f9c",
+      "bytes": 14051,
+      "source_skill": "codex-plugin-engineering",
+      "identical_prior_inputs": [
+        "SKILL(20260911-213344)(1).md"
+      ],
+      "packaged_snapshot": null,
+      "treatment": "Compare duplicate identity; preserve smallest intervention, honest helper versus behavioral evidence, and no installation authority."
+    },
+    {
+      "input": "SKILL(20260911-213119)(3).md",
+      "kind": "user-supplied-skill",
+      "sha256": "2c1f962a95e8b1a7623f114d87d9ab04183aaf901613edeadd7ecc01b4557fe3",
+      "bytes": 13934,
+      "source_skill": "act-on-feedback",
+      "identical_prior_inputs": [
+        "SKILL(20260911-213119)(1).md"
+      ],
+      "packaged_snapshot": null,
+      "treatment": "Compare duplicate identity; preserve originals, full correction scope, matching proof and unresolved items."
+    },
+    {
+      "input": "veto-stack-1104-review(1).md",
+      "kind": "user-supplied-reference",
+      "sha256": "010a364b15301b601c9e68e830705b89afce9c2572a53368299a4a4522b58c21",
+      "bytes": 12243,
+      "source_skill": null,
+      "identical_prior_inputs": [],
+      "packaged_snapshot": null,
+      "treatment": "Full review read. Acknowledge source-to-acceptance mechanism and semantic limits; --require-feedback already exists in 1105. Put held-out omission plus correct repair into adoption, not another checker or broad rewrite."
+    }
+  ]
+}

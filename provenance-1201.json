@@ -1,0 +1,343 @@
+{
+  "format_version": 1,
+  "name": "veto-stack",
+  "version": "2026.9.1201",
+  "release_date": "2026-09-12",
+  "delivery_kind": "Existing-plugin source upgrade; not a native-host installation",
+  "baseline": {
+    "version": "2026.9.1111",
+    "archive": "upgrade/baseline-2026.9.1111.zip",
+    "sha256": "1be18daae358c7c936c725c0829b96af49bfd7d1120e2ca52f2616f42f7e9774",
+    "bytes": 5990531,
+    "purpose": "Inert merge input only; never register or activate as a second plugin"
+  },
+  "candidate": {
+    "path": "plugins/veto-stack",
+    "file_count": 242,
+    "inventory_path": "plugins/veto-stack/FILES.sha256.json",
+    "inventory_sha256": "78d98413b2358e754a9678bbe4d2c62f5f938556984d2dde0eec076833f147e1",
+    "public_skill_count": 13,
+    "role_guide_count": 9
+  },
+  "patch": {
+    "path": "upgrade-from-2026.9.1111.patch",
+    "sha256": "53ea3b0e7659dfaa0e982b750410d83092200f53f03e8cddfe38d5ea9f4599ea",
+    "applies_cleanly_to_baseline": true,
+    "patched_source_matches_delivered_candidate": true
+  },
+  "checked_handoff_example": {
+    "path": "plugins/veto-stack/examples/resume-work/handoff.json",
+    "task_id": "synthetic-focus-repair",
+    "assignment_revision": 1,
+    "sha256": "5cb61526e9a9def7d123a2ec0981191c5bd1e27366cd91c55b6c137f807b5242"
+  },
+  "changes": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "change": "modified",
+      "baseline_sha256": "9c9ab8fa0f7b440e475a15986c70a81261ca1c61b66a1517858e335efdbdbfb9",
+      "candidate_sha256": "6990a7bc847a45c402d389c5227e44f55426102cc3f14a5ce39f5a7e3eba3926"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "change": "modified",
+      "baseline_sha256": "4dabc373a9a60bf312865b38f7415bdc6c3ae60f4e00a8afbd448868066dff06",
+      "candidate_sha256": "c96070b38d37e6d73a26dcbb83ed889783b04d4e8bab3ff3a260167762ddb2fd"
+    },
+    {
+      "path": "ADOPTION.md",
+      "change": "modified",
+      "baseline_sha256": "c42fc34cab540fd654529a7fee78b60f67788e84d7233c0b0fd9bf404a86b144",
+      "candidate_sha256": "a0012c32694df168ddd51a40b0e1cbf8ae4512d6f79135b7740cba6328b50fec"
+    },
+    {
+      "path": "AGENTS.md",
+      "change": "modified",
+      "baseline_sha256": "9aac1e160985407a6a55d304b17afb2585231011a6efa1a5b06f281cffea51e6",
+      "candidate_sha256": "77a005dedab2ed2eeb43760418ea299826c3aed4c42b2b842f1e695a3057e64d"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "change": "modified",
+      "baseline_sha256": "6f73ac498f32e08bd259302811a4f2922cc3a431edf57a9b1ae2dc3a3cc3c02e",
+      "candidate_sha256": "95d2d545d218f8726850ec21031a48d28c624a55aedc2d5d24d7522bc0deedb8"
+    },
+    {
+      "path": "FILES.sha256.json",
+      "change": "modified",
+      "baseline_sha256": "3209ec1bfe790f6b3856005965ab3116597dbf2536067ddf9a5ab04c88e56dc7",
+      "candidate_sha256": "78d98413b2358e754a9678bbe4d2c62f5f938556984d2dde0eec076833f147e1"
+    },
+    {
+      "path": "GUIDE.md",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "63cb6e9e8c43b4b7b46113d80bc57604048abbc69b4acd9984e4813e9c861287"
+    },
+    {
+      "path": "LOCAL-INSTALL.md",
+      "change": "modified",
+      "baseline_sha256": "86de8e3a19f22f8bb6c092894b30d8a6f038a76a92903074088dfbf415c68ad3",
+      "candidate_sha256": "2563d9245dc6078aca1e9ecc27b466c83a28b5ee1f1401a2c6e50861afe5bf5e"
+    },
+    {
+      "path": "MIGRATION.md",
+      "change": "modified",
+      "baseline_sha256": "2ba61450b6fb02ca00ead1d7226dc3ba643d65a1b777eb90eb5fe90a85269b7f",
+      "candidate_sha256": "b24439d8d0d87bb5f9e548675dab79c4ae7f6b0f164b8c1e4c91d5928d8bb7cd"
+    },
+    {
+      "path": "OPERATING-GUIDE.md",
+      "change": "modified",
+      "baseline_sha256": "fa99a3a9c1d2b706731f3a3dfc4d7c9cc75b8b5045b907c8acf221d1525b9816",
+      "candidate_sha256": "9ecd6eb63d85a9d41fc0a030e00c50ceadcf808c540e12152d7998eca84969df"
+    },
+    {
+      "path": "OPERATOR-GUIDE.md",
+      "change": "modified",
+      "baseline_sha256": "3bd7d635ab7c2c472b7e9b26e9d192c1fab81075cf7c60979d0d4633861cbe3c",
+      "candidate_sha256": "fcb1a920edd13ca12a2b6cfad266bb312a33a70123af474dff41e0a0fec9e147"
+    },
+    {
+      "path": "README.md",
+      "change": "modified",
+      "baseline_sha256": "6dc8fa41df0e7eebe3f122b4876f6ae12627405d0073971c484466a1efb64f9b",
+      "candidate_sha256": "a0098e868c0a6ab7a217522a55b9b8048d742c3daeda020869c57a4526586596"
+    },
+    {
+      "path": "RELEASE.json",
+      "change": "modified",
+      "baseline_sha256": "f9b0af36253953710d83072ac8a74c52ed1bd6fb96da3b66a1ba4a463bc1d1dc",
+      "candidate_sha256": "e0cb059b30228d2a9d27d87d28f2431d414bba0357be00f3e5609f63c6614d22"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "change": "modified",
+      "baseline_sha256": "17b84edede7d3b87509baca6fc341909a3bf2d9fb16e4a631a699fca016e33b2",
+      "candidate_sha256": "cb75005c3212898886b6bfa9482095688856275521c141d1b77059c3563d45ad"
+    },
+    {
+      "path": "evals/cases.json",
+      "change": "modified",
+      "baseline_sha256": "959d2aac6d8321daf5f62a0357fb1fd495e4ed5f303149366421c3e4479ce8fe",
+      "candidate_sha256": "22d048528f7028e52fdbfd8a5e4518a92df912a32a7b00934771433f5a9b56c8"
+    },
+    {
+      "path": "examples/resume-work/README.md",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "c37e18189a795363ededc0e53ed8eef6aa3e2ac4d05c2317b6297016ebb015e6"
+    },
+    {
+      "path": "examples/resume-work/after.json",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "e38d55684f87d99ac2b0612884fa4468e1f7983b8a0f18d416f1d75334f0a651"
+    },
+    {
+      "path": "examples/resume-work/before.json",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "99f396699257c758c155b967eb75469e10d3a0bf1938c13504b294c5044ab329"
+    },
+    {
+      "path": "examples/resume-work/handoff.json",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "5cb61526e9a9def7d123a2ec0981191c5bd1e27366cd91c55b6c137f807b5242"
+    },
+    {
+      "path": "examples/resume-work/request.md",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "6228ed9ebffee89db9e8c78365560ab3c6554e0b19d1003d48dece2622c84e30"
+    },
+    {
+      "path": "examples/resume-work/store.py",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "d626c433e171497366bc8c3f143d8a5095a97af12953d7facefd7140fe626744"
+    },
+    {
+      "path": "playbooks/finish-and-handoff.md",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "f402e60bb09df85e4d3f61a2b7e7b29bd191a6c398054c4b9b0ad00ae16d5b74"
+    },
+    {
+      "path": "playbooks/improve-the-method.md",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "44240a88fc0e0b2fe49abf23eb9e79ab142629d4dcf5562c66ad814f978a934d"
+    },
+    {
+      "path": "playbooks/investigate-and-build.md",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "6c484af2d5b9ad065405be63475f3281042a49b8bf56a1bf96c2e925dde450c2"
+    },
+    {
+      "path": "playbooks/manager-return.md",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "211199e846d78499dde187f0606a65dfe41a949e8010de48fd2bc453a3b254d6"
+    },
+    {
+      "path": "playbooks/start-and-resume.md",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "ae5a719236dedccf9cd5b59c944952e9bf3a17951a71ba3d44c266c82ff016d9"
+    },
+    {
+      "path": "plugin.json",
+      "change": "modified",
+      "baseline_sha256": "5b9c94a381e96ea2b228d6e5d5aedff19fa5ba842a4ad4e2ad666a0645f01f9b",
+      "candidate_sha256": "51019b955bc3ce102a91ade27028d510f109321127110b6037582711317b2f2b"
+    },
+    {
+      "path": "references/application-verification.md",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "0b503711d0ee4a78edee92dd7d539090afef3294c5e00b398703737ede0832d7"
+    },
+    {
+      "path": "references/handoff-record.md",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "0c8d03a4dee29a3a2d8378207a074344a7712038a79b53fdf73e5c6bb43f9768"
+    },
+    {
+      "path": "references/native-state-guards.md",
+      "change": "modified",
+      "baseline_sha256": "b07a45f1c76b679d7c28ed60053b88e91ba52631ddc236c0fdef61fa993dcd48",
+      "candidate_sha256": "41e0cc3b72195138f629501974ea6ba3ff12ff27fa1f2e2171ae0caa5c89f6e7"
+    },
+    {
+      "path": "references/working-contract.md",
+      "change": "modified",
+      "baseline_sha256": "76397fc5d6832ef71bf03bb70a10c58d97b5855145afc7630f8918b132fd0110",
+      "candidate_sha256": "e72d2aba0dfdd1c33210aba9ea299a39194e328f89eb6cd704d6e90d5f360d75"
+    },
+    {
+      "path": "research/AGENT-NATIVE-METHOD.md",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "fbbcf6782618637f5dd9a4ef0e519a7e38e4f97560e6716a4c2f1ea2e975139b"
+    },
+    {
+      "path": "research/next-inputs.json",
+      "change": "modified",
+      "baseline_sha256": "fd2958d6e574756006c5b864293e4ca017bc0833bcf5f7693e634675893adbc4",
+      "candidate_sha256": "15fc5e9fb0c9110dbc99e2abf079ec14751426451b9a6b607f2ff2c0454f2b65"
+    },
+    {
+      "path": "scripts/check_handoff.py",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "47f86404f58e77a25bc0a7e843bade41506784e80bfdb4e1bf7f39fe915923e8"
+    },
+    {
+      "path": "scripts/hook_context.py",
+      "change": "modified",
+      "baseline_sha256": "83e86ea97679b1a8e77fc105358ed8fe254ab687cd3d8b1ac60f4194a1597b02",
+      "candidate_sha256": "3a45572b3e662a1c0a40b1e73d37919b82dac1eda3b7b2b1c347d9d63259f9d5"
+    },
+    {
+      "path": "scripts/state_guards.py",
+      "change": "modified",
+      "baseline_sha256": "8dcf78612f51741ec07f3411e07dfe902540a686e8e2ef90eae8aaa0818e2b6e",
+      "candidate_sha256": "58b15255db769f2b2b1af5dcef2491cb5422a4cb3749258d2da15d47523714b2"
+    },
+    {
+      "path": "skills/build-a-capability/SKILL.md",
+      "change": "modified",
+      "baseline_sha256": "2c16cfa7e0df9db9ca13fc7bdceb439fa90fdf6c365e97dd08cb9535101eddf7",
+      "candidate_sha256": "0abaf08b86cc4d3005d3be6b6f4df80c0c1843302812a1e9a692a9a9766983a6"
+    },
+    {
+      "path": "skills/independent-judgment/SKILL.md",
+      "change": "modified",
+      "baseline_sha256": "30b8d0879defd6668c11ac7ad1eaa398a526a8c0827fe8b9bd55c8525be61e78",
+      "candidate_sha256": "cf91ad25e9066938c432ab3de57ac078d2f493364cdb06b5a521c0f6cf567fa1"
+    },
+    {
+      "path": "skills/make-a-goal/SKILL.md",
+      "change": "modified",
+      "baseline_sha256": "c29865249d42e6906df4bdbe113ba6b68b3c594d470616c4e51867695a9d6d29",
+      "candidate_sha256": "042e594271b68b9ba0be601f0f5076c5dcc8e6717800b9dd9b8e28a756c6cd75"
+    },
+    {
+      "path": "skills/product-tests/SKILL.md",
+      "change": "modified",
+      "baseline_sha256": "16425f956766aeab9d79b5d108cd70ba2d9eadfe37f1779491f9ba5ab3e6c210",
+      "candidate_sha256": "b9e19f497306287554ac749695c2588424fbe190a7ec866b1e08edfa55e0d756"
+    },
+    {
+      "path": "skills/veto-stack/SKILL.md",
+      "change": "modified",
+      "baseline_sha256": "2c4ffe454c28c66f9f018203664067901acd53f55c829c724fe4c2d72db254ca",
+      "candidate_sha256": "2ff5a1ea07920ce9851dbdf68a23cb5352685e8049aa12ed53b5d63982b1d11d"
+    },
+    {
+      "path": "skills/work-control/SKILL.md",
+      "change": "modified",
+      "baseline_sha256": "4bf9ec009688fe03d3ea622e0dec4887397d880bb954bb40eae3b11e689a2868",
+      "candidate_sha256": "8651c449241f51f024188b3e0f2df67f1440f071bb2748133f02bc6016c6bc09"
+    },
+    {
+      "path": "templates/project-entry.md",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "fa995c8a198b831f310aa932fc45d328b0df3051ac5dfb9fe5f9896e1923e27d"
+    },
+    {
+      "path": "tests/test_agent_native_guards.py",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "62d8a873ac656eb017ed249930e90be522912c30ef4b34b58d55c6e19bf67bed"
+    },
+    {
+      "path": "tests/test_handoff.py",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "0cc89f44b4d3706d52d13bab3e41f908212ab76abc3e571ccb8f878bbe82ab68"
+    },
+    {
+      "path": "verification/1201/baseline-reviewer-regressions.json",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "72c22aa4a247bfb9693b198b2c463c2a2a0235c985f13b5927bd4889f7158d3f"
+    },
+    {
+      "path": "verification/1201/candidate-reviewer-regressions.json",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "d43da01ad135903476abe63319f8837b09e1a4418f8de3b3da159d3eb4c5208a"
+    },
+    {
+      "path": "verification/1201/candidate-tests.log",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "ab719417e62f409f82bd25be0f182425e6dd6126453406d7e7073d31adb8eabe"
+    },
+    {
+      "path": "verification/1201/preservation-checks.json",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "1db6570d266a781225f3b4a36d181fc2381073c63f447ed82cd39c056ffe5e6d"
+    },
+    {
+      "path": "verification/1201/reproduce_guards.py",
+      "change": "added",
+      "baseline_sha256": null,
+      "candidate_sha256": "2f8563e94a50a153b70c8f99aed7f4bb4628139794a4c6ccb46a98fa9effb71a"
+    }
+  ],
+  "status": {
+    "source_built": true,
+    "native_installation_performed": false,
+    "independent_agent_qualification_performed": false,
+    "product_deployment_performed": false,
+    "public_publication_performed": false
+  }
+}

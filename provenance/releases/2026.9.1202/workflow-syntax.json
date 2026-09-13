@@ -1,0 +1,12 @@
+[
+  {
+    "file": ".github/workflows/package.yml",
+    "yaml_parse": "passed",
+    "remote_execution": "unrun"
+  },
+  {
+    "file": ".github/workflows/checks.yml",
+    "yaml_parse": "passed",
+    "remote_execution": "unrun"
+  }
+]

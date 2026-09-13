@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "status": "unrun",
+  "task_id": null,
+  "assignment_revision": null,
+  "source_commit": null,
+  "plugin_manifest_sha256": null,
+  "candidate_identity": null,
+  "host_version": null,
+  "coordinator_run": null,
+  "worker_run": null,
+  "reviewer_run": null,
+  "effective_worker_model": null,
+  "effective_worker_effort": null,
+  "checks": {
+    "native_loading": {
+      "status": "unrun",
+      "observation": null,
+      "evidence": []
+    },
+    "delegation": {
+      "status": "unrun",
+      "observation": null,
+      "evidence": []
+    },
+    "baseline_reproduction": {
+      "status": "unrun",
+      "observation": null,
+      "evidence": []
+    },
+    "repair": {
+      "status": "unrun",
+      "observation": null,
+      "evidence": []
+    },
+    "interruption": {
+      "status": "unrun",
+      "observation": null,
+      "evidence": []
+    },
+    "fresh_continuation": {
+      "status": "unrun",
+      "observation": null,
+      "evidence": []
+    },
+    "independent_replay": {
+      "status": "unrun",
+      "observation": null,
+      "evidence": []
+    },
+    "stale_revision_refused": {
+      "status": "unrun",
+      "observation": null,
+      "evidence": []
+    },
+    "discussion_not_authority": {
+      "status": "unrun",
+      "observation": null,
+      "evidence": []
+    },
+    "unknown_role_not_invented": {
+      "status": "unrun",
+      "observation": null,
+      "evidence": []
+    }
+  },
+  "founder_interventions": null,
+  "observed_total_cost": null,
+  "currency": null,
+  "exceptions": [],
+  "decision": null
+}

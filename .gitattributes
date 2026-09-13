@@ -1,0 +1,2 @@
+# Retain exact source bytes across Git checkouts; digests are release inputs.
+* -text

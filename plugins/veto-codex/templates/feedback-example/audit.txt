@@ -1,0 +1,1 @@
+NOT RUN. A separate reviewer must inspect the entire synthetic source and map every clause before acceptance. This file is a format placeholder, not an audit result.

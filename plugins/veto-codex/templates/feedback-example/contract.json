@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "contract_id": "SYNTHETIC-NOT-APPROVED",
+  "candidate": {
+    "id": "EXAMPLE-ONLY-NO-APPLICATION",
+    "environment": "synthetic-format-exercise"
+  },
+  "feedback": {
+    "sha256": "6b75cb68c7310797c65ab9db167f8ac45a49fa85edf25034e1551b4756adfef4",
+    "builder": "example-builder",
+    "reviewer": "example-independent-reviewer"
+  },
+  "requirements": [
+    {
+      "id": "ADDRESS-01",
+      "expected": "Please add address suggestions that expand the selected address into editable individual fields, then preserve corrections after save and reopen.",
+      "layer": "journey",
+      "allowed_provenance": [
+        "browser"
+      ],
+      "required": true
+    }
+  ]
+}

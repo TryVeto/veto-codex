@@ -1,0 +1,607 @@
+{
+  "release": "2026.9.1203",
+  "inputs": [
+    {
+      "input": "SKILL(20260911-202453) (1).md",
+      "kind": "user-supplied-skill",
+      "source_skill": "veto-product-surfaces",
+      "sha256": "bcd3209a5d681e81c7febf4b0991ab7cfa2f32db047591e4a4c3d18e6f90b5ac",
+      "packaged_snapshot": "research/source-skills/veto-product-surfaces.source.txt",
+      "treatment": "Conditional guidance adapted; original bytes retained outside skills/."
+    },
+    {
+      "input": "SKILL(20260911-202611)(1).md",
+      "kind": "user-supplied-skill",
+      "source_skill": "veto-primitives",
+      "sha256": "7512595198889e9842298386e9f383bfbb50e43d31ee6f4a935a8c17fb5e09ff",
+      "packaged_snapshot": "research/source-skills/veto-primitives.source.txt",
+      "treatment": "Conditional guidance adapted; original bytes retained outside skills/."
+    },
+    {
+      "input": "SKILL(20260911-202518)(1).md",
+      "kind": "user-supplied-skill",
+      "source_skill": "financial-phone-experience",
+      "sha256": "54d5736a5f1b6725453bc5b08f7a07af68fb081f91dd4d21838c8015d9c734d7",
+      "packaged_snapshot": "research/source-skills/financial-phone-experience.source.txt",
+      "treatment": "Conditional guidance adapted; original bytes retained outside skills/."
+    },
+    {
+      "input": "SKILL(20260911-202434)(1).md",
+      "kind": "user-supplied-skill",
+      "source_skill": "useful-product-management",
+      "sha256": "9410a876d54edb92aba1688de6664fcc0a0a51dd5480231c65c3443b8f584608",
+      "packaged_snapshot": "research/source-skills/useful-product-management.source.txt",
+      "treatment": "Conditional guidance adapted; original bytes retained outside skills/."
+    },
+    {
+      "input": "Shape-Up-with-Codex(1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "e15ea7631c6efe3cf4ea1b9f6f45ff52cfcfd21855e34d74d2f969379c81bb17",
+      "packaged_snapshot": null,
+      "treatment": "Relevant source passages or duplicate identity; no duplicate skill activation."
+    },
+    {
+      "input": "what-makes-a-skill-md-useful (1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "7e427d71b1a5550898ab20dd7135be44eca71d4682ba43e5b4f4d204ac8f3427",
+      "packaged_snapshot": null,
+      "treatment": "Relevant source passages or duplicate identity; no duplicate skill activation."
+    },
+    {
+      "input": "what-makes-a-skill-md-useful(1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "7e427d71b1a5550898ab20dd7135be44eca71d4682ba43e5b4f4d204ac8f3427",
+      "packaged_snapshot": null,
+      "treatment": "Relevant source passages or duplicate identity; no duplicate skill activation."
+    },
+    {
+      "input": "What-Makes-goal-md-Useful (1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "2d4f959aad85b04d9822ebbc4e1de931b1c3cb0b96fd764069e2faacc4a61f29",
+      "packaged_snapshot": null,
+      "treatment": "Relevant source passages or duplicate identity; no duplicate skill activation."
+    },
+    {
+      "input": "What-Makes-goal-md-Useful(1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "2d4f959aad85b04d9822ebbc4e1de931b1c3cb0b96fd764069e2faacc4a61f29",
+      "packaged_snapshot": null,
+      "treatment": "Relevant source passages or duplicate identity; no duplicate skill activation."
+    },
+    {
+      "input": "The_Useful_AGENTS_md(1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "f910b91bd162c580e762c1af0e2998d7ed9271fed067fc5b3f0b3d41b568200f",
+      "packaged_snapshot": null,
+      "treatment": "Relevant source passages or duplicate identity; no duplicate skill activation."
+    },
+    {
+      "input": "Veto-Product-Surfaces-Analysis (1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "0649e6f5682a5819d14a06af5b39b97db274eb9b27a53ab6eed6e0d548d4ff83",
+      "packaged_snapshot": null,
+      "treatment": "Relevant source passages or duplicate identity; no duplicate skill activation."
+    },
+    {
+      "input": "SKILL(20260911-202453)(1).md",
+      "kind": "user-supplied-reference",
+      "sha256": "bcd3209a5d681e81c7febf4b0991ab7cfa2f32db047591e4a4c3d18e6f90b5ac",
+      "packaged_snapshot": null,
+      "treatment": "Relevant source passages or duplicate identity; no duplicate skill activation."
+    },
+    {
+      "input": "SKILL(20260911-202031) (1).md",
+      "kind": "user-supplied-reference",
+      "sha256": "27b0f7d23c32f11173591f7cbde74dd1ed6a2d450e671a35d0de30fce8ece8f9",
+      "packaged_snapshot": null,
+      "treatment": "Relevant source passages or duplicate identity; no duplicate skill activation."
+    },
+    {
+      "input": "SKILL(20260911-201929) (1).md",
+      "kind": "user-supplied-reference",
+      "sha256": "a4a24bfb58afc8f60e74070cab4971d7488e2e0df2cd907d287819e816358bfd",
+      "packaged_snapshot": null,
+      "treatment": "Relevant source passages or duplicate identity; no duplicate skill activation."
+    },
+    {
+      "input": "Veto-Prepare-This-Review(1).html",
+      "kind": "user-supplied-prototype",
+      "sha256": "e7cf68593afa3c3639a18b463ca961e00283fd64f7288245a1ee1e5a9d7cb4e5",
+      "packaged_snapshot": "examples/prepare-this-review/prototype.html",
+      "treatment": "Unchanged synthetic reference; source inspected, not browser-tested in this release."
+    },
+    {
+      "input": "veto-stack-review(1).md",
+      "kind": "package-review",
+      "sha256": "cd58590a6a41a24eef9b0abde20480e80d3b8a2ea94e306e330afc32264f989b",
+      "packaged_snapshot": null,
+      "treatment": "Review of 1102, not the live host or 1104. Adoption and evaluation priority; no new skills.",
+      "incorporated_in": "2026.9.1105"
+    },
+    {
+      "input": "Pasted markdown(20260911-220534).md",
+      "kind": "reported-diagnostic",
+      "sha256": "f1dabe2aa29a100d81c1d3d15f301c2de72125dc356ccb9a9730bf269b71f869",
+      "packaged_snapshot": null,
+      "treatment": "Secondary report: pre-approval file-scheme restriction. Correct prevention layer; original denial remains.",
+      "incorporated_in": "2026.9.1105"
+    },
+    {
+      "input": "Managing-the-Agentic-Team-Veto(1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "967a24b9b5d1e61de67ae5b9342fb17ef308549f407aeff69b268a564fb3fcbe",
+      "packaged_snapshot": null,
+      "treatment": "Targeted passages: pp.4,16-17,34-36,40-49,56,66-68,75-79; no new PM system or actual project-status claim.",
+      "incorporated_in": "2026.9.1105"
+    },
+    {
+      "input": "SKILL(20260911-214709)(1).md",
+      "kind": "autonomous-product-org",
+      "sha256": "d403f4b46dce0e57e492c92e46307cc1448a61f7b7f7fad7bea2bd992f4338ec",
+      "packaged_snapshot": null,
+      "treatment": "Ownership and proportional scope retained in veto-stack; no duplicate orchestrator.",
+      "incorporated_in": "2026.9.1105"
+    },
+    {
+      "input": "SKILL(20260911-214629)(1).md",
+      "kind": "own-the-outcome",
+      "sha256": "aba8700b9bcc39b254f240d9321aaea6052cc011a8d2dc9400ddc88f3a883a24",
+      "packaged_snapshot": null,
+      "treatment": "Inspection-to-repair transitions clarified in existing lead; preserve review-only endpoint.",
+      "incorporated_in": "2026.9.1105"
+    },
+    {
+      "input": "SKILL(20260911-214452)(1).md",
+      "kind": "codex-parallel-communication",
+      "sha256": "08499e82ccf42ea295175d02feab65cc156c3deaad1ae8e1edaab57f17c4c813",
+      "packaged_snapshot": null,
+      "treatment": "Route/activation/acceptance distinctions and reassignment checks consolidated in team/SHARED.md.",
+      "incorporated_in": "2026.9.1105"
+    },
+    {
+      "input": "SKILL(20260911-213617)(1).md",
+      "kind": "delegate-to-subagents",
+      "sha256": "8bde7ecb5261bdc764bd08ebd448ee1efaef53e543a40b6fc62ef10877126660",
+      "packaged_snapshot": null,
+      "treatment": "Task-specific outcome, unbiased question, accessible return and current attempt in work-order/team guidance.",
+      "incorporated_in": "2026.9.1105"
+    },
+    {
+      "input": "SKILL(20260911-213344)(1).md",
+      "kind": "codex-plugin-engineering",
+      "sha256": "c3e7234d0ccc3ffdbd923648da587ad1d2ee50533a4737f93da9363937141f9c",
+      "packaged_snapshot": null,
+      "treatment": "Fix actual failure layer; package/load/invocation/behavior distinguished in ADOPTION.md and doctor.",
+      "incorporated_in": "2026.9.1105"
+    },
+    {
+      "input": "SKILL(20260911-213119)(1).md",
+      "kind": "act-on-feedback",
+      "sha256": "2c1f962a95e8b1a7623f114d87d9ab04183aaf901613edeadd7ecc01b4557fe3",
+      "packaged_snapshot": null,
+      "treatment": "Preserve accepted work, full feedback, scope and current pause in existing feedback loop; no extra broad skill.",
+      "incorporated_in": "2026.9.1105"
+    },
+    {
+      "input": "SKILL(20260911-220414)(1).md",
+      "kind": "user-supplied-skill",
+      "sha256": "a7dbc83c5b49cf1bdf9078f37001cc298a42ea3400afddfd216ed20dfedd203b",
+      "source_skill": "manage-agentic-work",
+      "packaged_snapshot": null,
+      "treatment": "Source procedure; consolidate ownership, continuation and proportional coordination in the existing Head/adoption routes. No new orchestration skill."
+    },
+    {
+      "input": "awesome-local-dev-environment(1).html",
+      "kind": "user-supplied-reference",
+      "sha256": "cac63d520fd2ec09c6ad6f896d5c98fc3e5cafad00d6fa1a7ebad54cf78a3d0e",
+      "source_skill": null,
+      "packaged_snapshot": null,
+      "treatment": "Targeted reading: recommendation, local lifecycle, isolation, fast versus packaged runtime, stable review and Veto-specific proposals. Historical repository observations are not a fresh audit. No infrastructure examples installed."
+    },
+    {
+      "input": "Let-Astra-See-the-Work(1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "822947f372237f4a26f9d0205abbed5682a6f64902a5b1fbdee5a379f2661d74",
+      "source_skill": null,
+      "packaged_snapshot": null,
+      "treatment": "Targeted reading: access architecture, specimen/state identity, observation loop, findings and appendices A–G. Adapt existing review protocol; do not import its API example or create a new snapshot server."
+    },
+    {
+      "input": "SKILL(20260911-215441)(1).md",
+      "kind": "user-supplied-skill",
+      "sha256": "6a85c3d9ffd3ea6cd2746569aa76afa9d061652ad7a9131fe0f6267ef4d99996",
+      "source_skill": "equip-self-sufficient-team",
+      "packaged_snapshot": null,
+      "treatment": "Consolidate eight-gap diagnosis, fresh-context continuation and founder direction/approval/coaching/rescue distinction in existing leadership and adoption. No new self-sufficiency audit for ordinary tasks."
+    },
+    {
+      "input": "SKILL(20260911-215130)(2).md",
+      "kind": "user-supplied-skill",
+      "sha256": "302a1a3f1037b8cdb5ef1880fc54c60b6682e39442de22c3f8744fa9c01321fa",
+      "source_skill": "founder-agent-team",
+      "packaged_snapshot": null,
+      "treatment": "Consolidate complete outcome ownership, minimal actual team and matched comparison; preserve existing actor and resource boundaries. No separate company simulator."
+    },
+    {
+      "input": "SKILL(20260911-215034)(2).md",
+      "kind": "user-supplied-skill",
+      "sha256": "17f2587cdc7c248a47eada0b929cb84c4e6800072a86c5b24bff3a2136f67ad9",
+      "source_skill": "encode-agent-culture",
+      "packaged_snapshot": null,
+      "treatment": "Keep changes at their actual causal layer and evaluate behavior rather than recitation. No new standing constitution or automatic memory."
+    },
+    {
+      "input": "OPERATOR-GUIDE(2).md",
+      "kind": "user-supplied-reference",
+      "sha256": "b89e2e25a642907bf0147763d7fe0f11bae01d85aa18bf41c3f7747009b8219f",
+      "source_skill": null,
+      "packaged_snapshot": null,
+      "treatment": "Historical 1103 operator guide; preserve current queue/steer/goal semantics and 1105 continuation rather than revert to this supplied edition."
+    },
+    {
+      "input": "SKILL(20260911-214709)(3).md",
+      "kind": "user-supplied-skill",
+      "sha256": "d403f4b46dce0e57e492c92e46307cc1448a61f7b7f7fad7bea2bd992f4338ec",
+      "source_skill": "autonomous-product-org",
+      "packaged_snapshot": null,
+      "treatment": "Compare duplicate identity; retain existing integrated delivery method."
+    },
+    {
+      "input": "SKILL(20260911-214629)(3).md",
+      "kind": "user-supplied-skill",
+      "sha256": "aba8700b9bcc39b254f240d9321aaea6052cc011a8d2dc9400ddc88f3a883a24",
+      "source_skill": "own-the-outcome",
+      "packaged_snapshot": null,
+      "treatment": "Compare duplicate identity; retain existing endpoint ownership and recovery."
+    },
+    {
+      "input": "SKILL(20260911-214452)(3).md",
+      "kind": "user-supplied-skill",
+      "sha256": "08499e82ccf42ea295175d02feab65cc156c3deaad1ae8e1edaab57f17c4c813",
+      "source_skill": "codex-parallel-communication",
+      "packaged_snapshot": null,
+      "treatment": "Compare duplicate identity; retain existing recipient/activation/acceptance distinctions and supported lead relay."
+    },
+    {
+      "input": "Managing-the-Agentic-Team-Veto(3).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "967a24b9b5d1e61de67ae5b9342fb17ef308549f407aeff69b268a564fb3fcbe",
+      "source_skill": null,
+      "packaged_snapshot": null,
+      "treatment": "Compare prior source identity; targeted organizational guidance remains in existing work-control and team references, not a new mission hierarchy."
+    },
+    {
+      "input": "veto-stack-review(3).md",
+      "kind": "user-supplied-reference",
+      "sha256": "cd58590a6a41a24eef9b0abde20480e80d3b8a2ea94e306e330afc32264f989b",
+      "source_skill": null,
+      "packaged_snapshot": null,
+      "treatment": "Historical independent review of 1102. Keep its selective routing and behavioral-validation recommendation; do not repeat superseded no-coverage critique as a finding about 1105."
+    },
+    {
+      "input": "SKILL(20260911-213617)(3).md",
+      "kind": "user-supplied-skill",
+      "sha256": "8bde7ecb5261bdc764bd08ebd448ee1efaef53e543a40b6fc62ef10877126660",
+      "source_skill": "delegate-to-subagents",
+      "packaged_snapshot": null,
+      "treatment": "Compare duplicate identity; retain existing bounded task contract and accessible return evidence."
+    },
+    {
+      "input": "SKILL(20260911-213344)(3).md",
+      "kind": "user-supplied-skill",
+      "sha256": "c3e7234d0ccc3ffdbd923648da587ad1d2ee50533a4737f93da9363937141f9c",
+      "source_skill": "codex-plugin-engineering",
+      "packaged_snapshot": null,
+      "treatment": "Compare duplicate identity; preserve smallest intervention, honest helper versus behavioral evidence, and no installation authority."
+    },
+    {
+      "input": "SKILL(20260911-213119)(3).md",
+      "kind": "user-supplied-skill",
+      "sha256": "2c1f962a95e8b1a7623f114d87d9ab04183aaf901613edeadd7ecc01b4557fe3",
+      "source_skill": "act-on-feedback",
+      "packaged_snapshot": null,
+      "treatment": "Compare duplicate identity; preserve originals, full correction scope, matching proof and unresolved items."
+    },
+    {
+      "input": "veto-stack-1104-review(1).md",
+      "kind": "user-supplied-reference",
+      "sha256": "010a364b15301b601c9e68e830705b89afce9c2572a53368299a4a4522b58c21",
+      "source_skill": null,
+      "packaged_snapshot": null,
+      "treatment": "Full review read. Acknowledge source-to-acceptance mechanism and semantic limits; --require-feedback already exists in 1105. Put held-out omission plus correct repair into adoption, not another checker or broad rewrite."
+    },
+    {
+      "input": "SKILL(20260911-224215)(1).md",
+      "kind": "user-supplied-skill",
+      "sha256": "0b3e2deb42a0c7354c3ffbd6a5628e78170a2c67505a63479a825dc153424000",
+      "packaged_snapshot": null,
+      "treatment": "Adapt shared foundations/primitives/patterns/domain contracts into design-system reference and existing design/frontend routes.",
+      "integrated_at": [
+        "references/design-system.md"
+      ],
+      "source_skill": "startup-design-system"
+    },
+    {
+      "input": "veto-integration-sample.md",
+      "kind": "user-supplied-illustrative-draft",
+      "sha256": "11229113aa6d90a91c697e3d549f8a012c22805150adc6fefaf061c385e53938",
+      "packaged_snapshot": "examples/integration-contract-draft.md",
+      "treatment": "Preserve exact bytes as an explicitly inactive example; do not select a provider, create authority or claim executed checks.",
+      "integrated_at": [
+        "examples/integration-contract-draft.md"
+      ]
+    },
+    {
+      "input": "SKILL(20260911-223618)(1).md",
+      "kind": "user-supplied-skill",
+      "sha256": "f35f6304eb369decb49c7089f35c11e9b0b94655a975a7d16b82618266a6c015",
+      "packaged_snapshot": null,
+      "treatment": "Targeted additions for correcting own unsupported diagnosis, pressure versus evidence and faithful authorized execution.",
+      "integrated_at": [
+        "references/independent-judgment.md"
+      ],
+      "source_skill": "push-back-with-evidence"
+    },
+    {
+      "input": "Good-Enough-Coding-Standards-for-a-Startup-Codebase(1).pdf",
+      "kind": "user-supplied-study",
+      "sha256": "ba384e8f3677a10b9abce184a1c82544f802c48c9749a56578bf36ed8158a78f",
+      "packaged_snapshot": null,
+      "treatment": "Use minimum standard, consequence-based scrutiny and incremental adoption; not a repository audit or mandatory reformat.",
+      "integrated_at": [
+        "references/engineering-quality.md"
+      ]
+    },
+    {
+      "input": "Good-Enough-Code-Quality-for-a-Startup-Codebase(1).pdf",
+      "kind": "user-supplied-study",
+      "sha256": "6102b6065826cede3249a7a2b1b579a662b54203bcf43ef4d67dd756bb2431a3",
+      "packaged_snapshot": null,
+      "treatment": "Use quality floor, correct unknown states and anti-false-green controls; source-described specific gates remain conditional on actual current policy.",
+      "integrated_at": [
+        "references/engineering-quality.md"
+      ]
+    },
+    {
+      "input": "SKILL(20260911-222749)(1).md",
+      "kind": "user-supplied-skill",
+      "sha256": "4d6a525d87b8a624cb6b8898ea54ef462a9a6d0a17c71febb37a3a9077c827fa",
+      "packaged_snapshot": null,
+      "treatment": "Existing candidate/state isolation retained; add separate review-coverage and candidate-health verdicts.",
+      "integrated_at": [
+        "skills/review-a-prototype/SKILL.md"
+      ],
+      "source_skill": "review-local-sandbox"
+    },
+    {
+      "input": "SKILL(20260911-222909)(1).md",
+      "kind": "user-supplied-skill",
+      "sha256": "d1d27a21446cdb48af89c95b615ea55232b2cf851cd4de684f2dc8aa64a5db16",
+      "packaged_snapshot": null,
+      "treatment": "Add fixed-origin, loader-provenance, dependency and HMR distinctions; historical ports/paths are not installed defaults.",
+      "integrated_at": [
+        "references/sandbox-and-local.md"
+      ],
+      "source_skill": "veto-local-development"
+    },
+    {
+      "input": "Agents_in_Production_WorkOS_Veto(1).pdf",
+      "kind": "user-supplied-study",
+      "sha256": "61652573a87b979624b6b12bc56e916e414e940a332ab6a5c4949c9a04067ce8",
+      "packaged_snapshot": null,
+      "treatment": "Conditional synthetic production-verification design, real auth/admission/MFA and observable termination; no connected reads, auth, runner or live action.",
+      "integrated_at": [
+        "references/production-verification.md"
+      ]
+    },
+    {
+      "input": "SKILL(20260911-222012)(2).md",
+      "kind": "user-supplied-skill",
+      "sha256": "7eced5d25e5ec103fe37b8be46db2c8c72a4f19faaf7c375abe44630bc36ca69",
+      "packaged_snapshot": null,
+      "treatment": "Add existing-launcher use fast path and preserve process ownership; no new launcher or orchestration skill.",
+      "integrated_at": [
+        "skills/build-a-capability/SKILL.md"
+      ],
+      "source_skill": "internal-tooling"
+    },
+    {
+      "input": "Good-Enough-CICD(2).pdf",
+      "kind": "user-supplied-study",
+      "sha256": "d0677ef9cdaf132eaab03803e18f695cefbff68f6ffcc1c09bc8893576be85da",
+      "packaged_snapshot": null,
+      "treatment": "Add expected/executed gates, artifact/rebuild truth, shared staging ownership and state-compatible recovery; no pipeline installation.",
+      "integrated_at": [
+        "references/engineering-quality.md"
+      ]
+    },
+    {
+      "input": "A-Good-Enough-Design-System-for-a-Startup-Codebase(2).pdf",
+      "kind": "user-supplied-study",
+      "sha256": "d51d219999cd24e832a84d21914ad348b7f3986456cdddb2b066e6149c43c447",
+      "packaged_snapshot": null,
+      "treatment": "Use component contracts and adoption through an actual consumer; no catalog, palette or stack migration.",
+      "integrated_at": [
+        "references/design-system.md"
+      ]
+    },
+    {
+      "input": "veto-stack-1104-review(3).md",
+      "kind": "user-supplied-historical-review",
+      "sha256": "010a364b15301b601c9e68e830705b89afce9c2572a53368299a4a4522b58c21",
+      "packaged_snapshot": null,
+      "treatment": "Duplicate of previously supplied 1104 review by byte identity; preserve source-coverage remedy and behavioral-evidence limits, no repeated rewrite.",
+      "integrated_at": [
+        "ADOPTION.md"
+      ]
+    },
+    {
+      "input": "agents-that-push-back(2).pdf",
+      "kind": "user-supplied-study",
+      "sha256": "5b195f7045645f34c53bb23b36c4969aff986d221e9aaf56684491c86b31e62d",
+      "packaged_snapshot": null,
+      "treatment": "Preserve goal loyalty, factual honesty and calibrated dissent; no refusal or objection quota.",
+      "integrated_at": [
+        "references/independent-judgment.md"
+      ]
+    },
+    {
+      "input": "SKILL(20260911-225816) (1).md",
+      "kind": "user-supplied-skill",
+      "sha256": "09d934fc1dd0b3805cd6a8124c408f6e7b00dcdec36fe528cec004b6f961287e",
+      "bytes": 21813,
+      "treatment": "Consolidated into existing operator/work-control guidance; no new active skill.",
+      "packaged_snapshot": null,
+      "source_skill": "codex-operator"
+    },
+    {
+      "input": "SKILL(20260911-225816)(1).md",
+      "kind": "duplicate-source",
+      "sha256": "09d934fc1dd0b3805cd6a8124c408f6e7b00dcdec36fe528cec004b6f961287e",
+      "bytes": 21813,
+      "treatment": "Byte-identical duplicate; not independent corroboration or another active entry.",
+      "packaged_snapshot": null,
+      "source_skill": "codex-operator"
+    },
+    {
+      "input": "From-Sandbox-to-Preview-Veto (1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "d2317d4b69f8c8bd4056391e6f10ad36bb2f1376d5207d7bb6333c0a0533809f",
+      "bytes": 226084,
+      "treatment": "Source-reported architecture, distinction between sandbox and canonical app, and proposed preview proof. Historical source snapshot, not live audit.",
+      "packaged_snapshot": null
+    },
+    {
+      "input": "From-Sandbox-to-Preview-Veto(1).pdf",
+      "kind": "duplicate-source",
+      "sha256": "d2317d4b69f8c8bd4056391e6f10ad36bb2f1376d5207d7bb6333c0a0533809f",
+      "bytes": 226084,
+      "treatment": "Byte-identical PDF duplicate; one substantive source.",
+      "packaged_snapshot": null
+    },
+    {
+      "input": "SKILL(20260911-225536)(1).md",
+      "kind": "user-supplied-skill",
+      "sha256": "4d24ed01a931cdad38109dc5f398fc60bcbb119243ce0e20895a749d644d0523",
+      "bytes": 18876,
+      "treatment": "Incremental consequence/coverage/replay guidance merged into engineering-quality; no replacement skill.",
+      "packaged_snapshot": null,
+      "source_skill": "good-enough-code-quality"
+    },
+    {
+      "input": "SKILL(20260911-225504)(1).md",
+      "kind": "user-supplied-skill",
+      "sha256": "208c0cf335528b7b031f8b10cbe2d0421e0fe10115695bde208d1965fbc5d04c",
+      "bytes": 17795,
+      "treatment": "Overlapping standards consolidated; preserve existing stack and reference proposals.",
+      "packaged_snapshot": null,
+      "source_skill": "startup-coding-standards"
+    },
+    {
+      "input": "SKILL(20260911-224648)(1).md",
+      "kind": "user-supplied-skill",
+      "sha256": "b1bbafa15978edf80e03620d5cf43375ae819c6be0f012cb4ab1b37a65123c88",
+      "bytes": 18217,
+      "treatment": "Select actual checks and trusted policy; no CI cutover or provider configuration changed.",
+      "packaged_snapshot": null,
+      "source_skill": "good-enough-cicd"
+    },
+    {
+      "input": "Veto-Stack-2026.9.1106 (1)(1).zip",
+      "kind": "older-package-reference",
+      "sha256": "b64658d719e0d39b658df1045c71bf31326e7e35dc7320731d27a05df08e58eb",
+      "bytes": 617203,
+      "treatment": "Compared with prior 1106 bytes; retain 1107 as parent. Not a rollback instruction.",
+      "packaged_snapshot": null
+    },
+    {
+      "input": "From-Preview-to-Production(1).html",
+      "kind": "user-supplied-reference",
+      "sha256": "5ddba9741a882b1cd2170d282d51b439dc8b298323b627eed438165848fc3f63",
+      "bytes": 150587,
+      "treatment": "Release identity, readiness, scoped approval and recovery adapted into conditional reference; no current deployment claim.",
+      "packaged_snapshot": null
+    },
+    {
+      "input": "SKILL(20260911-225154)(1).md",
+      "kind": "user-supplied-skill",
+      "sha256": "df8201ba403c406a323d10cff32af3293199ab8131fe5c5d6c74fd7388d41f7e",
+      "bytes": 17731,
+      "treatment": "Historical switching and Records lessons, scoped suite and cleanup preserved in conditional production reference. No login capability created.",
+      "packaged_snapshot": null,
+      "source_skill": "workos-production-verification"
+    },
+    {
+      "input": "SKILL(20260911-232711)(1).md",
+      "kind": "user-supplied-skill",
+      "source_skill": "veto-git",
+      "sha256": "8b54d4d14963dc02b3de896560abcc71bee1134858e22645b90a5fa098cdeceb",
+      "bytes": 17718,
+      "packaged_snapshot": "research/source-skills/veto-git-1109.source.txt",
+      "treatment": "Git source handoff, review identity, recovery and cleanup; adapted into a conditional reference."
+    },
+    {
+      "input": "SKILL(20260911-232005)(1).md",
+      "kind": "user-supplied-skill",
+      "source_skill": "ship-to-preview",
+      "sha256": "f1596c0751d1350ba78af848ad6cd9848a6b67bf5df7e9d7b935a4d5b89a528d",
+      "bytes": 18932,
+      "packaged_snapshot": "research/source-skills/ship-to-preview-1109.source.txt",
+      "treatment": "Refines the existing canonical preview and exact-candidate delivery procedure; not a second active skill."
+    },
+    {
+      "input": "SKILL(20260911-231559)(1).md",
+      "kind": "user-supplied-skill",
+      "source_skill": "ship-preview-to-production",
+      "sha256": "2200bbb0c5dee7244dbb8bdc3b4e69666074da131a7d9c14ea2448e39f6bb252",
+      "bytes": 19014,
+      "packaged_snapshot": "research/source-skills/ship-preview-to-production-1109.source.txt",
+      "treatment": "Refines guarded promotion, configuration identity and recovery; no new production authority."
+    },
+    {
+      "input": "WorkOS-for-Veto-Preview-and-Production(1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "af44cc0bf13719862923e730c26b0b346985ae2aa5b754eab664e3ef7def19c8",
+      "bytes": 285129,
+      "packaged_snapshot": null,
+      "treatment": "Selected environment/admission/session/testing/release and evidence-boundary sections; recommendations remain proposals."
+    },
+    {
+      "input": "what-your-git-should-look-like(1).pdf",
+      "kind": "user-supplied-reference",
+      "sha256": "30caa500535e1fea6c0da7363e3e31c7a6d0eaada3e8041b48acc491da4a2171",
+      "bytes": 313442,
+      "packaged_snapshot": null,
+      "treatment": "Selected integration, worktree, candidate, recovery and evidence-boundary sections, alongside the complete supplied Git skill."
+    },
+    {
+      "input": "Veto-Codex-Review.md",
+      "kind": "supplied-context-for-agent-native-method",
+      "sha256": "6e5b990512fb9048dd394a85520f9ce484459eaac6365d303aa2633749e8d200",
+      "packaged_snapshot": null,
+      "treatment": "Targeted relevant content; source not republished in plugin; status and authority boundaries preserved."
+    },
+    {
+      "input": "Pasted text(5).txt",
+      "kind": "supplied-context-for-agent-native-method",
+      "sha256": "1a80d311d2a1193aaa6a63a4b0517523195ee5c63faa12ddd9e93932fd609d23",
+      "packaged_snapshot": null,
+      "treatment": "Targeted relevant content; source not republished in plugin; status and authority boundaries preserved."
+    },
+    {
+      "input": "Veto-Founding-Documents-v10(3).pdf",
+      "kind": "supplied-context-for-agent-native-method",
+      "sha256": "df8cbe8c790d63fdbaa0dd72141e47bfb9f5ce79e2bff1a5725bb14586406487",
+      "packaged_snapshot": null,
+      "treatment": "Targeted relevant content; source not republished in plugin; status and authority boundaries preserved."
+    },
+    {
+      "input": "Veto-Product-Foundations-v10(1).pdf",
+      "kind": "supplied-context-for-agent-native-method",
+      "sha256": "8d57c9b6e53ca38cdfe17818172197f12e0ab0fb21399467f8bb13c1334a64a0",
+      "packaged_snapshot": null,
+      "treatment": "Targeted relevant content; source not republished in plugin; status and authority boundaries preserved."
+    }
+  ],
+  "read_scope": "Relevant sections and supplied skill content; not a new full-manuscript systematic review."
+}

@@ -1,0 +1,9 @@
+{
+  "portable_manifest": "passed against published 1.0.0 structural constraints",
+  "schema_source": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "validation_library": "jsonschema 4.26.0",
+  "yaml_frontmatter": "9 parsed successfully with PyYAML; helpers do not require PyYAML",
+  "native_host_validators": "not run; codex and claude CLI are absent",
+  "python": "3.13.5",
+  "limitations": "Structural validation is not host loading, permission enforcement or agent quality."
+}

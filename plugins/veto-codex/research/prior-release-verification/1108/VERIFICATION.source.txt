@@ -1,0 +1,88 @@
+# Verification — 2026.9.1108
+
+Prepared 11 September 2026. Scope: the shareable plugin, its targeted instruction
+changes and unchanged offline helpers. Not Veto's application, installed agents,
+WorkOS configuration, production or customer behavior.
+
+## Executed during authoring
+
+The **1107 baseline** passed all **177 local helper/package tests** before editing.
+The **1108 candidate** passed the same **177 tests** after editing. No executable
+helper or test implementation changed. The tests exercise Python utilities and
+package structure, not agent judgment or the application behavior in the new sources.
+[Baseline log](verification/baseline-tests.log) · [Candidate log](verification/helper-tests.log).
+
+Baseline ZIP SHA-256:
+`45782b1558f3635974e15ed3af39bf438abc9e2d82ad8cd953c1a7335d82c781`.
+The reuploaded 1106 archive matched the prior 1106 bytes and was not used as the
+parent. Existing 1107 engineering, design, feedback and testing mechanisms remain.
+
+Byte comparisons verified unchanged helper files, executable test files, original
+fixtures/oracles, both goal templates, existing acceptance/review JSON templates,
+examples and the central feedback/evidence/diagnosis/working-boundary references.
+All **77 prior behavioral specifications** are retained unchanged; **eight new
+specifications** were added. No behavioral trials were executed.
+
+The goals remain **3,956** and **3,627 Unicode characters**, including whitespace,
+both below 4,000. All 13 active skill frontmatters parsed as YAML; names match their
+directories and descriptions meet the existing package limit. The longest active
+skill is 8,247 characters. The same nine role guides remain. All ten new attachment
+hashes were verified against the supplied local bytes.
+[Format/source checks](verification/format-checks.json).
+
+Existing-helper command-line checks returned the expected outcomes:
+
+| Supplied teaching fixture | Actual result |
+|---|---|
+| [Schema-2 feedback example](verification/feedback-example.json) | NOT_ACCEPTED, exit 1: its required work and source audit remain unperformed. |
+| [Legacy unrun example](verification/legacy-example.json) | NOT_ACCEPTED, exit 1. |
+| [Legacy contract with feedback required](verification/legacy_with_require_feedback.json) | INVALID, exit 2; it cannot replace feedback coverage. |
+
+The structural doctor passed after content changes.
+[Pre-final-records result](verification/candidate-doctor-before-records.json).
+Payload hashes are refreshed after final records. Final-archive checks, fresh
+extraction results and the archive digest are supplied in the separate release
+validation JSON to avoid embedding a recursive archive identity inside itself.
+
+## Explicitly not established
+
+**Native host:** no plugin installation, discovery trace, live reload or actual
+receiving-agent read was tested. A doctor result identifies files, not instructions
+loaded by the running Head. Portable/OpenAI/Claude metadata is retained; no native
+compatibility certification is claimed.
+
+**Agent behavior:** E78–E85 are proposed tests of candidate identity, canonical
+integration, shared ownership, readiness, org admission, CI and operator scope.
+They are not model runs. No comparative claim of better completion, fewer missed
+requirements, better taste or lower founder burden has been measured.
+
+**Application:** no product code or control-plane configuration was edited; no
+server, browser journey, hosted deployment, login, migration or production suite
+was run. The supplied books' source findings are dated observations, and the
+WorkOS skill's transcript lessons are reported history. This package does not
+repair those implementations or establish their current defect/fix status.
+
+**Authority:** no running agent, active goal, pause, permission, reviewer policy,
+account, credential, customer record, spending or release state was changed.
+The new reference creates neither a publisher nor production access. The existing
+receipt checker cannot authenticate remote identity, enforce permission ceilings
+or validate a newly invented release schema; none was added.
+
+Previous authoring evidence is retained under
+`research/prior-release-verification/1107/` as history, not new execution.
+
+## Reproduce and earn the next claim
+
+From the plugin folder:
+
+```sh
+python3 -B scripts/doctor.py .
+python3 -B -m unittest discover -s tests -v
+```
+
+Use [ADOPTION.md](ADOPTION.md) for the next authorized change. Preserve the same
+originals, starting state, tools, grants and endpoint in a comparison with 1107.
+A read-only receipt assessment can test a missing-identity response without a
+production login. A real hosted claim requires the actual approved execution.
+The goal is a correctly attributed, usable handoff with less founder rescue—not
+more documents or a larger count of green checks.

@@ -1,0 +1,143 @@
+test_craft_oracle_distinguishes_controlled_subtraction (test_helpers.OracleSensitivityTests.test_craft_oracle_distinguishes_controlled_subtraction) ... ok
+test_craft_oracle_rejects_deleted_functional_label (test_helpers.OracleSensitivityTests.test_craft_oracle_rejects_deleted_functional_label) ... ok
+test_focus_oracle_accepts_controlled_corrected_fixture (test_helpers.OracleSensitivityTests.test_focus_oracle_accepts_controlled_corrected_fixture) ... ok
+test_focus_oracle_rejects_bundled_broken_retrieval (test_helpers.OracleSensitivityTests.test_focus_oracle_rejects_bundled_broken_retrieval) ... ok
+test_actual_package_structure (test_helpers.PackageTests.test_actual_package_structure) ... FAIL
+test_bad_skill_frontmatter (test_helpers.PackageTests.test_bad_skill_frontmatter) ... ok
+test_broken_reference_detected (test_helpers.PackageTests.test_broken_reference_detected) ... ok
+test_escaping_link_detected (test_helpers.PackageTests.test_escaping_link_detected) ... ok
+test_fonts_not_redistributed (test_helpers.PackageTests.test_fonts_not_redistributed) ... ok
+test_goal_limit_is_strict (test_helpers.PackageTests.test_goal_limit_is_strict) ... ok
+test_manifest_versions_must_match (test_helpers.PackageTests.test_manifest_versions_must_match) ... ok
+test_nested_manifest_named_file_cannot_hide (test_helpers.PackageTests.test_nested_manifest_named_file_cannot_hide) ... ok
+test_new_mcp_surface_detected (test_helpers.PackageTests.test_new_mcp_surface_detected) ... ok
+test_payload_hash_changes_detected (test_helpers.PackageTests.test_payload_hash_changes_detected) ... ok
+test_unknown_portable_field_rejected (test_helpers.PackageTests.test_unknown_portable_field_rejected) ... ok
+test_unlisted_payload_detected (test_helpers.PackageTests.test_unlisted_payload_detected) ... ok
+test_absolute_path_rejected (test_helpers.ReceiptTests.test_absolute_path_rejected) ... ok
+test_all_optional_contract_rejected (test_helpers.ReceiptTests.test_all_optional_contract_rejected) ... ok
+test_artifact_hash_mismatch (test_helpers.ReceiptTests.test_artifact_hash_mismatch) ... ok
+test_blocked_case_is_not_pass (test_helpers.ReceiptTests.test_blocked_case_is_not_pass) ... ok
+test_candidate_mismatch (test_helpers.ReceiptTests.test_candidate_mismatch) ... ok
+test_carried_evidence_is_explicit (test_helpers.ReceiptTests.test_carried_evidence_is_explicit) ... ok
+test_carried_evidence_requires_reason (test_helpers.ReceiptTests.test_carried_evidence_requires_reason) ... ok
+test_contract_cannot_call_simulation_field_observation (test_helpers.ReceiptTests.test_contract_cannot_call_simulation_field_observation) ... ok
+test_contract_digest_is_pinned (test_helpers.ReceiptTests.test_contract_digest_is_pinned) ... ok
+test_duplicate_artifact_in_row (test_helpers.ReceiptTests.test_duplicate_artifact_in_row) ... ok
+test_duplicate_contract_requirement (test_helpers.ReceiptTests.test_duplicate_contract_requirement) ... ok
+test_duplicate_json_keys_rejected (test_helpers.ReceiptTests.test_duplicate_json_keys_rejected) ... ok
+test_duplicate_result_rejected (test_helpers.ReceiptTests.test_duplicate_result_rejected) ... ok
+test_empty_artifact_rejected (test_helpers.ReceiptTests.test_empty_artifact_rejected) ... ok
+test_empty_observed_result (test_helpers.ReceiptTests.test_empty_observed_result) ... ok
+test_environment_mismatch (test_helpers.ReceiptTests.test_environment_mismatch) ... ok
+test_failed_case_is_not_pass (test_helpers.ReceiptTests.test_failed_case_is_not_pass) ... ok
+test_missing_artifact_rejected (test_helpers.ReceiptTests.test_missing_artifact_rejected) ... ok
+test_missing_procedure_rejected (test_helpers.ReceiptTests.test_missing_procedure_rejected) ... ok
+test_no_contract_requirements_rejected (test_helpers.ReceiptTests.test_no_contract_requirements_rejected) ... ok
+test_nonfinite_json_rejected (test_helpers.ReceiptTests.test_nonfinite_json_rejected) ... ok
+test_not_run_case_is_not_pass (test_helpers.ReceiptTests.test_not_run_case_is_not_pass) ... ok
+test_optional_case_allows_explicit_na_only (test_helpers.ReceiptTests.test_optional_case_allows_explicit_na_only) ... ok
+test_read_only_check_leaves_files_unchanged (test_helpers.ReceiptTests.test_read_only_check_leaves_files_unchanged) ... ok
+test_receipt_cannot_add_requirement (test_helpers.ReceiptTests.test_receipt_cannot_add_requirement) ... ok
+test_receipt_cannot_drop_required_case (test_helpers.ReceiptTests.test_receipt_cannot_drop_required_case) ... ok
+test_receipt_digest_mismatch (test_helpers.ReceiptTests.test_receipt_digest_mismatch) ... ok
+test_required_case_cannot_be_waived_in_receipt (test_helpers.ReceiptTests.test_required_case_cannot_be_waived_in_receipt) ... ok
+test_required_must_be_boolean (test_helpers.ReceiptTests.test_required_must_be_boolean) ... ok
+test_schema_bool_is_not_version (test_helpers.ReceiptTests.test_schema_bool_is_not_version) ... ok
+test_symlink_artifact_rejected (test_helpers.ReceiptTests.test_symlink_artifact_rejected) ... ok
+test_symlink_root_rejected (test_helpers.ReceiptTests.test_symlink_root_rejected) ... ok
+test_traversal_rejected (test_helpers.ReceiptTests.test_traversal_rejected) ... ok
+test_unknown_result_rejected (test_helpers.ReceiptTests.test_unknown_result_rejected) ... ok
+test_unknown_status (test_helpers.ReceiptTests.test_unknown_status) ... ok
+test_valid_declared_evidence_is_not_product_certificate (test_helpers.ReceiptTests.test_valid_declared_evidence_is_not_product_certificate) ... ok
+test_windows_path_rejected (test_helpers.ReceiptTests.test_windows_path_rejected) ... ok
+test_wrong_provenance_for_browser (test_helpers.ReceiptTests.test_wrong_provenance_for_browser) ... ok
+test_comments_and_data_assets_are_masked (test_helpers.SlopTests.test_comments_and_data_assets_are_masked) ... ok
+test_decorative_component_is_review_not_semantic_error (test_helpers.SlopTests.test_decorative_component_is_review_not_semantic_error) ... ok
+test_dynamic_decoration_can_be_missed (test_helpers.SlopTests.test_dynamic_decoration_can_be_missed) ... ok
+test_functional_plain_label_not_flagged (test_helpers.SlopTests.test_functional_plain_label_not_flagged) ... ok
+test_invalid_target_rejected (test_helpers.SlopTests.test_invalid_target_rejected) ... ok
+test_line_numbers_survive_masking (test_helpers.SlopTests.test_line_numbers_survive_masking) ... ok
+test_named_overline_needs_context_not_blind_deletion (test_helpers.SlopTests.test_named_overline_needs_context_not_blind_deletion) ... ok
+test_no_visible_focus_pattern_requires_inspection (test_helpers.SlopTests.test_no_visible_focus_pattern_requires_inspection) ... ok
+test_scan_excludes_dependencies_and_preserves_source (test_helpers.SlopTests.test_scan_excludes_dependencies_and_preserves_source) ... ok
+test_scan_reports_symlink_exclusion (test_helpers.SlopTests.test_scan_reports_symlink_exclusion) ... ok
+test_unsupported_assurance_is_only_a_review_finding (test_helpers.SlopTests.test_unsupported_assurance_is_only_a_review_finding) ... ok
+test_unsupported_extension_rejected (test_helpers.SlopTests.test_unsupported_extension_rejected) ... ok
+test_archive_reproducible_for_identical_inputs (test_review_pack.ReviewPackTests.test_archive_reproducible_for_identical_inputs) ... ok
+test_blocked_cannot_claim_screenshot (test_review_pack.ReviewPackTests.test_blocked_cannot_claim_screenshot) ... ok
+test_blocked_is_partial_not_success (test_review_pack.ReviewPackTests.test_blocked_is_partial_not_success) ... ok
+test_boolean_viewport_invalid (test_review_pack.ReviewPackTests.test_boolean_viewport_invalid) ... ok
+test_capture_reference_must_be_neutral (test_review_pack.ReviewPackTests.test_capture_reference_must_be_neutral) ... ok
+test_case_collision_invalid (test_review_pack.ReviewPackTests.test_case_collision_invalid) ... ok
+test_cli_complete_exit_zero (test_review_pack.ReviewPackTests.test_cli_complete_exit_zero) ... ok
+test_cli_invalid_exit_two (test_review_pack.ReviewPackTests.test_cli_invalid_exit_two) ... ok
+test_cli_partial_exit_one (test_review_pack.ReviewPackTests.test_cli_partial_exit_one) ... ok
+test_complete_is_materials_not_acceptance (test_review_pack.ReviewPackTests.test_complete_is_materials_not_acceptance) ... ok
+test_control_character_path_invalid (test_review_pack.ReviewPackTests.test_control_character_path_invalid) ... ok
+test_database_path_invalid (test_review_pack.ReviewPackTests.test_database_path_invalid) ... ok
+test_dependency_path_invalid (test_review_pack.ReviewPackTests.test_dependency_path_invalid) ... ok
+test_digest_mismatch_invalid (test_review_pack.ReviewPackTests.test_digest_mismatch_invalid) ... ok
+test_disguised_text_is_not_screenshot (test_review_pack.ReviewPackTests.test_disguised_text_is_not_screenshot) ... ok
+test_duplicate_evidence_reference_invalid (test_review_pack.ReviewPackTests.test_duplicate_evidence_reference_invalid) ... ok
+test_duplicate_file_invalid (test_review_pack.ReviewPackTests.test_duplicate_file_invalid) ... ok
+test_duplicate_json_keys_invalid (test_review_pack.ReviewPackTests.test_duplicate_json_keys_invalid) ... ok
+test_duplicate_states_invalid (test_review_pack.ReviewPackTests.test_duplicate_states_invalid) ... ok
+test_empty_source_invalid (test_review_pack.ReviewPackTests.test_empty_source_invalid) ... ok
+test_env_path_invalid (test_review_pack.ReviewPackTests.test_env_path_invalid) ... ok
+test_environment_mismatch_invalid (test_review_pack.ReviewPackTests.test_environment_mismatch_invalid) ... ok
+test_evidence_reference_must_be_evidence (test_review_pack.ReviewPackTests.test_evidence_reference_must_be_evidence) ... ok
+test_existing_output_never_overwritten (test_review_pack.ReviewPackTests.test_existing_output_never_overwritten) ... ok
+test_extra_states_do_not_replace_missing_required (test_review_pack.ReviewPackTests.test_extra_states_do_not_replace_missing_required) ... ok
+test_font_path_invalid (test_review_pack.ReviewPackTests.test_font_path_invalid) ... ok
+test_fresh_extracted_pack_rechecks (test_review_pack.ReviewPackTests.test_fresh_extracted_pack_rechecks) ... ok
+test_html_escapes_untrusted_metadata (test_review_pack.ReviewPackTests.test_html_escapes_untrusted_metadata) ... ok
+test_invalid_schema_bool (test_review_pack.ReviewPackTests.test_invalid_schema_bool) ... ok
+test_later_pack_can_include_feedback_explicitly (test_review_pack.ReviewPackTests.test_later_pack_can_include_feedback_explicitly) ... ok
+test_local_check_does_not_mutate (test_review_pack.ReviewPackTests.test_local_check_does_not_mutate) ... ok
+test_missing_file_invalid_not_silently_skipped (test_review_pack.ReviewPackTests.test_missing_file_invalid_not_silently_skipped) ... ok
+test_missing_required_state_is_partial (test_review_pack.ReviewPackTests.test_missing_required_state_is_partial) ... ok
+test_neutral_pack_omits_feedback (test_review_pack.ReviewPackTests.test_neutral_pack_omits_feedback) ... ok
+test_no_empty_required_state_scope (test_review_pack.ReviewPackTests.test_no_empty_required_state_scope) ... ok
+test_noncanonical_path_invalid (test_review_pack.ReviewPackTests.test_noncanonical_path_invalid) ... ok
+test_noninteractive_review_need_not_claim_build (test_review_pack.ReviewPackTests.test_noninteractive_review_need_not_claim_build) ... ok
+test_not_reviewed_cannot_build (test_review_pack.ReviewPackTests.test_not_reviewed_cannot_build) ... ok
+test_partial_pack_can_be_shared_as_partial (test_review_pack.ReviewPackTests.test_partial_pack_can_be_shared_as_partial) ... ok
+test_path_traversal_invalid (test_review_pack.ReviewPackTests.test_path_traversal_invalid) ... ok
+test_private_key_path_invalid (test_review_pack.ReviewPackTests.test_private_key_path_invalid) ... ok
+test_request_pin_blocks_scope_change (test_review_pack.ReviewPackTests.test_request_pin_blocks_scope_change) ... ok
+test_required_na_cannot_waive_request (test_review_pack.ReviewPackTests.test_required_na_cannot_waive_request) ... ok
+test_source_not_required_can_use_accessible_reference (test_review_pack.ReviewPackTests.test_source_not_required_can_use_accessible_reference) ... ok
+test_source_required_is_not_satisfied_by_reference (test_review_pack.ReviewPackTests.test_source_required_is_not_satisfied_by_reference) ... ok
+test_stale_capture_invalid (test_review_pack.ReviewPackTests.test_stale_capture_invalid) ... ok
+test_stale_file_invalid (test_review_pack.ReviewPackTests.test_stale_file_invalid) ... ok
+test_svg_is_not_allowed_capture (test_review_pack.ReviewPackTests.test_svg_is_not_allowed_capture) ... ok
+test_symlink_file_invalid (test_review_pack.ReviewPackTests.test_symlink_file_invalid) ... ok
+test_symlink_parent_invalid (test_review_pack.ReviewPackTests.test_symlink_parent_invalid) ... ok
+test_unknown_build_retains_gap (test_review_pack.ReviewPackTests.test_unknown_build_retains_gap) ... ok
+test_unknown_request_fields_invalid (test_review_pack.ReviewPackTests.test_unknown_request_fields_invalid) ... ok
+test_unknown_status_invalid (test_review_pack.ReviewPackTests.test_unknown_status_invalid) ... ok
+test_unlisted_files_never_exported (test_review_pack.ReviewPackTests.test_unlisted_files_never_exported) ... ok
+test_zero_viewport_invalid (test_review_pack.ReviewPackTests.test_zero_viewport_invalid) ... ok
+
+======================================================================
+FAIL: test_actual_package_structure (test_helpers.PackageTests.test_actual_package_structure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/veto-stack-stripe-edition/Veto-Stack/plugins/veto-stack/tests/test_helpers.py", line 148, in test_actual_package_structure
+    self.assertEqual(doctor.run(ROOT,verify_hashes=False)['errors'],[])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: ['Broken or escaping local link: VERIFICAT[36 chars]log'] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+'Broken or escaping local link: VERIFICATION.md -> verification/helper-tests.log'
+
++ []
+- ['Broken or escaping local link: VERIFICATION.md -> '
+-  'verification/helper-tests.log']
+
+----------------------------------------------------------------------
+Ran 121 tests in 4.103s
+
+FAILED (failures=1)

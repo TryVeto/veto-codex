@@ -1,0 +1,77 @@
+{
+  "portable_manifest": "passed against published 1.0.0 structural constraints",
+  "schema_source": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "schema_method": "Structural constraints transcribed from complete web-fetched schema; description annotations omitted. Direct container download failed DNS.",
+  "validation_library": "jsonschema 4.26.0",
+  "yaml_frontmatter": [
+    {
+      "skill": "build-a-capability",
+      "entry_characters": 5397,
+      "description_characters": 181
+    },
+    {
+      "skill": "field-proof",
+      "entry_characters": 4671,
+      "description_characters": 174
+    },
+    {
+      "skill": "independent-judgment",
+      "entry_characters": 2895,
+      "description_characters": 189
+    },
+    {
+      "skill": "integration-design",
+      "entry_characters": 4867,
+      "description_characters": 172
+    },
+    {
+      "skill": "make-a-goal",
+      "entry_characters": 3244,
+      "description_characters": 164
+    },
+    {
+      "skill": "product-design",
+      "entry_characters": 4970,
+      "description_characters": 171
+    },
+    {
+      "skill": "product-sense",
+      "entry_characters": 4981,
+      "description_characters": 162
+    },
+    {
+      "skill": "product-tests",
+      "entry_characters": 6089,
+      "description_characters": 187
+    },
+    {
+      "skill": "remove-slop",
+      "entry_characters": 5024,
+      "description_characters": 182
+    },
+    {
+      "skill": "review-a-prototype",
+      "entry_characters": 4097,
+      "description_characters": 181
+    },
+    {
+      "skill": "sandbox-experience",
+      "entry_characters": 2984,
+      "description_characters": 182
+    },
+    {
+      "skill": "veto-stack",
+      "entry_characters": 6226,
+      "description_characters": 173
+    }
+  ],
+  "python": "3.13.5",
+  "native_host_commands": {
+    "codex": null,
+    "claude": null
+  },
+  "limits": [
+    "Structural validation is not host loading or runtime behavior.",
+    "Only this edition\u2019s plugin manifest and active skill frontmatter were validated."
+  ]
+}

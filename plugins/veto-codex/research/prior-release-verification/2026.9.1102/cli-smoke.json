@@ -1,0 +1,89 @@
+{
+  "scope": "Synthetic materials only; no app, browser or model executed.",
+  "checks": [
+    {
+      "action": "check",
+      "exit": 0,
+      "result": {
+        "verdict": "REVIEW_PACK_COMPLETE",
+        "candidate": {
+          "id": "synthetic-candidate-01",
+          "environment": "disposable-unit-fixture"
+        },
+        "files_checked": 5,
+        "states_checked": 2,
+        "gaps": [],
+        "limits": [
+          "Completeness means requested review materials exist, not product acceptance.",
+          "Hashes and metadata cannot prove a screenshot depicts this candidate or a test ran.",
+          "Sanitization is a declared review; images and nested archives are not inspected for secrets.",
+          "Neutral packaging omits files classified as feedback; it cannot establish a blind reviewer context.",
+          "No browser, application, model, network, subprocess, upload or scheduler is invoked."
+        ]
+      }
+    },
+    {
+      "action": "build",
+      "exit": 0,
+      "result": {
+        "verdict": "REVIEW_PACK_COMPLETE",
+        "candidate": {
+          "id": "synthetic-candidate-01",
+          "environment": "disposable-unit-fixture"
+        },
+        "files_checked": 5,
+        "states_checked": 2,
+        "gaps": [],
+        "limits": [
+          "Completeness means requested review materials exist, not product acceptance.",
+          "Hashes and metadata cannot prove a screenshot depicts this candidate or a test ran.",
+          "Sanitization is a declared review; images and nested archives are not inspected for secrets.",
+          "Neutral packaging omits files classified as feedback; it cannot establish a blind reviewer context.",
+          "No browser, application, model, network, subprocess, upload or scheduler is invoked."
+        ],
+        "output": "/tmp/tmp2c_8i3qo/neutral.zip",
+        "archive_sha256": "e1b9583c8b2306a889d3115a9314d1c3578cc514ccf3e47c711e9875d4297580",
+        "feedback_omitted_count": 1,
+        "includes_feedback": false
+      }
+    },
+    {
+      "check": "neutral archive contents",
+      "files": [
+        "review-pack/README.md",
+        "review-pack/index.html",
+        "review-pack/manifest.json",
+        "review-pack/payload/evidence/observed.txt",
+        "review-pack/payload/images/ordinary.png",
+        "review-pack/payload/images/repair.png",
+        "review-pack/payload/source/app.txt",
+        "review-pack/request.json"
+      ],
+      "crc": "passed",
+      "founder_feedback_excluded": true
+    },
+    {
+      "action": "partial-check",
+      "exit": 1,
+      "result": {
+        "verdict": "REVIEW_PACK_PARTIAL",
+        "candidate": {
+          "id": "synthetic-candidate-01",
+          "environment": "disposable-unit-fixture"
+        },
+        "files_checked": 5,
+        "states_checked": 2,
+        "gaps": [
+          "Required state repair: blocked \u2014 Synthetic unavailable-browser example."
+        ],
+        "limits": [
+          "Completeness means requested review materials exist, not product acceptance.",
+          "Hashes and metadata cannot prove a screenshot depicts this candidate or a test ran.",
+          "Sanitization is a declared review; images and nested archives are not inspected for secrets.",
+          "Neutral packaging omits files classified as feedback; it cannot establish a blind reviewer context.",
+          "No browser, application, model, network, subprocess, upload or scheduler is invoked."
+        ]
+      }
+    }
+  ]
+}

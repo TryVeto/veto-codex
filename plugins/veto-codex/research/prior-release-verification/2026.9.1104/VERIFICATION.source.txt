@@ -1,0 +1,38 @@
+# Verification — 2026.9.1104
+
+Scope: the distributable plugin and its optional local helpers. No current Veto application, browser session, native plugin host, approver policy or agent-performance experiment was tested.
+
+## Executed checks
+
+The supplied 2026.9.1103 baseline passed **129 helper/package tests** before editing. The patched suite passed **168 tests**, including 39 new feedback-coverage helper tests. See [baseline log](verification/baseline-tests.log) and [helper log](verification/helper-tests.log). These are actual Python test runs, not model evaluations.
+
+The new tests exercise missing originals/audits, changed digests, duplicate/omitted IDs, required-case mappings, declared reviewer mismatch, unresolved narrowing, deferral, question-versus-behavior closure, recorded dispositions, blocked browser evidence, legacy compatibility and CLI errors. One test deliberately demonstrates the limitation: falsely declaring semantic coverage of an HTML autocomplete attribute can still pass structural validation. The helper is not an automated judge of meaning or actual independence.
+
+The inherited tests still exercise local path/digest/schema checks, receipt provenance, heuristic slop scanning, review-pack coverage and overwrite refusal, package constraints, synthetic fixture sensitivity and CLI behavior. Passing them does not establish the Veto address, sign-out or browser incidents were repaired.
+
+The [schema-2 example](verification/feedback-example.json) was executed and returned **NOT_ACCEPTED**, exit 1: independent source review and application behavior are unrun. The [legacy example](verification/legacy-example.json) also returned **NOT_ACCEPTED**, with feedback coverage **NOT_CHECKED**. The examples are synthetic format exercises, not invented execution evidence.
+
+Local format checks parse all **13** active skill entry points and the release manifests. The vision goal is **3,956 characters**; the finite-bet goal is **3,627**, including spaces and line breaks. Both are inactive templates, not modifications of the current host goal. See [format checks](verification/format-checks.json). The doctor checks active inventory, metadata, relative links, syntax, source-snapshot/payload hashes and prohibited dependency surfaces. It is not the native host validator.
+
+The archive is checked for path safety, CRC and byte identity and tested from a fresh extraction before distribution. The separate distribution-validation file accompanying the ZIP records that final run, avoiding a self-modifying archive. Prior release records remain explicitly historical under research/prior-release-verification.
+
+## Not established
+
+**Semantic coverage:** original-source completeness, faithful interpretation, genuine separate review and actual test execution still require a real inspection process. A different reviewer string is not identity authentication; digests are not signatures or permission.
+
+**Agent behavior:** all **62 behavioral cases**, including 12 added incident-focused cases, are specifications. No model trial, comparative improvement, reduction in repeated corrections or founder intervention is asserted.
+
+**Host and application:** no installed plugin revision, reload, goal state, browser setting, test session, running server, product persistence, provider, external delivery or user comprehension was verified. Pasted incident reports were treated as reports; their underlying linked images/logs were not retrieved as fresh originals here.
+
+**Changes outside the package:** none. No running agent, product repository, active goal, permission, approval policy, external connection or deployment was changed. No MCP server, hook, scheduler, automatic update or new credential was added. Optional helpers run only when invoked.
+
+## Reproduce
+
+From the plugin folder:
+
+```sh
+python3 -B scripts/doctor.py .
+python3 -B -m unittest discover -s tests -v
+```
+
+Run the [unaccepted example](templates/feedback-example/README.md) separately. Evaluate actual adoption on one authorized original-feedback batch, preserving the latest pause and scope. Judge the method by faithful coverage and observed completion, not these helper-test totals.

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "shared": [
+    "references/working-contract.md",
+    "team/SHARED.md"
+  ],
+  "roles": {
+    "backend-engineer": {
+      "path": "team/backend-engineer/AGENTS.md"
+    },
+    "data-analyst": {
+      "path": "team/data-analyst/AGENTS.md"
+    },
+    "frontend-engineer": {
+      "path": "team/frontend-engineer/AGENTS.md"
+    },
+    "head-of-engineering": {
+      "path": "team/head-of-engineering/AGENTS.md"
+    },
+    "independent-verifier": {
+      "path": "team/independent-verifier/AGENTS.md"
+    },
+    "product-designer": {
+      "path": "team/product-designer/AGENTS.md"
+    },
+    "product-manager": {
+      "path": "team/product-manager/AGENTS.md"
+    },
+    "specialist": {
+      "path": "team/specialist/AGENTS.md"
+    },
+    "user-researcher": {
+      "path": "team/user-researcher/AGENTS.md"
+    }
+  }
+}
